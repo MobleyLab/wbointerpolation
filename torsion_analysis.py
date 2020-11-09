@@ -1,3 +1,8 @@
+#Created by: 
+#    @jmaat (Jessica Maat)
+#    @pavankum (Pavan Behara)
+
+
 # imports
 import os
 import sys
@@ -447,130 +452,83 @@ def plot_tid_for_datasets(fileList, t_id):
     from rdkit import Chem
     from rdkit.Chem.Draw import MolsToGridImage
 
-    df = pd.DataFrame(columns=["tid", "tb", "wbo", "cmiles", "TDindices", "filename"])
-    fig = go.Figure(
-        {
-            "layout": go.Layout(
-                autosize=False,
-                height=800,
-                width=900,
-                title="Plot Title",
-                xaxis={"title": "Wiberg Bond Order"},
-                yaxis={"title": "Torsion barrier in KJ/mol"},
-                margin={"l": 40, "b": 40, "t": 40, "r": 10},
-                legend={"orientation": "h", "y": -0.2},
-                legend_font=dict(family="Rockwell", color="black", size=14),
-                hovermode=False,
-                dragmode="select",
-            )
-        }
-    )
-    fig.update_xaxes(
-        title_font=dict(size=18, family="Rockwell", color="black"),
-        ticks="outside",
-        tickwidth=2,
-        tickcolor="black",
-        ticklen=10,
-        tickfont=dict(family="Rockwell", color="black", size=14),
-        showgrid=False,
-        gridwidth=1,
-        gridcolor="black",
-        mirror=True,
-        linewidth=2,
-        linecolor="black",
-        showline=True,
-    )
-    fig.update_yaxes(
-        title_font=dict(size=18, family="Rockwell", color="black"),
-        ticks="outside",
-        tickwidth=2,
-        tickcolor="black",
-        ticklen=10,
-        tickfont=dict(family="Rockwell", color="black", size=14),
-        showgrid=False,
-        gridwidth=1,
-        gridcolor="black",
-        mirror=True,
-        linewidth=2,
-        linecolor="black",
-        showline=True,
-    )
+    df = pd.DataFrame(columns = ['tid', 'tb', 'wbo', 'cmiles', 'TDindices', 'filename']) 
+    fig = go.Figure({'layout' : go.Layout(height=900, width=1000,
+            xaxis={'title': 'Wiberg Bond Order'},
+            yaxis={'title': 'Torsion barrier (kJ/mol)'},
+            #paper_bgcolor='white',
+            plot_bgcolor='rgba(0,0,0,0)',
+            margin={'l': 40, 'b': 40, 't': 10, 'r': 10},
+            legend={'orientation': 'h', 'y': -0.2}, 
+            legend_font=dict(family='Arial', color='black', size=15),
+            hovermode=False,
+            dragmode='select')})
+    fig.update_xaxes(title_font=dict(size=26, family='Arial', color='black'), 
+                     ticks="outside", tickwidth=2, tickcolor='black', ticklen=10,
+                     tickfont=dict(family='Arial', color='black', size=20),
+                     showgrid=False, gridwidth=1, gridcolor='black', 
+                     mirror=True, linewidth=2, linecolor='black', showline=True)
+    fig.update_yaxes(title_font=dict(size=26, family='Arial', color='black'),
+                    ticks="outside", tickwidth=2, tickcolor='black', ticklen=10,
+                    tickfont=dict(family='Arial', color='black', size=20),
+                    showgrid=False, gridwidth=1, gridcolor='black', 
+                    mirror=True, linewidth=2, linecolor='black', showline=True)
+    
+
     colors = fragmenter.chemi._KELLYS_COLORS
     colors = colors * 2
     raw_symbols = SymbolValidator().values
     symbols = []
-    for i in range(0, len(raw_symbols), 8):
+    for i in range(0,len(raw_symbols),8):
         symbols.append(raw_symbols[i])
     count = 0
-
+    
+    fname = []
     for fileName in fileList:
         molList = []
-        molList = oeb2oemol(fileName)
+        fname = fileName
+        molList = oeb2oemol(fname)
 
         for m in molList:
             tid = m.GetData("IDMatch")
             fname = ntpath.basename(fileName)
-            df = df.append(
-                {
-                    "tid": tid,
-                    "tb": m.GetData("TB"),
-                    "wbo": m.GetData("WBO"),
-                    "cmiles": m.GetData("cmiles"),
-                    "TDindices": m.GetData("TDindices"),
-                    "filename": fname,
-                },
-                ignore_index=True,
-            )
-
+            df = df.append({'tid': tid, 
+                            'tb': m.GetData("TB"),
+                            'wbo' : m.GetData("WBO"),
+                            'cmiles' : m.GetData("cmiles"),
+                            'TDindices' : m.GetData("TDindices"),
+                            'filename' : fname}, 
+                            ignore_index = True)
+        
         x = df[(df.filename == fname) & (df.tid == t_id)].wbo
         y = df.loc[x.index].tb
-        fig.add_scatter(
-            x=x,
-            y=y,
-            mode="markers",
-            name=fname,
-            marker_color=colors[count],
-            marker_symbol=count,
-            marker_size=10,
-        )
+        fig.add_scatter(x=x,
+                        y=y,
+                        mode="markers", 
+                        name=fname, 
+                        marker_color=colors[count],
+                        marker_symbol=count,
+                        marker_size=13)
         count += 1
-
+    
     x = df[df.tid == t_id].wbo
     y = df.loc[x.index].tb
-    if len(x) < 2:
-        print("No. of points less than 2, no slope")
-    else:
-        slope, intercept, r_value, p_value, std_err = stats.linregress(x, y)
-        print(
-            "tid: ",
-            t_id,
-            "r_value: ",
-            r_value,
-            "slope: ",
-            slope,
-            "intercept: ",
-            intercept,
-        )
-        fig.add_traces(
-            go.Scatter(
-                x=np.unique(x),
-                y=np.poly1d([slope, intercept])(np.unique(x)),
-                showlegend=False,
-                mode="lines",
-            )
-        )
-        slope_text = "slope: " + str("%.2f" % slope)
-        r_value = "r_val: " + str("%.2f" % r_value)
-        fig_text = slope_text + ", " + r_value
-        fig.add_annotation(
-            text=fig_text,
-            font={"family": "Times", "size": 18, "color": "black"},
-            xref="paper",
-            yref="paper",
-            x=1,
-            y=0.2,
-            showarrow=False,
-        )
+    slope, intercept, r_value, p_value, std_err =    stats.linregress(x, y)
+    print("tid: ", t_id, "r_value: ", r_value, 
+          "slope: ", slope, "intercept: ", intercept)
+
+    fig.add_traces(go.Scatter(
+        x=np.unique(x), 
+        y=np.poly1d([slope, intercept])(np.unique(x)), 
+        showlegend=False, mode ='lines'))
+    slope_text = 'slope: '+str('%.2f' % slope)
+    r_value = 'r_val: '+str('%.2f' % r_value)
+    fig_text = slope_text + ', '+ r_value
+    fig.add_annotation(text=fig_text, 
+                       font = {'family': "Arial", 'size': 22, 'color': 'black'},
+                       xref="paper", yref="paper", x=1, y=1,
+                       showarrow=False)
+
     fig.update_layout(
         title={"text": t_id, "x": 0.5, "xanchor": "center", "yanchor": "top"}
     )
