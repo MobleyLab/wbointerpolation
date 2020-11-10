@@ -108,7 +108,7 @@ def torsion_barrier_for_molecule(tdr_object, mapped_smiles, show_plots=False):
     return mol
 
 
-def loadDataset_low(datasetName, specification):
+def loadDataset_low(datasetName, specification, benchmark_smiles, qca_overlapped_entries):
     """
     Low level call to load each torsion drive dataset and return a list of molecules
 
@@ -146,16 +146,53 @@ def loadDataset_low(datasetName, specification):
     ds.status([specification], status="COMPLETE")
 
     # Serial implementation
+
+    # Hardcoding benchmark molecules from the lim_mobley_parsely_benchmark
+    # https://openforcefield.org/force-fields/force-fields/
+    # https://github.com/MobleyLab/benchmarkff/blob/91476147f35579bc52bf984839fd20c72a61d76d/molecules/set_v03_non_redundant/trim3_full_qcarchive.smi
+    
+    with open(benchmark_smiles) as f:
+        bm_smiles = f.readlines()
+    bm_mols = [Molecule.from_smiles(smiles) for smiles in bm_smiles]
+    
     tb = []
+    overlaps = 0
+    qca_entries = []
+    
     for i in range(ds.df.size):
         if ds.df.iloc[i, 0].status == "COMPLETE":
             smiles = ds.df.index[i]
             mapped_smiles = ds.get_entry(smiles).attributes[
                 "canonical_isomeric_explicit_hydrogen_mapped_smiles"
             ]
-            tb.append(torsion_barrier_for_molecule(ds.df.iloc[i, 0], mapped_smiles))
-    print("No. of COMPLETE records in this dataset:", len(tb), "out of ", len(ds.df))
-
+            mol1 = Molecule.from_mapped_smiles(mapped_smiles)
+            not_identical = True
+            for mol in bm_mols:
+                isomorphic,atom_map = Molecule.are_isomorphic(mol1, 
+                                                  mol,
+                                                  return_atom_map=False,
+                                                  aromatic_matching=False,
+                                                  formal_charge_matching=False,
+                                                  bond_order_matching=False,
+                                                  atom_stereochemistry_matching=False,
+                                                  bond_stereochemistry_matching=False,
+                                                          )
+                if(isomorphic):
+                    not_identical = False
+                    overlaps += 1
+                    entry = ds.get_entry(smiles)
+                    qca_entries.extend(list(entry.initial_molecules))
+                    break
+            if(not_identical): 
+                tb.append(torsion_barrier_for_molecule(ds.df.iloc[i, 0], mapped_smiles))
+    
+    # overlaps_qca_ids.txt is also a hardcoded file
+    with open(qca_overlapped_entries, "a") as f:
+        for item in qca_entries:
+            f.write("%s\n" % item)
+        
+    print("No. of overlaps with benchmark set, qca entries added to overlaps_qca_ids.txt: ", overlaps)
+    print("No. of COMPLETE and not overlapping with benchmark in this dataset:", len(tb), "out of ", len(ds.df))
     return tb
 
 
@@ -418,11 +455,11 @@ def visualize_wbo_correlation_compare(fileName, fileName2, fname):
 
 
 # main dataset generation function
-def genData(dsName, fileName, ff_name):
+def genData(dsName, fileName, ff_name, benchmark_smiles="lim_mobley_parsley_benchmark.smi", qca_overlapped_entries="qca_overlapped_entries.txt"):
     """
     Generates oeb files for the QCA datasets and plots that analyze WBO versus torsion barrier
     """
-    molList = loadDataset_low(dsName, "default")
+    molList = loadDataset_low(dsName, "default", benchmark_smiles, qca_overlapped_entries)
     mols1 = checkTorsion(molList, ff_name)
     makeOEB(mols1, fileName)
 
