@@ -181,7 +181,9 @@ def loadDataset_low(datasetName, specification, benchmark_smiles, qca_overlapped
                     not_identical = False
                     overlaps += 1
                     entry = ds.get_entry(smiles)
-                    qca_entries.extend(list(entry.initial_molecules))
+                    tdr_id = entry.object_map['default']
+#                     print(tdr_id)
+                    qca_entries.append(tdr_id)
                     break
             if(not_identical): 
                 tb.append(torsion_barrier_for_molecule(ds.df.iloc[i, 0], mapped_smiles))
