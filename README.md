@@ -1,5 +1,5 @@
-# wbointerpolation
-Analysis scripts for the development of wiberg bond order interpolated parameters in the Open Force Field. 
+#wbointerpolation
+Analysis scripts for the development of wiberg bond order interpolated parameters in the OpenForceField.
 
 `torsion_analysis.py` contains \
 	-  torsion_barrier_for_molecule \
@@ -10,13 +10,13 @@ Analysis scripts for the development of wiberg bond order interpolated parameter
  	-  genPlots \
 	-  genData \
 	-  visualize_wbo_correlation_compare \
-	-  plot_tid_for_datasets 
+	-  plot_tid_for_datasets
 
 
 `smarts_torsions.py` contains \
 	-  get_torsiondrives_matching_smarts \
-	-  get_assigned_torsion_param 
-	
+	-  get_assigned_torsion_param
+
 
 `Analyze_WBO_Torsion.ipynb` is a jupyter notebook making use of above functions to cache datasets locally and plot wbo versus torsion barriers
 
