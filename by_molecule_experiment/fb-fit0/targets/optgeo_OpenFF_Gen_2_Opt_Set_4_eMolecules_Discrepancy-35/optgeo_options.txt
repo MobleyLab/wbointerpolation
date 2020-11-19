@@ -1,0 +1,350 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 1750_C16H21N3O4
+geometry 1750_C16H21N3O4.xyz
+topology 1750_C16H21N3O4.pdb
+mol2 1750_C16H21N3O4.mol2
+$end
+
+$system
+name 1751_C17H25N3O2S
+geometry 1751_C17H25N3O2S.xyz
+topology 1751_C17H25N3O2S.pdb
+mol2 1751_C17H25N3O2S.mol2
+$end
+
+$system
+name 1752_C10Cl2H7N3OS
+geometry 1752_C10Cl2H7N3OS.xyz
+topology 1752_C10Cl2H7N3OS.pdb
+mol2 1752_C10Cl2H7N3OS.mol2
+$end
+
+$system
+name 1753_C7Cl2H5N3O2S3
+geometry 1753_C7Cl2H5N3O2S3.xyz
+topology 1753_C7Cl2H5N3O2S3.pdb
+mol2 1753_C7Cl2H5N3O2S3.mol2
+$end
+
+$system
+name 1754_C7Cl2H5N3O2S3
+geometry 1754_C7Cl2H5N3O2S3.xyz
+topology 1754_C7Cl2H5N3O2S3.pdb
+mol2 1754_C7Cl2H5N3O2S3.mol2
+$end
+
+$system
+name 1755_C6F3H7N2
+geometry 1755_C6F3H7N2.xyz
+topology 1755_C6F3H7N2.pdb
+mol2 1755_C6F3H7N2.mol2
+$end
+
+$system
+name 1756_BrC19H17N2O2
+geometry 1756_BrC19H17N2O2.xyz
+topology 1756_BrC19H17N2O2.pdb
+mol2 1756_BrC19H17N2O2.mol2
+$end
+
+$system
+name 1757_C11ClH8NO4S2
+geometry 1757_C11ClH8NO4S2.xyz
+topology 1757_C11ClH8NO4S2.pdb
+mol2 1757_C11ClH8NO4S2.mol2
+$end
+
+$system
+name 1758_C8ClFH6OS
+geometry 1758_C8ClFH6OS.xyz
+topology 1758_C8ClFH6OS.pdb
+mol2 1758_C8ClFH6OS.mol2
+$end
+
+$system
+name 1759_C6Cl2H3NO3
+geometry 1759_C6Cl2H3NO3.xyz
+topology 1759_C6Cl2H3NO3.pdb
+mol2 1759_C6Cl2H3NO3.mol2
+$end
+
+$system
+name 1760_C15FH12NOS
+geometry 1760_C15FH12NOS.xyz
+topology 1760_C15FH12NOS.pdb
+mol2 1760_C15FH12NOS.mol2
+$end
+
+$system
+name 1762_C17H16N2OS
+geometry 1762_C17H16N2OS.xyz
+topology 1762_C17H16N2OS.pdb
+mol2 1762_C17H16N2OS.mol2
+$end
+
+$system
+name 1763_C7Cl2H5N3O2S3
+geometry 1763_C7Cl2H5N3O2S3.xyz
+topology 1763_C7Cl2H5N3O2S3.pdb
+mol2 1763_C7Cl2H5N3O2S3.mol2
+$end
+
+$system
+name 1764_C14ClH11O2S
+geometry 1764_C14ClH11O2S.xyz
+topology 1764_C14ClH11O2S.pdb
+mol2 1764_C14ClH11O2S.mol2
+$end
+
+$system
+name 1765_C11H12N4S
+geometry 1765_C11H12N4S.xyz
+topology 1765_C11H12N4S.pdb
+mol2 1765_C11H12N4S.mol2
+$end
+
+$system
+name 1766_C7Cl2H5N3O2S3
+geometry 1766_C7Cl2H5N3O2S3.xyz
+topology 1766_C7Cl2H5N3O2S3.pdb
+mol2 1766_C7Cl2H5N3O2S3.mol2
+$end
+
+$system
+name 1767_C11ClH8NO4S2
+geometry 1767_C11ClH8NO4S2.xyz
+topology 1767_C11ClH8NO4S2.pdb
+mol2 1767_C11ClH8NO4S2.mol2
+$end
+
+$system
+name 1768_C11ClH8NO4S2
+geometry 1768_C11ClH8NO4S2.xyz
+topology 1768_C11ClH8NO4S2.pdb
+mol2 1768_C11ClH8NO4S2.mol2
+$end
+
+$system
+name 1769_C11ClH8NO4S2
+geometry 1769_C11ClH8NO4S2.xyz
+topology 1769_C11ClH8NO4S2.pdb
+mol2 1769_C11ClH8NO4S2.mol2
+$end
+
+$system
+name 1770_BrC19H17N2O2
+geometry 1770_BrC19H17N2O2.xyz
+topology 1770_BrC19H17N2O2.pdb
+mol2 1770_BrC19H17N2O2.mol2
+$end
+
+$system
+name 1771_C14H15N3O
+geometry 1771_C14H15N3O.xyz
+topology 1771_C14H15N3O.pdb
+mol2 1771_C14H15N3O.mol2
+$end
+
+$system
+name 1772_C17H15N3O2
+geometry 1772_C17H15N3O2.xyz
+topology 1772_C17H15N3O2.pdb
+mol2 1772_C17H15N3O2.mol2
+$end
+
+$system
+name 1773_C16H25N5O2S
+geometry 1773_C16H25N5O2S.xyz
+topology 1773_C16H25N5O2S.pdb
+mol2 1773_C16H25N5O2S.mol2
+$end
+
+$system
+name 1774_BrC19H17N2O2
+geometry 1774_BrC19H17N2O2.xyz
+topology 1774_BrC19H17N2O2.pdb
+mol2 1774_BrC19H17N2O2.mol2
+$end
+
+$system
+name 1775_C17H15N3O2
+geometry 1775_C17H15N3O2.xyz
+topology 1775_C17H15N3O2.pdb
+mol2 1775_C17H15N3O2.mol2
+$end
+
+$system
+name 1776_C11F2H9N5O
+geometry 1776_C11F2H9N5O.xyz
+topology 1776_C11F2H9N5O.pdb
+mol2 1776_C11F2H9N5O.mol2
+$end
+
+$system
+name 1777_BrC19H17N2O2
+geometry 1777_BrC19H17N2O2.xyz
+topology 1777_BrC19H17N2O2.pdb
+mol2 1777_BrC19H17N2O2.mol2
+$end
+
+$system
+name 1778_C15H14N2O2S2
+geometry 1778_C15H14N2O2S2.xyz
+topology 1778_C15H14N2O2S2.pdb
+mol2 1778_C15H14N2O2S2.mol2
+$end
+
+$system
+name 1779_C15H14N2O2S2
+geometry 1779_C15H14N2O2S2.xyz
+topology 1779_C15H14N2O2S2.pdb
+mol2 1779_C15H14N2O2S2.mol2
+$end
+
+$system
+name 1780_C11ClH8NO4S2
+geometry 1780_C11ClH8NO4S2.xyz
+topology 1780_C11ClH8NO4S2.pdb
+mol2 1780_C11ClH8NO4S2.mol2
+$end
+
+$system
+name 1781_C16H15NO6S
+geometry 1781_C16H15NO6S.xyz
+topology 1781_C16H15NO6S.pdb
+mol2 1781_C16H15NO6S.mol2
+$end
+
+$system
+name 1782_C9F2H9N
+geometry 1782_C9F2H9N.xyz
+topology 1782_C9F2H9N.pdb
+mol2 1782_C9F2H9N.mol2
+$end
+
+$system
+name 1783_C5ClF3H2N2S
+geometry 1783_C5ClF3H2N2S.xyz
+topology 1783_C5ClF3H2N2S.pdb
+mol2 1783_C5ClF3H2N2S.mol2
+$end
+
+$system
+name 1784_C11H12N4S
+geometry 1784_C11H12N4S.xyz
+topology 1784_C11H12N4S.pdb
+mol2 1784_C11H12N4S.mol2
+$end
+
+$system
+name 1785_C16H14N2O2S
+geometry 1785_C16H14N2O2S.xyz
+topology 1785_C16H14N2O2S.pdb
+mol2 1785_C16H14N2O2S.mol2
+$end
+
+$system
+name 1786_C5ClF3H2N2S
+geometry 1786_C5ClF3H2N2S.xyz
+topology 1786_C5ClF3H2N2S.pdb
+mol2 1786_C5ClF3H2N2S.mol2
+$end
+
+$system
+name 1787_C16H14N2O2S
+geometry 1787_C16H14N2O2S.xyz
+topology 1787_C16H14N2O2S.pdb
+mol2 1787_C16H14N2O2S.mol2
+$end
+
+$system
+name 1788_C5ClF3H2N2S
+geometry 1788_C5ClF3H2N2S.xyz
+topology 1788_C5ClF3H2N2S.pdb
+mol2 1788_C5ClF3H2N2S.mol2
+$end
+
+$system
+name 1789_C7ClF3H3NO
+geometry 1789_C7ClF3H3NO.xyz
+topology 1789_C7ClF3H3NO.pdb
+mol2 1789_C7ClF3H3NO.mol2
+$end
+
+$system
+name 1790_C14Cl2H8N2O
+geometry 1790_C14Cl2H8N2O.xyz
+topology 1790_C14Cl2H8N2O.pdb
+mol2 1790_C14Cl2H8N2O.mol2
+$end
+
+$system
+name 1791_C7ClF3H3NO3
+geometry 1791_C7ClF3H3NO3.xyz
+topology 1791_C7ClF3H3NO3.pdb
+mol2 1791_C7ClF3H3NO3.mol2
+$end
+
+$system
+name 1792_C16H15NO6S
+geometry 1792_C16H15NO6S.xyz
+topology 1792_C16H15NO6S.pdb
+mol2 1792_C16H15NO6S.mol2
+$end
+
+$system
+name 1793_C11ClH8NO4S2
+geometry 1793_C11ClH8NO4S2.xyz
+topology 1793_C11ClH8NO4S2.pdb
+mol2 1793_C11ClH8NO4S2.mol2
+$end
+
+$system
+name 1794_C7F3H7N2O
+geometry 1794_C7F3H7N2O.xyz
+topology 1794_C7F3H7N2O.pdb
+mol2 1794_C7F3H7N2O.mol2
+$end
+
+$system
+name 1795_C7F3H7N2O
+geometry 1795_C7F3H7N2O.xyz
+topology 1795_C7F3H7N2O.pdb
+mol2 1795_C7F3H7N2O.mol2
+$end
+
+$system
+name 1796_C14Cl2H8N2O
+geometry 1796_C14Cl2H8N2O.xyz
+topology 1796_C14Cl2H8N2O.pdb
+mol2 1796_C14Cl2H8N2O.mol2
+$end
+
+$system
+name 1797_C7F3H7N2O
+geometry 1797_C7F3H7N2O.xyz
+topology 1797_C7F3H7N2O.pdb
+mol2 1797_C7F3H7N2O.mol2
+$end
+
+$system
+name 1798_C19FH17N4O
+geometry 1798_C19FH17N4O.xyz
+topology 1798_C19FH17N4O.pdb
+mol2 1798_C19FH17N4O.mol2
+$end
+
+$system
+name 1799_C17H15N3O2
+geometry 1799_C17H15N3O2.xyz
+topology 1799_C17H15N3O2.pdb
+mol2 1799_C17H15N3O2.mol2
+$end

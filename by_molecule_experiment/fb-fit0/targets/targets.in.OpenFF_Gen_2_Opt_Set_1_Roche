@@ -1,0 +1,48 @@
+
+$target
+name optgeo_OpenFF_Gen_2_Opt_Set_1_Roche-0
+type OptGeoTarget_SMIRNOFF
+weight 0.1
+writelevel 1
+remote 1
+$end
+
+$target
+name optgeo_OpenFF_Gen_2_Opt_Set_1_Roche-1
+type OptGeoTarget_SMIRNOFF
+weight 0.1
+writelevel 1
+remote 1
+$end
+
+$target
+name optgeo_OpenFF_Gen_2_Opt_Set_1_Roche-2
+type OptGeoTarget_SMIRNOFF
+weight 0.1
+writelevel 1
+remote 1
+$end
+
+$target
+name optgeo_OpenFF_Gen_2_Opt_Set_1_Roche-3
+type OptGeoTarget_SMIRNOFF
+weight 0.1
+writelevel 1
+remote 1
+$end
+
+$target
+name optgeo_OpenFF_Gen_2_Opt_Set_1_Roche-4
+type OptGeoTarget_SMIRNOFF
+weight 0.1
+writelevel 1
+remote 1
+$end
+
+$target
+name optgeo_OpenFF_Gen_2_Opt_Set_1_Roche-5
+type OptGeoTarget_SMIRNOFF
+weight 0.1
+writelevel 1
+remote 1
+$end

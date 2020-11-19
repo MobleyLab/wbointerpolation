@@ -1,0 +1,5 @@
+OpenFF Gen 2 Opt Set 4 eMolecules Discrepancy
+target_name vibfreq_OpenFF_Gen_2_Opt_Set_4_eMolecules_Discrepancy_009_C9ClH7N2
+entry c1cc(ncc1Cl)C2(CC2)C#N-0
+error message:
+dont have parameters we are targetting

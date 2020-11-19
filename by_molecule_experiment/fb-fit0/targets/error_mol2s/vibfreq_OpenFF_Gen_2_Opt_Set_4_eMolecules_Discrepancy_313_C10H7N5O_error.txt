@@ -1,0 +1,5 @@
+OpenFF Gen 2 Opt Set 4 eMolecules Discrepancy
+target_name vibfreq_OpenFF_Gen_2_Opt_Set_4_eMolecules_Discrepancy_313_C10H7N5O
+entry c1ccc(cc1)/N=N/c2[nH]c(c(n2)O)C#N-1
+error message:
+dont have parameters we are targetting

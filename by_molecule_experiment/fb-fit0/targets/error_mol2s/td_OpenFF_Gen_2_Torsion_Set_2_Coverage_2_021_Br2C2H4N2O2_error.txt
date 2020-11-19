@@ -1,0 +1,10 @@
+OpenFF Gen 2 Torsion Set 2 Coverage 2
+target_name td_OpenFF_Gen_2_Torsion_Set_2_Coverage_2_021_Br2C2H4N2O2
+entry CO/N=[N+:3](\[CH:2]([Br:4])Br)/[O-:1]
+td_keywords {'dihedrals': [(4, 3, 1, 6)], 'grid_spacing': [15], 'dihedral_ranges': None, 'energy_decrease_thresh': None, 'energy_upper_limit': 0.05}
+error message:
+ProperTorsionHandler was not able to find parameters for the following valence terms:
+
+- Topology indices (2, 3, 1, 7): names and elements ( N), ( N), ( C), ( Br), 
+- Topology indices (2, 3, 1, 6): names and elements ( N), ( N), ( C), ( Br), 
+- Topology indices (2, 3, 1, 11): names and elements ( N), ( N), ( C), ( H), 

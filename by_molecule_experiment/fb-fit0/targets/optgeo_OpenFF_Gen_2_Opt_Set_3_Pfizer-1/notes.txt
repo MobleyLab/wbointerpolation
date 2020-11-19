@@ -1,0 +1,51 @@
+Prepared by make_fb_optgeo_target.py
+50_C10H13NO2 : CC(=O)NC[C@H](c1ccccc1)O-0 molecule_id 3769203 | SUCCESS
+51_C15H18N2O : Cn1cc(c2c1cccc2)C(=O)N3CCCCC3-2 molecule_id 3769403 | SUCCESS
+52_C14FH12NO2 : c1ccc(c(c1)N2C(=O)C3=C(C2=O)CCCC3)F-0 molecule_id 3769449 | SUCCESS
+53_C10H13NO2 : CC(=O)NC[C@H](c1ccccc1)O-3 molecule_id 3769541 | SUCCESS
+54_C11H14N4O : CN1CCN(CC1)c2nc3c(o2)cccn3-0 molecule_id 3769581 | SUCCESS
+55_C11H15NO3 : CC(=O)N[C@H](CO)[C@H](c1ccccc1)O-14 molecule_id 3769598 | SUCCESS
+56_C15H18N2O : Cn1cc(c2c1cccc2)C(=O)N3CCCCC3-1 molecule_id 3769643 | SUCCESS
+57_C11H15NO3 : CC(=O)N[C@H](CO)[C@H](c1ccccc1)O-7 molecule_id 3769693 | SUCCESS
+58_C6H14N2OS : CNC(=O)[C@H](CCSC)N-4 molecule_id 3769793 | SUCCESS
+59_C11H12N2O : c1ccc(cc1)OCC2=NCC=CN2-0 molecule_id 3769846 | SUCCESS
+60_C11H15NO3 : CC(=O)N[C@H](CO)[C@H](c1ccccc1)O-16 molecule_id 3770134 | SUCCESS
+61_C9H10O3 : Cc1cccc(c1C(=O)OC)O-1 molecule_id 3770169 | ERROR: dont have parameters we are targetting
+62_C11H15NO3 : CC(=O)N[C@H](CO)[C@H](c1ccccc1)O-8 molecule_id 3770201 | SUCCESS
+63_C10H21N3O : C[C@H](CN1CCN(CC1)C)NC(=O)C-5 molecule_id 3770282 | SUCCESS
+64_C7ClH8N3 : c1c(c(ncn1)N2CCC2)Cl-0 molecule_id 3770349 | SUCCESS
+65_C7H14N2O3 : C[C@@H](C(=O)N(C)OC)NC(=O)C-10 molecule_id 3770395 | SUCCESS
+66_C6H14N2OS : CNC(=O)[C@H](CCSC)N-10 molecule_id 3770449 | SUCCESS
+67_C7H14N2O2 : C[C@@H](C(=O)N(C)C)NC(=O)C-2 molecule_id 3770496 | SUCCESS
+68_C6H14N2OS : CNC(=O)[C@H](CCSC)N-6 molecule_id 3770584 | SUCCESS
+69_C6H14N2OS : CNC(=O)[C@H](CCSC)N-5 molecule_id 3770634 | SUCCESS
+70_C11H12N2O : c1ccc(cc1)OCC2=NCC=CN2-1 molecule_id 3770746 | SUCCESS
+71_C12H17N5 : Cn1ccc2c1ncnc2N3CCN(CC3)C-0 molecule_id 3770783 | SUCCESS
+72_C9ClH12N3 : c1c(c(ncn1)N2CCCCC2)Cl-0 molecule_id 3770818 | SUCCESS
+73_C8H8N4O : CNC(=O)n1c2ccccc2nn1-0 molecule_id 3770904 | SUCCESS
+74_C6H14N2OS : CNC(=O)[C@H](CCSC)N-2 molecule_id 3770981 | SUCCESS
+75_C6H14N2OS : CNC(=O)[C@H](CCSC)N-14 molecule_id 3771045 | SUCCESS
+76_C6H14N2OS : CNC(=O)[C@H](CCSC)N-0 molecule_id 3771223 | SUCCESS
+77_C7H10N4O2 : CNC(=O)c1c(nc[nH]1)C(=O)NC-1 molecule_id 3771253 | SUCCESS
+78_C10H10N2O : COc1ccccc1c2[nH]ccn2-0 molecule_id 3771287 | ERROR: dont have parameters we are targetting
+79_C6H14N2OS : CNC(=O)[C@H](CCSC)N-8 molecule_id 3771326 | SUCCESS
+80_C7H10N4O2 : CNC(=O)c1c(nc[nH]1)C(=O)NC-0 molecule_id 3771563 | SUCCESS
+81_C7H14N2O2 : C[C@@H](C(=O)N(C)C)NC(=O)C-5 molecule_id 3771637 | SUCCESS
+82_C7H14N2O2 : C[C@@H](C(=O)N(C)C)NC(=O)C-0 molecule_id 3771798 | SUCCESS
+83_C9H10O3 : Cc1cccc(c1C(=O)OC)O-0 molecule_id 3771842 | ERROR: dont have parameters we are targetting
+84_C10H21N3O : C[C@H](CN1CCN(CC1)C)NC(=O)C-6 molecule_id 3771858 | SUCCESS
+85_C7H14N2O2 : C[C@@H](C(=O)N(C)C)NC(=O)C-1 molecule_id 3771907 | SUCCESS
+86_C6H14N2OS : CNC(=O)[C@H](CCSC)N-12 molecule_id 3772007 | SUCCESS
+87_C12H17N5 : C[N@]1CCC[C@H](C1)Nc2c3cc[nH]c3ncn2-2 molecule_id 3772148 | SUCCESS
+88_C6H10N2O2 : CC(=O)N1C(OC=N1)(C)C-0 molecule_id 3772201 | SUCCESS
+89_C12H17N5 : C[N@]1CCC[C@H](C1)Nc2c3cc[nH]c3ncn2-0 molecule_id 3772235 | SUCCESS
+90_C7H14N2O2 : C[C@@H](C(=O)N(C)C)NC(=O)C-4 molecule_id 3772292 | SUCCESS
+91_C12H17N5 : C[N@]1CCC[C@H](C1)Nc2c3cc[nH]c3ncn2-4 molecule_id 3772429 | SUCCESS
+92_C11H15NO3 : CC(=O)N[C@H](CO)[C@H](c1ccccc1)O-17 molecule_id 3772461 | SUCCESS
+93_C14H13NO2 : COC(=O)c1ccccc1Nc2ccccc2-5 molecule_id 3772526 | SUCCESS
+94_C12H17N5 : Cn1ccc2c1ncnc2N3CCN(CC3)C-1 molecule_id 3772578 | SUCCESS
+95_C12H17N3O2 : CN1CCN(CC1)C(=O)Cn2ccccc2=O-5 molecule_id 3772604 | SUCCESS
+96_C12H17N5 : Cn1ccc2c1ncnc2N3CCN(CC3)C-2 molecule_id 3772665 | SUCCESS
+97_C12H17N5 : C[N@]1CCC[C@H](C1)Nc2c3cc[nH]c3ncn2-3 molecule_id 3772862 | SUCCESS
+98_C9H8N2O2 : CN1C=N/C(=C\c2ccco2)/C1=O-1 molecule_id 3772903 | ERROR: dont have parameters we are targetting
+99_C14H13NO2 : COC(=O)c1ccccc1Nc2ccccc2-0 molecule_id 3772938 | SUCCESS

@@ -1,0 +1,17 @@
+Prepared by make_fb_optgeo_target.py
+1290_C19H24N4O4S : Cc1c(sc2c1c(=O)n(c(=O)n2CC3COC3)[C@@H]4C[C@@H]4C)CN5CCNC5=O-1 molecule_id 13061012 | SUCCESS
+1291_C17ClH22N5O2 : C[C@@H](CCc1ccc(cc1)Cl)NC(=O)n2c(=O)n(c(n2)C3CC3)NC-3 molecule_id 13061095 | SUCCESS
+1292_C17H19N3O6S : CCOC(=O)CSc1nc2ccc(cc2o1)N3C[C@@H](OC3=O)CNC(=O)C-1 molecule_id 13061155 | SUCCESS
+1293_C17H19N3O6S : CCOC(=O)CSc1nc2ccc(cc2o1)N3C[C@@H](OC3=O)CNC(=O)C-3 molecule_id 13061208 | SUCCESS
+1294_C17H26N4O3S : CC(C)Nc1c2cc(c(cc2ncn1)OCCCC[S@@](=N)(=O)C)OC-3 molecule_id 13061382 | SUCCESS
+1295_C24H31N5O5S : C[C@@H]1C(=O)N(c2ccc(nc2[N@@]1C3CCOCC3)Nc4cccc(c4)S(=O)(=O)N5CCOCC5)C-0 molecule_id 13061433 | ERROR: Unable to make OFFMol from OEMol: OEMol has unspecified stereochemistry. oemol.GetTitle(): 
+Problematic atoms are:
+Atom atomic num: 7, name: N3, idx: 26, aromatic: False, chiral: True with bonds:
+bond order: 1, chiral: False to atom atomic num: 6, name: C10, idx: 9, aromatic: True, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C21, idx: 20, aromatic: False, chiral: True
+bond order: 1, chiral: False to atom atomic num: 6, name: C22, idx: 21, aromatic: False, chiral: False
+
+1296_C21H28N3O : CCC[N@@H+]1C[C@@H](C[C@@H]2[C@@H]1Cc3c([nH]c4c3c2ccc4)COC)CC#N-4 molecule_id 13061529 | SUCCESS
+1297_C25F3H33N5O2S : CCCC(=O)N1CC[NH+](CC1)CCCCN2C(=S)N(C(=O)C2(C)C)c3ccc(c(c3)C(F)(F)F)C#N-1 molecule_id 13061605 | SUCCESS
+1298_C24H34N4OS2 : CCN(CC)C(=O)N[C@@H]1C[C@@H]2c3cc(cc4c3c(c([nH]4)C)C[C@@H]2[N@@](C1)C)C5SCCS5-0 molecule_id 13061764 | SUCCESS
+1299_C15H21N3O : C[N@@](CCCN1CCCC1)c2c3ccoc3ccn2-1 molecule_id 13061915 | SUCCESS

@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 340_C19H20O4S
+geometry 340_C19H20O4S.xyz
+topology 340_C19H20O4S.pdb
+mol2 340_C19H20O4S.mol2
+$end
+
+$system
+name 341_C19H20O4S
+geometry 341_C19H20O4S.xyz
+topology 341_C19H20O4S.pdb
+mol2 341_C19H20O4S.mol2
+$end
+
+$system
+name 342_C17FH15O2
+geometry 342_C17FH15O2.xyz
+topology 342_C17FH15O2.pdb
+mol2 342_C17FH15O2.mol2
+$end
+
+$system
+name 343_C17FH15O2
+geometry 343_C17FH15O2.xyz
+topology 343_C17FH15O2.pdb
+mol2 343_C17FH15O2.mol2
+$end
+
+$system
+name 344_C19H20O4S
+geometry 344_C19H20O4S.xyz
+topology 344_C19H20O4S.pdb
+mol2 344_C19H20O4S.mol2
+$end
+
+$system
+name 345_C11FH12N2
+geometry 345_C11FH12N2.xyz
+topology 345_C11FH12N2.pdb
+mol2 345_C11FH12N2.mol2
+$end
+
+$system
+name 346_C11H13NO3S
+geometry 346_C11H13NO3S.xyz
+topology 346_C11H13NO3S.pdb
+mol2 346_C11H13NO3S.mol2
+$end
+
+$system
+name 347_C11H13NO3S
+geometry 347_C11H13NO3S.xyz
+topology 347_C11H13NO3S.pdb
+mol2 347_C11H13NO3S.mol2
+$end
+
+$system
+name 348_C11H13NO3S
+geometry 348_C11H13NO3S.xyz
+topology 348_C11H13NO3S.pdb
+mol2 348_C11H13NO3S.mol2
+$end
+
+$system
+name 349_C26FH26NO5
+geometry 349_C26FH26NO5.xyz
+topology 349_C26FH26NO5.pdb
+mol2 349_C26FH26NO5.mol2
+$end

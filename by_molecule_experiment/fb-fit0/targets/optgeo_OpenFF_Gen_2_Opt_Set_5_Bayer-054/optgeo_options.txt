@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 540_C15H24NO3
+geometry 540_C15H24NO3.xyz
+topology 540_C15H24NO3.pdb
+mol2 540_C15H24NO3.mol2
+$end
+
+$system
+name 541_C15H24NO3
+geometry 541_C15H24NO3.xyz
+topology 541_C15H24NO3.pdb
+mol2 541_C15H24NO3.mol2
+$end
+
+$system
+name 542_C15H24NO3
+geometry 542_C15H24NO3.xyz
+topology 542_C15H24NO3.pdb
+mol2 542_C15H24NO3.mol2
+$end
+
+$system
+name 543_C11H14N2O
+geometry 543_C11H14N2O.xyz
+topology 543_C11H14N2O.pdb
+mol2 543_C11H14N2O.mol2
+$end
+
+$system
+name 544_C15H23NO3
+geometry 544_C15H23NO3.xyz
+topology 544_C15H23NO3.pdb
+mol2 544_C15H23NO3.mol2
+$end
+
+$system
+name 545_C15H24NO3
+geometry 545_C15H24NO3.xyz
+topology 545_C15H24NO3.pdb
+mol2 545_C15H24NO3.mol2
+$end
+
+$system
+name 546_C11H15N2O
+geometry 546_C11H15N2O.xyz
+topology 546_C11H15N2O.pdb
+mol2 546_C11H15N2O.mol2
+$end
+
+$system
+name 547_C11H15N2O
+geometry 547_C11H15N2O.xyz
+topology 547_C11H15N2O.pdb
+mol2 547_C11H15N2O.mol2
+$end
+
+$system
+name 548_C20ClH30NO2S
+geometry 548_C20ClH30NO2S.xyz
+topology 548_C20ClH30NO2S.pdb
+mol2 548_C20ClH30NO2S.mol2
+$end
+
+$system
+name 549_C15H24NO3
+geometry 549_C15H24NO3.xyz
+topology 549_C15H24NO3.pdb
+mol2 549_C15H24NO3.mol2
+$end

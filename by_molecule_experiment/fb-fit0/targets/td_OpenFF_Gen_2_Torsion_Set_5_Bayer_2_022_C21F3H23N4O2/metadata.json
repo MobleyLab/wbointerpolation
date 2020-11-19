@@ -1,0 +1,112 @@
+{
+  "dihedrals": [
+    [
+      3,
+      19,
+      20,
+      23
+    ]
+  ],
+  "grid_spacing": [
+    15
+  ],
+  "dihedral_ranges": null,
+  "energy_decrease_thresh": null,
+  "energy_upper_limit": 0.05,
+  "dataset_name": "OpenFF Gen 2 Torsion Set 5 Bayer 2",
+  "entry_label": "c1c[c:1](c(cc1F)F)[C:2]2(CC2)[CH2:3][n:4]3c(=O)n4c(n3)CCC[C@H]4C(=O)N5CC[C@@H](C5)F",
+  "canonical_smiles": "c1cc(c(cc1F)F)C2(CC2)Cn3c(=O)n4c(n3)CCCC4C(=O)N5CCC(C5)F",
+  "attributes": {
+    "canonical_explicit_hydrogen_smiles": "[H]c1c(c(c(c(c1C2(C(C2([H])[H])([H])[H])C([H])([H])n3c(=O)n4c(n3)C(C(C(C4([H])C(=O)N5C(C(C(C5([H])[H])([H])F)([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])F)[H])F)[H]",
+    "canonical_isomeric_explicit_hydrogen_mapped_smiles": "[H:31][c:1]1[c:2]([c:5]([c:3]([c:6]([c:4]1[C:20]2([C:13]([C:14]2([H:42])[H:43])([H:40])[H:41])[C:21]([H:52])([H:53])[n:24]3[c:8](=[O:26])[n:23]4[c:7]([n:22]3)[C:10]([C:11]([C:12]([C@@:18]4([H:50])[C:9](=[O:27])[N:25]5[C:17]([C@@:19]([C:15]([C:16]5([H:46])[H:47])([H:44])[H:45])([H:51])[F:30])([H:48])[H:49])([H:38])[H:39])([H:36])[H:37])([H:34])[H:35])[F:29])[H:33])[F:28])[H:32]",
+    "canonical_isomeric_explicit_hydrogen_smiles": "[H]c1c(c(c(c(c1C2(C(C2([H])[H])([H])[H])C([H])([H])n3c(=O)n4c(n3)C(C(C([C@@]4([H])C(=O)N5C([C@@](C(C5([H])[H])([H])[H])([H])F)([H])[H])([H])[H])([H])[H])([H])[H])F)[H])F)[H]",
+    "canonical_isomeric_smiles": "c1cc(c(cc1F)F)C2(CC2)Cn3c(=O)n4c(n3)CCC[C@H]4C(=O)N5CC[C@@H](C5)F",
+    "canonical_smiles": "c1cc(c(cc1F)F)C2(CC2)Cn3c(=O)n4c(n3)CCCC4C(=O)N5CCC(C5)F",
+    "inchi_key": "UZFGIJKADMYMOR-YOEHRIQHSA-N",
+    "molecular_formula": "C21H23F3N4O2",
+    "provenance": "cmiles_0+unknown_openeye_2019.Oct.2",
+    "standard_inchi": "InChI=1S/C21H23F3N4O2/c22-13-4-5-15(16(24)10-13)21(7-8-21)12-27-20(30)28-17(2-1-3-18(28)25-27)19(29)26-9-6-14(23)11-26/h4-5,10,14,17H,1-3,6-9,11-12H2/t14-,17-/m0/s1",
+    "unique_protomer_representation": "c1cc(c(cc1F)F)C2(CC2)CN3C(=O)N4C(=C(N5CC[C@@H](C5)F)O)CCC=C4N3",
+    "unique_tautomer_representation": "O=C(C1CCCc2nn(CC3(c4ccc(F)cc4F)CC3)c(=O)n21)N1CC[C@H](F)C1"
+  },
+  "torsion_grid_ids": [
+    [
+      -165
+    ],
+    [
+      -150
+    ],
+    [
+      -135
+    ],
+    [
+      -120
+    ],
+    [
+      -105
+    ],
+    [
+      -90
+    ],
+    [
+      -75
+    ],
+    [
+      -60
+    ],
+    [
+      -45
+    ],
+    [
+      -30
+    ],
+    [
+      -15
+    ],
+    [
+      0
+    ],
+    [
+      15
+    ],
+    [
+      30
+    ],
+    [
+      45
+    ],
+    [
+      60
+    ],
+    [
+      75
+    ],
+    [
+      90
+    ],
+    [
+      105
+    ],
+    [
+      120
+    ],
+    [
+      135
+    ],
+    [
+      150
+    ],
+    [
+      165
+    ],
+    [
+      180
+    ]
+  ],
+  "smirks": [
+    "[*:1]-[#6X4:2]-[#6X4;r3:3]-[*:4]"
+  ],
+  "smirks_ids": [
+    "t13"
+  ]
+}

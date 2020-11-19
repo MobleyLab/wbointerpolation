@@ -1,0 +1,10 @@
+OpenFF Gen 2 Opt Set 4 eMolecules Discrepancy
+target_name vibfreq_OpenFF_Gen_2_Opt_Set_4_eMolecules_Discrepancy_019_C12H19N3O
+entry Cc1nccc(n1)[N@@]2C[C@](C(C2)(C)C)(C)O-1
+error message:
+Unable to make OFFMol from OEMol: OEMol has unspecified stereochemistry. oemol.GetTitle(): 
+Problematic atoms are:
+Atom atomic num: 7, name: N3, idx: 14, aromatic: False, chiral: True with bonds:
+bond order: 1, chiral: False to atom atomic num: 6, name: C3, idx: 2, aromatic: True, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C5, idx: 4, aromatic: False, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C6, idx: 5, aromatic: False, chiral: False

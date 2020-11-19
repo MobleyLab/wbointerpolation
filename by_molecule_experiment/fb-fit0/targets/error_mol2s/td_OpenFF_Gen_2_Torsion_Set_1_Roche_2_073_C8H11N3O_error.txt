@@ -1,0 +1,6 @@
+OpenFF Gen 2 Torsion Set 1 Roche 2
+target_name td_OpenFF_Gen_2_Torsion_Set_1_Roche_2_073_C8H11N3O
+entry CC(=O)N[C:2]1(C[CH2:1]1)[c:3]2[nH]cc[n:4]2
+td_keywords {'dihedrals': [(5, 6, 2, 8)], 'grid_spacing': [15], 'dihedral_ranges': None, 'energy_decrease_thresh': None, 'energy_upper_limit': 0.05}
+error message:
+One or more internal H bonds exist.

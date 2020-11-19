@@ -1,0 +1,54 @@
+Traceback (most recent call last):
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/bin/ForceBalance.py", line 45, in Run_ForceBalance
+    optimizer.Run()
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/optimizer.py", line 319, in Run
+    xk = self.OptTab[self.jobtype]()
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/optimizer.py", line 943, in NewtonRaphson
+    return self.MainOptimizer(b_BFGS=0)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/optimizer.py", line 673, in MainOptimizer
+    dx, dX_expect, bump = self.step(xk, data, trust)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/optimizer.py", line 921, in step
+    Result = optimize.brent(search_fun,brack=(LOpt,LOpt*4),tol=self.search_tol,full_output=1)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/scipy/optimize/optimize.py", line 2265, in brent
+    res = _minimize_scalar_brent(func, brack, args, **options)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/scipy/optimize/optimize.py", line 2297, in _minimize_scalar_brent
+    brent.optimize()
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/scipy/optimize/optimize.py", line 2148, in optimize
+    fu = func(*((u,) + self.args))      # calculate new output value
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/optimizer.py", line 884, in search_fun
+    Result = self.Objective.Full(xk_,0,verbose=False,customdir="micro_%02i" % search_fun.micro)['X'] - data['X']
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/objective.py", line 313, in Full
+    Objective = self.Target_Terms(vals, Order, verbose, customdir)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/objective.py", line 254, in Target_Terms
+    Ans = Funcs[Order](mvals, customdir=customdir)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/target.py", line 200, in get_X
+    Ans = self.meta_get(mvals,0,0,customdir=customdir)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/target.py", line 584, in meta_get
+    Answer = self.get(mvals, AGrad, AHess)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/torsion_profile.py", line 171, in get
+    V = compute(mvals, indicate=True)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/torsion_profile.py", line 125, in compute
+    energy, rmsd, M_opt = self.engine.optimize(shot=i, align=False)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/smirnoffio.py", line 388, in optimize
+    return super(SMIRNOFF,self).optimize(shot=shot, align=align, crit=crit, disable_vsite=True)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/openmmio.py", line 1191, in optimize
+    self.update_simulation()
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/smirnoffio.py", line 364, in update_simulation
+    self.system = self.forcefield.create_openmm_system(self.off_topology)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/openforcefield/typing/engines/smirnoff/forcefield.py", line 1303, in create_openmm_system
+    parameter_handler.create_force(system, topology, **kwargs)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/openforcefield/typing/engines/smirnoff/parameters.py", line 2943, in create_force
+    angle_matches = self.find_matches(topology)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/openforcefield/typing/engines/smirnoff/parameters.py", line 2200, in find_matches
+    return self._find_matches(entity)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/openforcefield/typing/engines/smirnoff/parameters.py", line 2230, in _find_matches
+    parameter_type.smirks
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/openforcefield/topology/topology.py", line 1763, in chemical_environment_matches
+    for ref_mol in self.reference_molecules:
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/openforcefield/topology/topology.py", line 1277, in reference_molecules
+    for ref_mol in self._reference_molecule_to_topology_molecules.keys():
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/openforcefield/topology/molecule.py", line 2030, in __hash__
+    return hash(self.to_smiles())
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/openforcefield/topology/molecule.py", line 2277, in to_smiles
+    + str(mapped)
+KeyboardInterrupt

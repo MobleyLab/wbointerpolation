@@ -1,0 +1,112 @@
+{
+  "dihedrals": [
+    [
+      4,
+      9,
+      7,
+      10
+    ]
+  ],
+  "grid_spacing": [
+    15
+  ],
+  "dihedral_ranges": null,
+  "energy_decrease_thresh": null,
+  "energy_upper_limit": 0.05,
+  "dataset_name": "OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2",
+  "entry_label": "c1cc2c(c[c:1]1[O:2][C:3]([F:4])(F)F)sc(n2)Br",
+  "canonical_smiles": "c1cc2c(cc1OC(F)(F)F)sc(n2)Br",
+  "attributes": {
+    "canonical_explicit_hydrogen_smiles": "[H]c1c(c(c(c2c1nc(s2)Br)[H])OC(F)(F)F)[H]",
+    "canonical_isomeric_explicit_hydrogen_mapped_smiles": "[H:16][c:1]1[c:2]([c:5]([c:3]([c:6]2[c:4]1[n:9][c:7]([s:14]2)[Br:15])[H:18])[O:10][C:8]([F:11])([F:12])[F:13])[H:17]",
+    "canonical_isomeric_explicit_hydrogen_smiles": "[H]c1c(c(c(c2c1nc(s2)Br)[H])OC(F)(F)F)[H]",
+    "canonical_isomeric_smiles": "c1cc2c(cc1OC(F)(F)F)sc(n2)Br",
+    "canonical_smiles": "c1cc2c(cc1OC(F)(F)F)sc(n2)Br",
+    "inchi_key": "KDMNQLMJVHMDCQ-UHFFFAOYSA-N",
+    "molecular_formula": "C8H3BrF3NOS",
+    "provenance": "cmiles_v0.1.5_openeye_2019.Apr.1",
+    "standard_inchi": "InChI=1S/C8H3BrF3NOS/c9-7-13-5-2-1-4(3-6(5)15-7)14-8(10,11)12/h1-3H",
+    "unique_protomer_representation": "c1cc2c(cc1OC(F)(F)F)sc(n2)Br",
+    "unique_tautomer_representation": "FC(F)(F)Oc1ccc2nc(Br)sc2c1"
+  },
+  "torsion_grid_ids": [
+    [
+      -165
+    ],
+    [
+      -150
+    ],
+    [
+      -135
+    ],
+    [
+      -120
+    ],
+    [
+      -105
+    ],
+    [
+      -90
+    ],
+    [
+      -75
+    ],
+    [
+      -60
+    ],
+    [
+      -45
+    ],
+    [
+      -30
+    ],
+    [
+      -15
+    ],
+    [
+      0
+    ],
+    [
+      15
+    ],
+    [
+      30
+    ],
+    [
+      45
+    ],
+    [
+      60
+    ],
+    [
+      75
+    ],
+    [
+      90
+    ],
+    [
+      105
+    ],
+    [
+      120
+    ],
+    [
+      135
+    ],
+    [
+      150
+    ],
+    [
+      165
+    ],
+    [
+      180
+    ]
+  ],
+  "smirks": [
+    "[*:1]-[#6X4:2]-[#8X2H0:3]-[*:4]"
+  ],
+  "smirks_ids": [
+    "t86"
+  ]
+}

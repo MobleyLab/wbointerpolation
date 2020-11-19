@@ -1,0 +1,112 @@
+{
+  "dihedrals": [
+    [
+      3,
+      6,
+      12,
+      8
+    ]
+  ],
+  "grid_spacing": [
+    15
+  ],
+  "dihedral_ranges": null,
+  "energy_decrease_thresh": null,
+  "energy_upper_limit": 0.05,
+  "dataset_name": "OpenFF Gen 2 Torsion Set 3 Pfizer Discrepancy 2",
+  "entry_label": "[CH3:4][O:3][c:2]1[cH:1]cccc1c2[nH]ncn2",
+  "canonical_smiles": "COc1ccccc1c2[nH]ncn2",
+  "attributes": {
+    "canonical_explicit_hydrogen_smiles": "[H]c1c(c(c(c(c1[H])c2nc(nn2[H])[H])OC([H])([H])[H])[H])[H]",
+    "canonical_isomeric_explicit_hydrogen_mapped_smiles": "[H:14][c:1]1[c:2]([c:4]([c:7]([c:6]([c:3]1[H:16])[c:8]2[n:10][c:5]([n:11][n:12]2[H:22])[H:18])[O:13][C:9]([H:19])([H:20])[H:21])[H:17])[H:15]",
+    "canonical_isomeric_explicit_hydrogen_smiles": "[H]c1c(c(c(c(c1[H])c2nc(nn2[H])[H])OC([H])([H])[H])[H])[H]",
+    "canonical_isomeric_smiles": "COc1ccccc1c2[nH]ncn2",
+    "canonical_smiles": "COc1ccccc1c2[nH]ncn2",
+    "inchi_key": "ZRPMFJFZKWAAOV-UHFFFAOYSA-N",
+    "molecular_formula": "C9H9N3O",
+    "provenance": "cmiles_0+unknown_openeye_2019.Apr.2",
+    "standard_inchi": "InChI=1S/C9H9N3O/c1-13-8-5-3-2-4-7(8)9-10-6-11-12-9/h2-6H,1H3,(H,10,11,12)",
+    "unique_protomer_representation": "COc1ccccc1c2[nH]ncn2",
+    "unique_tautomer_representation": "COc1ccccc1-c1nc[nH]n1"
+  },
+  "torsion_grid_ids": [
+    [
+      -165
+    ],
+    [
+      -150
+    ],
+    [
+      -135
+    ],
+    [
+      -120
+    ],
+    [
+      -105
+    ],
+    [
+      -90
+    ],
+    [
+      -75
+    ],
+    [
+      -60
+    ],
+    [
+      -45
+    ],
+    [
+      -30
+    ],
+    [
+      -15
+    ],
+    [
+      0
+    ],
+    [
+      15
+    ],
+    [
+      30
+    ],
+    [
+      45
+    ],
+    [
+      60
+    ],
+    [
+      75
+    ],
+    [
+      90
+    ],
+    [
+      105
+    ],
+    [
+      120
+    ],
+    [
+      135
+    ],
+    [
+      150
+    ],
+    [
+      165
+    ],
+    [
+      180
+    ]
+  ],
+  "smirks": [
+    "[*:1]~[#6X3:2]-[#8X2:3]-[*:4]"
+  ],
+  "smirks_ids": [
+    "t96"
+  ]
+}

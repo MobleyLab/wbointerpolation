@@ -1,0 +1,1 @@
+Target generated from dataset OpenFF Gen 2 Opt Set 2 Coverage, entry c1ccc(cc1)P(=N)(c2ccccc2)c3ccccc3-1

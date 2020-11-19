@@ -1,0 +1,1 @@
+Target generated from dataset OpenFF Gen 2 Opt Set 3 Pfizer Discrepancy, entry CC(=O)NC[C@H](c1ccccc1)O-1

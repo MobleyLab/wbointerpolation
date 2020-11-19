@@ -1,0 +1,70 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 1120_C16H18N4O
+geometry 1120_C16H18N4O.xyz
+topology 1120_C16H18N4O.pdb
+mol2 1120_C16H18N4O.mol2
+$end
+
+$system
+name 1121_C27H32N2O4
+geometry 1121_C27H32N2O4.xyz
+topology 1121_C27H32N2O4.pdb
+mol2 1121_C27H32N2O4.mol2
+$end
+
+$system
+name 1122_C19H26N4O4S
+geometry 1122_C19H26N4O4S.xyz
+topology 1122_C19H26N4O4S.pdb
+mol2 1122_C19H26N4O4S.mol2
+$end
+
+$system
+name 1124_C28H30N5O2
+geometry 1124_C28H30N5O2.xyz
+topology 1124_C28H30N5O2.pdb
+mol2 1124_C28H30N5O2.mol2
+$end
+
+$system
+name 1125_C19H19N3O3
+geometry 1125_C19H19N3O3.xyz
+topology 1125_C19H19N3O3.pdb
+mol2 1125_C19H19N3O3.mol2
+$end
+
+$system
+name 1126_BrC12H20N3
+geometry 1126_BrC12H20N3.xyz
+topology 1126_BrC12H20N3.pdb
+mol2 1126_BrC12H20N3.mol2
+$end
+
+$system
+name 1127_C28H30N5O2
+geometry 1127_C28H30N5O2.xyz
+topology 1127_C28H30N5O2.pdb
+mol2 1127_C28H30N5O2.mol2
+$end
+
+$system
+name 1128_C18FH30N4O3S
+geometry 1128_C18FH30N4O3S.xyz
+topology 1128_C18FH30N4O3S.pdb
+mol2 1128_C18FH30N4O3S.mol2
+$end
+
+$system
+name 1129_C19H26N4O4S
+geometry 1129_C19H26N4O4S.xyz
+topology 1129_C19H26N4O4S.pdb
+mol2 1129_C19H26N4O4S.mol2
+$end

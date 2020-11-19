@@ -1,0 +1,57 @@
+Prepared by make_fb_optgeo_target.py
+50_C14ClFH8O4 : c1cc2c(cc1OC(=O)c3ccc(cc3F)Cl)OCO2-10 molecule_id 12138969 | SUCCESS
+51_C6H8N2OS : c1cc(sc1)C/C(=N\O)/N-2 molecule_id 12139038 | SUCCESS
+52_C7H9IN2O : Cc1c(cnn1CC(=O)C)I-0 molecule_id 12139113 | SUCCESS
+53_C9F2H6O4 : COC(=O)c1cccc2c1OC(O2)(F)F-0 molecule_id 12139172 | SUCCESS
+54_C8ClH9N2O3 : C[C@@H](c1c(ccc(c1O)Cl)[N+](=O)[O-])N-1 molecule_id 12139188 | SUCCESS
+55_C7H9IN2O : Cc1c(cnn1CC(=O)C)I-3 molecule_id 12139228 | SUCCESS
+56_C14H11N3O4 : Cc1ccc2c(c1)c(=O)c(co2)/C=N/N3CC(=O)NC3=O-1 molecule_id 12139363 | SUCCESS
+57_C10ClH10N3O : c1ccc(c(c1)OCn2cc(cn2)N)Cl-11 molecule_id 12139401 | SUCCESS
+58_C14F3H14N3O : COc1cc(cc(c1)C(F)(F)F)c2[nH]c3c(n2)CNCC3-3 molecule_id 12139441 | SUCCESS
+59_C11FH13O3 : Cc1ccc(c(c1)OCC2OCCO2)F-3 molecule_id 12139473 | SUCCESS
+60_BrC14H13N2O : CCc1cc(c(c(c1)Br)O)/N=N/c2ccccc2-0 molecule_id 12139719 | SUCCESS
+61_C9F2H6O4 : COC(=O)c1cccc2c1OC(O2)(F)F-1 molecule_id 12139744 | SUCCESS
+62_C9FH7N2O4 : c1cc(c(cc1F)[C@@H]2COC(=O)N2)[N+](=O)[O-]-0 molecule_id 12139836 | SUCCESS
+63_C16H17N3 : Cc1cccc2c1n(c(n2)[C@H](C)N)c3ccccc3-0 molecule_id 12139896 | SUCCESS
+64_C19ClH18NO3 : c1ccc2c(c1)CCN2C(=O)Cc3cc4c(c(c3)Cl)OCCCO4-5 molecule_id 12139921 | SUCCESS
+65_C10FH12N3O : c1cc(cc(c1)F)/N=N\N2CCOCC2-0 molecule_id 12139964 | SUCCESS
+66_C11FH14NO2 : COc1cc(c(cc1OC)F)[C@H]2CCN2-0 molecule_id 12140046 | SUCCESS
+67_C11FH14NO2 : COc1cc(c(cc1OC)F)[C@H]2CCN2-1 molecule_id 12140126 | SUCCESS
+68_C8F3H4NOS2 : c1cc2c(cc1OC(F)(F)F)nc(s2)S-0 molecule_id 12140156 | SUCCESS
+69_C8F3H4NOS2 : c1cc2c(cc1OC(F)(F)F)nc(s2)S-1 molecule_id 12140170 | SUCCESS
+70_C8FH7N2O4 : CC(=O)Nc1cc(c(cc1O)F)[N+](=O)[O-]-0 molecule_id 12140184 | SUCCESS
+71_C14ClFH8O4 : c1cc2c(cc1OC(=O)c3ccc(cc3F)Cl)OCO2-11 molecule_id 12140230 | SUCCESS
+72_C10ClH10N3O : c1ccc(c(c1)OCn2cc(cn2)N)Cl-16 molecule_id 12140274 | SUCCESS
+73_C9ClH7N2O4 : c1cc(c(cc1Cl)[C@H]2COC(=O)N2)[N+](=O)[O-]-0 molecule_id 12140329 | SUCCESS
+74_C5H7N3O : Cn1ccnc1/C=N/O-0 molecule_id 12140386 | SUCCESS
+75_C10F2H10O3 : c1cc(c(cc1F)OCC2OCCO2)F-5 molecule_id 12140489 | SUCCESS
+76_C13H14N2O : CC/N=C/c1cc2ccc(cc2[nH]c1=O)C-0 molecule_id 12140537 | SUCCESS
+77_C14H18N4OS : Cc1c(scn1)Cc2[nH]c3c(n2)C(=O)NCC(C3)(C)C-8 molecule_id 12140586 | SUCCESS
+78_C10FH12N3O : c1cc(cc(c1)F)/N=N\N2CCOCC2-1 molecule_id 12140693 | SUCCESS
+79_C10ClH10N3O : c1ccc(c(c1)OCn2cc(cn2)N)Cl-10 molecule_id 12140779 | SUCCESS
+80_C14ClFH8O4 : c1cc2c(cc1OC(=O)c3ccc(cc3F)Cl)OCO2-15 molecule_id 12140907 | SUCCESS
+81_C10ClH10N3O : c1ccc(c(c1)OCn2cc(cn2)N)Cl-0 molecule_id 12140941 | SUCCESS
+82_C10ClH10N3O : c1ccc(c(c1)OCn2cc(cn2)N)Cl-12 molecule_id 12140999 | SUCCESS
+83_C12H19N3O : Cc1nccc(n1)[N@@]2C[C@](C(C2)(C)C)(C)O-2 molecule_id 12141028 | ERROR: Unable to make OFFMol from OEMol: OEMol has unspecified stereochemistry. oemol.GetTitle(): 
+Problematic atoms are:
+Atom atomic num: 7, name: N3, idx: 14, aromatic: False, chiral: True with bonds:
+bond order: 1, chiral: False to atom atomic num: 6, name: C3, idx: 2, aromatic: True, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C5, idx: 4, aromatic: False, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C6, idx: 5, aromatic: False, chiral: False
+
+84_C10ClH10N3O : c1ccc(c(c1)OCn2cc(cn2)N)Cl-1 molecule_id 12141069 | SUCCESS
+85_C11FH13O3 : Cc1ccc(c(c1)OCC2OCCO2)F-5 molecule_id 12141110 | SUCCESS
+86_C7H9IN2O : Cc1c(cnn1CC(=O)C)I-1 molecule_id 12141191 | SUCCESS
+87_C9FH7N2O4 : c1cc(c(cc1F)[N+](=O)[O-])[C@@H]2COC(=O)N2-1 molecule_id 12141252 | SUCCESS
+88_C14F3H14N3O : COc1cc(cc(c1)C(F)(F)F)c2[nH]c3c(n2)CNCC3-0 molecule_id 12141294 | SUCCESS
+89_C10ClH10N3O : c1ccc(c(c1)OCn2cc(cn2)N)Cl-7 molecule_id 12141344 | SUCCESS
+90_C10F2H10O3 : c1cc(c(c(c1)F)F)OCC2OCCO2-0 molecule_id 12141384 | SUCCESS
+91_C10H9NO : COc1cccc2c1cncc2-0 molecule_id 12141429 | SUCCESS
+92_C15Cl2H16N4O : Cc1c(c(n(n1)c2cccc(c2)Cl)Cl)/C=N/N3CCOCC3-9 molecule_id 12141459 | SUCCESS
+93_C9FH7N2O4 : c1cc(c(cc1F)[C@@H]2COC(=O)N2)[N+](=O)[O-]-1 molecule_id 12141481 | SUCCESS
+94_BrC7H7N2S : c1csc(c1Br)[C@@H](CC#N)N-1 molecule_id 12141617 | SUCCESS
+95_C8Cl2H8N2O2 : c1cc(c(cc1Cl)Cl)OC/C(=N/O)/N-2 molecule_id 12141761 | SUCCESS
+96_C16H11N3OS : Cc1ccccc1c2nc(on2)/C(=C\c3ccsc3)/C#N-2 molecule_id 12141876 | SUCCESS
+97_BrC7H7N2S : c1csc(c1Br)[C@@H](CC#N)N-4 molecule_id 12141927 | SUCCESS
+98_BrC7H7N2O : CCC(=O)c1ncc(cn1)Br-0 molecule_id 12141973 | SUCCESS
+99_C11H10O2 : CCOC(=O)c1ccccc1C#C-0 molecule_id 12142018 | SUCCESS

@@ -1,0 +1,69 @@
+Prepared by make_fb_optgeo_target.py
+00_C8ClH8NO2 : COC(=O)c1cccc(c1Cl)N-1 molecule_id 12130000 | SUCCESS
+01_C14H19NO : CC1(c2ccccc2C3(O1)CCNCC3)C-0 molecule_id 12130103 | SUCCESS
+02_C10ClH8NO2 : COc1c[nH]c(=O)c2c1ccc(c2)Cl-0 molecule_id 12130827 | SUCCESS
+03_C9F3H7O : CCC(=O)c1cc(c(c(c1)F)F)F-1 molecule_id 12130836 | SUCCESS
+04_C10F2H10O3 : c1cc(c(cc1F)OCC2OCCO2)F-6 molecule_id 12131742 | SUCCESS
+05_C7H6N2O5 : c1cc(oc1[C@@H]2COC(=O)N2)[N+](=O)[O-]-1 molecule_id 12132328 | SUCCESS
+06_C10H15NO2 : CCc1ccc(o1)[C@H]2COCCN2-0 molecule_id 12132454 | SUCCESS
+07_C10ClH10N3O : c1ccc(c(c1)OCn2cc(cn2)N)Cl-14 molecule_id 12133724 | SUCCESS
+08_C12H19N3O : Cc1nccc(n1)[N@@]2C[C@](C(C2)(C)C)(C)O-0 molecule_id 12133974 | ERROR: Unable to make OFFMol from OEMol: OEMol has unspecified stereochemistry. oemol.GetTitle(): 
+Problematic atoms are:
+Atom atomic num: 7, name: N3, idx: 14, aromatic: False, chiral: True with bonds:
+bond order: 1, chiral: False to atom atomic num: 6, name: C3, idx: 2, aromatic: True, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C5, idx: 4, aromatic: False, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C6, idx: 5, aromatic: False, chiral: False
+
+09_C10ClH10N3O : c1ccc(c(c1)OCn2cc(cn2)N)Cl-8 molecule_id 12134284 | SUCCESS
+10_C10F2H10O3 : c1cc(c(cc1F)OCC2OCCO2)F-0 molecule_id 12134324 | SUCCESS
+11_BrC14H13N2O : CCc1cc(c(c(c1)Br)O)/N=N/c2ccccc2-2 molecule_id 12134996 | SUCCESS
+12_C10ClH10N3O : c1ccc(c(c1)OCn2cc(cn2)N)Cl-2 molecule_id 12135032 | SUCCESS
+13_C10H15NO2 : CCc1ccc(o1)[C@H]2COCCN2-1 molecule_id 12136032 | SUCCESS
+14_C6H8N2OS : c1cc(sc1)C/C(=N\O)/N-1 molecule_id 12136153 | SUCCESS
+15_C10H10O4 : CCOC(=O)c1cccc2c1OCO2-0 molecule_id 12136185 | SUCCESS
+16_C6H11NO3 : COC(=O)[C@@H]1COCCN1-0 molecule_id 12136197 | SUCCESS
+17_C6H11NO3 : COC(=O)[C@@H]1COCCN1-1 molecule_id 12136209 | SUCCESS
+18_C10F2H10O3 : c1cc(c(cc1F)OCC2OCCO2)F-1 molecule_id 12136266 | SUCCESS
+19_C10H10O4 : CCOC(=O)c1cccc2c1OCO2-1 molecule_id 12136285 | SUCCESS
+20_C6H8N2OS : c1cc(sc1)C/C(=N\O)/N-3 molecule_id 12136577 | SUCCESS
+21_BrC7H7N2O : CCC(=O)c1ncc(cn1)Br-1 molecule_id 12136986 | SUCCESS
+22_C11FH13O3 : Cc1ccc(c(c1)OCC2OCCO2)F-7 molecule_id 12137036 | SUCCESS
+23_C9H11NO : Cc1ccc(cc1)/N=C\OC-0 molecule_id 12137080 | SUCCESS
+24_C10F2H10O3 : c1cc(c(cc1F)OCC2OCCO2)F-7 molecule_id 12137177 | SUCCESS
+25_C9ClH7N2 : c1cc(ncc1Cl)C2(CC2)C#N-0 molecule_id 12137238 | SUCCESS
+26_BrC4H5N2S : c1c(nc(s1)CN)Br-1 molecule_id 12137326 | SUCCESS
+27_C10ClH8NO2 : COc1c[nH]c(=O)c2c1c(ccc2)Cl-0 molecule_id 12137449 | SUCCESS
+28_BrC8H7N2O2 : c1c(cnc(n1)C2(CC2)C(=O)O)Br-0 molecule_id 12137553 | SUCCESS
+29_C6H8N2OS : c1cc(sc1)C/C(=N\O)/N-0 molecule_id 12137591 | SUCCESS
+30_BrC10H9N2O : Cc1nc(on1)c2ccccc2CBr-0 molecule_id 12137819 | SUCCESS
+31_BrC8H7N2O2 : c1c(cnc(n1)C2(CC2)C(=O)O)Br-2 molecule_id 12137848 | SUCCESS
+32_C10F2H10O3 : c1cc(c(c(c1)F)F)OCC2OCCO2-6 molecule_id 12137857 | SUCCESS
+33_C6F2H8N2 : c1cc([nH]c1)[C@H](C(F)F)N-0 molecule_id 12137889 | SUCCESS
+34_C10ClH10N3O : c1ccc(c(c1)OCn2cc(cn2)N)Cl-9 molecule_id 12137997 | SUCCESS
+35_BrC9H7N2 : c1cc(ncc1Br)C2(CC2)C#N-1 molecule_id 12138035 | SUCCESS
+36_C12H19N3O : Cc1nccc(n1)[N@@]2C[C@](C(C2)(C)C)(C)O-1 molecule_id 12138065 | ERROR: Unable to make OFFMol from OEMol: OEMol has unspecified stereochemistry. oemol.GetTitle(): 
+Problematic atoms are:
+Atom atomic num: 7, name: N3, idx: 14, aromatic: False, chiral: True with bonds:
+bond order: 1, chiral: False to atom atomic num: 6, name: C3, idx: 2, aromatic: True, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C5, idx: 4, aromatic: False, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C6, idx: 5, aromatic: False, chiral: False
+
+37_C10H10O4 : CCOC(=O)c1cccc2c1OCO2-3 molecule_id 12138130 | SUCCESS
+38_C6H11NO3 : COC(=O)[C@@H]1COCCN1-2 molecule_id 12138183 | SUCCESS
+39_C10ClH10N3O : c1ccc(c(c1)OCn2cc(cn2)N)Cl-15 molecule_id 12138247 | SUCCESS
+40_C8H7N3O : c1cc2=NCC(=O)N=c2cc1N-0 molecule_id 12138316 | SUCCESS
+41_C6H8N2OS : c1cc(sc1)C/C(=N\O)/N-4 molecule_id 12138377 | SUCCESS
+42_C10F2H5NOS : c1cc(c(cc1F)C(=O)c2nccs2)F-1 molecule_id 12138452 | SUCCESS
+43_BrC10H9N2O : Cc1nc(on1)c2ccccc2CBr-1 molecule_id 12138477 | SUCCESS
+44_C10H10O4 : CCOC(=O)c1cccc2c1OCO2-2 molecule_id 12138508 | SUCCESS
+45_C11FH13O3 : Cc1ccc(c(c1)OCC2OCCO2)F-8 molecule_id 12138558 | SUCCESS
+46_C12H19N3O : Cc1nccc(n1)[N@@]2C[C@](C(C2)(C)C)(C)O-3 molecule_id 12138615 | ERROR: Unable to make OFFMol from OEMol: OEMol has unspecified stereochemistry. oemol.GetTitle(): 
+Problematic atoms are:
+Atom atomic num: 7, name: N3, idx: 14, aromatic: False, chiral: True with bonds:
+bond order: 1, chiral: False to atom atomic num: 6, name: C3, idx: 2, aromatic: True, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C5, idx: 4, aromatic: False, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C6, idx: 5, aromatic: False, chiral: False
+
+47_C11FH13O3 : Cc1ccc(c(c1)OCC2OCCO2)F-0 molecule_id 12138813 | SUCCESS
+48_BrC8H7N2O2 : c1c(cnc(n1)C2(CC2)C(=O)O)Br-1 molecule_id 12138892 | SUCCESS
+49_C10F2H10O3 : c1cc(c(c(c1)F)F)OCC2OCCO2-5 molecule_id 12138929 | SUCCESS

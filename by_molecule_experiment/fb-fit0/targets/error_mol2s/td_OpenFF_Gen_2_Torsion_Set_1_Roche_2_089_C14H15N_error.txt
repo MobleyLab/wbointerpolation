@@ -1,0 +1,11 @@
+OpenFF Gen 2 Torsion Set 1 Roche 2
+target_name td_OpenFF_Gen_2_Torsion_Set_1_Roche_2_089_C14H15N
+entry [CH3:4][N@:3]([CH2:2][c:1]1ccccc1)c2ccccc2
+td_keywords {'dihedrals': [(10, 13, 14, 12)], 'grid_spacing': [15], 'dihedral_ranges': None, 'energy_decrease_thresh': None, 'energy_upper_limit': 0.05}
+error message:
+Unable to make OFFMol from OEMol: OEMol has unspecified stereochemistry. oemol.GetTitle(): 
+Problematic atoms are:
+Atom atomic num: 7, name: N1, idx: 14, aromatic: False, chiral: True with bonds:
+bond order: 1, chiral: False to atom atomic num: 6, name: C12, idx: 11, aromatic: True, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C13, idx: 12, aromatic: False, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C14, idx: 13, aromatic: False, chiral: False

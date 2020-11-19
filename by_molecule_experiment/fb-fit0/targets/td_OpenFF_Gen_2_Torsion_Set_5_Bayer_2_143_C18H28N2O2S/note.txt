@@ -1,0 +1,1 @@
+Target generated from dataset OpenFF Gen 2 Torsion Set 5 Bayer 2, entry CC(C)(C)OC(=O)N1CCC[C@H]1[CH2:1][S:2][CH2:3][CH2:4]Cc2cccnc2

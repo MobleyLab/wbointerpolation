@@ -1,0 +1,5 @@
+OpenFF Gen 2 Opt Set 2 Coverage
+target_name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_007_C4H7NS3
+entry CC[C@@H]1C[C@]1(c2ccc(nn2)OC)[NH3+]-0
+error message:
+dont have parameters we are targetting

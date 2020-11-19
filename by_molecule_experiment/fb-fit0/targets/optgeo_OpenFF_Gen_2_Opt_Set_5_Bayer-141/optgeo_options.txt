@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 1410_C15H17N3O3S
+geometry 1410_C15H17N3O3S.xyz
+topology 1410_C15H17N3O3S.pdb
+mol2 1410_C15H17N3O3S.mol2
+$end
+
+$system
+name 1411_C10H17N3O2S2
+geometry 1411_C10H17N3O2S2.xyz
+topology 1411_C10H17N3O2S2.pdb
+mol2 1411_C10H17N3O2S2.mol2
+$end
+
+$system
+name 1412_C10H17N3O2S2
+geometry 1412_C10H17N3O2S2.xyz
+topology 1412_C10H17N3O2S2.pdb
+mol2 1412_C10H17N3O2S2.mol2
+$end
+
+$system
+name 1413_C10H17N3O2S2
+geometry 1413_C10H17N3O2S2.xyz
+topology 1413_C10H17N3O2S2.pdb
+mol2 1413_C10H17N3O2S2.mol2
+$end
+
+$system
+name 1414_C6H4N4O4S2
+geometry 1414_C6H4N4O4S2.xyz
+topology 1414_C6H4N4O4S2.pdb
+mol2 1414_C6H4N4O4S2.mol2
+$end
+
+$system
+name 1415_C15H21N3O3S
+geometry 1415_C15H21N3O3S.xyz
+topology 1415_C15H21N3O3S.pdb
+mol2 1415_C15H21N3O3S.mol2
+$end
+
+$system
+name 1416_C22ClFH15N6O
+geometry 1416_C22ClFH15N6O.xyz
+topology 1416_C22ClFH15N6O.pdb
+mol2 1416_C22ClFH15N6O.mol2
+$end
+
+$system
+name 1417_C15H21N3O3S
+geometry 1417_C15H21N3O3S.xyz
+topology 1417_C15H21N3O3S.pdb
+mol2 1417_C15H21N3O3S.mol2
+$end
+
+$system
+name 1418_C15H21N3O3S
+geometry 1418_C15H21N3O3S.xyz
+topology 1418_C15H21N3O3S.pdb
+mol2 1418_C15H21N3O3S.mol2
+$end
+
+$system
+name 1419_C15H21N3O3S
+geometry 1419_C15H21N3O3S.xyz
+topology 1419_C15H21N3O3S.pdb
+mol2 1419_C15H21N3O3S.mol2
+$end

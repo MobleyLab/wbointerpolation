@@ -1,0 +1,112 @@
+{
+  "dihedrals": [
+    [
+      9,
+      7,
+      10,
+      6
+    ]
+  ],
+  "grid_spacing": [
+    15
+  ],
+  "dihedral_ranges": null,
+  "energy_decrease_thresh": null,
+  "energy_upper_limit": null,
+  "dataset_name": "OpenFF Group1 Torsions",
+  "entry_label": "c1ccn[c:4](c1)[NH:3][c:2]2[n:1]ccs2",
+  "canonical_smiles": "c1ccnc(c1)Nc2nccs2",
+  "attributes": {
+    "canonical_smiles": "c1ccnc(c1)Nc2nccs2",
+    "canonical_isomeric_smiles": "c1ccnc(c1)Nc2nccs2",
+    "canonical_explicit_hydrogen_smiles": "[H]c1c(c(nc(c1[H])N([H])c2nc(c(s2)[H])[H])[H])[H]",
+    "canonical_isomeric_explicit_hydrogen_smiles": "[H]c1c(c(nc(c1[H])N([H])c2nc(c(s2)[H])[H])[H])[H]",
+    "canonical_isomeric_explicit_hydrogen_mapped_smiles": "[H:13][c:1]1[c:2]([c:4]([n:9][c:7]([c:3]1[H:15])[N:11]([H:19])[c:8]2[n:10][c:5]([c:6]([s:12]2)[H:18])[H:17])[H:16])[H:14]",
+    "molecular_formula": "C8H7N3S",
+    "standard_inchi": "InChI=1S/C8H7N3S/c1-2-4-9-7(3-1)11-8-10-5-6-12-8/h1-6H,(H,9,10,11)",
+    "inchi_key": "GYVUGWTVTJMFLI-UHFFFAOYSA-N",
+    "unique_tautomer_representation": "c1ccc(=Nc2nccs2)[nH]c1",
+    "unique_protomer_representation": "c1ccnc(c1)Nc2nccs2",
+    "provenance": "cmiles_v0.1.3+29.g6d71242.dirty_openeye_2019.Apr.2"
+  },
+  "torsion_grid_ids": [
+    [
+      -165
+    ],
+    [
+      -150
+    ],
+    [
+      -135
+    ],
+    [
+      -120
+    ],
+    [
+      -105
+    ],
+    [
+      -90
+    ],
+    [
+      -75
+    ],
+    [
+      -60
+    ],
+    [
+      -45
+    ],
+    [
+      -30
+    ],
+    [
+      -15
+    ],
+    [
+      0
+    ],
+    [
+      15
+    ],
+    [
+      30
+    ],
+    [
+      45
+    ],
+    [
+      60
+    ],
+    [
+      75
+    ],
+    [
+      90
+    ],
+    [
+      105
+    ],
+    [
+      120
+    ],
+    [
+      135
+    ],
+    [
+      150
+    ],
+    [
+      165
+    ],
+    [
+      180
+    ]
+  ],
+  "smirks": [
+    "[*:1]-[#7X3:2]-[#6X3$(*=[#8,#16,#7]):3]~[*:4]"
+  ],
+  "smirks_ids": [
+    "t69a"
+  ]
+}

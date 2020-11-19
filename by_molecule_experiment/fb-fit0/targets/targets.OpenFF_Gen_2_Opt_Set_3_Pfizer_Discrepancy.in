@@ -1,0 +1,860 @@
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_00_C11H15N3O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_01_C11H15N3O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_02_C11H15N3O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_03_C10H15N3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_04_C10H15N3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_05_C12H13N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_06_C10H16N4
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_07_C14H14N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_08_C10H16N4
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_09_C6H7N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_10_C6H7N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_11_C7H14N2O3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_12_C7H14N2O3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_13_C10H13NO2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_14_C10H21N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_15_C10H21N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_16_C6H14N2OS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_17_C10H21N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_18_C11H15NO3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_19_C15H18N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_20_C14FH12NO2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_21_C11H14N4O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_22_C15H18N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_23_C11H12N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_24_C9H10O3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_25_C7ClH8N3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_26_C7H14N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_27_C6H14N2OS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_28_C11H12N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_29_C12H17N5
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_30_C9ClH12N3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_31_C8H8N4O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_32_C6H14N2OS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_33_C7H10N4O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_34_C10H10N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_35_C7H10N4O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_36_C7H14N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_37_C7H14N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_38_C9H10O3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_39_C7H14N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_40_C12H17N5
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_41_C6H10N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_42_C12H17N5
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_43_C12H17N5
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_44_C14H13NO2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_45_C12H17N5
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_46_C12H17N3O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_47_C12H17N5
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_48_C9H8N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_49_C14H13NO2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_50_C8H16N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_51_C13H11NO2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_52_C8H16N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_53_C10Cl2H13N3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_54_C12H17N3O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_55_C6H8N2OS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_56_C5H7N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_57_C11H21N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_58_C8H16N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_59_C7H10N4O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_60_C12H12N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_61_C10H18N4
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_62_C3H7N3S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_63_C7H10N4O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_64_C9H11NO3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_65_C12H11N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_66_C12H11NO2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_67_C13H11NO2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_68_C12H22N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_69_C8H16N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_70_C12H12N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_71_C12H22N6
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_72_C13H23N5
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_73_C9H11NO3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_74_C13H17NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_75_C10H17N3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_76_C12H22N6
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_77_C15H18N2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_78_C11H15N3O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_79_C11H12N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_80_C12H11N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_81_C11H13N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_82_C12H13N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_83_C12H11N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_84_C11H15NO3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_85_C12H17N3O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end

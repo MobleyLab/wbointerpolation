@@ -1,0 +1,112 @@
+{
+  "dihedrals": [
+    [
+      11,
+      7,
+      9,
+      22
+    ]
+  ],
+  "grid_spacing": [
+    15
+  ],
+  "dihedral_ranges": null,
+  "energy_decrease_thresh": null,
+  "energy_upper_limit": 0.05,
+  "dataset_name": "OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2",
+  "entry_label": "[H:4][CH:3](c1c(noc1c2cccs2)C)[C:2](=[O:1])O",
+  "canonical_smiles": "Cc1c(c(on1)c2cccs2)CC(=O)O",
+  "attributes": {
+    "canonical_explicit_hydrogen_smiles": "[H]c1c(c(sc1[H])c2c(c(no2)C([H])([H])[H])C([H])([H])C(=O)O[H])[H]",
+    "canonical_isomeric_explicit_hydrogen_mapped_smiles": "[H:16][c:1]1[c:2]([c:6]([s:15][c:3]1[H:18])[c:5]2[c:4]([c:7]([n:11][o:13]2)[C:9]([H:19])([H:20])[H:21])[C:10]([H:22])([H:23])[C:8](=[O:12])[O:14][H:24])[H:17]",
+    "canonical_isomeric_explicit_hydrogen_smiles": "[H]c1c(c(sc1[H])c2c(c(no2)C([H])([H])[H])C([H])([H])C(=O)O[H])[H]",
+    "canonical_isomeric_smiles": "Cc1c(c(on1)c2cccs2)CC(=O)O",
+    "canonical_smiles": "Cc1c(c(on1)c2cccs2)CC(=O)O",
+    "inchi_key": "VPAAYOYEHXPDRG-UHFFFAOYSA-N",
+    "molecular_formula": "C10H9NO3S",
+    "provenance": "cmiles_v0.1.5_openeye_2019.Apr.1",
+    "standard_inchi": "InChI=1S/C10H9NO3S/c1-6-7(5-9(12)13)10(14-11-6)8-3-2-4-15-8/h2-4H,5H2,1H3,(H,12,13)",
+    "unique_protomer_representation": "Cc1c(c(on1)c2cccs2)CC(=O)O",
+    "unique_tautomer_representation": "Cc1noc(-c2cccs2)c1CC(=O)O"
+  },
+  "torsion_grid_ids": [
+    [
+      -165
+    ],
+    [
+      -150
+    ],
+    [
+      -135
+    ],
+    [
+      -120
+    ],
+    [
+      -105
+    ],
+    [
+      -90
+    ],
+    [
+      -75
+    ],
+    [
+      -60
+    ],
+    [
+      -45
+    ],
+    [
+      -30
+    ],
+    [
+      -15
+    ],
+    [
+      0
+    ],
+    [
+      15
+    ],
+    [
+      30
+    ],
+    [
+      45
+    ],
+    [
+      60
+    ],
+    [
+      75
+    ],
+    [
+      90
+    ],
+    [
+      105
+    ],
+    [
+      120
+    ],
+    [
+      135
+    ],
+    [
+      150
+    ],
+    [
+      165
+    ],
+    [
+      180
+    ]
+  ],
+  "smirks": [
+    "[#1:1]-[#6X4:2]-[#6X3:3]=[#8X1:4]"
+  ],
+  "smirks_ids": [
+    "t18"
+  ]
+}

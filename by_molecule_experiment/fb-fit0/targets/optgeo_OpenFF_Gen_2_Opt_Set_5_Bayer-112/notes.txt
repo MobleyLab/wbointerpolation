@@ -1,0 +1,11 @@
+Prepared by make_fb_optgeo_target.py
+1120_C16H18N4O : c1ccc(cc1)CC[C@@](Cn2cncn2)(C3(CC3)C#N)O-4 molecule_id 13049327 | SUCCESS
+1121_C27H32N2O4 : CCN(CC)c1cccc(c1)c2nc(c(o2)C)CCOc3ccc4c(c3)CC[C@@H]4CC(=O)O-0 molecule_id 13049374 | SUCCESS
+1122_C19H26N4O4S : CCc1c(sc2c1c(=O)n(c(=O)n2CCOC)C3(CC3)C)CN4CCNC4=O-3 molecule_id 13049428 | SUCCESS
+1123_C20H25N3Si : Cc1ccc2c(c1)[C@@H]([C@@H](C2)C)Nc3ncc(cn3)C#C[Si](C)(C)C-2 molecule_id 13049484 | ERROR: cmile can not load_molecule. the molecule may have elements that are not accepted.( e.g. Si)
+1124_C28H30N5O2 : c1ccc(cc1)c2c(nc3n2ccc(n3)OCCN4CCCC4=O)c5ccc(cc5)C6(CCC6)[NH3+]-3 molecule_id 13049571 | SUCCESS
+1125_C19H19N3O3 : CC(=O)OCC1=C[C@@H]2c3cccc4c3c(c([nH]4)CO)C[C@@H]2N(C1)C#N-4 molecule_id 13049605 | SUCCESS
+1126_BrC12H20N3 : CCCCN(CCCC)c1ncc(cn1)Br-4 molecule_id 13049688 | SUCCESS
+1127_C28H30N5O2 : c1ccc(cc1)c2c(nc3n2ccc(n3)OCCN4CCCC4=O)c5ccc(cc5)C6(CCC6)[NH3+]-2 molecule_id 13049722 | SUCCESS
+1128_C18FH30N4O3S : Cc1c(sc2c1c(=O)n(c(=O)n2CCCF)CC(C)(C)OC)C[NH2+]CCN-0 molecule_id 13049760 | SUCCESS
+1129_C19H26N4O4S : CCc1c(sc2c1c(=O)n(c(=O)n2CCOC)C3(CC3)C)CN4CCNC4=O-4 molecule_id 13049801 | SUCCESS

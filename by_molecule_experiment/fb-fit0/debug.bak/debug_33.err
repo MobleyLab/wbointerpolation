@@ -1,0 +1,15 @@
+[91minput.mol2 doesn't exist and it's not in the force field directory either[0m
+Traceback (most recent call last):
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/bin/ForceBalance.py", line 41, in Run_ForceBalance
+    objective   = Objective(options, tgt_opts, forcefield)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/objective.py", line 181, in __init__
+    else: Tgt = Implemented_Targets[opts['type']](options,opts,forcefield)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/smirnoffio.py", line 661, in __init__
+    super(TorsionProfileTarget_SMIRNOFF,self).__init__(options,tgt_opts,forcefield)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/torsion_profile.py", line 24, in __init__
+    super(TorsionProfileTarget, self).__init__(options, tgt_opts, forcefield)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/target.py", line 189, in __init__
+    self.refresh_temp_directory()
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/target.py", line 376, in refresh_temp_directory
+    raise RuntimeError
+RuntimeError

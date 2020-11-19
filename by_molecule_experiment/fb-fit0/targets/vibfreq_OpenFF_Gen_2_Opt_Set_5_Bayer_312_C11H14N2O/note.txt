@@ -1,0 +1,1 @@
+Target generated from dataset OpenFF Gen 2 Opt Set 5 Bayer, entry CC/C(=C(\c1ccc(cc1)O)/c2ccc(cc2)OCCCCC[S@@](=O)Cc3ccccn3)/c4ccccc4-0

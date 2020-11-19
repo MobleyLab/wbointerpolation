@@ -1,0 +1,7 @@
+[91mThe target type [1;91mNone[0m is not implemented![0m
+Traceback (most recent call last):
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/bin/ForceBalance.py", line 41, in Run_ForceBalance
+    objective   = Objective(options, tgt_opts, forcefield)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/objective.py", line 173, in __init__
+    raise RuntimeError
+RuntimeError

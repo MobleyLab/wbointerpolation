@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 380_C11H18N2O3
+geometry 380_C11H18N2O3.xyz
+topology 380_C11H18N2O3.pdb
+mol2 380_C11H18N2O3.mol2
+$end
+
+$system
+name 381_C13H14N4
+geometry 381_C13H14N4.xyz
+topology 381_C13H14N4.pdb
+mol2 381_C13H14N4.mol2
+$end
+
+$system
+name 382_C11H18N2O3
+geometry 382_C11H18N2O3.xyz
+topology 382_C11H18N2O3.pdb
+mol2 382_C11H18N2O3.mol2
+$end
+
+$system
+name 383_C13H14N4
+geometry 383_C13H14N4.xyz
+topology 383_C13H14N4.pdb
+mol2 383_C13H14N4.mol2
+$end
+
+$system
+name 384_C11H18N2O3
+geometry 384_C11H18N2O3.xyz
+topology 384_C11H18N2O3.pdb
+mol2 384_C11H18N2O3.mol2
+$end
+
+$system
+name 385_C18H21NO
+geometry 385_C18H21NO.xyz
+topology 385_C18H21NO.pdb
+mol2 385_C18H21NO.mol2
+$end
+
+$system
+name 386_C19H20O3
+geometry 386_C19H20O3.xyz
+topology 386_C19H20O3.pdb
+mol2 386_C19H20O3.mol2
+$end
+
+$system
+name 387_C19H20O3
+geometry 387_C19H20O3.xyz
+topology 387_C19H20O3.pdb
+mol2 387_C19H20O3.mol2
+$end
+
+$system
+name 388_C19H20O3
+geometry 388_C19H20O3.xyz
+topology 388_C19H20O3.pdb
+mol2 388_C19H20O3.mol2
+$end
+
+$system
+name 389_C20H19NO2
+geometry 389_C20H19NO2.xyz
+topology 389_C20H19NO2.pdb
+mol2 389_C20H19NO2.mol2
+$end

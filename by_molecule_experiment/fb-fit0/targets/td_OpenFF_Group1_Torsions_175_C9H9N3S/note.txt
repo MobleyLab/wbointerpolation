@@ -1,0 +1,1 @@
+Target generated from dataset OpenFF Group1 Torsions, entry C[N:3]([c:4]1ccccn1)[c:2]2[n:1]ccs2

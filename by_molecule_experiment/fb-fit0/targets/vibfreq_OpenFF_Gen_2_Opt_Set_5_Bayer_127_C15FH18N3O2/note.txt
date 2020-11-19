@@ -1,0 +1,1 @@
+Target generated from dataset OpenFF Gen 2 Opt Set 5 Bayer, entry c1ccc(cc1)c2c(nc3n2ccc(n3)OCCN4CCCC4=O)c5ccc(cc5)C6(CCC6)[NH3+]-3

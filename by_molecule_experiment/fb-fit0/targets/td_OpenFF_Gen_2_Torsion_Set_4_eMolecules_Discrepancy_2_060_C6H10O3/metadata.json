@@ -1,0 +1,112 @@
+{
+  "dihedrals": [
+    [
+      6,
+      0,
+      4,
+      15
+    ]
+  ],
+  "grid_spacing": [
+    15
+  ],
+  "dihedral_ranges": null,
+  "energy_decrease_thresh": null,
+  "energy_upper_limit": 0.05,
+  "dataset_name": "OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2",
+  "entry_label": "[H:4][C@@:3]1(CC[C@@H](C1)O)[C:2](=[O:1])O",
+  "canonical_smiles": "C1CC(CC1C(=O)O)O",
+  "attributes": {
+    "canonical_explicit_hydrogen_smiles": "[H]C1(C(C(C(C1([H])C(=O)O[H])([H])[H])([H])O[H])([H])[H])[H]",
+    "canonical_isomeric_explicit_hydrogen_mapped_smiles": "[H:16][C@:5]1([C:4]([C@@:6]([C:3]([C:2]1([H:10])[H:11])([H:12])[H:13])([H:17])[O:9][H:19])([H:14])[H:15])[C:1](=[O:7])[O:8][H:18]",
+    "canonical_isomeric_explicit_hydrogen_smiles": "[H][C@]1(C([C@@](C(C1([H])[H])([H])[H])([H])O[H])([H])[H])C(=O)O[H]",
+    "canonical_isomeric_smiles": "C1C[C@@H](C[C@H]1C(=O)O)O",
+    "canonical_smiles": "C1CC(CC1C(=O)O)O",
+    "inchi_key": "XWWQLKYMTLWXKN-WHFBIAKZSA-N",
+    "molecular_formula": "C6H10O3",
+    "provenance": "cmiles_v0.1.5_openeye_2019.Apr.1",
+    "standard_inchi": "InChI=1S/C6H10O3/c7-5-2-1-4(3-5)6(8)9/h4-5,7H,1-3H2,(H,8,9)/t4-,5-/m0/s1",
+    "unique_protomer_representation": "C1C[C@@H](C[C@H]1C(=O)O)O",
+    "unique_tautomer_representation": "O=C(O)C1CC[C@H](O)C1"
+  },
+  "torsion_grid_ids": [
+    [
+      -165
+    ],
+    [
+      -150
+    ],
+    [
+      -135
+    ],
+    [
+      -120
+    ],
+    [
+      -105
+    ],
+    [
+      -90
+    ],
+    [
+      -75
+    ],
+    [
+      -60
+    ],
+    [
+      -45
+    ],
+    [
+      -30
+    ],
+    [
+      -15
+    ],
+    [
+      0
+    ],
+    [
+      15
+    ],
+    [
+      30
+    ],
+    [
+      45
+    ],
+    [
+      60
+    ],
+    [
+      75
+    ],
+    [
+      90
+    ],
+    [
+      105
+    ],
+    [
+      120
+    ],
+    [
+      135
+    ],
+    [
+      150
+    ],
+    [
+      165
+    ],
+    [
+      180
+    ]
+  ],
+  "smirks": [
+    "[#1:1]-[#6X4:2]-[#6X3:3]=[#8X1:4]"
+  ],
+  "smirks_ids": [
+    "t18"
+  ]
+}

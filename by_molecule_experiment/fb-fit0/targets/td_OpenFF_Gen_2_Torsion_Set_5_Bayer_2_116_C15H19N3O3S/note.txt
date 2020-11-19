@@ -1,0 +1,1 @@
+Target generated from dataset OpenFF Gen 2 Torsion Set 5 Bayer 2, entry CC(C)COC(=O)n\1c2ccccc2[s:4]/[c:3]1=[N:2]/[C:1](=O)N(C)C

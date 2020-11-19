@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 20_C11F3H21NO2S
+geometry 20_C11F3H21NO2S.xyz
+topology 20_C11F3H21NO2S.pdb
+mol2 20_C11F3H21NO2S.mol2
+$end
+
+$system
+name 21_C11H15N2O2
+geometry 21_C11H15N2O2.xyz
+topology 21_C11H15N2O2.pdb
+mol2 21_C11H15N2O2.mol2
+$end
+
+$system
+name 22_C11H15N2O2
+geometry 22_C11H15N2O2.xyz
+topology 22_C11H15N2O2.pdb
+mol2 22_C11H15N2O2.mol2
+$end
+
+$system
+name 23_C11H14N2O2
+geometry 23_C11H14N2O2.xyz
+topology 23_C11H14N2O2.pdb
+mol2 23_C11H14N2O2.mol2
+$end
+
+$system
+name 24_C11H15N2O2
+geometry 24_C11H15N2O2.xyz
+topology 24_C11H15N2O2.pdb
+mol2 24_C11H15N2O2.mol2
+$end
+
+$system
+name 25_C11H15N2O2
+geometry 25_C11H15N2O2.xyz
+topology 25_C11H15N2O2.pdb
+mol2 25_C11H15N2O2.mol2
+$end
+
+$system
+name 26_C11H14N2O2
+geometry 26_C11H14N2O2.xyz
+topology 26_C11H14N2O2.pdb
+mol2 26_C11H14N2O2.mol2
+$end
+
+$system
+name 27_C11H15N2O2
+geometry 27_C11H15N2O2.xyz
+topology 27_C11H15N2O2.pdb
+mol2 27_C11H15N2O2.mol2
+$end
+
+$system
+name 28_C11H15N2O2
+geometry 28_C11H15N2O2.xyz
+topology 28_C11H15N2O2.pdb
+mol2 28_C11H15N2O2.mol2
+$end
+
+$system
+name 29_C12H18O3
+geometry 29_C12H18O3.xyz
+topology 29_C12H18O3.pdb
+mol2 29_C12H18O3.mol2
+$end

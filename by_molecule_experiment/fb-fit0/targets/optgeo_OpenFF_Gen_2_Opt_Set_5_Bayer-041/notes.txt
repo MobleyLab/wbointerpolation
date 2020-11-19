@@ -1,0 +1,11 @@
+Prepared by make_fb_optgeo_target.py
+410_C6H8N2O5S2 : c1cc(c(cc1S(=O)(=O)N)S(=O)(=O)N)O-0 molecule_id 13075505 | SUCCESS
+411_C6H8N2O5S2 : c1cc(c(cc1S(=O)(=O)N)S(=O)(=O)N)O-3 molecule_id 13075536 | SUCCESS
+412_C6H8N2O5S2 : c1cc(c(cc1S(=O)(=O)N)S(=O)(=O)N)O-2 molecule_id 13075568 | SUCCESS
+413_C6H8N2O5S2 : c1cc(c(cc1S(=O)(=O)N)S(=O)(=O)N)O-1 molecule_id 13075601 | SUCCESS
+414_C10H14N3O : c1cc2c(c(c[nH]2)C[C@@H](CO)[NH3+])nc1-3 molecule_id 13075645 | SUCCESS
+415_C6H7N2O5S2 : c1cc(c(cc1S(=O)(=O)N)S(=O)(=O)N)[O-]-0 molecule_id 13075676 | SUCCESS
+416_C10H14N3O : c1cc2c(c(c[nH]2)C[C@@H](CO)[NH3+])nc1-1 molecule_id 13075713 | ERROR: Bonds changed after rebuild
+417_C6H8N2O5S2 : c1cc(c(cc1S(=O)(=O)N)S(=O)(=O)N)O-4 molecule_id 13075761 | SUCCESS
+418_C10H14N3O : c1cc2c(c(c[nH]2)C[C@@H](CO)[NH3+])nc1-4 molecule_id 13075797 | SUCCESS
+419_C10H13N3O : c1cncc2c1[nH]cc2C[C@@H](CO)N-3 molecule_id 13075844 | SUCCESS

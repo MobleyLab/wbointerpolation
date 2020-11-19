@@ -1,0 +1,79 @@
+{
+  "dihedrals": [
+    [
+      3,
+      1,
+      5,
+      7
+    ]
+  ],
+  "grid_spacing": [
+    15
+  ],
+  "dihedral_ranges": null,
+  "energy_decrease_thresh": null,
+  "energy_upper_limit": 0.05,
+  "dataset_name": "OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2",
+  "entry_label": "CO/N=C/C(=[CH:4]\\[c:3]1[cH:2][cH:1]c(cc1)F)/C#N",
+  "canonical_smiles": "CON=CC(=Cc1ccc(cc1)F)C#N",
+  "attributes": {
+    "canonical_explicit_hydrogen_smiles": "[H]c1c(c(c(c(c1C(=C(C#N)C(=NOC([H])([H])[H])[H])[H])[H])[H])F)[H]",
+    "canonical_isomeric_explicit_hydrogen_mapped_smiles": "[H:16][c:2]1[c:4]([c:7]([c:5]([c:3]([c:6]1/[C:8](=[C:10](/[C:1]#[N:12])\\[C:9](=[N:13]\\[O:14][C:11]([H:22])([H:23])[H:24])\\[H:21])/[H:20])[H:17])[H:19])[F:15])[H:18]",
+    "canonical_isomeric_explicit_hydrogen_smiles": "[H]c1c(c(c(c(c1/C(=C(/C#N)\\C(=N\\OC([H])([H])[H])\\[H])/[H])[H])[H])F)[H]",
+    "canonical_isomeric_smiles": "CO/N=C/C(=C\\c1ccc(cc1)F)/C#N",
+    "canonical_smiles": "CON=CC(=Cc1ccc(cc1)F)C#N",
+    "inchi_key": "UWRZDKNGWLCMTN-LVFXEAJCSA-N",
+    "molecular_formula": "C11H9FN2O",
+    "provenance": "cmiles_v0.1.5_openeye_2019.Apr.1",
+    "standard_inchi": "InChI=1S/C11H9FN2O/c1-15-14-8-10(7-13)6-9-2-4-11(12)5-3-9/h2-6,8H,1H3/b10-6-,14-8+",
+    "unique_protomer_representation": "CO/N=C/C(=C\\c1ccc(cc1)F)/C#N",
+    "unique_tautomer_representation": "CO/N=C/C(C#N)=C\\c1ccc(F)cc1"
+  },
+  "torsion_grid_ids": [
+    [
+      -165
+    ],
+    [
+      -150
+    ],
+    [
+      -135
+    ],
+    [
+      -120
+    ],
+    [
+      -105
+    ],
+    [
+      -90
+    ],
+    [
+      90
+    ],
+    [
+      105
+    ],
+    [
+      120
+    ],
+    [
+      135
+    ],
+    [
+      150
+    ],
+    [
+      165
+    ],
+    [
+      180
+    ]
+  ],
+  "smirks": [
+    "[*:1]~[#6X3:2]:[#6X3:3]~[*:4]"
+  ],
+  "smirks_ids": [
+    "t44"
+  ]
+}

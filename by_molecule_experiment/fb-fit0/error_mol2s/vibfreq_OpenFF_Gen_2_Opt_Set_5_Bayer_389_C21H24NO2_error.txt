@@ -1,0 +1,10 @@
+OpenFF Gen 2 Opt Set 5 Bayer
+target_name vibfreq_OpenFF_Gen_2_Opt_Set_5_Bayer_389_C21H24NO2
+entry CC(C)(C)OC(=O)[C@@]12COC[C@@H]1OS(=O)(=O)N2C(=O)OC(C)(C)C-1
+error message:
+Unable to make OFFMol from OEMol: OEMol has unspecified stereochemistry. oemol.GetTitle(): 
+Problematic atoms are:
+Atom atomic num: 7, name: N1, idx: 21, aromatic: False, chiral: True with bonds:
+bond order: 1, chiral: False to atom atomic num: 6, name: C12, idx: 11, aromatic: True, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C20, idx: 19, aromatic: False, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C21, idx: 20, aromatic: False, chiral: False
