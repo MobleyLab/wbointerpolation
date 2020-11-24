@@ -1,5 +1,0 @@
-OpenFF Gen 2 Opt Set 4 eMolecules Discrepancy
-target_name vibfreq_OpenFF_Gen_2_Opt_Set_4_eMolecules_Discrepancy_273_C17FH20N3O2
-entry c1cc2c(cc1F)c(cc(n2)CN3CC(C3)N4CCOCC4)O-0
-error message:
-dont have parameters we are targetting

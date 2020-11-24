@@ -1,1 +1,0 @@
-Target generated from dataset OpenFF Gen 2 Opt Set 2 Coverage, entry C[C@@H]1C[N@@](S(=O)(=O)C1)NC-0

@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/bin/ForceBalance.py", line 41, in Run_ForceBalance
+    objective   = Objective(options, tgt_opts, forcefield)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/objective.py", line 181, in __init__
+    else: Tgt = Implemented_Targets[opts['type']](options,opts,forcefield)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/smirnoffio.py", line 661, in __init__
+    super(TorsionProfileTarget_SMIRNOFF,self).__init__(options,tgt_opts,forcefield)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/torsion_profile.py", line 24, in __init__
+    super(TorsionProfileTarget, self).__init__(options, tgt_opts, forcefield)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/target.py", line 189, in __init__
+    self.refresh_temp_directory()
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/target.py", line 360, in refresh_temp_directory
+    subprocess.call(["tar","cjf",CandFile,self.name])
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/subprocess.py", line 341, in call
+    return p.wait(timeout=timeout)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/subprocess.py", line 1019, in wait
+    return self._wait(timeout=timeout)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/subprocess.py", line 1653, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/subprocess.py", line 1611, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt

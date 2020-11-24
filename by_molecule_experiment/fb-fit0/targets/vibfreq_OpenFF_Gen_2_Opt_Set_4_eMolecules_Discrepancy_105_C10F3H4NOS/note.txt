@@ -1,1 +1,0 @@
-Target generated from dataset OpenFF Gen 2 Opt Set 4 eMolecules Discrepancy, entry c1csc(n1)C(=O)c2cc(c(cc2F)F)F-0

@@ -1,5 +1,0 @@
-Prepared by make_fb_optgeo_target.py
-1770_C24F3H31N5O2S : CCCC(=O)N1CC[NH+](CC1)CCCN2C(=S)N(C(=O)C2(C)C)c3ccc(c(c3)C(F)(F)F)C#N-2 molecule_id 13165447 | SUCCESS
-1771_C27H33NO6 : Cc1cc(c2c(c1C#N)COC(=O)c3c(ccc(c3OC)[C@@H](CC(C)C)O)O2)OCCC(C)C-2 molecule_id 13165607 | SUCCESS
-1772_C22H24O5S : Cc1cc2c(c(c1)OC)Sc3ccc(c(c3C(=O)OC2)OC)[C@@H](CC(=C)C)O-2 molecule_id 13165708 | SUCCESS
-1773_C25H35N6O4S : C[C@@H]1C(=O)N(c2ccc(nc2[N@@]1C3CC[NH+](CC3)C)Nc4cccc(c4)S(=O)(=O)N5CCOCC5)C-3 molecule_id 13168079 | SUCCESS

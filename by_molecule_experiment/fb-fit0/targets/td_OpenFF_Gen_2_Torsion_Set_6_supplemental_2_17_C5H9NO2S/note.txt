@@ -1,1 +1,0 @@
-Target generated from dataset OpenFF Gen 2 Torsion Set 6 supplemental 2, entry C[S:3](=[N:2][C:1](=O)C=C)(=[O:4])C

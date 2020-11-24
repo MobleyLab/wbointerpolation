@@ -1,6 +1,0 @@
-OpenFF Gen 2 Torsion Set 2 Coverage 2
-target_name td_OpenFF_Gen_2_Torsion_Set_2_Coverage_2_134_C6FH7N2O4S2
-entry [H:4][NH:3][S:2](=O)(=[O:1])c1ccccc1S(=O)(=O)NF
-td_keywords {'dihedrals': [(9, 13, 6, 19)], 'grid_spacing': [15], 'dihedral_ranges': None, 'energy_decrease_thresh': None, 'energy_upper_limit': 0.05}
-error message:
-One or more internal H bonds exist.

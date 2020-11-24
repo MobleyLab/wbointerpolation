@@ -1,1 +1,0 @@
-Target generated from dataset OpenFF Gen 2 Torsion Set 3 Pfizer Discrepancy 2, entry C[N:2]1[CH:3]=[N:4]/C(=C\c2ccco2)/[C:1]1=O

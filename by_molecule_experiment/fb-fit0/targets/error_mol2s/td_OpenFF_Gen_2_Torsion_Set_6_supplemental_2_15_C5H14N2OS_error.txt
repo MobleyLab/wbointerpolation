@@ -1,6 +1,0 @@
-OpenFF Gen 2 Torsion Set 6 supplemental 2
-target_name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_15_C5H14N2OS
-entry C[C@H]([CH2:4][N:3]=[S:2](=O)(C)[CH3:1])N
-td_keywords {'dihedrals': [(2, 8, 5, 3)], 'grid_spacing': [15], 'dihedral_ranges': None, 'energy_decrease_thresh': None, 'energy_upper_limit': 0.05}
-error message:
-One or more internal H bonds exist.

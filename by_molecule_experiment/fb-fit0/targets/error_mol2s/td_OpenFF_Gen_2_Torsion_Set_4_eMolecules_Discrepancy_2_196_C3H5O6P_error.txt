@@ -1,6 +1,0 @@
-OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2
-target_name td_OpenFF_Gen_2_Torsion_Set_4_eMolecules_Discrepancy_2_196_C3H5O6P
-entry [H:4][O:3][C:2](=O)[C:1](=C)OP(=O)(O)O
-td_keywords {'dihedrals': [(1, 2, 5, 12)], 'grid_spacing': [15], 'dihedral_ranges': None, 'energy_decrease_thresh': None, 'energy_upper_limit': 0.05}
-error message:
-One or more internal H bonds exist.

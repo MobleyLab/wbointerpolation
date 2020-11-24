@@ -1,5 +1,0 @@
-OpenFF Gen 2 Opt Set 1 Roche
-target_name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_003_C7H5N3O
-entry c1cc(c(=O)[nH]c1)CN2CC[NH2+]CC2-1
-error message:
-dont have parameters we are targetting

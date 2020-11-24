@@ -1,1 +1,0 @@
-Target generated from dataset OpenFF Gen 2 Opt Set 2 Coverage, entry CC1(COP(=S)(OC1)[S-])C-0

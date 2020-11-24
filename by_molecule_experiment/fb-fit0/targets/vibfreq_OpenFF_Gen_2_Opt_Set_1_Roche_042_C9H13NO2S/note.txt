@@ -1,1 +1,0 @@
-Target generated from dataset OpenFF Gen 2 Opt Set 1 Roche, entry CCS(=O)(=O)N(C)C-0

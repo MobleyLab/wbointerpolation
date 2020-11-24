@@ -1,1 +1,0 @@
-Target generated from dataset OpenFF Gen 2 Torsion Set 6 supplemental 2, entry CNC[CH2:4][S:3][S:2][CH3:1]

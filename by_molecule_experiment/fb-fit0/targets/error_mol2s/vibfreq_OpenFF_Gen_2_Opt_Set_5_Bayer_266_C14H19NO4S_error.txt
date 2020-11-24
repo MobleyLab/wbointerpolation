@@ -1,5 +1,0 @@
-OpenFF Gen 2 Opt Set 5 Bayer
-target_name vibfreq_OpenFF_Gen_2_Opt_Set_5_Bayer_266_C14H19NO4S
-entry c1cc(ccc1Nc2ncc(c(n2)NC3CCC(CC3)[NH+]4CCC(CC4)O)Br)S(=O)(=O)N-4
-error message:
-dont have parameters we are targetting

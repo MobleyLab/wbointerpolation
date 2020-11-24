@@ -6,7 +6,7 @@ from openforcefield.typing.engines.smirnoff import (ForceField,
 UnassignedValenceParameterException, BondHandler, AngleHandler,
 ProperTorsionHandler, ImproperTorsionHandler,
 vdWHandler)
-from plot_td_energies import collect_td_targets_data
+from plot_td_energies import collect_td_targets_data, plot_td_targets_data
 import pickle
 directory = '/Users/jessica/Downloads/release_1.2.0/fb-fit/targets/'
 ff = '/Users/jessica/Documents/Grad_research/WBO_Torsions_ChayaPaper/release_1.3.0_2/fb-fit/fb-fit0/forcefield/test.offxml'
@@ -100,10 +100,12 @@ for asub in sub_dir:
                                 print(os.system('ForceBalance ' + 'debug.in'))
                                 print('done')
                                 #make plot
-                                plot_data = collect_td_targets_data('optimize.tmp', 'targets')
-                                plot_dict.update(plot_data)
-                                with open('plot_data.pk', 'wb') as pk:
-                                    pickle.dump(plot_dict,pk)
+                                if 0:
+                                    plot_data = collect_td_targets_data('debug.tmp', 'targets')
+                                    plot_dict.update(plot_data)
+                                    plot_td_targets_data(data)
+                                    with open('plot_data.pk', 'wb') as pk:
+                                        pickle.dump(plot_dict,pk)
 
 
 

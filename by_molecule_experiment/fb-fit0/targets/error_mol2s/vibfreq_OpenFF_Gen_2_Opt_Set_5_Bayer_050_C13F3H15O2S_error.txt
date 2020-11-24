@@ -1,5 +1,0 @@
-OpenFF Gen 2 Opt Set 5 Bayer
-target_name vibfreq_OpenFF_Gen_2_Opt_Set_5_Bayer_050_C13F3H15O2S
-entry CC(C)C(=O)c1cc(cc(c1OC)Cl)O-0
-error message:
-dont have parameters we are targetting

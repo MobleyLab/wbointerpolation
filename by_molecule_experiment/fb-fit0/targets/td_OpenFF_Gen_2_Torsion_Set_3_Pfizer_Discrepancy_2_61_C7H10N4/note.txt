@@ -1,1 +1,0 @@
-Target generated from dataset OpenFF Gen 2 Torsion Set 3 Pfizer Discrepancy 2, entry [cH:3]1[n:4]cn[c:1]([n:2]1)N2CCCC2

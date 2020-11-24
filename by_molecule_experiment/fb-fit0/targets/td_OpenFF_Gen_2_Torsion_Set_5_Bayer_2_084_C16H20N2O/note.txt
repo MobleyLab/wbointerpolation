@@ -1,1 +1,0 @@
-Target generated from dataset OpenFF Gen 2 Torsion Set 5 Bayer 2, entry C/C(=C\[C@H:1]1c2cccc3c2c(c[nH]3)C[C@H:2]1[NH:3][CH3:4])/CO

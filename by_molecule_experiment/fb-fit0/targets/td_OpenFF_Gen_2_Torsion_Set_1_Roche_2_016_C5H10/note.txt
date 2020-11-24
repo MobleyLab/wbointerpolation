@@ -1,1 +1,0 @@
-Target generated from dataset OpenFF Gen 2 Torsion Set 1 Roche 2, entry C[CH2:4]/[CH:2]=[CH:3]\[CH3:1]

@@ -1,6 +1,0 @@
-OpenFF Gen 2 Torsion Set 5 Bayer 2
-target_name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_119_C18H18O6
-entry [H:4][O:3][CH2:2][c:1]1ccc2c(c1OC)C(=O)OCc3cc(cc(c3O2)OC)C
-td_keywords {'dihedrals': [(6, 17, 21, 41)], 'grid_spacing': [15], 'dihedral_ranges': None, 'energy_decrease_thresh': None, 'energy_upper_limit': 0.05}
-error message:
-One or more internal H bonds exist.

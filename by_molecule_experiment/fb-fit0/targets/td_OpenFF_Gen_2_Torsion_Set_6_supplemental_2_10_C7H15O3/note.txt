@@ -1,1 +1,0 @@
-Target generated from dataset OpenFF Gen 2 Torsion Set 6 supplemental 2, entry CCO[C:1](=[O+:2][CH2:3][CH3:4])OCC

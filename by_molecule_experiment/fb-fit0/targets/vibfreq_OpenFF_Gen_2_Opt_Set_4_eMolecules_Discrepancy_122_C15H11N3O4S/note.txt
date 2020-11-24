@@ -1,1 +1,0 @@
-Target generated from dataset OpenFF Gen 2 Opt Set 4 eMolecules Discrepancy, entry c1cc2c(ccc(c2nc1)O)/N=N\c3ccc(cc3)S(=O)(=O)O-1

@@ -1,1 +1,0 @@
-Target generated from dataset OpenFF Gen 2 Torsion Set 6 supplemental 2, entry CC(C)(C)OC(=O)N1CCOC[C@H]1[CH2:4][O:3][O:2][CH3:1]

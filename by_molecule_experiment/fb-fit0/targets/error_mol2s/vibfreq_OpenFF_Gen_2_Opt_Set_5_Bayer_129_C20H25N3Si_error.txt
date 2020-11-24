@@ -1,5 +1,0 @@
-OpenFF Gen 2 Opt Set 5 Bayer
-target_name vibfreq_OpenFF_Gen_2_Opt_Set_5_Bayer_129_C20H25N3Si
-entry c1c(ncc(n1)Cl)C(=O)NC2CN(C2)CC(F)(F)F-0
-error message:
-cmile can not load_molecule. the molecule may have elements that are not accepted.( e.g. Si)

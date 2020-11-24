@@ -1,1 +1,0 @@
-Target generated from dataset OpenFF Gen 2 Torsion Set 1 Roche 2, entry c1cc([c:1]2c(c1)[n:4][o:3][n:2]2)C3C=CNC=C3

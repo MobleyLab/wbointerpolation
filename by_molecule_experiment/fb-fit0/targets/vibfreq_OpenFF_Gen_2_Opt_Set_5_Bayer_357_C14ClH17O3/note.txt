@@ -1,1 +1,0 @@
-Target generated from dataset OpenFF Gen 2 Opt Set 5 Bayer, entry Cc1nn(c(=O)n1NC(C)C)C(=O)NC2CCCCC2-1

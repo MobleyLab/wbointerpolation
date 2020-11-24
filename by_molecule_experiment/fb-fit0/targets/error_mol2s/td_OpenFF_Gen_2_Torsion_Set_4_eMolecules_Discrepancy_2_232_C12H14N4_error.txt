@@ -1,6 +1,0 @@
-OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2
-target_name td_OpenFF_Gen_2_Torsion_Set_4_eMolecules_Discrepancy_2_232_C12H14N4
-entry C/[C:4](=[N:3]\[N:2]=[C:1](\C)/c1ccc[nH]1)/c2ccc[nH]2
-td_keywords {'dihedrals': [(8, 12, 13, 9)], 'grid_spacing': [15], 'dihedral_ranges': None, 'energy_decrease_thresh': None, 'energy_upper_limit': 0.05}
-error message:
-One or more internal H bonds exist.

@@ -1,1 +1,0 @@
-Target generated from dataset OpenFF Gen 2 Torsion Set 1 Roche 2, entry [H:4][CH2:3][C:2]1(CC[NH2+]C[CH2:1]1)c2ccccc2

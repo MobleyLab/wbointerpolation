@@ -1,5 +1,0 @@
-OpenFF Gen 2 Opt Set 3 Pfizer Discrepancy
-target_name vibfreq_OpenFF_Gen_2_Opt_Set_3_Pfizer_Discrepancy_38_C9H10O3
-entry Cc1cccc(c1C(=O)OC)O-0
-error message:
-dont have parameters we are targetting

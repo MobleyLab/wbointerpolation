@@ -1,6 +1,0 @@
-OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2
-target_name td_OpenFF_Gen_2_Torsion_Set_4_eMolecules_Discrepancy_2_087_BrC8H8N3O
-entry c1c(cn[c:1](n1)[C:2]2(CC2)[C:3](=O)[NH2:4])Br
-td_keywords {'dihedrals': [(3, 7, 4, 10)], 'grid_spacing': [15], 'dihedral_ranges': None, 'energy_decrease_thresh': None, 'energy_upper_limit': 0.05}
-error message:
-One or more internal H bonds exist.

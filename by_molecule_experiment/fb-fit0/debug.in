@@ -67,7 +67,7 @@ priors
 $end
 
 $target
-name td_OpenFF_Gen_2_Torsion_Set_1_Roche_2_083_C15FH11N2O
+name td_OpenFF_Substituted_Phenyl_Set_1_034_C9H12N2O2
 type TorsionProfile_SMIRNOFF
 mol2 input.mol2
 pdb conf.pdb

@@ -1,1 +1,0 @@
-Target generated from dataset OpenFF Gen 2 Opt Set 3 Pfizer Discrepancy, entry CN1C=N/C(=C\c2ccco2)/C1=O-1

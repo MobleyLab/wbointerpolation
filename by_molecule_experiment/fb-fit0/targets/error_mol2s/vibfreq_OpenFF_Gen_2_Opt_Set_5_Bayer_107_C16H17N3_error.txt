@@ -1,5 +1,0 @@
-OpenFF Gen 2 Opt Set 5 Bayer
-target_name vibfreq_OpenFF_Gen_2_Opt_Set_5_Bayer_107_C16H17N3
-entry c1ccc2c(c1)[C@@H](CO2)/[NH+]=C\3/NCCS3-0
-error message:
-dont have parameters we are targetting

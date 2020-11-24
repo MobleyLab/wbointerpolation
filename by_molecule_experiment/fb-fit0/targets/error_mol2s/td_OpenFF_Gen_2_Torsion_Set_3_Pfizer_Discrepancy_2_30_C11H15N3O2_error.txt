@@ -1,6 +1,0 @@
-OpenFF Gen 2 Torsion Set 3 Pfizer Discrepancy 2
-target_name td_OpenFF_Gen_2_Torsion_Set_3_Pfizer_Discrepancy_2_30_C11H15N3O2
-entry CC(=O)[N:1](C)[C@@H:2](c1cccnc1)[C:3](=[O:4])NC
-td_keywords {'dihedrals': [(13, 10, 6, 15)], 'grid_spacing': [15], 'dihedral_ranges': None, 'energy_decrease_thresh': None, 'energy_upper_limit': 0.05}
-error message:
-One or more internal H bonds exist.

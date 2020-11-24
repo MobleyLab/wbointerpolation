@@ -1,6 +1,0 @@
-OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2
-target_name td_OpenFF_Gen_2_Torsion_Set_4_eMolecules_Discrepancy_2_029_BrC14H13N2O
-entry [H:1][CH2:2][CH:3]([H:4])c1cc(c(c(c1)Br)O)/N=N/c2ccccc2
-td_keywords {'dihedrals': [(27, 12, 13, 28)], 'grid_spacing': [15], 'dihedral_ranges': None, 'energy_decrease_thresh': None, 'energy_upper_limit': 0.05}
-error message:
-One or more internal H bonds exist.

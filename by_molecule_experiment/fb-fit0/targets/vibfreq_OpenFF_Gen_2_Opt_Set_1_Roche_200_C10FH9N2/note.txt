@@ -1,1 +1,0 @@
-Target generated from dataset OpenFF Gen 2 Opt Set 1 Roche, entry c1ccc(c(c1)C2C=CNC=C2)[N+](=O)[O-]-0
