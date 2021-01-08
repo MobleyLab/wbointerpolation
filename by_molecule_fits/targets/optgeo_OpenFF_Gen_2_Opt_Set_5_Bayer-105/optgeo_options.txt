@@ -1,0 +1,70 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 1050_C11H13N2OS
+geometry 1050_C11H13N2OS.xyz
+topology 1050_C11H13N2OS.pdb
+mol2 1050_C11H13N2OS.mol2
+$end
+
+$system
+name 1051_C11H15N2O2
+geometry 1051_C11H15N2O2.xyz
+topology 1051_C11H15N2O2.pdb
+mol2 1051_C11H15N2O2.mol2
+$end
+
+$system
+name 1052_C13H16N2O
+geometry 1052_C13H16N2O.xyz
+topology 1052_C13H16N2O.pdb
+mol2 1052_C13H16N2O.mol2
+$end
+
+$system
+name 1053_C13H16N2O
+geometry 1053_C13H16N2O.xyz
+topology 1053_C13H16N2O.pdb
+mol2 1053_C13H16N2O.mol2
+$end
+
+$system
+name 1054_C13H16N2O
+geometry 1054_C13H16N2O.xyz
+topology 1054_C13H16N2O.pdb
+mol2 1054_C13H16N2O.mol2
+$end
+
+$system
+name 1055_C14H19NO4S
+geometry 1055_C14H19NO4S.xyz
+topology 1055_C14H19NO4S.pdb
+mol2 1055_C14H19NO4S.mol2
+$end
+
+$system
+name 1057_C10F4H8O2
+geometry 1057_C10F4H8O2.xyz
+topology 1057_C10F4H8O2.pdb
+mol2 1057_C10F4H8O2.mol2
+$end
+
+$system
+name 1058_C15H22N3O
+geometry 1058_C15H22N3O.xyz
+topology 1058_C15H22N3O.pdb
+mol2 1058_C15H22N3O.mol2
+$end
+
+$system
+name 1059_C16FH19N4O
+geometry 1059_C16FH19N4O.xyz
+topology 1059_C16FH19N4O.pdb
+mol2 1059_C16FH19N4O.mol2
+$end

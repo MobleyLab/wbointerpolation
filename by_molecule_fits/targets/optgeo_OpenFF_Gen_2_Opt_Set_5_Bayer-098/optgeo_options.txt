@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 980_C28H25NO5
+geometry 980_C28H25NO5.xyz
+topology 980_C28H25NO5.pdb
+mol2 980_C28H25NO5.mol2
+$end
+
+$system
+name 981_C26FH26NO5
+geometry 981_C26FH26NO5.xyz
+topology 981_C26FH26NO5.pdb
+mol2 981_C26FH26NO5.mol2
+$end
+
+$system
+name 982_C28H24NO5
+geometry 982_C28H24NO5.xyz
+topology 982_C28H24NO5.pdb
+mol2 982_C28H24NO5.mol2
+$end
+
+$system
+name 983_C29H33N3O5
+geometry 983_C29H33N3O5.xyz
+topology 983_C29H33N3O5.pdb
+mol2 983_C29H33N3O5.mol2
+$end
+
+$system
+name 984_C25FH25O6S
+geometry 984_C25FH25O6S.xyz
+topology 984_C25FH25O6S.pdb
+mol2 984_C25FH25O6S.mol2
+$end
+
+$system
+name 985_C32H38O6
+geometry 985_C32H38O6.xyz
+topology 985_C32H38O6.pdb
+mol2 985_C32H38O6.mol2
+$end
+
+$system
+name 986_C26H29NO
+geometry 986_C26H29NO.xyz
+topology 986_C26H29NO.pdb
+mol2 986_C26H29NO.mol2
+$end
+
+$system
+name 987_C29H33N3O5
+geometry 987_C29H33N3O5.xyz
+topology 987_C29H33N3O5.pdb
+mol2 987_C29H33N3O5.mol2
+$end
+
+$system
+name 988_C26H36N2O3
+geometry 988_C26H36N2O3.xyz
+topology 988_C26H36N2O3.pdb
+mol2 988_C26H36N2O3.mol2
+$end
+
+$system
+name 989_C30H29N3O5S
+geometry 989_C30H29N3O5S.xyz
+topology 989_C30H29N3O5S.pdb
+mol2 989_C30H29N3O5S.mol2
+$end

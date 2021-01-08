@@ -1,0 +1,6 @@
+OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2
+target_name td_OpenFF_Gen_2_Torsion_Set_4_eMolecules_Discrepancy_2_041_C13H15N3O
+entry [H:4][CH:3]([C:2]1(CCC1)[OH:1])Nc2cnc3ccccc3n2
+td_keywords {'dihedrals': [(16, 11, 12, 29)], 'grid_spacing': [15], 'dihedral_ranges': None, 'energy_decrease_thresh': None, 'energy_upper_limit': 0.05}
+error message:
+One or more internal H bonds exist.

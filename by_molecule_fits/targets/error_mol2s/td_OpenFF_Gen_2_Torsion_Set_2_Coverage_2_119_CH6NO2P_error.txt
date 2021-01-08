@@ -1,0 +1,6 @@
+OpenFF Gen 2 Torsion Set 2 Coverage 2
+target_name td_OpenFF_Gen_2_Torsion_Set_2_Coverage_2_119_CH6NO2P
+entry [CH2:2]([NH2:1])[P@@H:3](=O)[OH:4]
+td_keywords {'dihedrals': [(1, 0, 4, 3)], 'grid_spacing': [15], 'dihedral_ranges': None, 'energy_decrease_thresh': None, 'energy_upper_limit': 0.05}
+error message:
+One or more internal H bonds exist.

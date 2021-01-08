@@ -1,0 +1,61 @@
+{
+  "dihedrals": [
+    [
+      17,
+      28,
+      9,
+      21
+    ]
+  ],
+  "grid_spacing": [
+    15
+  ],
+  "dihedral_ranges": null,
+  "energy_decrease_thresh": null,
+  "energy_upper_limit": 0.05,
+  "dataset_name": "OpenFF Gen 2 Torsion Set 5 Bayer 2",
+  "entry_label": "c1cc2c(cc1Nc3c4ccoc4c(nn3)Nc5ccc6[c:1](c5)[s:2][cH:3][n:4]6)scn2",
+  "canonical_smiles": "c1cc2c(cc1Nc3c4ccoc4c(nn3)Nc5ccc6c(c5)scn6)scn2",
+  "attributes": {
+    "canonical_explicit_hydrogen_smiles": "[H]c1c(c(c(c2c1nc(s2)[H])[H])N([H])c3c4c(c(oc4c(nn3)N([H])c5c(c(c6c(c5[H])sc(n6)[H])[H])[H])[H])[H])[H]",
+    "canonical_isomeric_explicit_hydrogen_mapped_smiles": "[H:30][c:1]1[c:3]([c:14]([c:6]([c:17]2[c:12]1[n:21][c:9]([s:28]2)[H:38])[H:35])[N:25]([H:40])[c:19]3[c:11]4[c:5]([c:8]([o:27][c:16]4[c:20]([n:24][n:23]3)[N:26]([H:41])[c:15]5[c:4]([c:2]([c:13]6[c:18]([c:7]5[H:36])[s:29][c:10]([n:22]6)[H:39])[H:31])[H:33])[H:37])[H:34])[H:32]",
+    "canonical_isomeric_explicit_hydrogen_smiles": "[H]c1c(c(c(c2c1nc(s2)[H])[H])N([H])c3c4c(c(oc4c(nn3)N([H])c5c(c(c6c(c5[H])sc(n6)[H])[H])[H])[H])[H])[H]",
+    "canonical_isomeric_smiles": "c1cc2c(cc1Nc3c4ccoc4c(nn3)Nc5ccc6c(c5)scn6)scn2",
+    "canonical_smiles": "c1cc2c(cc1Nc3c4ccoc4c(nn3)Nc5ccc6c(c5)scn6)scn2",
+    "inchi_key": "MAXWHSWIWVUZBJ-UHFFFAOYSA-N",
+    "molecular_formula": "C20H12N6OS2",
+    "provenance": "cmiles_0+unknown_openeye_2019.Oct.2",
+    "standard_inchi": "InChI=1S/C20H12N6OS2/c1-3-14-16(28-9-21-14)7-11(1)23-19-13-5-6-27-18(13)20(26-25-19)24-12-2-4-15-17(8-12)29-10-22-15/h1-10H,(H,23,25)(H,24,26)",
+    "unique_protomer_representation": "c1cc2c(cc1N=c3c4ccoc4c(=Nc5ccc6c(c5)scn6)[nH][nH]3)scn2",
+    "unique_tautomer_representation": "c1cc2c(=Nc3ccc4ncsc4c3)[nH][nH]c(=Nc3ccc4ncsc4c3)c2o1"
+  },
+  "torsion_grid_ids": [
+    [
+      -45
+    ],
+    [
+      -30
+    ],
+    [
+      -15
+    ],
+    [
+      0
+    ],
+    [
+      15
+    ],
+    [
+      30
+    ],
+    [
+      45
+    ]
+  ],
+  "smirks": [
+    "[#6X3:1]-@[#16X2,#16X1-1,#16X3+1:2]-@[#6X3,#7X2;r5:3]=@[#6,#7;r5:4]"
+  ],
+  "smirks_ids": [
+    "t108"
+  ]
+}

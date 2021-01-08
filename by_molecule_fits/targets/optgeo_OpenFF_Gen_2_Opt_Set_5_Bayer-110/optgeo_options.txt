@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 1100_C19H19N3O3
+geometry 1100_C19H19N3O3.xyz
+topology 1100_C19H19N3O3.pdb
+mol2 1100_C19H19N3O3.mol2
+$end
+
+$system
+name 1101_C16ClH18N5O2S
+geometry 1101_C16ClH18N5O2S.xyz
+topology 1101_C16ClH18N5O2S.pdb
+mol2 1101_C16ClH18N5O2S.mol2
+$end
+
+$system
+name 1102_C12ClF2H15N4O
+geometry 1102_C12ClF2H15N4O.xyz
+topology 1102_C12ClF2H15N4O.pdb
+mol2 1102_C12ClF2H15N4O.mol2
+$end
+
+$system
+name 1103_C19H28O6S2
+geometry 1103_C19H28O6S2.xyz
+topology 1103_C19H28O6S2.pdb
+mol2 1103_C19H28O6S2.mol2
+$end
+
+$system
+name 1104_C26H29N2O4
+geometry 1104_C26H29N2O4.xyz
+topology 1104_C26H29N2O4.pdb
+mol2 1104_C26H29N2O4.mol2
+$end
+
+$system
+name 1105_C21H31N2OS
+geometry 1105_C21H31N2OS.xyz
+topology 1105_C21H31N2OS.pdb
+mol2 1105_C21H31N2OS.mol2
+$end
+
+$system
+name 1106_C30H29NO5
+geometry 1106_C30H29NO5.xyz
+topology 1106_C30H29NO5.pdb
+mol2 1106_C30H29NO5.mol2
+$end
+
+$system
+name 1107_C22ClFH16N6O
+geometry 1107_C22ClFH16N6O.xyz
+topology 1107_C22ClFH16N6O.pdb
+mol2 1107_C22ClFH16N6O.mol2
+$end
+
+$system
+name 1108_C28F3H29O3
+geometry 1108_C28F3H29O3.xyz
+topology 1108_C28F3H29O3.pdb
+mol2 1108_C28F3H29O3.mol2
+$end
+
+$system
+name 1109_C16FH19N4O
+geometry 1109_C16FH19N4O.xyz
+topology 1109_C16FH19N4O.pdb
+mol2 1109_C16FH19N4O.mol2
+$end

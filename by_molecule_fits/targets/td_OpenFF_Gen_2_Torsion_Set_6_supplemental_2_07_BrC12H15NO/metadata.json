@@ -1,0 +1,112 @@
+{
+  "dihedrals": [
+    [
+      6,
+      7,
+      12,
+      10
+    ]
+  ],
+  "grid_spacing": [
+    15
+  ],
+  "dihedral_ranges": null,
+  "energy_decrease_thresh": null,
+  "energy_upper_limit": 0.05,
+  "dataset_name": "OpenFF Gen 2 Torsion Set 6 supplemental 2",
+  "entry_label": "C[N+:3]([CH3:4])(C)/[CH:2]=[CH:1]\\C(=O)c1ccc(cc1)Br",
+  "canonical_smiles": "C[N+](C)(C)C=CC(=O)c1ccc(cc1)Br",
+  "attributes": {
+    "canonical_explicit_hydrogen_smiles": "[H]c1c(c(c(c(c1C(=O)C(=C([H])[N+](C([H])([H])[H])(C([H])([H])[H])C([H])([H])[H])[H])[H])[H])Br)[H]",
+    "canonical_isomeric_explicit_hydrogen_mapped_smiles": "[H:16][c:1]1[c:3]([c:6]([c:4]([c:2]([c:5]1[C:9](=[O:14])/[C:7](=[C:8](/[H:21])\\[N+:13]([C:10]([H:22])([H:23])[H:24])([C:11]([H:25])([H:26])[H:27])[C:12]([H:28])([H:29])[H:30])/[H:20])[H:17])[H:19])[Br:15])[H:18]",
+    "canonical_isomeric_explicit_hydrogen_smiles": "[H]c1c(c(c(c(c1C(=O)/C(=C(/[H])\\[N+](C([H])([H])[H])(C([H])([H])[H])C([H])([H])[H])/[H])[H])[H])Br)[H]",
+    "canonical_isomeric_smiles": "C[N+](C)(C)/C=C\\C(=O)c1ccc(cc1)Br",
+    "canonical_smiles": "C[N+](C)(C)C=CC(=O)c1ccc(cc1)Br",
+    "inchi_key": "LLGCFTGJPXBSCT-HJWRWDBZSA-N",
+    "molecular_formula": "C12H15BrNO",
+    "provenance": "cmiles_0+unknown_openeye_2019.Oct.2",
+    "standard_inchi": "InChI=1S/C12H15BrNO/c1-14(2,3)9-8-12(15)10-4-6-11(13)7-5-10/h4-9H,1-3H3/q+1/b9-8-",
+    "unique_protomer_representation": "C[N+](C)(C)/C=C\\C(=O)c1ccc(cc1)Br",
+    "unique_tautomer_representation": "C[N+](C)(C)/C=C\\C(=O)c1ccc(Br)cc1"
+  },
+  "torsion_grid_ids": [
+    [
+      -165
+    ],
+    [
+      -150
+    ],
+    [
+      -135
+    ],
+    [
+      -120
+    ],
+    [
+      -105
+    ],
+    [
+      -90
+    ],
+    [
+      -75
+    ],
+    [
+      -60
+    ],
+    [
+      -45
+    ],
+    [
+      -30
+    ],
+    [
+      -15
+    ],
+    [
+      0
+    ],
+    [
+      15
+    ],
+    [
+      30
+    ],
+    [
+      45
+    ],
+    [
+      60
+    ],
+    [
+      75
+    ],
+    [
+      90
+    ],
+    [
+      105
+    ],
+    [
+      120
+    ],
+    [
+      135
+    ],
+    [
+      150
+    ],
+    [
+      165
+    ],
+    [
+      180
+    ]
+  ],
+  "smirks": [
+    "[*:1]-[#7X4:2]-[#6X3:3]~[*:4]"
+  ],
+  "smirks_ids": [
+    "t58"
+  ]
+}

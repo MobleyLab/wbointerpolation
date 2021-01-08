@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 1440_C27H33N5O5S
+geometry 1440_C27H33N5O5S.xyz
+topology 1440_C27H33N5O5S.pdb
+mol2 1440_C27H33N5O5S.mol2
+$end
+
+$system
+name 1441_C14H15N5O4S2
+geometry 1441_C14H15N5O4S2.xyz
+topology 1441_C14H15N5O4S2.pdb
+mol2 1441_C14H15N5O4S2.mol2
+$end
+
+$system
+name 1442_C14H15N5O4S2
+geometry 1442_C14H15N5O4S2.xyz
+topology 1442_C14H15N5O4S2.pdb
+mol2 1442_C14H15N5O4S2.mol2
+$end
+
+$system
+name 1443_C9H14O3S
+geometry 1443_C9H14O3S.xyz
+topology 1443_C9H14O3S.pdb
+mol2 1443_C9H14O3S.mol2
+$end
+
+$system
+name 1444_C9H14O3S
+geometry 1444_C9H14O3S.xyz
+topology 1444_C9H14O3S.pdb
+mol2 1444_C9H14O3S.mol2
+$end
+
+$system
+name 1445_C9H14O3S
+geometry 1445_C9H14O3S.xyz
+topology 1445_C9H14O3S.pdb
+mol2 1445_C9H14O3S.mol2
+$end
+
+$system
+name 1446_C9H14O3S
+geometry 1446_C9H14O3S.xyz
+topology 1446_C9H14O3S.pdb
+mol2 1446_C9H14O3S.mol2
+$end
+
+$system
+name 1447_C9H14O3S
+geometry 1447_C9H14O3S.xyz
+topology 1447_C9H14O3S.pdb
+mol2 1447_C9H14O3S.mol2
+$end
+
+$system
+name 1448_C9H14O3S
+geometry 1448_C9H14O3S.xyz
+topology 1448_C9H14O3S.pdb
+mol2 1448_C9H14O3S.mol2
+$end
+
+$system
+name 1449_C9H14O3S
+geometry 1449_C9H14O3S.xyz
+topology 1449_C9H14O3S.pdb
+mol2 1449_C9H14O3S.mol2
+$end

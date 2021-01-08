@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 880_C22H25NO2
+geometry 880_C22H25NO2.xyz
+topology 880_C22H25NO2.pdb
+mol2 880_C22H25NO2.mol2
+$end
+
+$system
+name 881_C28H31NO2
+geometry 881_C28H31NO2.xyz
+topology 881_C28H31NO2.pdb
+mol2 881_C28H31NO2.mol2
+$end
+
+$system
+name 882_C30H30N3O5S
+geometry 882_C30H30N3O5S.xyz
+topology 882_C30H30N3O5S.pdb
+mol2 882_C30H30N3O5S.mol2
+$end
+
+$system
+name 883_C34H35NO3S
+geometry 883_C34H35NO3S.xyz
+topology 883_C34H35NO3S.pdb
+mol2 883_C34H35NO3S.mol2
+$end
+
+$system
+name 884_C30H30N3O5S
+geometry 884_C30H30N3O5S.xyz
+topology 884_C30H30N3O5S.pdb
+mol2 884_C30H30N3O5S.mol2
+$end
+
+$system
+name 885_C26H44N2O2
+geometry 885_C26H44N2O2.xyz
+topology 885_C26H44N2O2.pdb
+mol2 885_C26H44N2O2.mol2
+$end
+
+$system
+name 886_C19H28O6S2
+geometry 886_C19H28O6S2.xyz
+topology 886_C19H28O6S2.pdb
+mol2 886_C19H28O6S2.mol2
+$end
+
+$system
+name 887_C28H31NO2
+geometry 887_C28H31NO2.xyz
+topology 887_C28H31NO2.pdb
+mol2 887_C28H31NO2.mol2
+$end
+
+$system
+name 888_C22H25NO2
+geometry 888_C22H25NO2.xyz
+topology 888_C22H25NO2.pdb
+mol2 888_C22H25NO2.mol2
+$end
+
+$system
+name 889_C33H35NO3S
+geometry 889_C33H35NO3S.xyz
+topology 889_C33H35NO3S.pdb
+mol2 889_C33H35NO3S.mol2
+$end

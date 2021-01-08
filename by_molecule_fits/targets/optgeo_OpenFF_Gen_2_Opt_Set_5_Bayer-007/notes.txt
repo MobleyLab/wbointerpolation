@@ -1,0 +1,11 @@
+Prepared by make_fb_optgeo_target.py
+70_C13ClH17N2 : CC1(CC1)c2c(cc(cn2)Cl)CNC3CC3-0 molecule_id 13036873 | SUCCESS
+71_C13H16O2 : Cc1cc(cc(c1CC(=O)O)C)C2CC2-2 molecule_id 13036901 | SUCCESS
+72_C13H16N2S : c1ccc2c(c1)CCC[C@@H]2NC3=NCCS3-3 molecule_id 13036941 | SUCCESS
+73_C13ClH18N2 : CC1(CC1)c2c(cc(cn2)Cl)C[NH2+]C3CC3-4 molecule_id 13036971 | SUCCESS
+74_C13ClH17N2 : CC1(CC1)c2c(cc(cn2)Cl)CNC3CC3-1 molecule_id 13036999 | SUCCESS
+75_C11ClH13O3 : CC(C)C(=O)c1cc(cc(c1OC)Cl)O-2 molecule_id 13037030 | SUCCESS
+76_C13ClH17N2 : CC1(CC1)c2c(cc(cn2)Cl)CNC3CC3-3 molecule_id 13037079 | SUCCESS
+77_C11H17NO2 : C[C@@H](Cc1ccc(cc1)OCCO)N-3 molecule_id 13037111 | SUCCESS
+78_C13ClH17N2 : CC1(CC1)c2c(cc(cn2)Cl)CNC3CC3-4 molecule_id 13037159 | SUCCESS
+79_C7H9N3O2S2 : C[S@@](=O)c1nnc(s1)C(=O)NC2CC2-2 molecule_id 13037192 | SUCCESS

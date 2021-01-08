@@ -1,0 +1,11 @@
+Prepared by make_fb_optgeo_target.py
+680_BrC13H18N2 : CC1(CC1)c2c(cc(cn2)Br)C[NH2+]C3CC3-3 molecule_id 13121137 | SUCCESS
+681_C9H9NO2S : c1ccc2c(c1)NC(=O)CC[S@@]2=O-0 molecule_id 13121185 | SUCCESS
+682_C13H12O4 : C[C@@H](C(=O)O)Oc1cccc2c1cccc2O-4 molecule_id 13121208 | SUCCESS
+683_C11ClH14N2O : C[C@@H](c1ccccc1Cl)NC2=[NH+]CCO2-0 molecule_id 13121258 | SUCCESS
+684_C16H16N2O : c1ccc(cc1)CC[C@@H]2C(=Nc3ccccc3O2)N-1 molecule_id 13121359 | SUCCESS
+685_C13H12O4 : C[C@@H](C(=O)O)Oc1cccc2c1cccc2O-3 molecule_id 13121383 | SUCCESS
+686_C13H23N5O2 : Cc1nn(c(=O)n1NC(C)C)C(=O)NC2CCCCC2-2 molecule_id 13121445 | SUCCESS
+687_C11H19N3O2S2 : CCCCC[S@@](=O)c1nnc(s1)C(=O)NCCC-2 molecule_id 13121512 | SUCCESS
+688_BrC13H18N2 : CC1(CC1)c2c(cc(cn2)Br)C[NH2+]C3CC3-0 molecule_id 13121555 | SUCCESS
+689_C17ClH19O2 : c1c2c(cc(c1C=C3CCCCC3)Cl)[C@@H](CC2)C(=O)O-0 molecule_id 13121601 | SUCCESS

@@ -1,0 +1,56 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 440_C10H19NO2S
+geometry 440_C10H19NO2S.xyz
+topology 440_C10H19NO2S.pdb
+mol2 440_C10H19NO2S.mol2
+$end
+
+$system
+name 441_C17H19N3O
+geometry 441_C17H19N3O.xyz
+topology 441_C17H19N3O.pdb
+mol2 441_C17H19N3O.mol2
+$end
+
+$system
+name 442_C17H19N3O
+geometry 442_C17H19N3O.xyz
+topology 442_C17H19N3O.pdb
+mol2 442_C17H19N3O.mol2
+$end
+
+$system
+name 443_C17H19N3O
+geometry 443_C17H19N3O.xyz
+topology 443_C17H19N3O.pdb
+mol2 443_C17H19N3O.mol2
+$end
+
+$system
+name 444_C21H25NO2
+geometry 444_C21H25NO2.xyz
+topology 444_C21H25NO2.pdb
+mol2 444_C21H25NO2.mol2
+$end
+
+$system
+name 446_C21H25NO2
+geometry 446_C21H25NO2.xyz
+topology 446_C21H25NO2.pdb
+mol2 446_C21H25NO2.mol2
+$end
+
+$system
+name 447_C21H24NO2
+geometry 447_C21H24NO2.xyz
+topology 447_C21H24NO2.pdb
+mol2 447_C21H24NO2.mol2
+$end

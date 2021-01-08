@@ -1,0 +1,1872 @@
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_000_BrC7H7N2O
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_001_C10H10N2O2S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_002_C19H20N2O3
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_004_C15H16O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_006_C19H25NO
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_007_C19H27NO3
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_008_C16F2H24N4O2S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_009_C12H13NO2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_011_C10H12O5
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_012_BrC7H9N2O
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_013_C13H15NO
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_014_C20H22N6O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_015_C24H37NO5
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_016_C13H16O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_018_C13H20O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_019_C18F4H22N4O3S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_021_C19H26N4O4S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_022_C21F3H23N4O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_023_C16H20O4
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_024_C20H26N4O3S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_026_C12H12O4
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_028_C11H14N2O
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_030_C18F3H15N2O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_032_C19F3H14NO3S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_033_C14FH19N2O4S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_034_C18H18O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_035_C17H18N2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_036_C22H26N2O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_037_C21ClH19N2O3
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_038_C17ClF3H17N5O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_041_C19H27NO3
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_042_C15H22N2O5S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_043_C15H22N2O2S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_044_C17F3H25N4O3S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_045_C15H24N4O4S2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_046_C19H26N4O4S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_047_C18F3H22N3O4S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_048_C16H22N4O5S2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_049_C17F3H20N3O4S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_050_C22H25N3O4S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_051_C24H26N2O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_052_C14H20N2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_053_C11H18N2O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_054_BrC13H17N2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_055_C22H25N3O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_056_C13H16O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_057_C12H15NO
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_058_C15H13N3O
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_059_C12H15NO
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_060_C25H24N4
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_062_C21H24N2O3
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_063_C10H12O5
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_064_C25H24N4
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_066_C26H27NO2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_067_C20H23NO
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_068_C18H17NO2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_070_BrC7H9N2O
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_071_C20H29NO4S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_072_C19H18O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_073_C24FH32NO
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_074_C16H22N2O4S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_075_C16H20N2O
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_076_C23H24N2O3
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_077_C24FH22NO4
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_078_C12H13NO2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_079_C9H17N3O
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_080_C17H30N2O
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_081_C17ClH17N4O6S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_082_C15H21N3O
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_084_C16H20N2O
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_085_BrC13H17N2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_086_C11Cl2H13NO
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_087_C11H16N2O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_090_C16F3H16N5O3
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_093_C11H11N5
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_094_C12H15NO
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_095_C11H14N2O
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_096_C19H26N4O4S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_097_C19H20N2O3
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_098_C13F3H13N2O2S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_099_C20H20N6O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_100_C8FH4NO3
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_101_C15H18N2O4
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_102_C12H15NO
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_103_C7H6N2O3S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_104_C19H27NO3
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_105_C17H17N3O4
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_106_C13H13NO
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_107_C10H9NO4S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_108_C22FH26N3O
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_109_C11H12N4
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_110_C10H10N4
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_111_C20H15NO3
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_112_C18H27N5
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_113_BrC7H7N2O
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_114_C23H23NO3
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_115_BrC7H9N2O
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_116_C15H19N3O3S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_117_C15ClH15N4O
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_120_C10FH9O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_121_C23H25NO2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_122_C12H20O4
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_123_C22H26N2O4S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_126_C20H28O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_130_C14ClH17O3
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_133_C10H14O3
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_134_C14H17NO2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_135_C13H15NO
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_136_C17H18O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_137_C11H19N3O4S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_139_C24FH22NO4
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_141_C13H16N2O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_142_C8H8N2O3S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_143_C18H28N2O2S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_144_C16F3H19N4O3S2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_145_C16F5H16N5O2S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_146_C16H14O2S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_147_C20H12N6OS2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_149_C19H28O6S2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_151_C19H28O6S2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_155_C15H22O2S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_156_C16H18O4S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_158_C10H19NO4
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_159_C8H15N3O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_160_C16ClH14N5O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_163_C14H18N2O4
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_164_C8H13N3O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_165_C19H20N2O3
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_166_C16Cl2H14N4O4
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_167_C9H8N4O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_170_C7H16N2O2S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_171_C7H9NO3S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_172_C22H27N3O3S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_173_C7H9NO3S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_175_C6H13N3O3S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_176_C15FH18N5O3S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_177_C21H34N2O4S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_178_C19H22N2O3S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_179_C8H18N2O2S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_180_C23H26N2O3S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_182_C15F3H23N2O3S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_183_C19FH17N2O4S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_184_C16H24N4O4S2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_185_C6H11N3O3S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end

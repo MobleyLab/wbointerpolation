@@ -1,0 +1,112 @@
+{
+  "dihedrals": [
+    [
+      3,
+      5,
+      1,
+      6
+    ]
+  ],
+  "grid_spacing": [
+    15
+  ],
+  "dihedral_ranges": null,
+  "energy_decrease_thresh": null,
+  "energy_upper_limit": 0.05,
+  "dataset_name": "OpenFF Gen 2 Torsion Set 3 Pfizer Discrepancy 2",
+  "entry_label": "CN[C:2](=[S:4])[NH:3][N:1]=C",
+  "canonical_smiles": "CNC(=S)NN=C",
+  "attributes": {
+    "canonical_explicit_hydrogen_smiles": "[H]C(=NN([H])C(=S)N([H])C([H])([H])[H])[H]",
+    "canonical_isomeric_explicit_hydrogen_mapped_smiles": "[H:8][C:1](=[N:4][N:6]([H:14])[C:2](=[S:7])[N:5]([H:13])[C:3]([H:10])([H:11])[H:12])[H:9]",
+    "canonical_isomeric_explicit_hydrogen_smiles": "[H]C(=NN([H])C(=S)N([H])C([H])([H])[H])[H]",
+    "canonical_isomeric_smiles": "CNC(=S)NN=C",
+    "canonical_smiles": "CNC(=S)NN=C",
+    "inchi_key": "JXBOYRTYSDNPAZ-UHFFFAOYSA-N",
+    "molecular_formula": "C3H7N3S",
+    "provenance": "cmiles_0+unknown_openeye_2019.Apr.2",
+    "standard_inchi": "InChI=1S/C3H7N3S/c1-4-3(7)6-5-2/h2H2,1H3,(H2,4,6,7)",
+    "unique_protomer_representation": "CNC(=S)N=NC",
+    "unique_tautomer_representation": "C=NNC(=S)NC"
+  },
+  "torsion_grid_ids": [
+    [
+      -165
+    ],
+    [
+      -150
+    ],
+    [
+      -135
+    ],
+    [
+      -120
+    ],
+    [
+      -105
+    ],
+    [
+      -90
+    ],
+    [
+      -75
+    ],
+    [
+      -60
+    ],
+    [
+      -45
+    ],
+    [
+      -30
+    ],
+    [
+      -15
+    ],
+    [
+      0
+    ],
+    [
+      15
+    ],
+    [
+      30
+    ],
+    [
+      45
+    ],
+    [
+      60
+    ],
+    [
+      75
+    ],
+    [
+      90
+    ],
+    [
+      105
+    ],
+    [
+      120
+    ],
+    [
+      135
+    ],
+    [
+      150
+    ],
+    [
+      165
+    ],
+    [
+      180
+    ]
+  ],
+  "smirks": [
+    "[*:1]~[#7X3,#7X2-1:2]-!@[#6X3:3]~[*:4]"
+  ],
+  "smirks_ids": [
+    "t69"
+  ]
+}

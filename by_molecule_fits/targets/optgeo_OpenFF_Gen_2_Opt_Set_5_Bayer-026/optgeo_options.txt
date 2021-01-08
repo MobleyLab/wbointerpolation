@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 260_C17H17O5S
+geometry 260_C17H17O5S.xyz
+topology 260_C17H17O5S.pdb
+mol2 260_C17H17O5S.mol2
+$end
+
+$system
+name 261_C17H18O5S
+geometry 261_C17H18O5S.xyz
+topology 261_C17H18O5S.pdb
+mol2 261_C17H18O5S.mol2
+$end
+
+$system
+name 262_C17H18O5S
+geometry 262_C17H18O5S.xyz
+topology 262_C17H18O5S.pdb
+mol2 262_C17H18O5S.mol2
+$end
+
+$system
+name 263_C19FH20NO
+geometry 263_C19FH20NO.xyz
+topology 263_C19FH20NO.pdb
+mol2 263_C19FH20NO.mol2
+$end
+
+$system
+name 264_C17H17O5S
+geometry 264_C17H17O5S.xyz
+topology 264_C17H17O5S.pdb
+mol2 264_C17H17O5S.mol2
+$end
+
+$system
+name 265_C19FH20NO
+geometry 265_C19FH20NO.xyz
+topology 265_C19FH20NO.pdb
+mol2 265_C19FH20NO.mol2
+$end
+
+$system
+name 266_C17H17O5S
+geometry 266_C17H17O5S.xyz
+topology 266_C17H17O5S.pdb
+mol2 266_C17H17O5S.mol2
+$end
+
+$system
+name 267_C19FH20NO
+geometry 267_C19FH20NO.xyz
+topology 267_C19FH20NO.pdb
+mol2 267_C19FH20NO.mol2
+$end
+
+$system
+name 268_C19FH20NO
+geometry 268_C19FH20NO.xyz
+topology 268_C19FH20NO.pdb
+mol2 268_C19FH20NO.mol2
+$end
+
+$system
+name 269_C17H17O5S
+geometry 269_C17H17O5S.xyz
+topology 269_C17H17O5S.pdb
+mol2 269_C17H17O5S.mol2
+$end

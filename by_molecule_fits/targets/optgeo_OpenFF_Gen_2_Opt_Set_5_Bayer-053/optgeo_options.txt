@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 530_C24H30O4S
+geometry 530_C24H30O4S.xyz
+topology 530_C24H30O4S.pdb
+mol2 530_C24H30O4S.mol2
+$end
+
+$system
+name 531_C24H30O4S
+geometry 531_C24H30O4S.xyz
+topology 531_C24H30O4S.pdb
+mol2 531_C24H30O4S.mol2
+$end
+
+$system
+name 532_C21ClH25O6S
+geometry 532_C21ClH25O6S.xyz
+topology 532_C21ClH25O6S.pdb
+mol2 532_C21ClH25O6S.mol2
+$end
+
+$system
+name 533_C32H38O6
+geometry 533_C32H38O6.xyz
+topology 533_C32H38O6.pdb
+mol2 533_C32H38O6.mol2
+$end
+
+$system
+name 534_C26H44N2O2
+geometry 534_C26H44N2O2.xyz
+topology 534_C26H44N2O2.pdb
+mol2 534_C26H44N2O2.mol2
+$end
+
+$system
+name 535_C32H38O6
+geometry 535_C32H38O6.xyz
+topology 535_C32H38O6.pdb
+mol2 535_C32H38O6.mol2
+$end
+
+$system
+name 536_C8H12O3S
+geometry 536_C8H12O3S.xyz
+topology 536_C8H12O3S.pdb
+mol2 536_C8H12O3S.mol2
+$end
+
+$system
+name 537_C8H12O3S
+geometry 537_C8H12O3S.xyz
+topology 537_C8H12O3S.pdb
+mol2 537_C8H12O3S.mol2
+$end
+
+$system
+name 538_C8H12O3S
+geometry 538_C8H12O3S.xyz
+topology 538_C8H12O3S.pdb
+mol2 538_C8H12O3S.mol2
+$end
+
+$system
+name 539_C8H12O3S
+geometry 539_C8H12O3S.xyz
+topology 539_C8H12O3S.pdb
+mol2 539_C8H12O3S.mol2
+$end

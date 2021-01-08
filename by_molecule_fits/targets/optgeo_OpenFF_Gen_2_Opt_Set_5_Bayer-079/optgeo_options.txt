@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 790_C19ClH21O7S
+geometry 790_C19ClH21O7S.xyz
+topology 790_C19ClH21O7S.pdb
+mol2 790_C19ClH21O7S.mol2
+$end
+
+$system
+name 791_C22ClH26NO
+geometry 791_C22ClH26NO.xyz
+topology 791_C22ClH26NO.pdb
+mol2 791_C22ClH26NO.mol2
+$end
+
+$system
+name 792_C18H18O2
+geometry 792_C18H18O2.xyz
+topology 792_C18H18O2.pdb
+mol2 792_C18H18O2.mol2
+$end
+
+$system
+name 793_C19H20O4S
+geometry 793_C19H20O4S.xyz
+topology 793_C19H20O4S.pdb
+mol2 793_C19H20O4S.mol2
+$end
+
+$system
+name 794_C13F3H13O2S
+geometry 794_C13F3H13O2S.xyz
+topology 794_C13F3H13O2S.pdb
+mol2 794_C13F3H13O2S.mol2
+$end
+
+$system
+name 795_C12F3H22NO2S
+geometry 795_C12F3H22NO2S.xyz
+topology 795_C12F3H22NO2S.pdb
+mol2 795_C12F3H22NO2S.mol2
+$end
+
+$system
+name 796_C13H21N3O2S2
+geometry 796_C13H21N3O2S2.xyz
+topology 796_C13H21N3O2S2.pdb
+mol2 796_C13H21N3O2S2.mol2
+$end
+
+$system
+name 797_C13H17NO2
+geometry 797_C13H17NO2.xyz
+topology 797_C13H17NO2.pdb
+mol2 797_C13H17NO2.mol2
+$end
+
+$system
+name 798_C17H25N3O2
+geometry 798_C17H25N3O2.xyz
+topology 798_C17H25N3O2.pdb
+mol2 798_C17H25N3O2.mol2
+$end
+
+$system
+name 799_C12F3H22NO2S
+geometry 799_C12F3H22NO2S.xyz
+topology 799_C12F3H22NO2S.pdb
+mol2 799_C12F3H22NO2S.mol2
+$end

@@ -1,0 +1,1 @@
+Target generated from dataset OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2, entry Cc1ccc(cc1)[S:3](=[O:4])(=O)/[N:2]=[N:1]\C2CCSCC2

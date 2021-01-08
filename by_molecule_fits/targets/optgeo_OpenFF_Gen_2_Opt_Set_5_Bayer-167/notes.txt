@@ -1,0 +1,17 @@
+Prepared by make_fb_optgeo_target.py
+1670_C21ClF3H17NO4 : C[C@@H]1C[C@@]([C@@H](c2c1c(c(cc2)Cl)O)Nc3cccc4c3ccoc4=O)(C(F)(F)F)O-3 molecule_id 13149783 | SUCCESS
+1671_C24F3H30N5O2S : CCCC(=O)N1CCN(CC1)CCCN2C(=S)N(C(=O)C2(C)C)c3ccc(c(c3)C(F)(F)F)C#N-2 molecule_id 13150032 | SUCCESS
+1672_C24H34N4OS2 : CCN(CC)C(=O)N[C@@H]1C[C@@H]2c3cc(cc4c3c(c([nH]4)C)C[C@@H]2[N@@](C1)C)C5SCCS5-2 molecule_id 13150092 | SUCCESS
+1673_C27H25NO4 : COc1cccc(c1)Cn2c3ccccc3c(c2C(=O)O)c4ccc(cc4)OCC5CC5-3 molecule_id 13150143 | SUCCESS
+1674_C23ClH18N6O : Cc1cc(ccn1)c2ccc(cc2c3n[n-]nn3)NC(=O)C4(CC4)c5cccc(c5)Cl-0 molecule_id 13150191 | SUCCESS
+1675_C21ClF3H17NO4 : C[C@@H]1C[C@@]([C@@H](c2c1c(c(cc2)Cl)O)Nc3cccc4c3ccoc4=O)(C(F)(F)F)O-1 molecule_id 13150293 | SUCCESS
+1676_C24F2H31N6O3S : C[C@@H]1C(=O)N(c2ccc(nc2[N@@]1C3CC[NH+](CC3)C)Nc4cccc(c4)S(=O)(=O)N5CC(C5)(F)F)C-0 molecule_id 13150354 | ERROR: Unable to make OFFMol from OEMol: OEMol has unspecified stereochemistry. oemol.GetTitle(): 
+Problematic atoms are:
+Atom atomic num: 7, name: N3, idx: 26, aromatic: False, chiral: True with bonds:
+bond order: 1, chiral: False to atom atomic num: 6, name: C10, idx: 9, aromatic: True, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C19, idx: 18, aromatic: False, chiral: True
+bond order: 1, chiral: False to atom atomic num: 6, name: C20, idx: 19, aromatic: False, chiral: False
+
+1677_C27H30N4O5S : C[C@@H]1Cc2cc(c(cc2C(=NN1C(=O)NC)c3ccc(cc3)c4cccc(c4)NS(=O)(=O)C)OC)OC-4 molecule_id 13150451 | SUCCESS
+1678_C24H35N4OS2 : CCN(CC)C(=O)N[C@@H]1C[C@@H]2c3cc(cc4c3c(c([nH]4)C)C[C@@H]2[N@@H+](C1)C)C5SCCS5-2 molecule_id 13150504 | SUCCESS
+1679_C25H25N2O5 : CCc1coc(n1)c2ccc(cc2)OCCCOc3ccc4c(c3)ccn4[C@@H](C)C(=O)[O-]-2 molecule_id 13150541 | SUCCESS

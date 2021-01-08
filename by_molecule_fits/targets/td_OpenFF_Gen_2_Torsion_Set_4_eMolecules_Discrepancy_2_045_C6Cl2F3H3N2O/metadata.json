@@ -1,0 +1,112 @@
+{
+  "dihedrals": [
+    [
+      9,
+      5,
+      4,
+      15
+    ]
+  ],
+  "grid_spacing": [
+    15
+  ],
+  "dihedral_ranges": null,
+  "energy_decrease_thresh": null,
+  "energy_upper_limit": 0.05,
+  "dataset_name": "OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2",
+  "entry_label": "[H:4][CH:3]([C:2]([F:1])(F)F)Oc1cnnc(c1Cl)Cl",
+  "canonical_smiles": "c1c(c(c(nn1)Cl)Cl)OCC(F)(F)F",
+  "attributes": {
+    "canonical_explicit_hydrogen_smiles": "[H]c1c(c(c(nn1)Cl)Cl)OC([H])([H])C(F)(F)F",
+    "canonical_isomeric_explicit_hydrogen_mapped_smiles": "[H:15][c:1]1[c:2]([c:3]([c:4]([n:8][n:7]1)[Cl:14])[Cl:13])[O:9][C:5]([H:16])([H:17])[C:6]([F:10])([F:11])[F:12]",
+    "canonical_isomeric_explicit_hydrogen_smiles": "[H]c1c(c(c(nn1)Cl)Cl)OC([H])([H])C(F)(F)F",
+    "canonical_isomeric_smiles": "c1c(c(c(nn1)Cl)Cl)OCC(F)(F)F",
+    "canonical_smiles": "c1c(c(c(nn1)Cl)Cl)OCC(F)(F)F",
+    "inchi_key": "HFACGVRQGNGQHI-UHFFFAOYSA-N",
+    "molecular_formula": "C6H3Cl2F3N2O",
+    "provenance": "cmiles_v0.1.5_openeye_2019.Apr.1",
+    "standard_inchi": "InChI=1S/C6H3Cl2F3N2O/c7-4-3(1-12-13-5(4)8)14-2-6(9,10)11/h1H,2H2",
+    "unique_protomer_representation": "c1c(c(c(nn1)Cl)Cl)OCC(F)(F)F",
+    "unique_tautomer_representation": "FC(F)(F)COc1cnnc(Cl)c1Cl"
+  },
+  "torsion_grid_ids": [
+    [
+      -165
+    ],
+    [
+      -150
+    ],
+    [
+      -135
+    ],
+    [
+      -120
+    ],
+    [
+      -105
+    ],
+    [
+      -90
+    ],
+    [
+      -75
+    ],
+    [
+      -60
+    ],
+    [
+      -45
+    ],
+    [
+      -30
+    ],
+    [
+      -15
+    ],
+    [
+      0
+    ],
+    [
+      15
+    ],
+    [
+      30
+    ],
+    [
+      45
+    ],
+    [
+      60
+    ],
+    [
+      75
+    ],
+    [
+      90
+    ],
+    [
+      105
+    ],
+    [
+      120
+    ],
+    [
+      135
+    ],
+    [
+      150
+    ],
+    [
+      165
+    ],
+    [
+      180
+    ]
+  ],
+  "smirks": [
+    "[#1:1]-[#6X4:2]-[#6X4:3]-[#9:4]"
+  ],
+  "smirks_ids": [
+    "t10"
+  ]
+}

@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 190_C14H23NO8S
+geometry 190_C14H23NO8S.xyz
+topology 190_C14H23NO8S.pdb
+mol2 190_C14H23NO8S.mol2
+$end
+
+$system
+name 191_C14H23NO8S
+geometry 191_C14H23NO8S.xyz
+topology 191_C14H23NO8S.pdb
+mol2 191_C14H23NO8S.mol2
+$end
+
+$system
+name 192_C14FH23NO8S
+geometry 192_C14FH23NO8S.xyz
+topology 192_C14FH23NO8S.pdb
+mol2 192_C14FH23NO8S.mol2
+$end
+
+$system
+name 193_C14FH24NO8S
+geometry 193_C14FH24NO8S.xyz
+topology 193_C14FH24NO8S.pdb
+mol2 193_C14FH24NO8S.mol2
+$end
+
+$system
+name 194_C26H44N2O2
+geometry 194_C26H44N2O2.xyz
+topology 194_C26H44N2O2.pdb
+mol2 194_C26H44N2O2.mol2
+$end
+
+$system
+name 195_C14H23NO8S
+geometry 195_C14H23NO8S.xyz
+topology 195_C14H23NO8S.pdb
+mol2 195_C14H23NO8S.mol2
+$end
+
+$system
+name 196_C16H23NO2
+geometry 196_C16H23NO2.xyz
+topology 196_C16H23NO2.pdb
+mol2 196_C16H23NO2.mol2
+$end
+
+$system
+name 197_C14H21N2
+geometry 197_C14H21N2.xyz
+topology 197_C14H21N2.pdb
+mol2 197_C14H21N2.mol2
+$end
+
+$system
+name 198_C19H20O4S
+geometry 198_C19H20O4S.xyz
+topology 198_C19H20O4S.pdb
+mol2 198_C19H20O4S.mol2
+$end
+
+$system
+name 199_C14FH24NO8S
+geometry 199_C14FH24NO8S.xyz
+topology 199_C14FH24NO8S.pdb
+mol2 199_C14FH24NO8S.mol2
+$end

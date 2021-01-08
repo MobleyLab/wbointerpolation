@@ -1,0 +1,61 @@
+{
+  "dihedrals": [
+    [
+      7,
+      12,
+      15,
+      8
+    ]
+  ],
+  "grid_spacing": [
+    15
+  ],
+  "dihedral_ranges": null,
+  "energy_decrease_thresh": null,
+  "energy_upper_limit": 0.05,
+  "dataset_name": "OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2",
+  "entry_label": "C[c:1]1c([c:4]([o:3][n:2]1)C)/N=N/c2ccc(cc2)OC",
+  "canonical_smiles": "Cc1c(c(on1)C)N=Nc2ccc(cc2)OC",
+  "attributes": {
+    "canonical_explicit_hydrogen_smiles": "[H]c1c(c(c(c(c1N=Nc2c(noc2C([H])([H])[H])C([H])([H])[H])[H])[H])OC([H])([H])[H])[H]",
+    "canonical_isomeric_explicit_hydrogen_mapped_smiles": "[H:18][c:1]1[c:3]([c:7]([c:4]([c:2]([c:5]1/[N:14]=[N:15]/[c:6]2[c:8]([n:13][o:16][c:9]2[C:11]([H:25])([H:26])[H:27])[C:10]([H:22])([H:23])[H:24])[H:19])[H:21])[O:17][C:12]([H:28])([H:29])[H:30])[H:20]",
+    "canonical_isomeric_explicit_hydrogen_smiles": "[H]c1c(c(c(c(c1/N=N/c2c(noc2C([H])([H])[H])C([H])([H])[H])[H])[H])OC([H])([H])[H])[H]",
+    "canonical_isomeric_smiles": "Cc1c(c(on1)C)/N=N/c2ccc(cc2)OC",
+    "canonical_smiles": "Cc1c(c(on1)C)N=Nc2ccc(cc2)OC",
+    "inchi_key": "GQZVEJORSBYZAF-BUHFOSPRSA-N",
+    "molecular_formula": "C12H13N3O2",
+    "provenance": "cmiles_v0.1.5_openeye_2019.Apr.1",
+    "standard_inchi": "InChI=1S/C12H13N3O2/c1-8-12(9(2)17-15-8)14-13-10-4-6-11(16-3)7-5-10/h4-7H,1-3H3/b14-13+",
+    "unique_protomer_representation": "Cc1c(c(on1)C)/N=N/c2ccc(cc2)OC",
+    "unique_tautomer_representation": "COc1ccc(/N=N/c2c(C)noc2C)cc1"
+  },
+  "torsion_grid_ids": [
+    [
+      -45
+    ],
+    [
+      -30
+    ],
+    [
+      -15
+    ],
+    [
+      0
+    ],
+    [
+      15
+    ],
+    [
+      30
+    ],
+    [
+      45
+    ]
+  ],
+  "smirks": [
+    "[*:1]-[#8X2r5:2]-;@[#7X2r5:3]~[*:4]"
+  ],
+  "smirks_ids": [
+    "t120"
+  ]
+}

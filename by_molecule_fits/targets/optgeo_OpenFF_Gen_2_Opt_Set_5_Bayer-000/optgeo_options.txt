@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 00_C14H13O3
+geometry 00_C14H13O3.xyz
+topology 00_C14H13O3.pdb
+mol2 00_C14H13O3.mol2
+$end
+
+$system
+name 01_C14H13O3
+geometry 01_C14H13O3.xyz
+topology 01_C14H13O3.pdb
+mol2 01_C14H13O3.mol2
+$end
+
+$system
+name 02_C14H13O3
+geometry 02_C14H13O3.xyz
+topology 02_C14H13O3.pdb
+mol2 02_C14H13O3.mol2
+$end
+
+$system
+name 03_C14H13O3
+geometry 03_C14H13O3.xyz
+topology 03_C14H13O3.pdb
+mol2 03_C14H13O3.mol2
+$end
+
+$system
+name 04_C25FH36NO
+geometry 04_C25FH36NO.xyz
+topology 04_C25FH36NO.pdb
+mol2 04_C25FH36NO.mol2
+$end
+
+$system
+name 05_C11H20N4O2S2
+geometry 05_C11H20N4O2S2.xyz
+topology 05_C11H20N4O2S2.pdb
+mol2 05_C11H20N4O2S2.mol2
+$end
+
+$system
+name 06_C11H20N4O2S2
+geometry 06_C11H20N4O2S2.xyz
+topology 06_C11H20N4O2S2.pdb
+mol2 06_C11H20N4O2S2.mol2
+$end
+
+$system
+name 07_C11H20N4O2S2
+geometry 07_C11H20N4O2S2.xyz
+topology 07_C11H20N4O2S2.pdb
+mol2 07_C11H20N4O2S2.mol2
+$end
+
+$system
+name 08_C11F3H20NO2S
+geometry 08_C11F3H20NO2S.xyz
+topology 08_C11F3H20NO2S.pdb
+mol2 08_C11F3H20NO2S.mol2
+$end
+
+$system
+name 09_C11H20N4O2S2
+geometry 09_C11H20N4O2S2.xyz
+topology 09_C11H20N4O2S2.pdb
+mol2 09_C11H20N4O2S2.mol2
+$end

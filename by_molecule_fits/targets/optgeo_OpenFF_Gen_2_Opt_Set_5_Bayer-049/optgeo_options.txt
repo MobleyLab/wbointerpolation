@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 490_C22H36N2O2
+geometry 490_C22H36N2O2.xyz
+topology 490_C22H36N2O2.pdb
+mol2 490_C22H36N2O2.mol2
+$end
+
+$system
+name 491_C22H36N2O2
+geometry 491_C22H36N2O2.xyz
+topology 491_C22H36N2O2.pdb
+mol2 491_C22H36N2O2.mol2
+$end
+
+$system
+name 492_C13H19N2
+geometry 492_C13H19N2.xyz
+topology 492_C13H19N2.pdb
+mol2 492_C13H19N2.mol2
+$end
+
+$system
+name 493_C22H36N2O2
+geometry 493_C22H36N2O2.xyz
+topology 493_C22H36N2O2.pdb
+mol2 493_C22H36N2O2.mol2
+$end
+
+$system
+name 494_C11H12N2O2
+geometry 494_C11H12N2O2.xyz
+topology 494_C11H12N2O2.pdb
+mol2 494_C11H12N2O2.mol2
+$end
+
+$system
+name 495_C11H12N2O2
+geometry 495_C11H12N2O2.xyz
+topology 495_C11H12N2O2.pdb
+mol2 495_C11H12N2O2.mol2
+$end
+
+$system
+name 496_C14FH24NO8S
+geometry 496_C14FH24NO8S.xyz
+topology 496_C14FH24NO8S.pdb
+mol2 496_C14FH24NO8S.mol2
+$end
+
+$system
+name 497_C11H12N2O2
+geometry 497_C11H12N2O2.xyz
+topology 497_C11H12N2O2.pdb
+mol2 497_C11H12N2O2.mol2
+$end
+
+$system
+name 498_C22H36N2O2
+geometry 498_C22H36N2O2.xyz
+topology 498_C22H36N2O2.pdb
+mol2 498_C22H36N2O2.mol2
+$end
+
+$system
+name 499_C11H12N2O2
+geometry 499_C11H12N2O2.xyz
+topology 499_C11H12N2O2.pdb
+mol2 499_C11H12N2O2.mol2
+$end

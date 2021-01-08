@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 800_C35H36O3S
+geometry 800_C35H36O3S.xyz
+topology 800_C35H36O3S.pdb
+mol2 800_C35H36O3S.mol2
+$end
+
+$system
+name 801_C12F3H23NO2S
+geometry 801_C12F3H23NO2S.xyz
+topology 801_C12F3H23NO2S.pdb
+mol2 801_C12F3H23NO2S.mol2
+$end
+
+$system
+name 802_C22ClH26NO
+geometry 802_C22ClH26NO.xyz
+topology 802_C22ClH26NO.pdb
+mol2 802_C22ClH26NO.mol2
+$end
+
+$system
+name 803_C13H21N3O2S2
+geometry 803_C13H21N3O2S2.xyz
+topology 803_C13H21N3O2S2.pdb
+mol2 803_C13H21N3O2S2.mol2
+$end
+
+$system
+name 804_C14H16O3
+geometry 804_C14H16O3.xyz
+topology 804_C14H16O3.pdb
+mol2 804_C14H16O3.mol2
+$end
+
+$system
+name 805_C29H33N3O5
+geometry 805_C29H33N3O5.xyz
+topology 805_C29H33N3O5.pdb
+mol2 805_C29H33N3O5.mol2
+$end
+
+$system
+name 806_C17H25NO3
+geometry 806_C17H25NO3.xyz
+topology 806_C17H25NO3.pdb
+mol2 806_C17H25NO3.mol2
+$end
+
+$system
+name 807_C20H22N2O3S
+geometry 807_C20H22N2O3S.xyz
+topology 807_C20H22N2O3S.pdb
+mol2 807_C20H22N2O3S.mol2
+$end
+
+$system
+name 808_C15H23NO3
+geometry 808_C15H23NO3.xyz
+topology 808_C15H23NO3.pdb
+mol2 808_C15H23NO3.mol2
+$end
+
+$system
+name 809_C12H10O4S
+geometry 809_C12H10O4S.xyz
+topology 809_C12H10O4S.pdb
+mol2 809_C12H10O4S.mol2
+$end

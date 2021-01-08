@@ -1,0 +1,5 @@
+OpenFF Gen 2 Opt Set 5 Bayer
+target_name vibfreq_OpenFF_Gen_2_Opt_Set_5_Bayer_152_C20H25N3Si
+entry CC(C)c1cc2c(c(c1[C@@H](c3ccc(cc3)C(F)(F)F)O)C4=CCCC4)C(=O)CC5(O2)CCC5-1
+error message:
+cmile can not load_molecule. the molecule may have elements that are not accepted.( e.g. Si)

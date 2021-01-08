@@ -1,0 +1,11 @@
+Prepared by make_fb_optgeo_target.py
+370_C9H11N3O2 : c1cc2c(nc1)nc([nH]2)COCCO-1 molecule_id 13073444 | SUCCESS
+371_C9H11N3O2 : c1cc2c([nH]c(n2)COCCO)nc1-4 molecule_id 13073479 | SUCCESS
+372_C9H11N3O2 : c1cc2c([nH]c(n2)COCCO)nc1-3 molecule_id 13073517 | SUCCESS
+373_C9H11N3O2 : c1cc2c(nc1)nc([nH]2)COCCO-0 molecule_id 13073554 | SUCCESS
+374_C9H11N3O2 : c1cc2c([nH]c(n2)COCCO)nc1-2 molecule_id 13073594 | SUCCESS
+375_C13H14N4 : CCC[C@@H](c1ccc(nc1)C#N)n2ccnc2-4 molecule_id 13073637 | SUCCESS
+376_C9H11N3O2 : c1cc2c(nc1)nc([nH]2)COCCO-4 molecule_id 13073656 | SUCCESS
+377_C13H14N4 : CCC[C@@H](c1ccc(nc1)C#N)n2ccnc2-0 molecule_id 13073703 | SUCCESS
+378_C11H18N2O3 : Cc1cc(cnc1CO)OCC[N@@](C)OC-0 molecule_id 13073744 | SUCCESS
+379_C13H14N4 : CCC[C@@H](c1ccc(nc1)C#N)n2ccnc2-1 molecule_id 13073778 | SUCCESS

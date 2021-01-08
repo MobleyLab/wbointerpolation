@@ -1,0 +1,1 @@
+Target generated from dataset OpenFF Gen 2 Torsion Set 6 supplemental 2, entry CC[N:3]([CH2:2][CH3:1])/[N:4]=N\c1c([nH]cn1)[N+](=O)[O-]

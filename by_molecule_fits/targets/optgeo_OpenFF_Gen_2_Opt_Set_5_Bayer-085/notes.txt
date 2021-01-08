@@ -1,0 +1,11 @@
+Prepared by make_fb_optgeo_target.py
+850_C15F3H26N3O2 : CC(C)N(CCNC(=O)CN1[C@@H](CCC1=O)C(F)(F)F)C(C)C-4 molecule_id 13134242 | SUCCESS
+851_C19ClH21O7S : CS(=O)(=O)c1ccc(c(c1CO[C@@H]2CCOC2)Cl)C(=O)C3C(=O)CCCC3=O-4 molecule_id 13134305 | SUCCESS
+852_C23ClH28N2O : CC[NH+](CC)CCOc1ccc(cc1)CNc2ccc(c3c2cccc3)Cl-3 molecule_id 13134372 | SUCCESS
+853_C29H33N3O5 : Cc1ccc2c(c1)c(=O)n(nn2)C[C@@H]3CC[C@@H]([C@@H]3C(=O)O)C(=O)c4ccc(cc4)OCC5CCCCC5-1 molecule_id 13134544 | SUCCESS
+854_C15F3H26N3O2 : CC(C)N(CCNC(=O)CN1[C@@H](CCC1=O)C(F)(F)F)C(C)C-2 molecule_id 13134728 | SUCCESS
+855_C35H36O3S : c1ccc(cc1)C[S@@](=O)CCCCCOc2ccc(cc2)C3=C(CCCc4c3ccc(c4)O)c5ccccc5-1 molecule_id 13134964 | SUCCESS
+856_C26H26NO2 : c1ccc(cc1)CN(Cc2ccccc2)c3ccc(cc3)C4(CCC4)CC(=O)[O-]-2 molecule_id 13135099 | SUCCESS
+857_C32FH37O3S : c1ccc(cc1)C2=C(c3ccc(cc3CCC2)O)c4ccc(cc4)OCCCCC[S@@](=O)CCCCF-4 molecule_id 13135175 | SUCCESS
+858_C30H30N3O5S : c1ccc(cc1)C(=O)NS(=O)(=O)c2ccc(cc2)c3ccc4c(c3)CC[C@@H](O4)C[NH2+]C[C@@H](c5cccnc5)O-3 molecule_id 13135358 | SUCCESS
+859_C24FH29NO2 : c1cc(ccc1C(=O)C2CC[NH+](CC2)CCCOc3ccc4c(c3)CCC4)F-2 molecule_id 13135575 | SUCCESS

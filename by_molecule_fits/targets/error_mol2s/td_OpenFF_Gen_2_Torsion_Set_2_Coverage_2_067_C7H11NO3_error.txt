@@ -1,0 +1,6 @@
+OpenFF Gen 2 Torsion Set 2 Coverage 2
+target_name td_OpenFF_Gen_2_Torsion_Set_2_Coverage_2_067_C7H11NO3
+entry CC1(C[C@:3]1([C:1](=O)N)[C:2](=O)[OH:4])C
+td_keywords {'dihedrals': [(0, 3, 1, 10)], 'grid_spacing': [15], 'dihedral_ranges': None, 'energy_decrease_thresh': None, 'energy_upper_limit': 0.05}
+error message:
+One or more internal H bonds exist.
