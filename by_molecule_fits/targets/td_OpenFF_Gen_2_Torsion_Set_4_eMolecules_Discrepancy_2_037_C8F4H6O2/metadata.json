@@ -1,0 +1,112 @@
+{
+  "dihedrals": [
+    [
+      10,
+      6,
+      7,
+      12
+    ]
+  ],
+  "grid_spacing": [
+    15
+  ],
+  "dihedral_ranges": null,
+  "energy_decrease_thresh": null,
+  "energy_upper_limit": 0.05,
+  "dataset_name": "OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2",
+  "entry_label": "c1cc(ccc1O)O[C:3]([CH:2]([F:1])F)([F:4])F",
+  "canonical_smiles": "c1cc(ccc1O)OC(C(F)F)(F)F",
+  "attributes": {
+    "canonical_explicit_hydrogen_smiles": "[H]c1c(c(c(c(c1O[H])[H])[H])OC(C([H])(F)F)(F)F)[H]",
+    "canonical_isomeric_explicit_hydrogen_mapped_smiles": "[H:15][c:1]1[c:3]([c:6]([c:4]([c:2]([c:5]1[O:9][H:20])[H:16])[H:18])[O:10][C:8]([C:7]([H:19])([F:11])[F:12])([F:13])[F:14])[H:17]",
+    "canonical_isomeric_explicit_hydrogen_smiles": "[H]c1c(c(c(c(c1O[H])[H])[H])OC(C([H])(F)F)(F)F)[H]",
+    "canonical_isomeric_smiles": "c1cc(ccc1O)OC(C(F)F)(F)F",
+    "canonical_smiles": "c1cc(ccc1O)OC(C(F)F)(F)F",
+    "inchi_key": "DMHLOEIIFFXHIR-UHFFFAOYSA-N",
+    "molecular_formula": "C8H6F4O2",
+    "provenance": "cmiles_v0.1.5_openeye_2019.Apr.1",
+    "standard_inchi": "InChI=1S/C8H6F4O2/c9-7(10)8(11,12)14-6-3-1-5(13)2-4-6/h1-4,7,13H",
+    "unique_protomer_representation": "c1cc(ccc1O)OC(C(F)F)(F)F",
+    "unique_tautomer_representation": "Oc1ccc(OC(F)(F)C(F)F)cc1"
+  },
+  "torsion_grid_ids": [
+    [
+      -165
+    ],
+    [
+      -150
+    ],
+    [
+      -135
+    ],
+    [
+      -120
+    ],
+    [
+      -105
+    ],
+    [
+      -90
+    ],
+    [
+      -75
+    ],
+    [
+      -60
+    ],
+    [
+      -45
+    ],
+    [
+      -30
+    ],
+    [
+      -15
+    ],
+    [
+      0
+    ],
+    [
+      15
+    ],
+    [
+      30
+    ],
+    [
+      45
+    ],
+    [
+      60
+    ],
+    [
+      75
+    ],
+    [
+      90
+    ],
+    [
+      105
+    ],
+    [
+      120
+    ],
+    [
+      135
+    ],
+    [
+      150
+    ],
+    [
+      165
+    ],
+    [
+      180
+    ]
+  ],
+  "smirks": [
+    "[#9:1]-[#6X4:2]-[#6X4:3]-[#9:4]"
+  ],
+  "smirks_ids": [
+    "t6"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "dihedrals": [
+    [
+      3,
+      6,
+      8,
+      19
+    ]
+  ],
+  "grid_spacing": [
+    15
+  ],
+  "dihedral_ranges": null,
+  "energy_decrease_thresh": null,
+  "energy_upper_limit": 0.05,
+  "dataset_name": "OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2",
+  "entry_label": "[H:4][O:3][CH2:2][c:1]1cc(ccc1Br)OC(F)(F)F",
+  "canonical_smiles": "c1cc(c(cc1OC(F)(F)F)CO)Br",
+  "attributes": {
+    "canonical_explicit_hydrogen_smiles": "[H]c1c(c(c(c(c1OC(F)(F)F)[H])C([H])([H])O[H])Br)[H]",
+    "canonical_isomeric_explicit_hydrogen_mapped_smiles": "[H:15][c:1]1[c:2]([c:6]([c:4]([c:3]([c:5]1[O:10][C:8]([F:11])([F:12])[F:13])[H:17])[C:7]([H:18])([H:19])[O:9][H:20])[Br:14])[H:16]",
+    "canonical_isomeric_explicit_hydrogen_smiles": "[H]c1c(c(c(c(c1OC(F)(F)F)[H])C([H])([H])O[H])Br)[H]",
+    "canonical_isomeric_smiles": "c1cc(c(cc1OC(F)(F)F)CO)Br",
+    "canonical_smiles": "c1cc(c(cc1OC(F)(F)F)CO)Br",
+    "inchi_key": "OALBWTKTAWWYBX-UHFFFAOYSA-N",
+    "molecular_formula": "C8H6BrF3O2",
+    "provenance": "cmiles_v0.1.5_openeye_2019.Apr.1",
+    "standard_inchi": "InChI=1S/C8H6BrF3O2/c9-7-2-1-6(3-5(7)4-13)14-8(10,11)12/h1-3,13H,4H2",
+    "unique_protomer_representation": "c1cc(c(cc1OC(F)(F)F)CO)Br",
+    "unique_tautomer_representation": "OCc1cc(OC(F)(F)F)ccc1Br"
+  },
+  "torsion_grid_ids": [
+    [
+      -165
+    ],
+    [
+      -150
+    ],
+    [
+      -135
+    ],
+    [
+      -120
+    ],
+    [
+      -105
+    ],
+    [
+      -90
+    ],
+    [
+      -75
+    ],
+    [
+      -60
+    ],
+    [
+      -45
+    ],
+    [
+      -30
+    ],
+    [
+      -15
+    ],
+    [
+      0
+    ],
+    [
+      15
+    ],
+    [
+      30
+    ],
+    [
+      45
+    ],
+    [
+      60
+    ],
+    [
+      75
+    ],
+    [
+      90
+    ],
+    [
+      105
+    ],
+    [
+      120
+    ],
+    [
+      135
+    ],
+    [
+      150
+    ],
+    [
+      165
+    ],
+    [
+      180
+    ]
+  ],
+  "smirks": [
+    "[*:1]-[#6X4:2]-[#8X2:3]-[#1:4]"
+  ],
+  "smirks_ids": [
+    "t84"
+  ]
+}

@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 680_BrC13H18N2
+geometry 680_BrC13H18N2.xyz
+topology 680_BrC13H18N2.pdb
+mol2 680_BrC13H18N2.mol2
+$end
+
+$system
+name 681_C9H9NO2S
+geometry 681_C9H9NO2S.xyz
+topology 681_C9H9NO2S.pdb
+mol2 681_C9H9NO2S.mol2
+$end
+
+$system
+name 682_C13H12O4
+geometry 682_C13H12O4.xyz
+topology 682_C13H12O4.pdb
+mol2 682_C13H12O4.mol2
+$end
+
+$system
+name 683_C11ClH14N2O
+geometry 683_C11ClH14N2O.xyz
+topology 683_C11ClH14N2O.pdb
+mol2 683_C11ClH14N2O.mol2
+$end
+
+$system
+name 684_C16H16N2O
+geometry 684_C16H16N2O.xyz
+topology 684_C16H16N2O.pdb
+mol2 684_C16H16N2O.mol2
+$end
+
+$system
+name 685_C13H12O4
+geometry 685_C13H12O4.xyz
+topology 685_C13H12O4.pdb
+mol2 685_C13H12O4.mol2
+$end
+
+$system
+name 686_C13H23N5O2
+geometry 686_C13H23N5O2.xyz
+topology 686_C13H23N5O2.pdb
+mol2 686_C13H23N5O2.mol2
+$end
+
+$system
+name 687_C11H19N3O2S2
+geometry 687_C11H19N3O2S2.xyz
+topology 687_C11H19N3O2S2.pdb
+mol2 687_C11H19N3O2S2.mol2
+$end
+
+$system
+name 688_BrC13H18N2
+geometry 688_BrC13H18N2.xyz
+topology 688_BrC13H18N2.pdb
+mol2 688_BrC13H18N2.mol2
+$end
+
+$system
+name 689_C17ClH19O2
+geometry 689_C17ClH19O2.xyz
+topology 689_C17ClH19O2.pdb
+mol2 689_C17ClH19O2.mol2
+$end

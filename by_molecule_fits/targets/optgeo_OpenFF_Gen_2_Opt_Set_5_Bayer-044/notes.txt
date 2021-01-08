@@ -1,0 +1,29 @@
+Prepared by make_fb_optgeo_target.py
+440_C10H19NO2S : CCCC[S@@](=O)[C@@H]1CCCCNC1=O-2 molecule_id 13077344 | SUCCESS
+441_C17H19N3O : Cc1ccc2c(c1)[C@@H]([C@@H](C2)C)Nc3ncc(cn3)C(=O)C-2 molecule_id 13077547 | SUCCESS
+442_C17H19N3O : Cc1ccc2c(c1)[C@@H]([C@@H](C2)C)Nc3ncc(cn3)C(=O)C-3 molecule_id 13077656 | SUCCESS
+443_C17H19N3O : Cc1ccc2c(c1)[C@@H]([C@@H](C2)C)Nc3ncc(cn3)C(=O)C-4 molecule_id 13077703 | SUCCESS
+444_C21H25NO2 : C[N@@](Cc1ccc(cc1)[C@@H]2CCCC[C@@H]2C(=O)O)c3ccccc3-2 molecule_id 13078756 | SUCCESS
+445_C21H25NO2 : C[N@@](Cc1ccc(cc1)[C@@H]2CCCC[C@@H]2C(=O)O)c3ccccc3-1 molecule_id 13078830 | ERROR: Unable to make OFFMol from OEMol: OEMol has unspecified stereochemistry. oemol.GetTitle(): 
+Problematic atoms are:
+Atom atomic num: 7, name: N1, idx: 21, aromatic: False, chiral: True with bonds:
+bond order: 1, chiral: False to atom atomic num: 6, name: C12, idx: 11, aromatic: True, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C20, idx: 19, aromatic: False, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C21, idx: 20, aromatic: False, chiral: False
+
+446_C21H25NO2 : C[N@@](Cc1ccc(cc1)[C@@H]2CCCC[C@@H]2C(=O)O)c3ccccc3-4 molecule_id 13079573 | SUCCESS
+447_C21H24NO2 : C[N@@](Cc1ccc(cc1)[C@@H]2CCCC[C@@H]2C(=O)[O-])c3ccccc3-0 molecule_id 13079872 | SUCCESS
+448_C21H24NO2 : C[N@@](Cc1ccc(cc1)[C@@H]2CCCC[C@@H]2C(=O)[O-])c3ccccc3-2 molecule_id 13079926 | ERROR: Unable to make OFFMol from OEMol: OEMol has unspecified stereochemistry. oemol.GetTitle(): 
+Problematic atoms are:
+Atom atomic num: 7, name: N1, idx: 21, aromatic: False, chiral: True with bonds:
+bond order: 1, chiral: False to atom atomic num: 6, name: C12, idx: 11, aromatic: True, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C20, idx: 19, aromatic: False, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C21, idx: 20, aromatic: False, chiral: False
+
+449_C21H24NO2 : C[N@@](Cc1ccc(cc1)[C@@H]2CCCC[C@@H]2C(=O)[O-])c3ccccc3-4 molecule_id 13079982 | ERROR: Unable to make OFFMol from OEMol: OEMol has unspecified stereochemistry. oemol.GetTitle(): 
+Problematic atoms are:
+Atom atomic num: 7, name: N1, idx: 21, aromatic: False, chiral: True with bonds:
+bond order: 1, chiral: False to atom atomic num: 6, name: C12, idx: 11, aromatic: True, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C20, idx: 19, aromatic: False, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C21, idx: 20, aromatic: False, chiral: False
+

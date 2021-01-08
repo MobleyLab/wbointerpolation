@@ -1,0 +1,112 @@
+{
+  "dihedrals": [
+    [
+      3,
+      5,
+      9,
+      6
+    ]
+  ],
+  "grid_spacing": [
+    15
+  ],
+  "dihedral_ranges": null,
+  "energy_decrease_thresh": null,
+  "energy_upper_limit": 0.05,
+  "dataset_name": "OpenFF Gen 2 Torsion Set 1 Roche 2",
+  "entry_label": "C[C:4](=O)[O:3][c:2]1[cH:1]cccc1",
+  "canonical_smiles": "CC(=O)Oc1ccccc1",
+  "attributes": {
+    "canonical_explicit_hydrogen_smiles": "[H]c1c(c(c(c(c1[H])[H])OC(=O)C([H])([H])[H])[H])[H]",
+    "canonical_isomeric_explicit_hydrogen_mapped_smiles": "[H:11][c:1]1[c:2]([c:4]([c:6]([c:5]([c:3]1[H:13])[H:15])[O:10][C:7](=[O:9])[C:8]([H:16])([H:17])[H:18])[H:14])[H:12]",
+    "canonical_isomeric_explicit_hydrogen_smiles": "[H]c1c(c(c(c(c1[H])[H])OC(=O)C([H])([H])[H])[H])[H]",
+    "canonical_isomeric_smiles": "CC(=O)Oc1ccccc1",
+    "canonical_smiles": "CC(=O)Oc1ccccc1",
+    "inchi_key": "IPBVNPXQWQGGJP-UHFFFAOYSA-N",
+    "molecular_formula": "C8H8O2",
+    "provenance": "cmiles_0+unknown_openeye_2019.Oct.2",
+    "standard_inchi": "InChI=1S/C8H8O2/c1-7(9)10-8-5-3-2-4-6-8/h2-6H,1H3",
+    "unique_protomer_representation": "CC(=O)Oc1ccccc1",
+    "unique_tautomer_representation": "CC(=O)Oc1ccccc1"
+  },
+  "torsion_grid_ids": [
+    [
+      -165
+    ],
+    [
+      -150
+    ],
+    [
+      -135
+    ],
+    [
+      -120
+    ],
+    [
+      -105
+    ],
+    [
+      -90
+    ],
+    [
+      -75
+    ],
+    [
+      -60
+    ],
+    [
+      -45
+    ],
+    [
+      -30
+    ],
+    [
+      -15
+    ],
+    [
+      0
+    ],
+    [
+      15
+    ],
+    [
+      30
+    ],
+    [
+      45
+    ],
+    [
+      60
+    ],
+    [
+      75
+    ],
+    [
+      90
+    ],
+    [
+      105
+    ],
+    [
+      120
+    ],
+    [
+      135
+    ],
+    [
+      150
+    ],
+    [
+      165
+    ],
+    [
+      180
+    ]
+  ],
+  "smirks": [
+    "[*:1]~[#6X3:2]-[#8X2:3]-[*:4]"
+  ],
+  "smirks_ids": [
+    "t96"
+  ]
+}

@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 60_C13H16O2
+geometry 60_C13H16O2.xyz
+topology 60_C13H16O2.pdb
+mol2 60_C13H16O2.mol2
+$end
+
+$system
+name 61_C7H9N3O2S2
+geometry 61_C7H9N3O2S2.xyz
+topology 61_C7H9N3O2S2.pdb
+mol2 61_C7H9N3O2S2.mol2
+$end
+
+$system
+name 62_C13H15O2
+geometry 62_C13H15O2.xyz
+topology 62_C13H15O2.pdb
+mol2 62_C13H15O2.mol2
+$end
+
+$system
+name 63_C11ClH13O3
+geometry 63_C11ClH13O3.xyz
+topology 63_C11ClH13O3.pdb
+mol2 63_C11ClH13O3.mol2
+$end
+
+$system
+name 64_C11H18NO2
+geometry 64_C11H18NO2.xyz
+topology 64_C11H18NO2.pdb
+mol2 64_C11H18NO2.mol2
+$end
+
+$system
+name 65_C11H17NO2
+geometry 65_C11H17NO2.xyz
+topology 65_C11H17NO2.pdb
+mol2 65_C11H17NO2.mol2
+$end
+
+$system
+name 66_C11H17NO2
+geometry 66_C11H17NO2.xyz
+topology 66_C11H17NO2.pdb
+mol2 66_C11H17NO2.mol2
+$end
+
+$system
+name 67_C13H16O2
+geometry 67_C13H16O2.xyz
+topology 67_C13H16O2.pdb
+mol2 67_C13H16O2.mol2
+$end
+
+$system
+name 68_C7H9N3O2S2
+geometry 68_C7H9N3O2S2.xyz
+topology 68_C7H9N3O2S2.pdb
+mol2 68_C7H9N3O2S2.mol2
+$end
+
+$system
+name 69_C13ClH17N2
+geometry 69_C13ClH17N2.xyz
+topology 69_C13ClH17N2.pdb
+mol2 69_C13ClH17N2.mol2
+$end

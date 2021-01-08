@@ -1,0 +1,70 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 200_C14H18N2O
+geometry 200_C14H18N2O.xyz
+topology 200_C14H18N2O.pdb
+mol2 200_C14H18N2O.mol2
+$end
+
+$system
+name 201_C16H23NO2
+geometry 201_C16H23NO2.xyz
+topology 201_C16H23NO2.pdb
+mol2 201_C16H23NO2.mol2
+$end
+
+$system
+name 202_C13ClH18N2
+geometry 202_C13ClH18N2.xyz
+topology 202_C13ClH18N2.pdb
+mol2 202_C13ClH18N2.mol2
+$end
+
+$system
+name 204_C16H23NO2
+geometry 204_C16H23NO2.xyz
+topology 204_C16H23NO2.pdb
+mol2 204_C16H23NO2.mol2
+$end
+
+$system
+name 205_C20ClH31NO2S
+geometry 205_C20ClH31NO2S.xyz
+topology 205_C20ClH31NO2S.pdb
+mol2 205_C20ClH31NO2S.mol2
+$end
+
+$system
+name 206_C20ClH30NO2S
+geometry 206_C20ClH30NO2S.xyz
+topology 206_C20ClH30NO2S.pdb
+mol2 206_C20ClH30NO2S.mol2
+$end
+
+$system
+name 207_C16H23NO2
+geometry 207_C16H23NO2.xyz
+topology 207_C16H23NO2.pdb
+mol2 207_C16H23NO2.mol2
+$end
+
+$system
+name 208_C20ClH30NO2S
+geometry 208_C20ClH30NO2S.xyz
+topology 208_C20ClH30NO2S.pdb
+mol2 208_C20ClH30NO2S.mol2
+$end
+
+$system
+name 209_C33H35NO3S
+geometry 209_C33H35NO3S.xyz
+topology 209_C33H35NO3S.pdb
+mol2 209_C33H35NO3S.mol2
+$end

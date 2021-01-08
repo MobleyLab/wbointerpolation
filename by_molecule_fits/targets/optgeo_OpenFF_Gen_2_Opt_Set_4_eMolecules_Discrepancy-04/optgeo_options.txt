@@ -1,0 +1,357 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 200_C10H9NO2
+geometry 200_C10H9NO2.xyz
+topology 200_C10H9NO2.pdb
+mol2 200_C10H9NO2.mol2
+$end
+
+$system
+name 201_C12ClH10N3O3S
+geometry 201_C12ClH10N3O3S.xyz
+topology 201_C12ClH10N3O3S.pdb
+mol2 201_C12ClH10N3O3S.mol2
+$end
+
+$system
+name 202_C9H13NO2
+geometry 202_C9H13NO2.xyz
+topology 202_C9H13NO2.pdb
+mol2 202_C9H13NO2.mol2
+$end
+
+$system
+name 203_C17H16N2OS
+geometry 203_C17H16N2OS.xyz
+topology 203_C17H16N2OS.pdb
+mol2 203_C17H16N2OS.mol2
+$end
+
+$system
+name 204_C11FH13O3
+geometry 204_C11FH13O3.xyz
+topology 204_C11FH13O3.pdb
+mol2 204_C11FH13O3.mol2
+$end
+
+$system
+name 205_BrC10H9N2O
+geometry 205_BrC10H9N2O.xyz
+topology 205_BrC10H9N2O.pdb
+mol2 205_BrC10H9N2O.mol2
+$end
+
+$system
+name 206_C14H18N4OS
+geometry 206_C14H18N4OS.xyz
+topology 206_C14H18N4OS.pdb
+mol2 206_C14H18N4OS.mol2
+$end
+
+$system
+name 207_C15H13N3
+geometry 207_C15H13N3.xyz
+topology 207_C15H13N3.pdb
+mol2 207_C15H13N3.mol2
+$end
+
+$system
+name 208_C11H17N3OS
+geometry 208_C11H17N3OS.xyz
+topology 208_C11H17N3OS.pdb
+mol2 208_C11H17N3OS.mol2
+$end
+
+$system
+name 209_C10F3H9O3
+geometry 209_C10F3H9O3.xyz
+topology 209_C10F3H9O3.pdb
+mol2 209_C10F3H9O3.mol2
+$end
+
+$system
+name 210_C8F5H5O2S
+geometry 210_C8F5H5O2S.xyz
+topology 210_C8F5H5O2S.pdb
+mol2 210_C8F5H5O2S.mol2
+$end
+
+$system
+name 211_C16H11N3OS
+geometry 211_C16H11N3OS.xyz
+topology 211_C16H11N3OS.pdb
+mol2 211_C16H11N3OS.mol2
+$end
+
+$system
+name 212_C8Cl2H8N2O2
+geometry 212_C8Cl2H8N2O2.xyz
+topology 212_C8Cl2H8N2O2.pdb
+mol2 212_C8Cl2H8N2O2.mol2
+$end
+
+$system
+name 213_C11H7N3O2S
+geometry 213_C11H7N3O2S.xyz
+topology 213_C11H7N3O2S.pdb
+mol2 213_C11H7N3O2S.mol2
+$end
+
+$system
+name 214_C11H10O2
+geometry 214_C11H10O2.xyz
+topology 214_C11H10O2.pdb
+mol2 214_C11H10O2.mol2
+$end
+
+$system
+name 215_C17ClH21N4O
+geometry 215_C17ClH21N4O.xyz
+topology 215_C17ClH21N4O.pdb
+mol2 215_C17ClH21N4O.mol2
+$end
+
+$system
+name 216_BrC9H7N2
+geometry 216_BrC9H7N2.xyz
+topology 216_BrC9H7N2.pdb
+mol2 216_BrC9H7N2.mol2
+$end
+
+$system
+name 217_C14H18N4OS
+geometry 217_C14H18N4OS.xyz
+topology 217_C14H18N4OS.pdb
+mol2 217_C14H18N4OS.mol2
+$end
+
+$system
+name 218_C14ClFH8O4
+geometry 218_C14ClFH8O4.xyz
+topology 218_C14ClFH8O4.pdb
+mol2 218_C14ClFH8O4.mol2
+$end
+
+$system
+name 219_C16H11N3OS
+geometry 219_C16H11N3OS.xyz
+topology 219_C16H11N3OS.pdb
+mol2 219_C16H11N3OS.mol2
+$end
+
+$system
+name 220_C11H10O2
+geometry 220_C11H10O2.xyz
+topology 220_C11H10O2.pdb
+mol2 220_C11H10O2.mol2
+$end
+
+$system
+name 221_C14ClFH8O4
+geometry 221_C14ClFH8O4.xyz
+topology 221_C14ClFH8O4.pdb
+mol2 221_C14ClFH8O4.mol2
+$end
+
+$system
+name 222_C17ClH21N4O
+geometry 222_C17ClH21N4O.xyz
+topology 222_C17ClH21N4O.pdb
+mol2 222_C17ClH21N4O.mol2
+$end
+
+$system
+name 223_BrC11H14NO2
+geometry 223_BrC11H14NO2.xyz
+topology 223_BrC11H14NO2.pdb
+mol2 223_BrC11H14NO2.mol2
+$end
+
+$system
+name 224_C10F2H10O3
+geometry 224_C10F2H10O3.xyz
+topology 224_C10F2H10O3.pdb
+mol2 224_C10F2H10O3.mol2
+$end
+
+$system
+name 225_C13H13N
+geometry 225_C13H13N.xyz
+topology 225_C13H13N.pdb
+mol2 225_C13H13N.mol2
+$end
+
+$system
+name 226_C15Cl2H16N4O
+geometry 226_C15Cl2H16N4O.xyz
+topology 226_C15Cl2H16N4O.pdb
+mol2 226_C15Cl2H16N4O.mol2
+$end
+
+$system
+name 227_C10F2H10O3
+geometry 227_C10F2H10O3.xyz
+topology 227_C10F2H10O3.pdb
+mol2 227_C10F2H10O3.mol2
+$end
+
+$system
+name 228_C6F2H8N2
+geometry 228_C6F2H8N2.xyz
+topology 228_C6F2H8N2.pdb
+mol2 228_C6F2H8N2.mol2
+$end
+
+$system
+name 229_BrC10F2H9O3
+geometry 229_BrC10F2H9O3.xyz
+topology 229_BrC10F2H9O3.pdb
+mol2 229_BrC10F2H9O3.mol2
+$end
+
+$system
+name 230_C7FH4NO
+geometry 230_C7FH4NO.xyz
+topology 230_C7FH4NO.pdb
+mol2 230_C7FH4NO.mol2
+$end
+
+$system
+name 231_C16H11N3OS
+geometry 231_C16H11N3OS.xyz
+topology 231_C16H11N3OS.pdb
+mol2 231_C16H11N3OS.mol2
+$end
+
+$system
+name 232_C11H7N3O2S
+geometry 232_C11H7N3O2S.xyz
+topology 232_C11H7N3O2S.pdb
+mol2 232_C11H7N3O2S.mol2
+$end
+
+$system
+name 233_C16H11N3OS
+geometry 233_C16H11N3OS.xyz
+topology 233_C16H11N3OS.pdb
+mol2 233_C16H11N3OS.mol2
+$end
+
+$system
+name 234_C16H11N3OS
+geometry 234_C16H11N3OS.xyz
+topology 234_C16H11N3OS.pdb
+mol2 234_C16H11N3OS.mol2
+$end
+
+$system
+name 235_BrC10FH10O3
+geometry 235_BrC10FH10O3.xyz
+topology 235_BrC10FH10O3.pdb
+mol2 235_BrC10FH10O3.mol2
+$end
+
+$system
+name 236_C10F2H10O3
+geometry 236_C10F2H10O3.xyz
+topology 236_C10F2H10O3.pdb
+mol2 236_C10F2H10O3.mol2
+$end
+
+$system
+name 237_C8ClH8NO2
+geometry 237_C8ClH8NO2.xyz
+topology 237_C8ClH8NO2.pdb
+mol2 237_C8ClH8NO2.mol2
+$end
+
+$system
+name 238_C16H14N4OS
+geometry 238_C16H14N4OS.xyz
+topology 238_C16H14N4OS.pdb
+mol2 238_C16H14N4OS.mol2
+$end
+
+$system
+name 239_C14F3H14N3O
+geometry 239_C14F3H14N3O.xyz
+topology 239_C14F3H14N3O.pdb
+mol2 239_C14F3H14N3O.mol2
+$end
+
+$system
+name 240_BrC5H3N2O
+geometry 240_BrC5H3N2O.xyz
+topology 240_BrC5H3N2O.pdb
+mol2 240_BrC5H3N2O.mol2
+$end
+
+$system
+name 241_C14H18N4OS
+geometry 241_C14H18N4OS.xyz
+topology 241_C14H18N4OS.pdb
+mol2 241_C14H18N4OS.mol2
+$end
+
+$system
+name 242_C13H22N2OS
+geometry 242_C13H22N2OS.xyz
+topology 242_C13H22N2OS.pdb
+mol2 242_C13H22N2OS.mol2
+$end
+
+$system
+name 243_C11H14N4O3
+geometry 243_C11H14N4O3.xyz
+topology 243_C11H14N4O3.pdb
+mol2 243_C11H14N4O3.mol2
+$end
+
+$system
+name 244_C10F2H10O3
+geometry 244_C10F2H10O3.xyz
+topology 244_C10F2H10O3.pdb
+mol2 244_C10F2H10O3.mol2
+$end
+
+$system
+name 245_C16H11N3OS
+geometry 245_C16H11N3OS.xyz
+topology 245_C16H11N3OS.pdb
+mol2 245_C16H11N3OS.mol2
+$end
+
+$system
+name 246_C11H7N3O2S
+geometry 246_C11H7N3O2S.xyz
+topology 246_C11H7N3O2S.pdb
+mol2 246_C11H7N3O2S.mol2
+$end
+
+$system
+name 247_C10F3H4NOS
+geometry 247_C10F3H4NOS.xyz
+topology 247_C10F3H4NOS.pdb
+mol2 247_C10F3H4NOS.mol2
+$end
+
+$system
+name 248_BrC8H6N3
+geometry 248_BrC8H6N3.xyz
+topology 248_BrC8H6N3.pdb
+mol2 248_BrC8H6N3.mol2
+$end
+
+$system
+name 249_C10F3H9O3
+geometry 249_C10F3H9O3.xyz
+topology 249_C10F3H9O3.pdb
+mol2 249_C10F3H9O3.mol2
+$end

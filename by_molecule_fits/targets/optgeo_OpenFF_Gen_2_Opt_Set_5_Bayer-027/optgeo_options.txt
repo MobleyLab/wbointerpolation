@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 270_C17H17O5S
+geometry 270_C17H17O5S.xyz
+topology 270_C17H17O5S.pdb
+mol2 270_C17H17O5S.mol2
+$end
+
+$system
+name 271_C14H16O3
+geometry 271_C14H16O3.xyz
+topology 271_C14H16O3.pdb
+mol2 271_C14H16O3.mol2
+$end
+
+$system
+name 272_C19FH20NO
+geometry 272_C19FH20NO.xyz
+topology 272_C19FH20NO.pdb
+mol2 272_C19FH20NO.mol2
+$end
+
+$system
+name 273_C14H16O3
+geometry 273_C14H16O3.xyz
+topology 273_C14H16O3.pdb
+mol2 273_C14H16O3.mol2
+$end
+
+$system
+name 274_C14H16O3
+geometry 274_C14H16O3.xyz
+topology 274_C14H16O3.pdb
+mol2 274_C14H16O3.mol2
+$end
+
+$system
+name 275_C10H12O3
+geometry 275_C10H12O3.xyz
+topology 275_C10H12O3.pdb
+mol2 275_C10H12O3.mol2
+$end
+
+$system
+name 276_C10H12O3
+geometry 276_C10H12O3.xyz
+topology 276_C10H12O3.pdb
+mol2 276_C10H12O3.mol2
+$end
+
+$system
+name 277_C10H11O3
+geometry 277_C10H11O3.xyz
+topology 277_C10H11O3.pdb
+mol2 277_C10H11O3.mol2
+$end
+
+$system
+name 278_C12H16N2O4
+geometry 278_C12H16N2O4.xyz
+topology 278_C12H16N2O4.pdb
+mol2 278_C12H16N2O4.mol2
+$end
+
+$system
+name 279_C11FH13N2O
+geometry 279_C11FH13N2O.xyz
+topology 279_C11FH13N2O.pdb
+mol2 279_C11FH13N2O.mol2
+$end

@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 970_C27F3H30NO5
+geometry 970_C27F3H30NO5.xyz
+topology 970_C27F3H30NO5.pdb
+mol2 970_C27F3H30NO5.mol2
+$end
+
+$system
+name 971_C34H34O3S
+geometry 971_C34H34O3S.xyz
+topology 971_C34H34O3S.pdb
+mol2 971_C34H34O3S.mol2
+$end
+
+$system
+name 972_C26H27NO2
+geometry 972_C26H27NO2.xyz
+topology 972_C26H27NO2.pdb
+mol2 972_C26H27NO2.mol2
+$end
+
+$system
+name 973_C29H32NO6
+geometry 973_C29H32NO6.xyz
+topology 973_C29H32NO6.pdb
+mol2 973_C29H32NO6.mol2
+$end
+
+$system
+name 974_C28H24NO5
+geometry 974_C28H24NO5.xyz
+topology 974_C28H24NO5.pdb
+mol2 974_C28H24NO5.mol2
+$end
+
+$system
+name 975_C33H35NO4S
+geometry 975_C33H35NO4S.xyz
+topology 975_C33H35NO4S.pdb
+mol2 975_C33H35NO4S.mol2
+$end
+
+$system
+name 976_C27H28N2O5
+geometry 976_C27H28N2O5.xyz
+topology 976_C27H28N2O5.pdb
+mol2 976_C27H28N2O5.mol2
+$end
+
+$system
+name 977_C24H40N2O2
+geometry 977_C24H40N2O2.xyz
+topology 977_C24H40N2O2.pdb
+mol2 977_C24H40N2O2.mol2
+$end
+
+$system
+name 978_C33H35NO4S
+geometry 978_C33H35NO4S.xyz
+topology 978_C33H35NO4S.pdb
+mol2 978_C33H35NO4S.mol2
+$end
+
+$system
+name 979_BrC22H26N5O3S
+geometry 979_BrC22H26N5O3S.xyz
+topology 979_BrC22H26N5O3S.pdb
+mol2 979_BrC22H26N5O3S.mol2
+$end

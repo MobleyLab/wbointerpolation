@@ -1,0 +1,1 @@
+Target generated from dataset OpenFF Gen 2 Torsion Set 6 supplemental 2, entry COCc1c[c:1](ncn1)[CH:2]=[S:3](=O)(C)[CH3:4]

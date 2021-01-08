@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 820_C13ClH15O6S
+geometry 820_C13ClH15O6S.xyz
+topology 820_C13ClH15O6S.pdb
+mol2 820_C13ClH15O6S.mol2
+$end
+
+$system
+name 821_C22ClH27NO
+geometry 821_C22ClH27NO.xyz
+topology 821_C22ClH27NO.pdb
+mol2 821_C22ClH27NO.mol2
+$end
+
+$system
+name 822_C11H19N3O2S2
+geometry 822_C11H19N3O2S2.xyz
+topology 822_C11H19N3O2S2.pdb
+mol2 822_C11H19N3O2S2.mol2
+$end
+
+$system
+name 823_C11H19N3O2S2
+geometry 823_C11H19N3O2S2.xyz
+topology 823_C11H19N3O2S2.pdb
+mol2 823_C11H19N3O2S2.mol2
+$end
+
+$system
+name 824_C19ClH21O7S
+geometry 824_C19ClH21O7S.xyz
+topology 824_C19ClH21O7S.pdb
+mol2 824_C19ClH21O7S.mol2
+$end
+
+$system
+name 825_C19ClH21O7S
+geometry 825_C19ClH21O7S.xyz
+topology 825_C19ClH21O7S.pdb
+mol2 825_C19ClH21O7S.mol2
+$end
+
+$system
+name 826_C23H22NO4
+geometry 826_C23H22NO4.xyz
+topology 826_C23H22NO4.pdb
+mol2 826_C23H22NO4.mol2
+$end
+
+$system
+name 827_C20ClH30NO2S
+geometry 827_C20ClH30NO2S.xyz
+topology 827_C20ClH30NO2S.pdb
+mol2 827_C20ClH30NO2S.mol2
+$end
+
+$system
+name 828_C10H13N3O
+geometry 828_C10H13N3O.xyz
+topology 828_C10H13N3O.pdb
+mol2 828_C10H13N3O.mol2
+$end
+
+$system
+name 829_C23ClH27N2O
+geometry 829_C23ClH27N2O.xyz
+topology 829_C23ClH27N2O.pdb
+mol2 829_C23ClH27N2O.mol2
+$end

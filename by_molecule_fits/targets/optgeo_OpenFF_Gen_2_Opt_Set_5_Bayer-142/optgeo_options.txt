@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 1420_C10H12N2O2
+geometry 1420_C10H12N2O2.xyz
+topology 1420_C10H12N2O2.pdb
+mol2 1420_C10H12N2O2.mol2
+$end
+
+$system
+name 1421_C15H21N3O3S
+geometry 1421_C15H21N3O3S.xyz
+topology 1421_C15H21N3O3S.pdb
+mol2 1421_C15H21N3O3S.mol2
+$end
+
+$system
+name 1422_C18F3H19N4O2
+geometry 1422_C18F3H19N4O2.xyz
+topology 1422_C18F3H19N4O2.pdb
+mol2 1422_C18F3H19N4O2.mol2
+$end
+
+$system
+name 1423_C16H11N3O2
+geometry 1423_C16H11N3O2.xyz
+topology 1423_C16H11N3O2.pdb
+mol2 1423_C16H11N3O2.mol2
+$end
+
+$system
+name 1424_C10H12N2O2
+geometry 1424_C10H12N2O2.xyz
+topology 1424_C10H12N2O2.pdb
+mol2 1424_C10H12N2O2.mol2
+$end
+
+$system
+name 1425_C10H13N2O2
+geometry 1425_C10H13N2O2.xyz
+topology 1425_C10H13N2O2.pdb
+mol2 1425_C10H13N2O2.mol2
+$end
+
+$system
+name 1426_C10H13N2O2
+geometry 1426_C10H13N2O2.xyz
+topology 1426_C10H13N2O2.pdb
+mol2 1426_C10H13N2O2.mol2
+$end
+
+$system
+name 1427_C18F3H19N4O2
+geometry 1427_C18F3H19N4O2.xyz
+topology 1427_C18F3H19N4O2.pdb
+mol2 1427_C18F3H19N4O2.mol2
+$end
+
+$system
+name 1428_C10H13N2O2
+geometry 1428_C10H13N2O2.xyz
+topology 1428_C10H13N2O2.pdb
+mol2 1428_C10H13N2O2.mol2
+$end
+
+$system
+name 1429_C10H12N2O2
+geometry 1429_C10H12N2O2.xyz
+topology 1429_C10H12N2O2.pdb
+mol2 1429_C10H12N2O2.mol2
+$end

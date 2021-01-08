@@ -1,0 +1,247 @@
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_00_C7H12N6O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_01_C6H14NO
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_02_C3H9N2O
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_03_C12H18N4O
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_04_C10H16N4O2S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_05_C4H8N2O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_06_C5H12N
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_07_BrC12H15NO
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_08_C3H7O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_09_C5F3H2N2O2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_10_C7H15O3
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_11_C9H11O
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_12_C10H16N2OS
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_13_C9H14N2O2S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_14_C11H21NO5
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_16_C5H8N2OS
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_17_C5H9NO2S
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_18_C5H12S2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end
+
+$target
+name td_OpenFF_Gen_2_Torsion_Set_6_supplemental_2_19_C4H11NS2
+type TorsionProfile_SMIRNOFF
+mol2 input.mol2
+pdb conf.pdb
+coords scan.xyz
+writelevel 2
+attenuate
+energy_denom 1.0
+energy_upper 5.0
+remote 1
+$end

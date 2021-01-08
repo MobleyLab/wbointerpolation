@@ -1,0 +1,1 @@
+Target generated from dataset OpenFF Gen 2 Torsion Set 6 supplemental 2, entry [CH3:3][N+:4](C)(C)[CH:2]=[CH2:1]

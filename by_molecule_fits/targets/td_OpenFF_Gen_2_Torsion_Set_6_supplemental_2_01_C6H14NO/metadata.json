@@ -1,0 +1,112 @@
+{
+  "dihedrals": [
+    [
+      0,
+      1,
+      6,
+      3
+    ]
+  ],
+  "grid_spacing": [
+    15
+  ],
+  "dihedral_ranges": null,
+  "energy_decrease_thresh": null,
+  "energy_upper_limit": 0.05,
+  "dataset_name": "OpenFF Gen 2 Torsion Set 6 supplemental 2",
+  "entry_label": "C[N+:3]([CH3:4])(C)/[CH:2]=[CH:1]\\CO",
+  "canonical_smiles": "C[N+](C)(C)C=CCO",
+  "attributes": {
+    "canonical_explicit_hydrogen_smiles": "[H]C(=C([H])[N+](C([H])([H])[H])(C([H])([H])[H])C([H])([H])[H])C([H])([H])O[H]",
+    "canonical_isomeric_explicit_hydrogen_mapped_smiles": "[H:9]/[C:1](=[C:2](\\[H:10])/[N+:7]([C:3]([H:11])([H:12])[H:13])([C:4]([H:14])([H:15])[H:16])[C:5]([H:17])([H:18])[H:19])/[C:6]([H:20])([H:21])[O:8][H:22]",
+    "canonical_isomeric_explicit_hydrogen_smiles": "[H]/C(=C(\\[H])/[N+](C([H])([H])[H])(C([H])([H])[H])C([H])([H])[H])/C([H])([H])O[H]",
+    "canonical_isomeric_smiles": "C[N+](C)(C)/C=C\\CO",
+    "canonical_smiles": "C[N+](C)(C)C=CCO",
+    "inchi_key": "WPKMDDNXKIJVSC-PLNGDYQASA-N",
+    "molecular_formula": "C6H14NO",
+    "provenance": "cmiles_0+unknown_openeye_2019.Oct.2",
+    "standard_inchi": "InChI=1S/C6H14NO/c1-7(2,3)5-4-6-8/h4-5,8H,6H2,1-3H3/q+1/b5-4-",
+    "unique_protomer_representation": "C[N+](C)(C)/C=C\\CO",
+    "unique_tautomer_representation": "C[N+](C)(C)/C=C\\CO"
+  },
+  "torsion_grid_ids": [
+    [
+      -165
+    ],
+    [
+      -150
+    ],
+    [
+      -135
+    ],
+    [
+      -120
+    ],
+    [
+      -105
+    ],
+    [
+      -90
+    ],
+    [
+      -75
+    ],
+    [
+      -60
+    ],
+    [
+      -45
+    ],
+    [
+      -30
+    ],
+    [
+      -15
+    ],
+    [
+      0
+    ],
+    [
+      15
+    ],
+    [
+      30
+    ],
+    [
+      45
+    ],
+    [
+      60
+    ],
+    [
+      75
+    ],
+    [
+      90
+    ],
+    [
+      105
+    ],
+    [
+      120
+    ],
+    [
+      135
+    ],
+    [
+      150
+    ],
+    [
+      165
+    ],
+    [
+      180
+    ]
+  ],
+  "smirks": [
+    "[*:1]-[#7X4:2]-[#6X3:3]~[*:4]"
+  ],
+  "smirks_ids": [
+    "t58"
+  ]
+}

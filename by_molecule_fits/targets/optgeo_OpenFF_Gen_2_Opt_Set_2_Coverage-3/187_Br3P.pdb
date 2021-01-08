@@ -1,0 +1,10 @@
+REMARK   1 CREATED WITH FORCEBALANCE 2020-04-28
+HETATM    1  P1  <0> A   1      -0.639   0.394   0.106  0.00  0.00           P  
+HETATM    2 Br1  <0> A   1       0.338   0.575  -1.939  0.00  0.00          Br  
+HETATM    3 Br2  <0> A   1      -0.792  -1.861   0.346  0.00  0.00          Br  
+HETATM    4 Br3  <0> A   1       1.096   0.887   1.488  0.00  0.00          Br  
+TER       5      <0> A   1
+CONECT    1    2    3    4
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1

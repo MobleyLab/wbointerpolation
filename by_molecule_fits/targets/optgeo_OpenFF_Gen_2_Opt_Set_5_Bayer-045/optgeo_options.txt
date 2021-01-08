@@ -1,0 +1,63 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 451_C21H25NO2
+geometry 451_C21H25NO2.xyz
+topology 451_C21H25NO2.pdb
+mol2 451_C21H25NO2.mol2
+$end
+
+$system
+name 452_C9F3H16NO2S
+geometry 452_C9F3H16NO2S.xyz
+topology 452_C9F3H16NO2S.pdb
+mol2 452_C9F3H16NO2S.mol2
+$end
+
+$system
+name 454_C26H36N2O3
+geometry 454_C26H36N2O3.xyz
+topology 454_C26H36N2O3.pdb
+mol2 454_C26H36N2O3.mol2
+$end
+
+$system
+name 455_C26H36N2O3
+geometry 455_C26H36N2O3.xyz
+topology 455_C26H36N2O3.pdb
+mol2 455_C26H36N2O3.mol2
+$end
+
+$system
+name 456_C9F3H16NO2S
+geometry 456_C9F3H16NO2S.xyz
+topology 456_C9F3H16NO2S.pdb
+mol2 456_C9F3H16NO2S.mol2
+$end
+
+$system
+name 457_C9F3H16NO2S
+geometry 457_C9F3H16NO2S.xyz
+topology 457_C9F3H16NO2S.pdb
+mol2 457_C9F3H16NO2S.mol2
+$end
+
+$system
+name 458_C9F3H16NO2S
+geometry 458_C9F3H16NO2S.xyz
+topology 458_C9F3H16NO2S.pdb
+mol2 458_C9F3H16NO2S.mol2
+$end
+
+$system
+name 459_C9F3H17NO2S
+geometry 459_C9F3H17NO2S.xyz
+topology 459_C9F3H17NO2S.pdb
+mol2 459_C9F3H17NO2S.mol2
+$end

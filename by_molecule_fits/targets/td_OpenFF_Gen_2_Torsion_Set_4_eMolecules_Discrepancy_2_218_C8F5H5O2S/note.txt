@@ -1,0 +1,1 @@
+Target generated from dataset OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2, entry [H:4][CH:3](c1c(cccc1F)F)[S:2](=O)(=O)[C:1](F)(F)F

@@ -1,0 +1,112 @@
+{
+  "dihedrals": [
+    [
+      6,
+      7,
+      8,
+      18
+    ]
+  ],
+  "grid_spacing": [
+    15
+  ],
+  "dihedral_ranges": null,
+  "energy_decrease_thresh": null,
+  "energy_upper_limit": 0.05,
+  "dataset_name": "OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2",
+  "entry_label": "[H:4][CH:3]([CH:2]=[CH2:1])Sc1ccc(c(c1)F)Cl",
+  "canonical_smiles": "C=CCSc1ccc(c(c1)F)Cl",
+  "attributes": {
+    "canonical_explicit_hydrogen_smiles": "[H]c1c(c(c(c(c1SC([H])([H])C(=C([H])[H])[H])[H])F)Cl)[H]",
+    "canonical_isomeric_explicit_hydrogen_mapped_smiles": "[H:13][c:1]1[c:2]([c:6]([c:4]([c:3]([c:5]1[S:11][C:9]([H:19])([H:20])[C:8](=[C:7]([H:16])[H:17])[H:18])[H:15])[F:10])[Cl:12])[H:14]",
+    "canonical_isomeric_explicit_hydrogen_smiles": "[H]c1c(c(c(c(c1SC([H])([H])C(=C([H])[H])[H])[H])F)Cl)[H]",
+    "canonical_isomeric_smiles": "C=CCSc1ccc(c(c1)F)Cl",
+    "canonical_smiles": "C=CCSc1ccc(c(c1)F)Cl",
+    "inchi_key": "HGGJXYGCMWUFGK-UHFFFAOYSA-N",
+    "molecular_formula": "C9H8ClFS",
+    "provenance": "cmiles_v0.1.5_openeye_2019.Apr.1",
+    "standard_inchi": "InChI=1S/C9H8ClFS/c1-2-5-12-7-3-4-8(10)9(11)6-7/h2-4,6H,1,5H2",
+    "unique_protomer_representation": "C=CCSc1ccc(c(c1)F)Cl",
+    "unique_tautomer_representation": "C=CCSc1ccc(Cl)c(F)c1"
+  },
+  "torsion_grid_ids": [
+    [
+      -165
+    ],
+    [
+      -150
+    ],
+    [
+      -135
+    ],
+    [
+      -120
+    ],
+    [
+      -105
+    ],
+    [
+      -90
+    ],
+    [
+      -75
+    ],
+    [
+      -60
+    ],
+    [
+      -45
+    ],
+    [
+      -30
+    ],
+    [
+      -15
+    ],
+    [
+      0
+    ],
+    [
+      15
+    ],
+    [
+      30
+    ],
+    [
+      45
+    ],
+    [
+      60
+    ],
+    [
+      75
+    ],
+    [
+      90
+    ],
+    [
+      105
+    ],
+    [
+      120
+    ],
+    [
+      135
+    ],
+    [
+      150
+    ],
+    [
+      165
+    ],
+    [
+      180
+    ]
+  ],
+  "smirks": [
+    "[#1:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]"
+  ],
+  "smirks_ids": [
+    "t19"
+  ]
+}

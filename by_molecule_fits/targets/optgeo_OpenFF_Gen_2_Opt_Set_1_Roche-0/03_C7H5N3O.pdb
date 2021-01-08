@@ -1,0 +1,34 @@
+REMARK   1 CREATED WITH FORCEBALANCE 2020-04-28
+HETATM    1  C1  <0> A   1       0.607   0.905   1.865  0.00  0.00           C  
+HETATM    2  C2  <0> A   1       0.233   0.949   3.212  0.00  0.00           C  
+HETATM    3  C3  <0> A   1      -0.182   0.112   1.030  0.00  0.00           C  
+HETATM    4  C4  <0> A   1      -4.221  -2.086   4.464  0.00  0.00           C  
+HETATM    5  C5  <0> A   1      -4.378  -2.514   3.177  0.00  0.00           C  
+HETATM    6  C6  <0> A   1      -1.504  -0.454   2.792  0.00  0.00           C  
+HETATM    7  C7  <0> A   1      -2.664  -1.199   3.307  0.00  0.00           C  
+HETATM    8  N1  <0> A   1      -0.818   0.277   3.687  0.00  0.00           N  
+HETATM    9  N2  <0> A   1      -1.239  -0.572   1.480  0.00  0.00           N  
+HETATM   10  N3  <0> A   1      -3.123  -1.247   4.530  0.00  0.00           N  
+HETATM   11  O1  <0> A   1      -3.386  -1.954   2.424  0.00  0.00           O  
+HETATM   12  H1  <0> A   1       1.463   1.456   1.491  0.00  0.00           H  
+HETATM   13  H2  <0> A   1       0.793   1.543   3.933  0.00  0.00           H  
+HETATM   14  H3  <0> A   1       0.037   0.020  -0.033  0.00  0.00           H  
+HETATM   15  H4  <0> A   1      -4.816  -2.322   5.336  0.00  0.00           H  
+HETATM   16  H5  <0> A   1      -5.074  -3.160   2.662  0.00  0.00           H  
+TER      17      <0> A   1
+CONECT    1    3    2   12
+CONECT    2    1    8   13
+CONECT    3    1    9   14
+CONECT    4    5   10   15
+CONECT    5    4   11   16
+CONECT    6    7    9    8
+CONECT    7    6   10   11
+CONECT    8    2    6
+CONECT    9    3    6
+CONECT   10    4    7
+CONECT   11    5    7
+CONECT   12    1
+CONECT   13    2
+CONECT   14    3
+CONECT   15    4
+CONECT   16    5

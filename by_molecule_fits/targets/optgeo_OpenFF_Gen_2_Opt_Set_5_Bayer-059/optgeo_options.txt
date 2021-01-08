@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 590_C11H15N2O
+geometry 590_C11H15N2O.xyz
+topology 590_C11H15N2O.pdb
+mol2 590_C11H15N2O.mol2
+$end
+
+$system
+name 591_C14H14O3
+geometry 591_C14H14O3.xyz
+topology 591_C14H14O3.pdb
+mol2 591_C14H14O3.mol2
+$end
+
+$system
+name 592_C6H7N2O5S2
+geometry 592_C6H7N2O5S2.xyz
+topology 592_C6H7N2O5S2.pdb
+mol2 592_C6H7N2O5S2.mol2
+$end
+
+$system
+name 593_C14H18N2O
+geometry 593_C14H18N2O.xyz
+topology 593_C14H18N2O.pdb
+mol2 593_C14H18N2O.mol2
+$end
+
+$system
+name 594_C8H12O3S
+geometry 594_C8H12O3S.xyz
+topology 594_C8H12O3S.pdb
+mol2 594_C8H12O3S.mol2
+$end
+
+$system
+name 595_C7H11N3O2S2
+geometry 595_C7H11N3O2S2.xyz
+topology 595_C7H11N3O2S2.pdb
+mol2 595_C7H11N3O2S2.mol2
+$end
+
+$system
+name 596_C11H14OS
+geometry 596_C11H14OS.xyz
+topology 596_C11H14OS.pdb
+mol2 596_C11H14OS.mol2
+$end
+
+$system
+name 597_C10H16O3S
+geometry 597_C10H16O3S.xyz
+topology 597_C10H16O3S.pdb
+mol2 597_C10H16O3S.mol2
+$end
+
+$system
+name 598_C16H17N2O
+geometry 598_C16H17N2O.xyz
+topology 598_C16H17N2O.pdb
+mol2 598_C16H17N2O.mol2
+$end
+
+$system
+name 599_C7H8N2O6S2
+geometry 599_C7H8N2O6S2.xyz
+topology 599_C7H8N2O6S2.pdb
+mol2 599_C7H8N2O6S2.mol2
+$end

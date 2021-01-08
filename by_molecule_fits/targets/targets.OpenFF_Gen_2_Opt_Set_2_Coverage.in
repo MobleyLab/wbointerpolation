@@ -1,0 +1,1010 @@
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_000_C7H10NO3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_001_C7H8N2OS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_002_C7H9N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_003_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_004_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_005_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_006_C5H6N5O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_007_C4H7NS3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_008_C7H9N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_009_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_010_C7H9N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_011_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_012_C8H14N2O3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_013_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_015_C5H7N5O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_016_C2H5N2S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_017_C7H9N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_018_C6Cl2H5OP
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_019_C4H7NS3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_020_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_021_BrC3H7O2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_022_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_023_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_024_C5H13N2O2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_025_C7H11NO3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_026_C4Cl3H7NO4P
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_027_Br2C2ClF3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_028_C7H9N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_029_C4H10NO3PS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_030_C4Cl3H7NO4P
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_031_C7H9N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_032_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_033_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_034_C7H11NO3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_035_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_036_C7H11NO3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_037_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_038_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_039_BrC3H4N4
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_040_BrC3H4N4
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_041_Br2C2ClF3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_042_C4H7NS3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_043_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_044_Br3P
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_045_C4H7NS3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_046_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_047_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_048_C2H5NOS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_049_C8H15N2O3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_050_C4H7NS3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_051_C4H10NO3PS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_052_C4H10NO3PS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_053_C7H9N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_054_BrC4H4NO2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_055_C4Cl3H7NO4P
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_056_C7H9N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_057_C4H10NO3PS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_058_C7H9N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_059_C7H9N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_060_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_061_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_062_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_063_BrC8H9S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_064_C4H6NO2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_065_C8H9NOS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_066_C4H7NS3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_067_C7H9N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_068_C18H16NP
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_069_C12FH10NO4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_070_C4Cl3H7NO4P
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_071_C8H15N2O3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_072_C12H24N5PS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_073_C12FH10NO4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_074_C5H7N5O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_075_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_076_C12H24N5PS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_077_C12H24N5PS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_078_Br2C2ClF3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_079_C12FH10NO4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_080_C24Cl2H16O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_081_C24Cl2H16O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_082_C24Cl2H16O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_083_C24Cl2H16O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_084_C24Cl2H16O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_085_C24Cl2H16O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_086_C24Cl2H16O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_087_C24Cl2H16O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_088_C7H10N2O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_089_C24Cl2H16O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_090_C24Cl2H16O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_091_C2H2N4
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_092_C24Cl2H16O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_093_C24Cl2H16O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_094_C7H10NO3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_095_C24Cl2H16O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_096_C24Cl2H16O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_097_C24Cl2H16O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_098_C24Cl2H16O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_099_C24Cl2H16O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_100_C24Cl2H16O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_2_Coverage_101_C24Cl2H16O4S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end

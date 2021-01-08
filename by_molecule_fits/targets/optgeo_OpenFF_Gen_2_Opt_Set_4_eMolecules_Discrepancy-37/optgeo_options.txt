@@ -1,0 +1,343 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 1850_C17H15N3O2
+geometry 1850_C17H15N3O2.xyz
+topology 1850_C17H15N3O2.pdb
+mol2 1850_C17H15N3O2.mol2
+$end
+
+$system
+name 1851_BrC10FH8O
+geometry 1851_BrC10FH8O.xyz
+topology 1851_BrC10FH8O.pdb
+mol2 1851_BrC10FH8O.mol2
+$end
+
+$system
+name 1852_C9FH8NO2
+geometry 1852_C9FH8NO2.xyz
+topology 1852_C9FH8NO2.pdb
+mol2 1852_C9FH8NO2.mol2
+$end
+
+$system
+name 1853_C9FH8NO2
+geometry 1853_C9FH8NO2.xyz
+topology 1853_C9FH8NO2.pdb
+mol2 1853_C9FH8NO2.mol2
+$end
+
+$system
+name 1854_BrC8H9N2O
+geometry 1854_BrC8H9N2O.xyz
+topology 1854_BrC8H9N2O.pdb
+mol2 1854_BrC8H9N2O.mol2
+$end
+
+$system
+name 1855_C18FH21N2O2
+geometry 1855_C18FH21N2O2.xyz
+topology 1855_C18FH21N2O2.pdb
+mol2 1855_C18FH21N2O2.mol2
+$end
+
+$system
+name 1856_C17H15N3O2
+geometry 1856_C17H15N3O2.xyz
+topology 1856_C17H15N3O2.pdb
+mol2 1856_C17H15N3O2.mol2
+$end
+
+$system
+name 1857_BrC10FH8O
+geometry 1857_BrC10FH8O.xyz
+topology 1857_BrC10FH8O.pdb
+mol2 1857_BrC10FH8O.mol2
+$end
+
+$system
+name 1858_BrC8H9N2O
+geometry 1858_BrC8H9N2O.xyz
+topology 1858_BrC8H9N2O.pdb
+mol2 1858_BrC8H9N2O.mol2
+$end
+
+$system
+name 1859_C14H21N5O4S
+geometry 1859_C14H21N5O4S.xyz
+topology 1859_C14H21N5O4S.pdb
+mol2 1859_C14H21N5O4S.mol2
+$end
+
+$system
+name 1860_C19FH17N4O
+geometry 1860_C19FH17N4O.xyz
+topology 1860_C19FH17N4O.pdb
+mol2 1860_C19FH17N4O.mol2
+$end
+
+$system
+name 1861_C16H25N5O2S
+geometry 1861_C16H25N5O2S.xyz
+topology 1861_C16H25N5O2S.pdb
+mol2 1861_C16H25N5O2S.mol2
+$end
+
+$system
+name 1862_C15ClH18NO
+geometry 1862_C15ClH18NO.xyz
+topology 1862_C15ClH18NO.pdb
+mol2 1862_C15ClH18NO.mol2
+$end
+
+$system
+name 1863_C14H21N5O4S
+geometry 1863_C14H21N5O4S.xyz
+topology 1863_C14H21N5O4S.pdb
+mol2 1863_C14H21N5O4S.mol2
+$end
+
+$system
+name 1864_C16H25N5O2S
+geometry 1864_C16H25N5O2S.xyz
+topology 1864_C16H25N5O2S.pdb
+mol2 1864_C16H25N5O2S.mol2
+$end
+
+$system
+name 1865_C9FH8NO2
+geometry 1865_C9FH8NO2.xyz
+topology 1865_C9FH8NO2.pdb
+mol2 1865_C9FH8NO2.mol2
+$end
+
+$system
+name 1866_C9FH8NO2
+geometry 1866_C9FH8NO2.xyz
+topology 1866_C9FH8NO2.pdb
+mol2 1866_C9FH8NO2.mol2
+$end
+
+$system
+name 1867_C7ClF3H3NO3
+geometry 1867_C7ClF3H3NO3.xyz
+topology 1867_C7ClF3H3NO3.pdb
+mol2 1867_C7ClF3H3NO3.mol2
+$end
+
+$system
+name 1868_C10F3H7O
+geometry 1868_C10F3H7O.xyz
+topology 1868_C10F3H7O.pdb
+mol2 1868_C10F3H7O.mol2
+$end
+
+$system
+name 1869_BrC7Cl3FH3O
+geometry 1869_BrC7Cl3FH3O.xyz
+topology 1869_BrC7Cl3FH3O.pdb
+mol2 1869_BrC7Cl3FH3O.mol2
+$end
+
+$system
+name 1870_C16H25N5O2S
+geometry 1870_C16H25N5O2S.xyz
+topology 1870_C16H25N5O2S.pdb
+mol2 1870_C16H25N5O2S.mol2
+$end
+
+$system
+name 1871_BrC10FH8O
+geometry 1871_BrC10FH8O.xyz
+topology 1871_BrC10FH8O.pdb
+mol2 1871_BrC10FH8O.mol2
+$end
+
+$system
+name 1872_C17H15N3O2
+geometry 1872_C17H15N3O2.xyz
+topology 1872_C17H15N3O2.pdb
+mol2 1872_C17H15N3O2.mol2
+$end
+
+$system
+name 1874_C11H20N2O
+geometry 1874_C11H20N2O.xyz
+topology 1874_C11H20N2O.pdb
+mol2 1874_C11H20N2O.mol2
+$end
+
+$system
+name 1875_C15ClH18NO
+geometry 1875_C15ClH18NO.xyz
+topology 1875_C15ClH18NO.pdb
+mol2 1875_C15ClH18NO.mol2
+$end
+
+$system
+name 1876_C15F3H18N3O
+geometry 1876_C15F3H18N3O.xyz
+topology 1876_C15F3H18N3O.pdb
+mol2 1876_C15F3H18N3O.mol2
+$end
+
+$system
+name 1877_C18FH21N2O2
+geometry 1877_C18FH21N2O2.xyz
+topology 1877_C18FH21N2O2.pdb
+mol2 1877_C18FH21N2O2.mol2
+$end
+
+$system
+name 1878_C16H15NO6S
+geometry 1878_C16H15NO6S.xyz
+topology 1878_C16H15NO6S.pdb
+mol2 1878_C16H15NO6S.mol2
+$end
+
+$system
+name 1879_C18FH21N2O2
+geometry 1879_C18FH21N2O2.xyz
+topology 1879_C18FH21N2O2.pdb
+mol2 1879_C18FH21N2O2.mol2
+$end
+
+$system
+name 1880_C18FH21N2O2
+geometry 1880_C18FH21N2O2.xyz
+topology 1880_C18FH21N2O2.pdb
+mol2 1880_C18FH21N2O2.mol2
+$end
+
+$system
+name 1881_C18FH21N2O2
+geometry 1881_C18FH21N2O2.xyz
+topology 1881_C18FH21N2O2.pdb
+mol2 1881_C18FH21N2O2.mol2
+$end
+
+$system
+name 1882_C15FH18NO
+geometry 1882_C15FH18NO.xyz
+topology 1882_C15FH18NO.pdb
+mol2 1882_C15FH18NO.mol2
+$end
+
+$system
+name 1883_C16H15NO6S
+geometry 1883_C16H15NO6S.xyz
+topology 1883_C16H15NO6S.pdb
+mol2 1883_C16H15NO6S.mol2
+$end
+
+$system
+name 1884_C20H26N4O
+geometry 1884_C20H26N4O.xyz
+topology 1884_C20H26N4O.pdb
+mol2 1884_C20H26N4O.mol2
+$end
+
+$system
+name 1885_C16H15NO6S
+geometry 1885_C16H15NO6S.xyz
+topology 1885_C16H15NO6S.pdb
+mol2 1885_C16H15NO6S.mol2
+$end
+
+$system
+name 1886_C16H25N5O2S
+geometry 1886_C16H25N5O2S.xyz
+topology 1886_C16H25N5O2S.pdb
+mol2 1886_C16H25N5O2S.mol2
+$end
+
+$system
+name 1887_C15FH18NO
+geometry 1887_C15FH18NO.xyz
+topology 1887_C15FH18NO.pdb
+mol2 1887_C15FH18NO.mol2
+$end
+
+$system
+name 1888_C7H5IO3
+geometry 1888_C7H5IO3.xyz
+topology 1888_C7H5IO3.pdb
+mol2 1888_C7H5IO3.mol2
+$end
+
+$system
+name 1889_C15FH18NO
+geometry 1889_C15FH18NO.xyz
+topology 1889_C15FH18NO.pdb
+mol2 1889_C15FH18NO.mol2
+$end
+
+$system
+name 1890_C13Cl2H8O2S
+geometry 1890_C13Cl2H8O2S.xyz
+topology 1890_C13Cl2H8O2S.pdb
+mol2 1890_C13Cl2H8O2S.mol2
+$end
+
+$system
+name 1891_BrC7Cl3FH3O
+geometry 1891_BrC7Cl3FH3O.xyz
+topology 1891_BrC7Cl3FH3O.pdb
+mol2 1891_BrC7Cl3FH3O.mol2
+$end
+
+$system
+name 1892_C7H5IO3
+geometry 1892_C7H5IO3.xyz
+topology 1892_C7H5IO3.pdb
+mol2 1892_C7H5IO3.mol2
+$end
+
+$system
+name 1893_C20H26N4O
+geometry 1893_C20H26N4O.xyz
+topology 1893_C20H26N4O.pdb
+mol2 1893_C20H26N4O.mol2
+$end
+
+$system
+name 1894_BrC6H3INO2
+geometry 1894_BrC6H3INO2.xyz
+topology 1894_BrC6H3INO2.pdb
+mol2 1894_BrC6H3INO2.mol2
+$end
+
+$system
+name 1895_C20H26N4O
+geometry 1895_C20H26N4O.xyz
+topology 1895_C20H26N4O.pdb
+mol2 1895_C20H26N4O.mol2
+$end
+
+$system
+name 1896_C15FH18NO
+geometry 1896_C15FH18NO.xyz
+topology 1896_C15FH18NO.pdb
+mol2 1896_C15FH18NO.mol2
+$end
+
+$system
+name 1898_C16F3H12N3
+geometry 1898_C16F3H12N3.xyz
+topology 1898_C16F3H12N3.pdb
+mol2 1898_C16F3H12N3.mol2
+$end
+
+$system
+name 1899_C7H5IO3
+geometry 1899_C7H5IO3.xyz
+topology 1899_C7H5IO3.pdb
+mol2 1899_C7H5IO3.mol2
+$end

@@ -1,0 +1,357 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 2000_C8ClF3H6O2
+geometry 2000_C8ClF3H6O2.xyz
+topology 2000_C8ClF3H6O2.pdb
+mol2 2000_C8ClF3H6O2.mol2
+$end
+
+$system
+name 2001_C5Cl2H4N2O
+geometry 2001_C5Cl2H4N2O.xyz
+topology 2001_C5Cl2H4N2O.pdb
+mol2 2001_C5Cl2H4N2O.mol2
+$end
+
+$system
+name 2002_C9F2H10OS
+geometry 2002_C9F2H10OS.xyz
+topology 2002_C9F2H10OS.pdb
+mol2 2002_C9F2H10OS.mol2
+$end
+
+$system
+name 2003_BrC6FH2INO2
+geometry 2003_BrC6FH2INO2.xyz
+topology 2003_BrC6FH2INO2.pdb
+mol2 2003_BrC6FH2INO2.mol2
+$end
+
+$system
+name 2004_C9F2H10OS
+geometry 2004_C9F2H10OS.xyz
+topology 2004_C9F2H10OS.pdb
+mol2 2004_C9F2H10OS.mol2
+$end
+
+$system
+name 2005_C10H14OS
+geometry 2005_C10H14OS.xyz
+topology 2005_C10H14OS.pdb
+mol2 2005_C10H14OS.mol2
+$end
+
+$system
+name 2006_C9F2H10OS
+geometry 2006_C9F2H10OS.xyz
+topology 2006_C9F2H10OS.pdb
+mol2 2006_C9F2H10OS.mol2
+$end
+
+$system
+name 2007_C6H8N2O4
+geometry 2007_C6H8N2O4.xyz
+topology 2007_C6H8N2O4.pdb
+mol2 2007_C6H8N2O4.mol2
+$end
+
+$system
+name 2008_C11H18N4O2
+geometry 2008_C11H18N4O2.xyz
+topology 2008_C11H18N4O2.pdb
+mol2 2008_C11H18N4O2.mol2
+$end
+
+$system
+name 2009_BrC6F2H3N2O2
+geometry 2009_BrC6F2H3N2O2.xyz
+topology 2009_BrC6F2H3N2O2.pdb
+mol2 2009_BrC6F2H3N2O2.mol2
+$end
+
+$system
+name 2010_C8ClF3H6O2
+geometry 2010_C8ClF3H6O2.xyz
+topology 2010_C8ClF3H6O2.pdb
+mol2 2010_C8ClF3H6O2.mol2
+$end
+
+$system
+name 2011_C11H18N4O2
+geometry 2011_C11H18N4O2.xyz
+topology 2011_C11H18N4O2.pdb
+mol2 2011_C11H18N4O2.mol2
+$end
+
+$system
+name 2012_C9ClH8NO2
+geometry 2012_C9ClH8NO2.xyz
+topology 2012_C9ClH8NO2.pdb
+mol2 2012_C9ClH8NO2.mol2
+$end
+
+$system
+name 2013_C9Cl2H8N6
+geometry 2013_C9Cl2H8N6.xyz
+topology 2013_C9Cl2H8N6.pdb
+mol2 2013_C9Cl2H8N6.mol2
+$end
+
+$system
+name 2014_C6H8N2O4
+geometry 2014_C6H8N2O4.xyz
+topology 2014_C6H8N2O4.pdb
+mol2 2014_C6H8N2O4.mol2
+$end
+
+$system
+name 2015_C11H18N4O2
+geometry 2015_C11H18N4O2.xyz
+topology 2015_C11H18N4O2.pdb
+mol2 2015_C11H18N4O2.mol2
+$end
+
+$system
+name 2016_C10H14OS
+geometry 2016_C10H14OS.xyz
+topology 2016_C10H14OS.pdb
+mol2 2016_C10H14OS.mol2
+$end
+
+$system
+name 2017_C6H8N2O4
+geometry 2017_C6H8N2O4.xyz
+topology 2017_C6H8N2O4.pdb
+mol2 2017_C6H8N2O4.mol2
+$end
+
+$system
+name 2018_C11H18N4O2
+geometry 2018_C11H18N4O2.xyz
+topology 2018_C11H18N4O2.pdb
+mol2 2018_C11H18N4O2.mol2
+$end
+
+$system
+name 2019_C10H14OS
+geometry 2019_C10H14OS.xyz
+topology 2019_C10H14OS.pdb
+mol2 2019_C10H14OS.mol2
+$end
+
+$system
+name 2020_C9Cl2H8N6
+geometry 2020_C9Cl2H8N6.xyz
+topology 2020_C9Cl2H8N6.pdb
+mol2 2020_C9Cl2H8N6.mol2
+$end
+
+$system
+name 2021_C8ClF3H6O2
+geometry 2021_C8ClF3H6O2.xyz
+topology 2021_C8ClF3H6O2.pdb
+mol2 2021_C8ClF3H6O2.mol2
+$end
+
+$system
+name 2022_C11H18N4O2
+geometry 2022_C11H18N4O2.xyz
+topology 2022_C11H18N4O2.pdb
+mol2 2022_C11H18N4O2.mol2
+$end
+
+$system
+name 2023_C9ClH8NO2
+geometry 2023_C9ClH8NO2.xyz
+topology 2023_C9ClH8NO2.pdb
+mol2 2023_C9ClH8NO2.mol2
+$end
+
+$system
+name 2024_C9Cl2H8N6
+geometry 2024_C9Cl2H8N6.xyz
+topology 2024_C9Cl2H8N6.pdb
+mol2 2024_C9Cl2H8N6.mol2
+$end
+
+$system
+name 2025_C9ClH8NO2
+geometry 2025_C9ClH8NO2.xyz
+topology 2025_C9ClH8NO2.pdb
+mol2 2025_C9ClH8NO2.mol2
+$end
+
+$system
+name 2026_C9ClH8NO2
+geometry 2026_C9ClH8NO2.xyz
+topology 2026_C9ClH8NO2.pdb
+mol2 2026_C9ClH8NO2.mol2
+$end
+
+$system
+name 2027_C11H18N4O2
+geometry 2027_C11H18N4O2.xyz
+topology 2027_C11H18N4O2.pdb
+mol2 2027_C11H18N4O2.mol2
+$end
+
+$system
+name 2028_C11H18N4O2
+geometry 2028_C11H18N4O2.xyz
+topology 2028_C11H18N4O2.pdb
+mol2 2028_C11H18N4O2.mol2
+$end
+
+$system
+name 2029_C9Cl2H8N6
+geometry 2029_C9Cl2H8N6.xyz
+topology 2029_C9Cl2H8N6.pdb
+mol2 2029_C9Cl2H8N6.mol2
+$end
+
+$system
+name 2030_C13H12N6O
+geometry 2030_C13H12N6O.xyz
+topology 2030_C13H12N6O.pdb
+mol2 2030_C13H12N6O.mol2
+$end
+
+$system
+name 2031_C3H5O6P
+geometry 2031_C3H5O6P.xyz
+topology 2031_C3H5O6P.pdb
+mol2 2031_C3H5O6P.mol2
+$end
+
+$system
+name 2032_C10H14OS
+geometry 2032_C10H14OS.xyz
+topology 2032_C10H14OS.pdb
+mol2 2032_C10H14OS.mol2
+$end
+
+$system
+name 2033_C3H5O6P
+geometry 2033_C3H5O6P.xyz
+topology 2033_C3H5O6P.pdb
+mol2 2033_C3H5O6P.mol2
+$end
+
+$system
+name 2034_C9Cl2H8N6
+geometry 2034_C9Cl2H8N6.xyz
+topology 2034_C9Cl2H8N6.pdb
+mol2 2034_C9Cl2H8N6.mol2
+$end
+
+$system
+name 2035_C15ClH15N6S
+geometry 2035_C15ClH15N6S.xyz
+topology 2035_C15ClH15N6S.pdb
+mol2 2035_C15ClH15N6S.mol2
+$end
+
+$system
+name 2036_C3H5O6P
+geometry 2036_C3H5O6P.xyz
+topology 2036_C3H5O6P.pdb
+mol2 2036_C3H5O6P.mol2
+$end
+
+$system
+name 2037_C11H18N4O2
+geometry 2037_C11H18N4O2.xyz
+topology 2037_C11H18N4O2.pdb
+mol2 2037_C11H18N4O2.mol2
+$end
+
+$system
+name 2038_C9ClH8NO2
+geometry 2038_C9ClH8NO2.xyz
+topology 2038_C9ClH8NO2.pdb
+mol2 2038_C9ClH8NO2.mol2
+$end
+
+$system
+name 2039_C7ClH10N3
+geometry 2039_C7ClH10N3.xyz
+topology 2039_C7ClH10N3.pdb
+mol2 2039_C7ClH10N3.mol2
+$end
+
+$system
+name 2040_C13H12N6O
+geometry 2040_C13H12N6O.xyz
+topology 2040_C13H12N6O.pdb
+mol2 2040_C13H12N6O.mol2
+$end
+
+$system
+name 2041_BrC4H3N2O2S
+geometry 2041_BrC4H3N2O2S.xyz
+topology 2041_BrC4H3N2O2S.pdb
+mol2 2041_BrC4H3N2O2S.mol2
+$end
+
+$system
+name 2042_C8ClF3H6O2
+geometry 2042_C8ClF3H6O2.xyz
+topology 2042_C8ClF3H6O2.pdb
+mol2 2042_C8ClF3H6O2.mol2
+$end
+
+$system
+name 2043_C3H5O6P
+geometry 2043_C3H5O6P.xyz
+topology 2043_C3H5O6P.pdb
+mol2 2043_C3H5O6P.mol2
+$end
+
+$system
+name 2044_C9ClH8NO2
+geometry 2044_C9ClH8NO2.xyz
+topology 2044_C9ClH8NO2.pdb
+mol2 2044_C9ClH8NO2.mol2
+$end
+
+$system
+name 2045_C3H5O6P
+geometry 2045_C3H5O6P.xyz
+topology 2045_C3H5O6P.pdb
+mol2 2045_C3H5O6P.mol2
+$end
+
+$system
+name 2046_C9ClH8NO2
+geometry 2046_C9ClH8NO2.xyz
+topology 2046_C9ClH8NO2.pdb
+mol2 2046_C9ClH8NO2.mol2
+$end
+
+$system
+name 2047_C3H5O6P
+geometry 2047_C3H5O6P.xyz
+topology 2047_C3H5O6P.pdb
+mol2 2047_C3H5O6P.mol2
+$end
+
+$system
+name 2048_C11H18N4O2
+geometry 2048_C11H18N4O2.xyz
+topology 2048_C11H18N4O2.pdb
+mol2 2048_C11H18N4O2.mol2
+$end
+
+$system
+name 2049_C3H5O6P
+geometry 2049_C3H5O6P.xyz
+topology 2049_C3H5O6P.pdb
+mol2 2049_C3H5O6P.mol2
+$end

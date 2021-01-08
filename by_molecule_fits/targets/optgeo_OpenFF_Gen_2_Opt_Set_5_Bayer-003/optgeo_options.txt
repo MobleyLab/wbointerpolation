@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 30_C11H15N2O2
+geometry 30_C11H15N2O2.xyz
+topology 30_C11H15N2O2.pdb
+mol2 30_C11H15N2O2.mol2
+$end
+
+$system
+name 31_C12H18O3
+geometry 31_C12H18O3.xyz
+topology 31_C12H18O3.pdb
+mol2 31_C12H18O3.mol2
+$end
+
+$system
+name 32_C12H18O3
+geometry 32_C12H18O3.xyz
+topology 32_C12H18O3.pdb
+mol2 32_C12H18O3.mol2
+$end
+
+$system
+name 33_C12H18O3
+geometry 33_C12H18O3.xyz
+topology 33_C12H18O3.pdb
+mol2 33_C12H18O3.mol2
+$end
+
+$system
+name 34_C12H18O3
+geometry 34_C12H18O3.xyz
+topology 34_C12H18O3.pdb
+mol2 34_C12H18O3.mol2
+$end
+
+$system
+name 35_C21ClH25O6S
+geometry 35_C21ClH25O6S.xyz
+topology 35_C21ClH25O6S.pdb
+mol2 35_C21ClH25O6S.mol2
+$end
+
+$system
+name 36_C26H44N2O2
+geometry 36_C26H44N2O2.xyz
+topology 36_C26H44N2O2.pdb
+mol2 36_C26H44N2O2.mol2
+$end
+
+$system
+name 37_C21ClH25O6S
+geometry 37_C21ClH25O6S.xyz
+topology 37_C21ClH25O6S.pdb
+mol2 37_C21ClH25O6S.mol2
+$end
+
+$system
+name 38_C26H44N2O2
+geometry 38_C26H44N2O2.xyz
+topology 38_C26H44N2O2.pdb
+mol2 38_C26H44N2O2.mol2
+$end
+
+$system
+name 39_C13F3H15O2S
+geometry 39_C13F3H15O2S.xyz
+topology 39_C13F3H15O2S.pdb
+mol2 39_C13F3H15O2S.mol2
+$end

@@ -1,0 +1,1 @@
+Target generated from dataset OpenFF Gen 2 Torsion Set 2 Coverage 2, entry CC1([C:2](=[O:1])[O:3][O:4]C1(C)C)C

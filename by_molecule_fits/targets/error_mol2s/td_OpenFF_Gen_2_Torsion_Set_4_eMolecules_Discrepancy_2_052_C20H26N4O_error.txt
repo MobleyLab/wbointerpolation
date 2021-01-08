@@ -1,0 +1,11 @@
+OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2
+target_name td_OpenFF_Gen_2_Torsion_Set_4_eMolecules_Discrepancy_2_052_C20H26N4O
+entry Cc1cc(c(nc1C)[N@]2CC[C@]3(C2)CCC[N:4](C3=O)[CH2:3][CH:2]4[CH2:1]C4)C#N
+td_keywords {'dihedrals': [(8, 15, 19, 23)], 'grid_spacing': [15], 'dihedral_ranges': None, 'energy_decrease_thresh': None, 'energy_upper_limit': 0.05}
+error message:
+Unable to make OFFMol from OEMol: OEMol has unspecified stereochemistry. oemol.GetTitle(): 
+Problematic atoms are:
+Atom atomic num: 7, name: N3, idx: 22, aromatic: False, chiral: True with bonds:
+bond order: 1, chiral: False to atom atomic num: 6, name: C6, idx: 5, aromatic: True, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C14, idx: 13, aromatic: False, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: C15, idx: 14, aromatic: False, chiral: False

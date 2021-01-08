@@ -1,0 +1,44 @@
+REMARK   1 CREATED WITH FORCEBALANCE 2020-04-28
+HETATM    1  C1  <0> A   1       0.321  -1.618   1.029  0.00  0.00           C  
+HETATM    2  C2  <0> A   1       0.118  -0.239   1.041  0.00  0.00           C  
+HETATM    3  C3  <0> A   1       0.593  -2.261   2.238  0.00  0.00           C  
+HETATM    4  C4  <0> A   1       0.196   0.435   2.270  0.00  0.00           C  
+HETATM    5  C5  <0> A   1       1.511  -3.535   7.255  0.00  0.00           C  
+HETATM    6  C6  <0> A   1       0.650  -1.497   3.415  0.00  0.00           C  
+HETATM    7  C7  <0> A   1       1.348  -1.550   8.171  0.00  0.00           C  
+HETATM    8  C8  <0> A   1       0.937  -2.183   4.686  0.00  0.00           C  
+HETATM    9  N1  <0> A   1       0.455  -0.164   3.431  0.00  0.00           N  
+HETATM   10  N2  <0> A   1       1.714  -3.668   8.538  0.00  0.00           N  
+HETATM   11  N3  <0> A   1       1.612  -2.407   9.128  0.00  0.00           N  
+HETATM   12  N4  <0> A   1       1.001  -1.530   5.788  0.00  0.00           N  
+HETATM   13  N5  <0> A   1       1.269  -2.202   6.947  0.00  0.00           N  
+HETATM   14  S1  <0> A   1       1.123   0.175   8.386  0.00  0.00           S  
+HETATM   15  H1  <0> A   1       0.270  -2.182   0.102  0.00  0.00           H  
+HETATM   16  H2  <0> A   1      -0.097   0.311   0.129  0.00  0.00           H  
+HETATM   17  H3  <0> A   1       0.757  -3.335   2.272  0.00  0.00           H  
+HETATM   18  H4  <0> A   1       0.042   1.513   2.312  0.00  0.00           H  
+HETATM   19  H5  <0> A   1       1.527  -4.338   6.533  0.00  0.00           H  
+HETATM   20  H6  <0> A   1       1.089  -3.264   4.627  0.00  0.00           H  
+HETATM   21  H7  <0> A   1       0.901   0.401   7.072  0.00  0.00           H  
+TER      22      <0> A   1
+CONECT    1    2    3   15
+CONECT    2    1    4   16
+CONECT    3    1    6   17
+CONECT    4    2    9   18
+CONECT    5   10   13   19
+CONECT    6    3    8    9
+CONECT    7   11   13   14
+CONECT    8    6   12   20
+CONECT    9    4    6
+CONECT   10    5   11
+CONECT   11    7   10
+CONECT   12    8   13
+CONECT   13    5    7   12
+CONECT   14    7   21
+CONECT   15    1
+CONECT   16    2
+CONECT   17    3
+CONECT   18    4
+CONECT   19    5
+CONECT   20    8
+CONECT   21   14

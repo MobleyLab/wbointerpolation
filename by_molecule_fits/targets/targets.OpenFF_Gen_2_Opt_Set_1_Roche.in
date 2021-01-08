@@ -1,0 +1,2010 @@
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_000_C4H8O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_001_C7H10N2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_002_C4H8O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_003_C7H5N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_004_C13H12O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_005_C10H8N2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_006_C6H13NO2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_007_C6H13NO2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_008_C8H10O2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_009_C10FH9N2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_010_C7H8O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_011_C8F2H6O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_012_C11H9NO2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_013_C11H9NO2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_014_C7H10O2S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_015_C7H12N2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_016_C8H10O2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_017_C14FH11O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_018_C14H12O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_019_C8H8N4
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_020_C10H15N2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_021_C11H10N2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_022_C14H14O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_023_C8FH9O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_024_C7H9NO2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_025_C9H13NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_026_C11H13NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_027_C12H11NO2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_028_C8H12N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_029_C11H12N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_030_C9H12O2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_031_C5H8N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_032_C10H8N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_033_C7H9NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_034_C7H10O2S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_035_C11H15NO2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_036_C11H13NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_037_C10H11NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_038_C9H8N2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_039_C14H14O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_040_C14FH11O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_041_C16H12N2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_042_C9H13NO2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_043_C14H14O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_044_C11H12N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_045_C8FH9O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_046_C11H10N2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_047_C12H10
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_048_C14H14O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_049_C7FH7O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_050_C14FH11O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_051_C10H13NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_052_C10H10N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_053_C14H14O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_054_C10H13NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_055_C13H13N
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_056_C14FH11O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_057_C8H10N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_058_C12H11NO2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_059_C8FH10N
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_060_C7H9NOS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_061_C15ClH11N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_062_C11H9NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_063_C8H12N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_064_C10H8N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_065_C13H17NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_066_C13H10O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_067_C14FH11O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_068_C15FH11N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_069_C13H10O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_070_C15H12N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_071_C4H11NO2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_072_C19H16
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_073_C8H10N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_074_C5H8N2O3S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_075_C11H15NO2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_076_C11H15NO2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_077_C8H11NO2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_078_C13H12O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_079_C4H9NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_080_C7H7NO3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_081_C9H12O2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_082_C7H8O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_083_C7H8N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_084_C4H8O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_085_C11H9NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_086_C14FH11O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_087_C11H15NO2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_088_C13H13N3O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_089_C9H9N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_090_C11H9NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_091_C9H9N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_092_C10H10N2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_093_C11H10N2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_094_C9H12N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_095_C12H10O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_096_C10H16N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_097_C11H14
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_098_C8H9NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_099_C17H13NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_100_C11H9NO2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_101_C5H8N2O3S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_102_C8H10O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_103_C13H13N3O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_104_C14H14O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_105_C7H10N2O2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_106_C9H12O2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_107_C5FH8NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_108_C5FH8NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_109_C7H10N2O2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_110_C8H12N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_111_C7H8N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_112_C13H17NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_113_C15FH11N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_114_C11H8N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_115_C11H15NO2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_116_C16H14N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_117_C18H14
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_118_C16H14N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_119_C12H11NO2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_120_C8H7N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_121_C8H7N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_122_C11H10N2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_123_C9H8N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_124_C11H15NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_125_C11H15NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_126_C10H8N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_127_C10H8N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_128_C12H15NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_129_C11H15NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_130_C7H10N2O2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_131_C8H10O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_132_C7H8O2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_133_C12H10O2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_134_C11H15NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_135_C14H10N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_136_C7F3H5O2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_137_C15ClH11N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_138_C6H9NO2S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_139_C8FH6N3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_140_C8FH6N3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_141_C13H17NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_142_C5H9N3O2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_143_C6H4N5
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_144_C7H9NOS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_145_C7H8OS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_146_C12H11NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_147_C15ClH11N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_148_C16H14N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_149_C7H7NO3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_150_C7H9NOS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_151_C7ClH9N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_152_C15ClH11N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_153_C8H12N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_154_C7H9NOS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_155_C10H16N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_156_C6H9NO2S2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_157_C7H9NOS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_158_C11H15NO3S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_159_C8H11NO3S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_160_C7H7NO3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_161_C8FH7O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_162_C11H13NO
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_163_C7H9NOS
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_164_C8H9NO3
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_165_C13H10N4O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_166_C8H11NO3S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_167_C14H14O2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_168_C11H10N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_169_C7H11N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_170_C19H16
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_171_C8H11NO3S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_172_C11H15NO3S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_173_C11H15NO3S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_174_C13H13N3O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_175_C11H9N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_176_C10H13NO2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_177_C7H11N3O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_178_C11H15NO3S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_179_C12H11NO2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_180_C14H10N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_181_C10H15N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_182_C14H10N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_183_C15H15N
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_184_C11H15NO3S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_185_C11H15NO2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_186_C11H10N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_187_C13H13N3O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_188_C11H15NO3S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_189_C11H15NO3S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_190_C11H10N2O2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_191_C9H10O2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_192_C9H13NO2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_193_C11H15NO2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_194_C11H15NO3S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_195_C11H12N2O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_196_C9H12O
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_197_C9H15N4
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_198_C13H13NO2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_199_C14H14O2S
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end
+
+$target
+name vibfreq_OpenFF_Gen_2_Opt_Set_1_Roche_200_C10FH9N2
+type VIBRATION_SMIRNOFF
+coords conf.pdb
+mol2 input.mol2
+weight 1.0
+wavenumber_tol 200.0
+remote 1
+$end

@@ -1,0 +1,1 @@
+Target generated from dataset OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2, entry CO/N=C/C(=[CH:4]\[c:3]1[cH:2][cH:1]c(cc1)F)/C#N

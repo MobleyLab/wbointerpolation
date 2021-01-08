@@ -1,0 +1,77 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 230_C12H14N2O
+geometry 230_C12H14N2O.xyz
+topology 230_C12H14N2O.pdb
+mol2 230_C12H14N2O.mol2
+$end
+
+$system
+name 231_C12H15N2O
+geometry 231_C12H15N2O.xyz
+topology 231_C12H15N2O.pdb
+mol2 231_C12H15N2O.mol2
+$end
+
+$system
+name 232_C12H15N2O
+geometry 232_C12H15N2O.xyz
+topology 232_C12H15N2O.pdb
+mol2 232_C12H15N2O.mol2
+$end
+
+$system
+name 233_C12H15N2O
+geometry 233_C12H15N2O.xyz
+topology 233_C12H15N2O.pdb
+mol2 233_C12H15N2O.mol2
+$end
+
+$system
+name 234_C12H15N2O
+geometry 234_C12H15N2O.xyz
+topology 234_C12H15N2O.pdb
+mol2 234_C12H15N2O.mol2
+$end
+
+$system
+name 235_C12H15N2O
+geometry 235_C12H15N2O.xyz
+topology 235_C12H15N2O.pdb
+mol2 235_C12H15N2O.mol2
+$end
+
+$system
+name 236_C13ClH15O6S
+geometry 236_C13ClH15O6S.xyz
+topology 236_C13ClH15O6S.pdb
+mol2 236_C13ClH15O6S.mol2
+$end
+
+$system
+name 237_C13ClH15O6S
+geometry 237_C13ClH15O6S.xyz
+topology 237_C13ClH15O6S.pdb
+mol2 237_C13ClH15O6S.mol2
+$end
+
+$system
+name 238_C13ClH15O6S
+geometry 238_C13ClH15O6S.xyz
+topology 238_C13ClH15O6S.pdb
+mol2 238_C13ClH15O6S.mol2
+$end
+
+$system
+name 239_C13ClH15O6S
+geometry 239_C13ClH15O6S.xyz
+topology 239_C13ClH15O6S.pdb
+mol2 239_C13ClH15O6S.mol2
+$end

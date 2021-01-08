@@ -1,0 +1,1 @@
+Target generated from dataset OpenFF Gen 2 Torsion Set 5 Bayer 2, entry C1CCC(CC1)n2[c:1](=O)[nH:4][nH:3][c:2]2=O

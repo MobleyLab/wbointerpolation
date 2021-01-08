@@ -1,0 +1,350 @@
+
+$global
+bond_denom 0.05
+angle_denom 8
+dihedral_denom 0
+improper_denom 20
+$end
+
+$system
+name 1450_C20H26N4O
+geometry 1450_C20H26N4O.xyz
+topology 1450_C20H26N4O.pdb
+mol2 1450_C20H26N4O.mol2
+$end
+
+$system
+name 1451_C17H20N4O3
+geometry 1451_C17H20N4O3.xyz
+topology 1451_C17H20N4O3.pdb
+mol2 1451_C17H20N4O3.mol2
+$end
+
+$system
+name 1452_C11ClH8NO4S2
+geometry 1452_C11ClH8NO4S2.xyz
+topology 1452_C11ClH8NO4S2.pdb
+mol2 1452_C11ClH8NO4S2.mol2
+$end
+
+$system
+name 1453_C11ClH8NO4S2
+geometry 1453_C11ClH8NO4S2.xyz
+topology 1453_C11ClH8NO4S2.pdb
+mol2 1453_C11ClH8NO4S2.mol2
+$end
+
+$system
+name 1454_BrC19H17N2O2
+geometry 1454_BrC19H17N2O2.xyz
+topology 1454_BrC19H17N2O2.pdb
+mol2 1454_BrC19H17N2O2.mol2
+$end
+
+$system
+name 1455_C10H9N3O2S
+geometry 1455_C10H9N3O2S.xyz
+topology 1455_C10H9N3O2S.pdb
+mol2 1455_C10H9N3O2S.mol2
+$end
+
+$system
+name 1456_BrC13Cl3H6N4
+geometry 1456_BrC13Cl3H6N4.xyz
+topology 1456_BrC13Cl3H6N4.pdb
+mol2 1456_BrC13Cl3H6N4.mol2
+$end
+
+$system
+name 1457_BrC14H10N3O
+geometry 1457_BrC14H10N3O.xyz
+topology 1457_BrC14H10N3O.pdb
+mol2 1457_BrC14H10N3O.mol2
+$end
+
+$system
+name 1458_C9F3H9S
+geometry 1458_C9F3H9S.xyz
+topology 1458_C9F3H9S.pdb
+mol2 1458_C9F3H9S.mol2
+$end
+
+$system
+name 1459_C13ClH11N2O3
+geometry 1459_C13ClH11N2O3.xyz
+topology 1459_C13ClH11N2O3.pdb
+mol2 1459_C13ClH11N2O3.mol2
+$end
+
+$system
+name 1460_C13H15N5O2
+geometry 1460_C13H15N5O2.xyz
+topology 1460_C13H15N5O2.pdb
+mol2 1460_C13H15N5O2.mol2
+$end
+
+$system
+name 1461_C11H11N5OS
+geometry 1461_C11H11N5OS.xyz
+topology 1461_C11H11N5OS.pdb
+mol2 1461_C11H11N5OS.mol2
+$end
+
+$system
+name 1462_BrC14H10N5O
+geometry 1462_BrC14H10N5O.xyz
+topology 1462_BrC14H10N5O.pdb
+mol2 1462_BrC14H10N5O.mol2
+$end
+
+$system
+name 1463_BrC8H9N2O2
+geometry 1463_BrC8H9N2O2.xyz
+topology 1463_BrC8H9N2O2.pdb
+mol2 1463_BrC8H9N2O2.mol2
+$end
+
+$system
+name 1464_C10H9N3O2S
+geometry 1464_C10H9N3O2S.xyz
+topology 1464_C10H9N3O2S.pdb
+mol2 1464_C10H9N3O2S.mol2
+$end
+
+$system
+name 1465_C15FH12NOS
+geometry 1465_C15FH12NOS.xyz
+topology 1465_C15FH12NOS.pdb
+mol2 1465_C15FH12NOS.mol2
+$end
+
+$system
+name 1466_C9Cl2H9NO
+geometry 1466_C9Cl2H9NO.xyz
+topology 1466_C9Cl2H9NO.pdb
+mol2 1466_C9Cl2H9NO.mol2
+$end
+
+$system
+name 1467_C11ClH8NO4S2
+geometry 1467_C11ClH8NO4S2.xyz
+topology 1467_C11ClH8NO4S2.pdb
+mol2 1467_C11ClH8NO4S2.mol2
+$end
+
+$system
+name 1468_C15Cl3H8NS
+geometry 1468_C15Cl3H8NS.xyz
+topology 1468_C15Cl3H8NS.pdb
+mol2 1468_C15Cl3H8NS.mol2
+$end
+
+$system
+name 1469_C17H28N2O3
+geometry 1469_C17H28N2O3.xyz
+topology 1469_C17H28N2O3.pdb
+mol2 1469_C17H28N2O3.mol2
+$end
+
+$system
+name 1470_BrC14H10N3O
+geometry 1470_BrC14H10N3O.xyz
+topology 1470_BrC14H10N3O.pdb
+mol2 1470_BrC14H10N3O.mol2
+$end
+
+$system
+name 1471_BrC9F2H6NO
+geometry 1471_BrC9F2H6NO.xyz
+topology 1471_BrC9F2H6NO.pdb
+mol2 1471_BrC9F2H6NO.mol2
+$end
+
+$system
+name 1472_C11ClH8NO4S2
+geometry 1472_C11ClH8NO4S2.xyz
+topology 1472_C11ClH8NO4S2.pdb
+mol2 1472_C11ClH8NO4S2.mol2
+$end
+
+$system
+name 1473_BrC14H10N5O
+geometry 1473_BrC14H10N5O.xyz
+topology 1473_BrC14H10N5O.pdb
+mol2 1473_BrC14H10N5O.mol2
+$end
+
+$system
+name 1474_C10H10N2O3S2
+geometry 1474_C10H10N2O3S2.xyz
+topology 1474_C10H10N2O3S2.pdb
+mol2 1474_C10H10N2O3S2.mol2
+$end
+
+$system
+name 1475_C10ClFH10O3
+geometry 1475_C10ClFH10O3.xyz
+topology 1475_C10ClFH10O3.pdb
+mol2 1475_C10ClFH10O3.mol2
+$end
+
+$system
+name 1476_C15FH12NOS
+geometry 1476_C15FH12NOS.xyz
+topology 1476_C15FH12NOS.pdb
+mol2 1476_C15FH12NOS.mol2
+$end
+
+$system
+name 1477_C19ClH15N4S
+geometry 1477_C19ClH15N4S.xyz
+topology 1477_C19ClH15N4S.pdb
+mol2 1477_C19ClH15N4S.mol2
+$end
+
+$system
+name 1478_C17H25N3O2S
+geometry 1478_C17H25N3O2S.xyz
+topology 1478_C17H25N3O2S.pdb
+mol2 1478_C17H25N3O2S.mol2
+$end
+
+$system
+name 1479_C16H15NOS
+geometry 1479_C16H15NOS.xyz
+topology 1479_C16H15NOS.pdb
+mol2 1479_C16H15NOS.mol2
+$end
+
+$system
+name 1480_C17H25N3O2S
+geometry 1480_C17H25N3O2S.xyz
+topology 1480_C17H25N3O2S.pdb
+mol2 1480_C17H25N3O2S.mol2
+$end
+
+$system
+name 1481_BrC14H10N5O
+geometry 1481_BrC14H10N5O.xyz
+topology 1481_BrC14H10N5O.pdb
+mol2 1481_BrC14H10N5O.mol2
+$end
+
+$system
+name 1482_C11H11N5OS
+geometry 1482_C11H11N5OS.xyz
+topology 1482_C11H11N5OS.pdb
+mol2 1482_C11H11N5OS.mol2
+$end
+
+$system
+name 1483_C17H16N2OS
+geometry 1483_C17H16N2OS.xyz
+topology 1483_C17H16N2OS.pdb
+mol2 1483_C17H16N2OS.mol2
+$end
+
+$system
+name 1484_C16H18N6
+geometry 1484_C16H18N6.xyz
+topology 1484_C16H18N6.pdb
+mol2 1484_C16H18N6.mol2
+$end
+
+$system
+name 1485_C19FH17N4O
+geometry 1485_C19FH17N4O.xyz
+topology 1485_C19FH17N4O.pdb
+mol2 1485_C19FH17N4O.mol2
+$end
+
+$system
+name 1486_BrC13Cl3H6N4
+geometry 1486_BrC13Cl3H6N4.xyz
+topology 1486_BrC13Cl3H6N4.pdb
+mol2 1486_BrC13Cl3H6N4.mol2
+$end
+
+$system
+name 1487_C8ClH4NO2
+geometry 1487_C8ClH4NO2.xyz
+topology 1487_C8ClH4NO2.pdb
+mol2 1487_C8ClH4NO2.mol2
+$end
+
+$system
+name 1488_C16H15NOS
+geometry 1488_C16H15NOS.xyz
+topology 1488_C16H15NOS.pdb
+mol2 1488_C16H15NOS.mol2
+$end
+
+$system
+name 1489_C11ClH8NO4S2
+geometry 1489_C11ClH8NO4S2.xyz
+topology 1489_C11ClH8NO4S2.pdb
+mol2 1489_C11ClH8NO4S2.mol2
+$end
+
+$system
+name 1490_C13H24N2O2
+geometry 1490_C13H24N2O2.xyz
+topology 1490_C13H24N2O2.pdb
+mol2 1490_C13H24N2O2.mol2
+$end
+
+$system
+name 1491_C11ClH8NO4S2
+geometry 1491_C11ClH8NO4S2.xyz
+topology 1491_C11ClH8NO4S2.pdb
+mol2 1491_C11ClH8NO4S2.mol2
+$end
+
+$system
+name 1493_BrC8H9N2O2
+geometry 1493_BrC8H9N2O2.xyz
+topology 1493_BrC8H9N2O2.pdb
+mol2 1493_BrC8H9N2O2.mol2
+$end
+
+$system
+name 1494_C13Cl2H8O2S
+geometry 1494_C13Cl2H8O2S.xyz
+topology 1494_C13Cl2H8O2S.pdb
+mol2 1494_C13Cl2H8O2S.mol2
+$end
+
+$system
+name 1495_BrC9F2H6NO
+geometry 1495_BrC9F2H6NO.xyz
+topology 1495_BrC9F2H6NO.pdb
+mol2 1495_BrC9F2H6NO.mol2
+$end
+
+$system
+name 1496_C12ClH9N4O
+geometry 1496_C12ClH9N4O.xyz
+topology 1496_C12ClH9N4O.pdb
+mol2 1496_C12ClH9N4O.mol2
+$end
+
+$system
+name 1497_C16H15NO6S
+geometry 1497_C16H15NO6S.xyz
+topology 1497_C16H15NO6S.pdb
+mol2 1497_C16H15NO6S.mol2
+$end
+
+$system
+name 1498_C16H18N6
+geometry 1498_C16H18N6.xyz
+topology 1498_C16H18N6.pdb
+mol2 1498_C16H18N6.mol2
+$end
+
+$system
+name 1499_C20H26N4O
+geometry 1499_C20H26N4O.xyz
+topology 1499_C20H26N4O.pdb
+mol2 1499_C20H26N4O.mol2
+$end
