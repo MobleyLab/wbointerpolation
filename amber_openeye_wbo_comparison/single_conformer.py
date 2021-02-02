@@ -74,19 +74,19 @@ def generate_conformer(oe_molecule: oechem.OEMol) -> oechem.OEMol:
 
 
 def process_molecule(
-    oe_molecule: oechem.OEMol
+    data_entry
 ) -> Tuple[Dict[str, Molecule], Optional[str]]:
     """
     Processes every molecule, generating bond orders using AmberToolkit and OpenEyeToolkit Wrappers
     """
+    oe_molecule, torsion_indices = data_entry
     
     error = None
     smiles = None
 
     try:
-
         smiles = oechem.OEMolToSmiles(oe_molecule)
-
+        
         # Generate a single conformer for the molecule.
         oe_molecule = generate_conformer(oe_molecule)
 
@@ -117,49 +117,47 @@ def process_molecule(
                 "am1-wiberg",
                 use_conformers=molecule.conformers,
                 toolkit_registry=toolkit_wrapper
-            ) #something goin on here
+            )
 
     except (BaseException, Exception) as e:
         molecules = {}
         error = f"Failed to process {smiles}: {str(e)}"
 
-    return molecules, error
 
-
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--smiles_database",
-                        type=str,
-                        required=True,
-                        help=("Name of a SMILES file containing molecules"))
-    parser.add_argument("--n",
-                        type=int,
-                        required=True,
-                        help=("Number of molecules in the .smi file"))
-    args = parser.parse_args()
+    #Using WBO as provided by the fractional bond order between central torsion indices
+    return molecules, molecule.get_bond_between(torsion_indices[0],torsion_indices[1]).fractional_bond_order, error
+    
+    #Using central torsion indices to calculate WBO through OpenEye
+    #return molecules, torsion_indices, error
+    
+def conform_molecules(data, dataset_name):
+    """
+    Takes a dataset of molecules mapped to their central torsion indices and creates a
+    conformed Ambertools molecule and OpenEye molecule for each molecule
+    """
     
     n_processes = 32
-    molecule_set = args.smiles_database[:-4]
-
-    input_molecule_stream = oechem.oemolistream()
-    input_molecule_stream.open(f"{molecule_set}.smi")
 
     with Pool(processes=n_processes) as pool:
 
         processed_molecules = list(
             tqdm(
-                pool.imap(process_molecule, input_molecule_stream.GetOEMols()),
-                total=args.n,
+                pool.imap(process_molecule, data.items()),
+                total=len(data),
             )
         )
-
+    
     # Retain only the molecules which could be processed and print errors
     # to a log file.
     molecules = {"openeye": [], "ambertools": []}
 
-    with open(f"results/{molecule_set}-errors.log", "w") as file:
+    with open(f"results/{dataset_name}-errors.log", "w") as file:
 
-        for charged_molecules, error in processed_molecules:
+        #Using central torsion indices to calculate WBO through OpenEye
+        #for charged_molecules, torsion_indices, error in processed_molecules:
+        
+        #Using WBO as provided by the fractional bond order between central torsion indices
+        for charged_molecules, wbo, error in processed_molecules:
 
             if error is not None:
 
@@ -170,14 +168,15 @@ def main():
                 continue
 
             for charge_backend in charged_molecules:
-                molecules[charge_backend].append(charged_molecules[charge_backend])
+                #Using WBO as provided by the fractional bond order between central torsion indices
+                molecules[charge_backend].append((charged_molecules[charge_backend], wbo))
+                
+                #Using central torsion indices to calculate WBO through OpenEye
+                #molecules[charge_backend].append((charged_molecules[charge_backend], torsion_indices))
 
     for charge_backend in molecules:
-        with open(f"results/{molecule_set}-{charge_backend}.pkl", "wb") as file:
+        with open(f"results/{dataset_name}-{charge_backend}.pkl", "wb") as file:
             pickle.dump(molecules[charge_backend], file)
-
-    input_molecule_stream.close()
-
 
 if __name__ == "__main__":
     main()
