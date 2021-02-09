@@ -118,20 +118,13 @@ def process_molecule(
                 use_conformers=molecule.conformers,
                 toolkit_registry=toolkit_wrapper
             )
-
+            
     except (BaseException, Exception) as e:
         molecules = {}
         error = f"Failed to process {smiles}: {str(e)}"
 
 
-    #Using WBO as provided by the fractional bond order between central torsion indices and WBO caclulated through openeye to compare openFF vs openeye
-    return [molecules, molecule.get_bond_between(torsion_indices[0],torsion_indices[1]).fractional_bond_order, torsion_indices, error]
-    
-    #Using WBO as provided by the fractional bond order between central torsion indices
-    #return [molecules, molecule.get_bond_between(torsion_indices[0],torsion_indices[1]).fractional_bond_order, error
-    
-    #Using central torsion indices to calculate WBO through OpenEye
-    #return molecules, torsion_indices, error
+    return molecules, torsion_indices, error
     
 def conform_molecules(data, dataset_name):
     """
@@ -160,7 +153,7 @@ def conform_molecules(data, dataset_name):
         #for charged_molecules, torsion_indices, error in processed_molecules:
         
         #Using WBO as provided by the fractional bond order between central torsion indices
-        for charged_molecules, wbo, torsion_indices, error in processed_molecules:
+        for charged_molecules, torsion_indices, error in processed_molecules:
 
             if error is not None:
 
@@ -171,14 +164,8 @@ def conform_molecules(data, dataset_name):
                 continue
 
             for charge_backend in charged_molecules:
-                #Using WBO as provided by the fractional bond order between central torsion indices and WBO caclulated through openeye to compare openFF vs openeye
-                molecules[charge_backend].append((charged_molecules[charge_backend], wbo, torsion_indices))
-                
-                #Using WBO as provided by the fractional bond order between central torsion indices
-                #molecules[charge_backend].append((charged_molecules[charge_backend], wbo))
-                
-                #Using central torsion indices to calculate WBO through OpenEye
-                #molecules[charge_backend].append((charged_molecules[charge_backend], torsion_indices))
+                #Groups molecules by toolkit with their torsion indices
+                molecules[charge_backend].append( (charged_molecules[charge_backend], torsion_indices) )
 
     for charge_backend in molecules:
         with open(f"results/{dataset_name}-{charge_backend}.pkl", "wb") as file:

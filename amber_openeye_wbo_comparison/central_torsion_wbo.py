@@ -85,17 +85,17 @@ def visualize_benchmark(group_num, wbo_values):
     width = .35
     
     fig, ax = plt.subplots()
-    openff_wbos = []
+    amber_wbos = []
     openeye_wbos = []
     
     for mol, wbos in wbo_values.items():
-        openff_wbos.append(wbos[0])
+        amber_wbos.append(wbos[0])
         openeye_wbos.append(wbos[1])
     
     x = np.arange(len(wbo_values.keys()))
     
-    ax.bar(x - width/2, openff_wbos, color = "#236AB9", width = width, label="OpenFF wbo calc")
-    ax.bar(x + width/2, openeye_wbos, color = "#64A9F7", width = width, label="Openeye wbo calc") #64A9F7
+    ax.bar(x - width/2, amber_wbos, color = "#236AB9", width = width, label="Ambertools")
+    ax.bar(x + width/2, openeye_wbos, color = "#64A9F7", width = width, label="OpenEye") #64A9F7
     
     ax.set_ylabel("Wiberg Bond Order", fontweight = "bold")
     ax.set_xlabel("Molecules", fontweight = "bold")
@@ -103,7 +103,7 @@ def visualize_benchmark(group_num, wbo_values):
     #ax.set_xticklabels(wbo_values.keys(), rotation = 90) #Label for each molecule
     ax.set_title(f"WBO Benchmark Group Number {group_num}")
 
-    ax.legend(["OpenFF wbo calc", "Openeye wbo calc"])
+    ax.legend(["Ambertools", "OpenEye"])
     plt.savefig(f"QCA_WBO_figures/QCA_WBO_benchmark Group Number{group_num}.png", bbox_inches = "tight")
     
 def main():
@@ -122,22 +122,23 @@ def main():
             count = 0
             #Iterate through the amber and openeye version of each molecule
             for amber, openeye in zip(amber_data, openeye_data):
-                #amber_mol = smiles2oemol(amber[0].to_smiles())
+                amber_mol = amber[0]
+                amber_smiles = smiles2oemol(amber[0].to_smiles())
+                amber_torsions = amber[1]
+                
+                openeye_mol = openeye[0]
+                openeye_smiles = smiles2oemol(openeye[0].to_smiles())
+                openeye_torsions = openeye[1]
+                
                 #Using WBO as provided by the fractional bond order between central torsion indices
-                #amber_wbo = amber[1]
-                #Using central torsion indices to calculate WBO through OpenEye
-                #amber_torsions = amber[2]
+                wbo_values[ (amber_smiles, openeye_smiles) ] = ( amber_mol.get_bond_between(amber_torsions[0], amber_torsions[1]).fractional_bond_order, openeye_mol.get_bond_between(openeye_torsions[0], openeye_torsions[1]).fractional_bond_order )
                 
-                openeye_mol = smiles2oemol(openeye[0].to_smiles())
-                #Using WBO as provided by the fractional bond order between central torsion indices from openFF
-                openeye_wbo = openeye[1]
                 #Using central torsion indices to calculate WBO through OpenEye
-                openeye_torsions = openeye[2]
+                #wbo_values[ (amber_smiles, amber_smiles) ] = ( wiberg_bond_order(amber_mol, amber_torsions), wiberg_bond_order(openeye_mol, openeye_torsions) )
+                
+                #####IGNORE: SEPARATE TEST ON OPENFF VS OPENEYE WBO CALCULATION#####
                 #Using WBO as provided by the fractional bond order between central torsion indices and WBO caclulated through openeye to compare openFF vs openeye
-                wbo_values[ openeye_mol ] = ( openeye_wbo, wiberg_bond_order(openeye_mol, openeye_torsions) )
-                
-                #Using central torsion indices to calculate WBO through OpenEye
-                #wbo_values[ (amber_mol, openeye_mol) ] = ( wiberg_bond_order(amber_mol, amber_torsions), wiberg_bond_order(openeye_mol, openeye_torsions) )
+                #wbo_values[ openeye_mol ] = ( openeye_wbo, wiberg_bond_order(openeye_mol, openeye_torsions) )
                 
                 #Groups the data into sets of 25 for better visualization
                 count += 1
