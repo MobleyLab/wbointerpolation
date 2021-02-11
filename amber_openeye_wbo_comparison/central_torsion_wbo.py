@@ -100,7 +100,8 @@ def visualize_benchmark(group_num, wbo_values):
     ax.set_ylabel("Wiberg Bond Order", fontweight = "bold")
     ax.set_xlabel("Molecules", fontweight = "bold")
     ax.set_xticks(x)
-    #ax.set_xticklabels(wbo_values.keys(), rotation = 90) #Label for each molecule
+    #Label for each molecule
+    ax.set_xticklabels(wbo_values.keys(), rotation = 90)
     ax.set_title(f"WBO Benchmark Group Number {group_num}")
 
     ax.legend(["Ambertools", "OpenEye"])
@@ -123,15 +124,17 @@ def main():
             #Iterate through the amber and openeye version of each molecule
             for amber, openeye in zip(amber_data, openeye_data):
                 amber_mol = amber[0]
-                amber_smiles = smiles2oemol(amber[0].to_smiles())
+                #amber_smiles = amber[0].to_smiles()
                 amber_torsions = amber[1]
                 
                 openeye_mol = openeye[0]
-                openeye_smiles = smiles2oemol(openeye[0].to_smiles())
+                #openeye_smiles = openeye[0].to_smiles()
                 openeye_torsions = openeye[1]
                 
+                smiles = amber[0].to_smiles()
+                
                 #Using WBO as provided by the fractional bond order between central torsion indices
-                wbo_values[ (amber_smiles, openeye_smiles) ] = ( amber_mol.get_bond_between(amber_torsions[0], amber_torsions[1]).fractional_bond_order, openeye_mol.get_bond_between(openeye_torsions[0], openeye_torsions[1]).fractional_bond_order )
+                wbo_values[smiles] = ( amber_mol.get_bond_between(amber_torsions[0], amber_torsions[1]).fractional_bond_order, openeye_mol.get_bond_between(openeye_torsions[0], openeye_torsions[1]).fractional_bond_order )
                 
                 #Using central torsion indices to calculate WBO through OpenEye
                 #wbo_values[ (amber_smiles, amber_smiles) ] = ( wiberg_bond_order(amber_mol, amber_torsions), wiberg_bond_order(openeye_mol, openeye_torsions) )
