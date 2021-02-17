@@ -80,7 +80,18 @@ def wiberg_bond_order(mol, bond_idxs):
     
     return results.GetBondOrder(bond_idxs[0], bond_idxs[1])
     
-def visualize_benchmark(group_num, wbo_values):
+def visualize_bargraphs(benchmark_data):
+    for group_num, wbo_values in enumerate(benchmark_data):
+        create_bargraph(group_num+1, wbo_values)
+
+def visualize_scatterplot(benchmark_data):
+    all_wbo_values = {}
+    for wbo_values in benchmark_data:
+        all_wbo_values.update(wbo_values)
+
+    create_scatterplot(all_wbo_values)
+
+def create_bargraph(group_num, wbo_values):
     """Creates a double bar graph to visualize the wbo value comparisons"""
     width = .35
     
@@ -105,8 +116,41 @@ def visualize_benchmark(group_num, wbo_values):
     ax.set_title(f"WBO Benchmark Group Number {group_num}")
 
     ax.legend(["Ambertools", "OpenEye"])
-    plt.savefig(f"QCA_WBO_figures/QCA_WBO_benchmark Group Number{group_num}.png", bbox_inches = "tight")
+    plt.savefig(f"QCA_WBO_bargraphs/QCA_WBO_benchmark Group Number {group_num}.png", bbox_inches = "tight")
     
+def create_scatterplot(wbo_values):
+    """Creates a scatterplot to visualize the wbo value comparisons"""
+    fig, ax = plt.subplots()
+    amber_wbos = []
+    openeye_wbos = []
+    
+    for mol, wbos in wbo_values.items():
+        amber_wbos.append(wbos[0])
+        openeye_wbos.append(wbos[1])
+    
+    ax.scatter(amber_wbos, openeye_wbos, color = "#236AB9")
+    
+    ax.set_xlabel("Ambertools", fontweight = "bold")
+    ax.set_ylabel("OpenEye", fontweight = "bold")
+    
+    ax.set_title("WBO Benchmark Scatterplot")
+
+    plt.savefig("QCA_WBO_scatterplot/QCA_WBO_benchmark.png", bbox_inches = "tight")
+
+def find_notable_differences(benchmark_data):
+    all_wbo_values = {}
+    for wbo_values in benchmark_data:
+        all_wbo_values.update(wbo_values)
+        
+    with open("analysis/QCA_WBO_noteworthy_differences.txt", "w") as file:
+        for smiles, wbos in sorted(all_wbo_values.items(),
+                                   key = lambda x: abs(x[1][0]-x[1][1]))[round(.75*len(all_wbo_values)):]:
+            file.write(f"Smiles: {smiles}\n")
+            file.write(f"Amber wbo: {wbos[0]}\n")
+            file.write(f"OpenEye wbo: {wbos[1]}\n")
+            file.write(f"Difference: {abs(wbos[0]-wbos[1])}\n")
+            file.write("\n")
+
 def main():
     dataset_substitutedphenyl = ['OpenFF Substituted Phenyl Set 1']
     data = get_data(dataset_substitutedphenyl)
@@ -148,11 +192,15 @@ def main():
                 if count % 25 == 0 or count == len(data):
                     benchmark_data.append(wbo_values)
                     wbo_values = {}
-                    group_count = 0
     
-    #Creates a visual of the wbo values for comparison
-    for group_num, wbo_values in enumerate(benchmark_data):
-        visualize_benchmark(group_num+1, wbo_values)
+    #Creates a file that includes the top 25% of differences between Ambertools and OpenEye wbos
+    find_notable_differences(benchmark_data)
+    
+    #Create bargraphs in groups of 25 comparing the Ambertools and OpenEye wbos
+    #visualize_bargraphs(benchmark_data)
+    
+    #Create a scatterplot comparing the Ambertools and OpenEye wbos
+    visualize_scatterplot(benchmark_data)
     
 if __name__ == "__main__":
     main()
