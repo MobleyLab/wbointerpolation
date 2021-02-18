@@ -1,3 +1,17 @@
+"""
+Script to calculate the WBOs for central torsions of an Ambertoolkit
+and OpenEye molecule to compare the difference between the conformers
+
+Usage:
+    python central_torsion_wbo.py
+    
+Ouput:
+    A .pkl file containing a list of dictionaries of every mol's smiles string mapped
+    to a tuple of the Ambertools WBO and OpenEye WBO
+    
+    The list is grouped into dictionaries of length 25 to more easily create plots
+    to represent the data
+"""
 
 import cmiles
 import collections
@@ -7,11 +21,8 @@ import numpy as np
 import pickle
 import qcportal as ptl
 import time
- 
-from openeye import oechem, oeomega, oequacpac
-from openforcefield.topology import Molecule, Topology
-from openforcefield.typing.engines.smirnoff import ForceField
-from single_conformer import conform_molecules
+
+from openeye import oechem, oeomega
 
 #Setup
 client = ptl.FractalClient()
@@ -79,79 +90,13 @@ def wiberg_bond_order(mol, bond_idxs):
     AM1_CALCULATOR.CalcAM1(results, mol)
     
     return results.GetBondOrder(bond_idxs[0], bond_idxs[1])
-    
-def visualize_bargraphs(benchmark_data):
-    for group_num, wbo_values in enumerate(benchmark_data):
-        create_bargraph(group_num+1, wbo_values)
-
-def visualize_scatterplot(benchmark_data):
-    all_wbo_values = {}
-    for wbo_values in benchmark_data:
-        all_wbo_values.update(wbo_values)
-
-    create_scatterplot(all_wbo_values)
-
-def create_bargraph(group_num, wbo_values):
-    """Creates a double bar graph to visualize the wbo value comparisons"""
-    width = .35
-    
-    fig, ax = plt.subplots()
-    amber_wbos = []
-    openeye_wbos = []
-    
-    for mol, wbos in wbo_values.items():
-        amber_wbos.append(wbos[0])
-        openeye_wbos.append(wbos[1])
-    
-    x = np.arange(len(wbo_values.keys()))
-    
-    ax.bar(x - width/2, amber_wbos, color = "#236AB9", width = width, label="Ambertools")
-    ax.bar(x + width/2, openeye_wbos, color = "#64A9F7", width = width, label="OpenEye") #64A9F7
-    
-    ax.set_ylabel("Wiberg Bond Order", fontweight = "bold")
-    ax.set_xlabel("Molecules", fontweight = "bold")
-    ax.set_xticks(x)
-    #Label for each molecule
-    ax.set_xticklabels(wbo_values.keys(), rotation = 90)
-    ax.set_title(f"WBO Benchmark Group Number {group_num}")
-
-    ax.legend(["Ambertools", "OpenEye"])
-    plt.savefig(f"QCA_WBO_bargraphs/QCA_WBO_benchmark Group Number {group_num}.png", bbox_inches = "tight")
-    
-def create_scatterplot(wbo_values):
-    """Creates a scatterplot to visualize the wbo value comparisons"""
-    fig, ax = plt.subplots()
-    amber_wbos = []
-    openeye_wbos = []
-    
-    for mol, wbos in wbo_values.items():
-        amber_wbos.append(wbos[0])
-        openeye_wbos.append(wbos[1])
-    
-    ax.scatter(amber_wbos, openeye_wbos, color = "#236AB9")
-    
-    ax.set_xlabel("Ambertools", fontweight = "bold")
-    ax.set_ylabel("OpenEye", fontweight = "bold")
-    
-    ax.set_title("WBO Benchmark Scatterplot")
-
-    plt.savefig("QCA_WBO_scatterplot/QCA_WBO_benchmark.png", bbox_inches = "tight")
-
-def find_notable_differences(benchmark_data):
-    all_wbo_values = {}
-    for wbo_values in benchmark_data:
-        all_wbo_values.update(wbo_values)
-        
-    with open("analysis/QCA_WBO_noteworthy_differences.txt", "w") as file:
-        for smiles, wbos in sorted(all_wbo_values.items(),
-                                   key = lambda x: abs(x[1][0]-x[1][1]))[round(.75*len(all_wbo_values)):]:
-            file.write(f"Smiles: {smiles}\n")
-            file.write(f"Amber wbo: {wbos[0]}\n")
-            file.write(f"OpenEye wbo: {wbos[1]}\n")
-            file.write(f"Difference: {abs(wbos[0]-wbos[1])}\n")
-            file.write("\n")
 
 def main():
+    """
+    Creates the conformers for the molecules of a given dataset and the dataset
+    to compare the difference between the Ambertools WBO and OpenEye WBO
+    """
+    
     dataset_substitutedphenyl = ['OpenFF Substituted Phenyl Set 1']
     data = get_data(dataset_substitutedphenyl)
     
@@ -159,8 +104,8 @@ def main():
     
     benchmark_data = []
     wbo_values = {}
-    with open("results/OpenFFSubstitutedPhenylSet1-ambertools.pkl", "rb") as amber_file:
-        with open("results/OpenFFSubstitutedPhenylSet1-openeye.pkl", "rb") as openeye_file:
+    with open("conformer_results/OpenFFSubstitutedPhenylSet1-ambertools.pkl", "rb") as amber_file:
+        with open("conformer_results/OpenFFSubstitutedPhenylSet1-openeye.pkl", "rb") as openeye_file:
             amber_data = pickle.load(amber_file)
             openeye_data = pickle.load(openeye_file)
             
@@ -193,14 +138,8 @@ def main():
                     benchmark_data.append(wbo_values)
                     wbo_values = {}
     
-    #Creates a file that includes the top 25% of differences between Ambertools and OpenEye wbos
-    find_notable_differences(benchmark_data)
-    
-    #Create bargraphs in groups of 25 comparing the Ambertools and OpenEye wbos
-    #visualize_bargraphs(benchmark_data)
-    
-    #Create a scatterplot comparing the Ambertools and OpenEye wbos
-    visualize_scatterplot(benchmark_data)
+    with open("benchmark_results/OpenFFSubstitutedPhenylSet1_benchmark.pkl", "wb") as file:
+        pickle.dump(benchmark_data, file)
     
 if __name__ == "__main__":
     main()

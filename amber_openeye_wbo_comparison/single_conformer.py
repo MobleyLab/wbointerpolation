@@ -168,7 +168,7 @@ def conform_molecules(data, dataset_name):
                 molecules[charge_backend].append( (charged_molecules[charge_backend], torsion_indices) )
 
     for charge_backend in molecules:
-        with open(f"results/{dataset_name}-{charge_backend}.pkl", "wb") as file:
+        with open(f"conformer_results/{dataset_name}-{charge_backend}.pkl", "wb") as file:
             pickle.dump(molecules[charge_backend], file)
 
 if __name__ == "__main__":
