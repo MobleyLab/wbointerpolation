@@ -148,6 +148,14 @@ def plot_interactive(benchmark_data):
                     x_range = [.8,1.6],
                     y_range = [.8,1.6]
                     )
+                    
+    figure.line(x = [.8,1.6],
+                y = [.8, 1.6])
+                
+    slope, intercept, r_value, p_value, std_err = stats.linregress(amber_wbos, openeye_wbos)
+    y = [slope * wbo + intercept for wbo in amber_wbos]
+    figure.line(x = amber_wbos,
+            y = y)
     
     plotmol.scatter(figure,
                     x = amber_wbos,
@@ -159,18 +167,10 @@ def plot_interactive(benchmark_data):
                     fill_color = "blue",
                     legend_label = "QCA WBO Benchmark"
                     )
-                    
-    figure.line(x = [.8,1.6],
-                y = [.8, 1.6])
-                
-    slope, intercept, r_value, p_value, std_err = stats.linregress(amber_wbos, openeye_wbos)
-    y = [slope * wbo + intercept for wbo in amber_wbos]
-    figure.line(x = amber_wbos,
-            y = y)
     
-    #show(figure)
-    output_file("QCA_WBO_interactiveplot/QCA_WBO_benchmark_interactive.html")
-    save(figure)
+    show(figure)
+    #output_file("QCA_WBO_interactiveplot/QCA_WBO_benchmark_interactive.html")
+    #save(figure)
 
 if __name__ == "__main__":
     benchmark_data = read_data()
