@@ -18,10 +18,12 @@ import collections
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
+import os
 import pickle
 import qcportal as ptl
 import time
 
+from single_conformer import conform_molecules
 from openeye import oechem, oeomega
 
 #Setup
@@ -31,34 +33,36 @@ datasets = []
 for i in range(len(torsion_datasets)):
     datasets.append(torsion_datasets.index[i][1])
 
-def get_data(datasets):
+def get_data(dataset_name):
     """Loads data from a QC archive dataset"""
     data_dict={}
-    for dataset_name in datasets:
-        count = 0
-        while True:
-            try:
-                ds = client.get_collection("TorsionDriveDataset", dataset_name)
-                ds.status("default", status="COMPLETE")
-                break
-            except:
-                time.sleep(20)
-                count += 1
-                if count < 2:
-                    continue
-                else:
-                    break
+    #for dataset_name in datasets:
+    count = 0
+    while True:
+        try:
+            ds = client.get_collection("TorsionDriveDataset", dataset_name)
+            ds.status("default", status="COMPLETE")
+            break
+        except:
+            time.sleep(20)
+            print(f"failed to get dataset {dataset_name}")
+            return data_dict
+#            count += 1
+#            if count < 2:
+#                continue
+#            else:
+#                break
+    params = []
+    for index in ds.df.index:
+        # get the dihedral indices
+        dihedral_indices = ds.df.loc[index].default.keywords.dihedrals[0]
+        cmiles=ds.get_entry(index).attributes['canonical_isomeric_explicit_hydrogen_mapped_smiles']
+        data_dict[smiles2oemol(cmiles)] = dihedral_indices[1:3]
 
-        params = []
-        for index in ds.df.index:
-            # get the dihedral indices
-            dihedral_indices = ds.df.loc[index].default.keywords.dihedrals[0]
-            cmiles=ds.get_entry(index).attributes['canonical_isomeric_explicit_hydrogen_mapped_smiles']
-            data_dict[smiles2oemol(cmiles)] = dihedral_indices[1:3]
-
-        counter = collections.Counter(params)
-        print(dataset_name, counter)
-        print(" ")
+    counter = collections.Counter(params)
+    print(dataset_name, counter)
+    print(" ")
+    
     return data_dict
 
 def smiles2oemol(smiles):
@@ -97,49 +101,56 @@ def main():
     to compare the difference between the Ambertools WBO and OpenEye WBO
     """
     
-    dataset_substitutedphenyl = ['OpenFF Substituted Phenyl Set 1']
-    data = get_data(dataset_substitutedphenyl)
-    
-    #conform_molecules(data, dataset_substitutedphenyl[0].replace(" ", "")) #can be commented out to save time if results/ files alreadys exist
-    
-    benchmark_data = []
-    wbo_values = {}
-    with open("conformer_results/OpenFFSubstitutedPhenylSet1-ambertools.pkl", "rb") as amber_file:
-        with open("conformer_results/OpenFFSubstitutedPhenylSet1-openeye.pkl", "rb") as openeye_file:
+    for dataset_name in datasets:
+        data = get_data(dataset_name)
+        dataset_file_name = dataset_name.replace(" ", "")
+        
+        conformed = False
+        for file_name in os.listdir("conformer_results"):
+            if dataset_file_name in file_name:
+                conformed = True
+                break
+        if not conformed:
+            print(f"Conforming dataset: {dataset_name}")
+            conform_molecules(data, dataset_file_name)
+
+        benchmark_data = []
+        wbo_values = {}
+        with open(f"conformer_results/{dataset_file_name}-ambertools.pkl", "rb") as amber_file, open(f"conformer_results/{dataset_file_name}-openeye.pkl", "rb") as openeye_file:
             amber_data = pickle.load(amber_file)
             openeye_data = pickle.load(openeye_file)
-            
+
             count = 0
             #Iterate through the amber and openeye version of each molecule
             for amber, openeye in zip(amber_data, openeye_data):
                 amber_mol = amber[0]
                 #amber_smiles = amber[0].to_smiles()
                 amber_torsions = amber[1]
-                
+
                 openeye_mol = openeye[0]
                 #openeye_smiles = openeye[0].to_smiles()
                 openeye_torsions = openeye[1]
-                
+
                 smiles = amber[0].to_smiles()
-                
+
                 #Using WBO as provided by the fractional bond order between central torsion indices
                 wbo_values[smiles] = ( amber_mol.get_bond_between(amber_torsions[0], amber_torsions[1]).fractional_bond_order, openeye_mol.get_bond_between(openeye_torsions[0], openeye_torsions[1]).fractional_bond_order )
-                
-                #Using central torsion indices to calculate WBO through OpenEye
-                #wbo_values[ (amber_smiles, amber_smiles) ] = ( wiberg_bond_order(amber_mol, amber_torsions), wiberg_bond_order(openeye_mol, openeye_torsions) )
-                
-                #####IGNORE: SEPARATE TEST ON OPENFF VS OPENEYE WBO CALCULATION#####
-                #Using WBO as provided by the fractional bond order between central torsion indices and WBO caclulated through openeye to compare openFF vs openeye
-                #wbo_values[ openeye_mol ] = ( openeye_wbo, wiberg_bond_order(openeye_mol, openeye_torsions) )
-                
+
                 #Groups the data into sets of 25 for better visualization
                 count += 1
                 if count % 25 == 0 or count == len(data):
                     benchmark_data.append(wbo_values)
                     wbo_values = {}
-    
-    with open("benchmark_results/OpenFFSubstitutedPhenylSet1_benchmark.pkl", "wb") as file:
-        pickle.dump(benchmark_data, file)
+
+        benchmark = (dataset_name, benchmark_data)
+        with open(f"benchmark_results/{dataset_file_name}.pkl", "wb") as file:
+            pickle.dump(benchmark, file)
+        
+        length = 0
+        for bd in benchmark_data:
+            length += len(bd)
+            
+        print(f"Completed benchmark data for: {dataset_name} - length {length}")
     
 if __name__ == "__main__":
     main()

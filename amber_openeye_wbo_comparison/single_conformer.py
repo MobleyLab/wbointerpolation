@@ -126,7 +126,7 @@ def process_molecule(
 
     return molecules, torsion_indices, error
     
-def conform_molecules(data, dataset_name):
+def conform_molecules(data, dataset_file_name):
     """
     Takes a dataset of molecules mapped to their central torsion indices and creates a
     conformed Ambertools molecule and OpenEye molecule for each molecule
@@ -147,7 +147,7 @@ def conform_molecules(data, dataset_name):
     # to a log file.
     molecules = {"openeye": [], "ambertools": []}
 
-    with open(f"results/{dataset_name}-errors.log", "w") as file:
+    with open(f"conformer_results/{dataset_file_name}-errors.log", "w") as file:
 
         #Using central torsion indices to calculate WBO through OpenEye
         #for charged_molecules, torsion_indices, error in processed_molecules:
@@ -168,7 +168,7 @@ def conform_molecules(data, dataset_name):
                 molecules[charge_backend].append( (charged_molecules[charge_backend], torsion_indices) )
 
     for charge_backend in molecules:
-        with open(f"conformer_results/{dataset_name}-{charge_backend}.pkl", "wb") as file:
+        with open(f"conformer_results/{dataset_file_name}-{charge_backend}.pkl", "wb") as file:
             pickle.dump(molecules[charge_backend], file)
 
 if __name__ == "__main__":
