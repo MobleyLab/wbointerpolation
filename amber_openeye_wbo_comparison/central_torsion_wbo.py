@@ -36,32 +36,30 @@ for i in range(len(torsion_datasets)):
 def get_data(dataset_name):
     """Loads data from a QC archive dataset"""
     data_dict={}
-    #for dataset_name in datasets:
     count = 0
-    while True:
-        try:
-            ds = client.get_collection("TorsionDriveDataset", dataset_name)
-            ds.status("default", status="COMPLETE")
-            break
-        except:
-            time.sleep(20)
-            print(f"failed to get dataset {dataset_name}")
-            return data_dict
-#            count += 1
-#            if count < 2:
-#                continue
-#            else:
-#                break
-    params = []
-    for index in ds.df.index:
-        # get the dihedral indices
-        dihedral_indices = ds.df.loc[index].default.keywords.dihedrals[0]
-        cmiles=ds.get_entry(index).attributes['canonical_isomeric_explicit_hydrogen_mapped_smiles']
-        data_dict[smiles2oemol(cmiles)] = dihedral_indices[1:3]
+    
+    dataset_file_name = dataset_name.replace(" ", "")
+    #with open(f"logs/failed_datasets/{dataset_file_name}_log.txt", "w") as log:
+    try:
+        ds = client.get_collection("TorsionDriveDataset", dataset_name)
+        ds.status("default", status="COMPLETE")
+        
+        params = []
+        for index in ds.df.index:
+            # get the dihedral indices
+            dihedral_indices = ds.df.loc[index].default.keywords.dihedrals[0]
+            cmiles=ds.get_entry(index).attributes['canonical_isomeric_explicit_hydrogen_mapped_smiles']
+            data_dict[smiles2oemol(cmiles)] = dihedral_indices[1:3]
 
-    counter = collections.Counter(params)
-    print(dataset_name, counter)
-    print(" ")
+        counter = collections.Counter(params)
+        print(dataset_name, counter)
+        print(" ")
+        
+    except:
+        time.sleep(20)
+        print(f"failed to get dataset {dataset_name}")
+        #log.write("Failed to get dataset {dataset_name}\n")
+        return data_dict
     
     return data_dict
 
@@ -104,7 +102,7 @@ def main():
     for dataset_name in datasets:
         data = get_data(dataset_name)
         dataset_file_name = dataset_name.replace(" ", "")
-        
+
         conformed = False
         for file_name in os.listdir("conformer_results"):
             if dataset_file_name in file_name:
@@ -116,25 +114,31 @@ def main():
 
         benchmark_data = []
         wbo_values = {}
-        with open(f"conformer_results/{dataset_file_name}-ambertools.pkl", "rb") as amber_file, open(f"conformer_results/{dataset_file_name}-openeye.pkl", "rb") as openeye_file:
+        with open(f"conformer_results/{dataset_file_name}-ambertools.pkl", "rb") as amber_file, open(f"conformer_results/{dataset_file_name}-openeye.pkl", "rb") as openeye_file, open(f"logs/failed_mols/{dataset_file_name}_log.txt", "w") as log:
+
             amber_data = pickle.load(amber_file)
             openeye_data = pickle.load(openeye_file)
 
             count = 0
             #Iterate through the amber and openeye version of each molecule
             for amber, openeye in zip(amber_data, openeye_data):
-                amber_mol = amber[0]
-                #amber_smiles = amber[0].to_smiles()
-                amber_torsions = amber[1]
+                try:
+                    amber_mol = amber[0]
+                    #amber_smiles = amber[0].to_smiles()
+                    amber_torsions = amber[1]
 
-                openeye_mol = openeye[0]
-                #openeye_smiles = openeye[0].to_smiles()
-                openeye_torsions = openeye[1]
+                    openeye_mol = openeye[0]
+                    #openeye_smiles = openeye[0].to_smiles()
+                    openeye_torsions = openeye[1]
 
-                smiles = amber[0].to_smiles()
+                    smiles = amber[0].to_smiles()
 
-                #Using WBO as provided by the fractional bond order between central torsion indices
-                wbo_values[smiles] = ( amber_mol.get_bond_between(amber_torsions[0], amber_torsions[1]).fractional_bond_order, openeye_mol.get_bond_between(openeye_torsions[0], openeye_torsions[1]).fractional_bond_order )
+                    #Using WBO as provided by the fractional bond order between central torsion indices
+                    wbo_values[smiles] = ( amber_mol.get_bond_between(amber_torsions[0], amber_torsions[1]).fractional_bond_order, openeye_mol.get_bond_between(openeye_torsions[0], openeye_torsions[1]).fractional_bond_order )
+                except Exception as e:
+                    log.write(f"Molecule failed: {smiles}\n")
+                    log.write(f"{str(e)}\n")
+                    log.write("\n")
 
                 #Groups the data into sets of 25 for better visualization
                 count += 1
@@ -145,7 +149,7 @@ def main():
         benchmark = (dataset_name, benchmark_data)
         with open(f"benchmark_results/{dataset_file_name}.pkl", "wb") as file:
             pickle.dump(benchmark, file)
-        
+
         length = 0
         for bd in benchmark_data:
             length += len(bd)

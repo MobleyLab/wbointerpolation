@@ -140,48 +140,49 @@ def plot_interactive(benchmark_data, dataset_name):
     all_wbo_values = {}
     for wbo_values in benchmark_data:
         all_wbo_values.update(wbo_values)
+    
+    if len(all_wbo_values) > 1:
+        mols = []
+        amber_wbos = []
+        openeye_wbos = []
+        for smiles, wbos in all_wbo_values.items():
+            mols.append(smiles)
+            amber_wbos.append(wbos[0])
+            openeye_wbos.append(wbos[1])
         
-    mols = []
-    amber_wbos = []
-    openeye_wbos = []
-    for smiles, wbos in all_wbo_values.items():
-        mols.append(smiles)
-        amber_wbos.append(wbos[0])
-        openeye_wbos.append(wbos[1])
-    
-    figure = Figure(
-                    tooltips = default_tooltip_template(),
-                    title = f"{dataset_name} Benchmark",
-                    x_axis_label = "Ambertools",
-                    y_axis_label = "OpenEye",
-                    plot_width = 800,
-                    plot_height = 800,
-                    x_range = [.8,1.6],
-                    y_range = [.8,1.6]
-                    )
+        figure = Figure(
+                        tooltips = default_tooltip_template(),
+                        title = f"{dataset_name} Benchmark",
+                        x_axis_label = "Ambertools",
+                        y_axis_label = "OpenEye",
+                        plot_width = 800,
+                        plot_height = 800,
+                        x_range = [.8,1.6],
+                        y_range = [.8,1.6]
+                        )
+                        
+        figure.line(x = [.8,1.6],
+                    y = [.8, 1.6])
                     
-    figure.line(x = [.8,1.6],
-                y = [.8, 1.6])
-                
-    slope, intercept, r_value, p_value, std_err = stats.linregress(amber_wbos, openeye_wbos)
-    y = [slope * wbo + intercept for wbo in amber_wbos]
-    figure.line(x = amber_wbos,
-            y = y)
-    
-    plotmol.scatter(figure,
-                    x = amber_wbos,
-                    y = openeye_wbos,
-                    smiles = mols,
-                    marker = "o",
-                    marker_size = 10,
-                    marker_color = "black",
-                    fill_color = "blue",
-                    legend_label = f"{dataset_name} Benchmark"
-                    )
-    
-    #show(figure)
-    output_file(f"QCA_WBO_interactiveplot/{dataset_file_name}_interactive.html")
-    save(figure)
+        slope, intercept, r_value, p_value, std_err = stats.linregress(amber_wbos, openeye_wbos)
+        y = [slope * wbo + intercept for wbo in amber_wbos]
+        figure.line(x = amber_wbos,
+                y = y)
+        
+        plotmol.scatter(figure,
+                        x = amber_wbos,
+                        y = openeye_wbos,
+                        smiles = mols,
+                        marker = "o",
+                        marker_size = 10,
+                        marker_color = "black",
+                        fill_color = "blue",
+                        legend_label = f"{dataset_name} Benchmark"
+                        )
+        
+        #show(figure)
+        output_file(f"QCA_WBO_interactiveplot/{dataset_file_name}_interactive.html")
+        save(figure)
 
 def main():
     for file in os.listdir("benchmark_results"):
@@ -189,7 +190,8 @@ def main():
             print(file)
             dataset_file_name = file[:-4]
             dataset_name, benchmark_data = read_data(dataset_file_name)
-            plot_interactive(benchmark_data, dataset_name)
+            if len(benchmark_data) > 0:
+                plot_interactive(benchmark_data, dataset_name)
     
             #Creates a file that includes the top 25% of differences between Ambertools and OpenEye wbos
             find_notable_differences(benchmark_data, dataset_file_name)

@@ -1,0 +1,60 @@
+Smiles: [H]c1c(c(c(nc1[H])N([H])C([H])([H])[H])C(=O)C2=NC(=C(S2)[H])[H])[H]
+Amber wbo: 1.1489912
+OpenEye wbo: 1.1330309706730994
+Difference: 0.015960229326900555
+
+Smiles: [H][C@@](C(=O)N(C([H])([H])[H])C([H])([H])[H])(C([H])([H])[H])N([H])C(=O)C([H])([H])[H]
+Amber wbo: 0.95117415
+OpenEye wbo: 0.9337602470892956
+Difference: 0.017413902910704437
+
+Smiles: [H]c1nc(nc(n1)N2C(C(C(C2([H])[H])([H])[H])([H])[H])([H])[H])[H]
+Amber wbo: 1.44459315
+OpenEye wbo: 1.4265299387812471
+Difference: 0.018063211218752873
+
+Smiles: [H]c1c(c(c(c(c1[H])C2=C(SC(=N2)[H])[H])O[H])[H])[H]
+Amber wbo: 1.18667228
+OpenEye wbo: 1.1683718970120165
+Difference: 0.018300382987983532
+
+Smiles: [H]c1c(c(c2c(c1[H])C(C(=C(N2c3c(c(c(c(c3F)[H])[H])[H])[H])[H])[H])([H])[H])[H])[H]
+Amber wbo: 0.98341674
+OpenEye wbo: 0.9637192366349151
+Difference: 0.019697503365084912
+
+Smiles: [H]C1=NC(=C(N1[H])C(=O)N([H])C([H])([H])[H])C(=O)N([H])C([H])([H])[H]
+Amber wbo: 1.18932274
+OpenEye wbo: 1.169329195590916
+Difference: 0.019993544409083963
+
+Smiles: [H]c1c(c(c(c(c1[H])[H])N2C(=C(C(=N2)[H])[H])C(=O)N(C([H])([H])[H])C([H])([H])[H])[H])[H]
+Amber wbo: 0.91328149
+OpenEye wbo: 0.933890032095844
+Difference: 0.02060854209584395
+
+Smiles: [H]c1c(c(c(c(c1[H])N2C(=O)C3=C(C2=O)C(C(C(C3([H])[H])([H])[H])([H])[H])([H])[H])F)[H])[H]
+Amber wbo: 0.95459826
+OpenEye wbo: 0.9824751502804161
+Difference: 0.027876890280416067
+
+Smiles: [H]C1=C(OC(=C1[H])/C(=C\2/C(=O)N(C(=N2)[H])C([H])([H])[H])/[H])[H]
+Amber wbo: 1.08238743
+OpenEye wbo: 1.1156427174165262
+Difference: 0.03325528741652617
+
+Smiles: [H]C(=NN([H])C(=S)N([H])C([H])([H])[H])[H]
+Amber wbo: 1.06410056
+OpenEye wbo: 1.0975411938632442
+Difference: 0.03344063386324425
+
+Smiles: [H]c1c(c(c2c(c1[H])N=NN2C(=O)N([H])C([H])([H])[H])[H])[H]
+Amber wbo: 1.04927405
+OpenEye wbo: 1.0862276064097744
+Difference: 0.03695355640977449
+
+Smiles: [H]c1c(c2c(nc1[H])N=C(O2)N3C(C(N(C(C3([H])[H])([H])[H])C([H])([H])[H])([H])[H])([H])[H])[H]
+Amber wbo: 0.99792398
+OpenEye wbo: 1.0438932578682667
+Difference: 0.045969277868266656
+

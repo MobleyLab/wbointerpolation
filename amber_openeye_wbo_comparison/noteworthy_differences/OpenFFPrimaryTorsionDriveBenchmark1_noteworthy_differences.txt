@@ -1,0 +1,15 @@
+Smiles: [H]c1c(c(c2c(c1[H])c(c(c(c2O[H])C(=O)N([H])C([H])([H])[H])[H])[H])[H])[H]
+Amber wbo: 1.12333806
+OpenEye wbo: 1.0932098255905789
+Difference: 0.03012823440942114
+
+Smiles: [H]c1c(c(c(c(c1[H])[H])N(C(=O)N([H])C([H])([H])[H])C([H])([H])[H])[H])[H]
+Amber wbo: 0.99446721
+OpenEye wbo: 0.9596945210878263
+Difference: 0.03477268891217378
+
+Smiles: [H]c1c(c(nc(c1[H])N(c2c(c(c(c(n2)[H])[H])[H])[H])C(=O)C([H])([H])[H])[H])[H]
+Amber wbo: 0.97659711
+OpenEye wbo: 0.9370965597533791
+Difference: 0.039500550246620914
+

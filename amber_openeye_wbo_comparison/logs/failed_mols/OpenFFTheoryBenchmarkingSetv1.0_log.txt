@@ -1,0 +1,6 @@
+Molecule failed: [H]c1c(c([n+](c(c1[H])C2=NC(=C(N2C([H])([H])[H])[H])[H])[H])[H])[H]
+No bond between atom 8 and 11
+
+Molecule failed: [H]c1c(c([n+](c(c1[H])C2=NC(=C(N2C([H])([H])[H])[H])[H])[H])[H])[H]
+No bond between atom 4 and 7
+
