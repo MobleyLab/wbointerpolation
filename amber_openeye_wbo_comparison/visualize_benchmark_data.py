@@ -16,7 +16,7 @@ import os
 import pickle
 import plotmol
 
-from bokeh.palettes import Spectral4
+from bokeh.palettes import Category20b, Category20c
 from bokeh.plotting import Figure, output_file, save, show
 from plotmol.plotmol import default_tooltip_template
 from scipy import stats
@@ -163,11 +163,6 @@ def plot_interactive(benchmark_data, dataset_name):
                         
         figure.line(x = [.8,1.6],
                     y = [.8, 1.6])
-                    
-        slope, intercept, r_value, p_value, std_err = stats.linregress(amber_wbos, openeye_wbos)
-        y = [slope * wbo + intercept for wbo in amber_wbos]
-        figure.line(x = amber_wbos,
-                y = y)
         
         plotmol.scatter(figure,
                         x = amber_wbos,
@@ -183,24 +178,93 @@ def plot_interactive(benchmark_data, dataset_name):
         #show(figure)
         output_file(f"QCA_WBO_interactiveplot/{dataset_file_name}_interactive.html")
         save(figure)
-
-def main():
+    else:
+        print(f"No molecules in {dataset_name}")
+    
+def plot_all_interactive():
+    benchmarks = {}
+    colors = Category20b[17] + Category20c[17]
+    
     for file in os.listdir("benchmark_results"):
         if ".pkl" in file:
-            print(file)
             dataset_file_name = file[:-4]
             dataset_name, benchmark_data = read_data(dataset_file_name)
-            if len(benchmark_data) > 0:
-                plot_interactive(benchmark_data, dataset_name)
+            dataset_file_name = dataset_name.replace(" ", "")
+            
+            benchmark_wbo_values = {}
+            for wbo_values in benchmark_data:
+                benchmark_wbo_values.update(wbo_values)
+            
+            benchmarks[dataset_name] = benchmark_wbo_values
+            
     
-            #Creates a file that includes the top 25% of differences between Ambertools and OpenEye wbos
-            find_notable_differences(benchmark_data, dataset_file_name)
+    figure = Figure(
+                tooltips = default_tooltip_template(),
+                title = f"Amber-Openeye WBO Benchmark",
+                x_axis_label = "Ambertools",
+                y_axis_label = "OpenEye",
+                plot_width = 1600,
+                plot_height = 800,
+                x_range = [.8,1.6],
+                y_range = [.8,1.6]
+                )
+                
+    figure.line(x = [.8,1.6],
+            y = [.8, 1.6])
             
-            #Create bargraphs in groups of 25 comparing the Ambertools and OpenEye wbos
-            #visualize_bargraphs(benchmark_data, dataset_name)
-            
-            #Create a scatterplot comparing the Ambertools and OpenEye wbos
-            #visualize_scatterplot(benchmark_data, dataset_name)
+    color_index = 0
+    for benchmark_name, benchmark_data in benchmarks.items():
+        mols = []
+        amber_wbos = []
+        openeye_wbos = []
+        for smiles, wbos in benchmark_data.items():
+            mols.append(smiles)
+            amber_wbos.append(wbos[0])
+            openeye_wbos.append(wbos[1])
+        
+        plotmol.scatter(figure,
+                x = amber_wbos,
+                y = openeye_wbos,
+                smiles = mols,
+                marker = "o",
+                marker_size = 10,
+                marker_color = "black",
+                fill_color = colors[color_index],
+                legend_label = f"{benchmark_name} Benchmark ({len(benchmark_data)} mols)"
+                )
+        color_index += 1
+                
+    figure.legend.location = "top_left"
+    figure.legend.click_policy = "hide"
+    figure.add_layout(figure.legend[0], "right")
+   
+    #show(figure)
+    output_file(f"QCA_WBO_interactiveplot/All_Datasets_interactive.html")
+    save(figure)
+
+def main():
+#    for file in os.listdir("benchmark_results"):
+#        if ".pkl" in file:
+#            #print(file)
+#            dataset_file_name = file[:-4]
+#            dataset_name, benchmark_data = read_data(dataset_file_name)
+#            try:
+#                plot_interactive(benchmark_data, dataset_name)
+#            except Exception as e:
+#                print(f"{dataset_name} failed with error:")
+#                print(f"{e}")
+#                print()
+#
+#            #Creates a file that includes the top 25% of differences between Ambertools and OpenEye wbos
+#            #find_notable_differences(benchmark_data, dataset_file_name)
+#
+#            #Create bargraphs in groups of 25 comparing the Ambertools and OpenEye wbos
+#            #visualize_bargraphs(benchmark_data, dataset_name)
+#
+#            #Create a scatterplot comparing the Ambertools and OpenEye wbos
+#            #visualize_scatterplot(benchmark_data, dataset_name)
+
+    plot_all_interactive()
 
 if __name__ == "__main__":
     main()

@@ -32,6 +32,14 @@ torsion_datasets = client.list_collections("TorsionDriveDataset")
 datasets = []
 for i in range(len(torsion_datasets)):
     datasets.append(torsion_datasets.index[i][1])
+removable_theory_datasets = []
+for dataset_name in datasets:
+    if "Theory Benchmarking Set v1.0" in dataset_name:
+        pass
+    elif "Theory Benchmarking" in dataset_name:
+        removable_theory_datasets.append(dataset_name)
+for dataset_name in removable_theory_datasets:
+    datasets.remove(dataset_name)
 
 def get_data(dataset_name):
     """Loads data from a QC archive dataset"""
@@ -98,7 +106,6 @@ def main():
     Creates the conformers for the molecules of a given dataset and the dataset
     to compare the difference between the Ambertools WBO and OpenEye WBO
     """
-    
     for dataset_name in datasets:
         data = get_data(dataset_name)
         dataset_file_name = dataset_name.replace(" ", "")
@@ -153,7 +160,7 @@ def main():
         length = 0
         for bd in benchmark_data:
             length += len(bd)
-            
+
         print(f"Completed benchmark data for: {dataset_name} - length {length}")
     
 if __name__ == "__main__":
