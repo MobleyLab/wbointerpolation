@@ -3,15 +3,19 @@ import json
 import os
 from io import BytesIO
 from typing import Tuple
-
+import sys
+import openff.toolkit
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from forcebalance.molecule import Molecule as fb_molecule
-from openforcefield.topology import Molecule, Topology
-from openforcefield.typing.engines.smirnoff.forcefield import ForceField
+from openff.toolkit.topology import Molecule, Topology
+from openff.toolkit.typing.engines.smirnoff.forcefield import ForceField
 from simtk import openmm, unit
 from simtk.openmm import CustomExternalForce
+import mdtraj
+from scipy import optimize
+from forcebalance.openmmio import MTSVVVRIntegrator
 
 def get_MM_energy(system, positions):
     """
@@ -30,7 +34,8 @@ def get_MM_energy(system, positions):
         sum of total energy
     """
 
-    integrator = openmm.VerletIntegrator(1.0 * unit.femtoseconds)
+    integrator = MTSVVVRIntegrator(300*unit.kelvin, 1/unit.picoseconds,
+                                               1.0*unit.femtoseconds, system, ninnersteps=int(1/0.25)) #openmm.VerletIntegrator(1.0 * unit.femtoseconds)
     context = openmm.Context(system, integrator)
     context.setPositions(positions)
     state = context.getState(getEnergy=True)
@@ -110,7 +115,7 @@ def get_wbo(offmol, dihedrals):
     -------
     wiberg bond order calculated using openforcefield toolkit for the specific dihedral central bond
     """
-    offmol.assign_fractional_bond_orders()
+    offmol.assign_fractional_bond_orders(bond_order_model='am1-wiberg-elf10')
     bond = offmol.get_bond_between(dihedrals[1], dihedrals[2])
     return bond.fractional_bond_order
 
@@ -198,6 +203,42 @@ def zero_dihedral_contribution(openmm_system: openmm.System, dihedral_indices: T
                 0.0
             )
 
+def build_restrained_context(offxml, molfile, traj, dihedrals):
+    """
+    Builds openmm context for a full MM calculation keeping the dihedral frozen
+    Parameters
+    ----------
+    offxml: forcefield file
+    molfile: molecule file in sdf format
+    positions: list of positions of all conformers
+    dihedrals: list of atom indices in the dihedral
+    
+    Returns
+    -------
+    list of openmm contexts
+    """
+    contexts = []
+    forcefield = ForceField(offxml, allow_cosmetic_attributes=True)
+    molecule = Molecule.from_file(molfile, allow_undefined_stereo=True)
+        
+    for pos in traj:
+        system = forcefield.create_openmm_system(molecule.to_topology())
+        add_restraints_to_system(system, pos * unit.angstrom, dihedrals)
+        for force in system.getForces():
+            if force.__class__.__name__ == 'CustomExternalForce':
+                force.setForceGroup(11)   
+        for i in dihedrals:
+            system.setParticleMass(i, 0.0)
+        integrator = openmm.LangevinIntegrator(
+            300.0 * unit.kelvin,
+            1.0 / unit.picosecond,
+            2.0 * unit.femtosecond)
+        platform = openmm.Platform.getPlatformByName('Reference')
+        contexts.append(openmm.Context(system, integrator, platform))
+        
+    return contexts
+
+    
 
 def build_context_full(offxml, molfile, dihedrals):
     """
@@ -218,6 +259,8 @@ def build_context_full(offxml, molfile, dihedrals):
     system = forcefield.create_openmm_system(molecule.to_topology())
     for i in dihedrals:
         system.setParticleMass(i, 0.0)
+    # integrator = MTSVVVRIntegrator(300 * unit.kelvin, 1 / unit.picoseconds,
+    #                                1.0 * unit.femtoseconds, system, ninnersteps=int(1 / 0.25))
     integrator = openmm.LangevinIntegrator(
         300.0 * unit.kelvin,
         1.0 / unit.picosecond,
@@ -228,36 +271,25 @@ def build_context_full(offxml, molfile, dihedrals):
 
 
 def build_context_residual(offxml, molfile, dihedrals):
-    """
-    Builds context for the openmm calculation keeping the dihedral frozen and the specific energy contributions from the dihedral zeroed out
+    """Builds context for the openmm calculation keeping the dihedral frozen and the
+    specific energy contributions from the dihedral zeroed out
     Parameters
     ----------
     offxml: forcefield file
     molfile: molecule file in sdf format
     dihedrals: list of atom indices in the dihedral
-
     Returns
     -------
-
     """
     forcefield = ForceField(offxml, allow_cosmetic_attributes=True)
     molecule = Molecule.from_file(molfile, allow_undefined_stereo=True)
     system = forcefield.create_openmm_system(molecule.to_topology())
-    zero_dihedral_contribution(system, (dihedrals[1], dihedrals[2]))
+    
+    # freeze the dihedral atoms so that the dihedral angle stays fixed
     for i in dihedrals:
         system.setParticleMass(i, 0.0)
-
-    restrain_k = 1.0
-    restraint_frc = CustomExternalForce("0.5*k*((x-x0)^2+(y-y0)^2+(z-z0)^2)")
-    restraint_frc.addGlobalParameter("k", restrain_k * unit.kilocalorie_per_mole / unit.angstrom ** 2)
-    restraint_frc.addPerParticleParameter("x0")
-    restraint_frc.addPerParticleParameter("y0")
-    restraint_frc.addPerParticleParameter("z0")
-    for i, j in enumerate(system.getNumParticles()):
-        restraint_frc.addParticle(j)
-        restraint_frc.setParticleParameters(i, j, [0.0, 0.0, 0.0])
-    restraint_frc_index = system.addForce(restraint_frc)
-
+    #zero out the energy contributions from the dihedral atoms
+    zero_dihedral_contribution(system, (dihedrals[1], dihedrals[2]))
     integrator = openmm.LangevinIntegrator(
         300.0 * unit.kelvin,
         1.0 / unit.picosecond,
@@ -266,8 +298,33 @@ def build_context_residual(offxml, molfile, dihedrals):
     context = openmm.Context(system, integrator, platform)
     return context
 
+def add_restraints_to_system(system, positions, dihedrals):
+    k = 1.0 * unit.kilocalories_per_mole / unit.angstroms ** 2
+    
+    for i in range(system.getNumParticles()):
+        if i not in dihedrals:
+            positional_restraint = openmm.CustomExternalForce(
+                "0.5 * k * ((x-x0)^2 + (y-y0)^2 + (z-z0)^2)"
+            )
+            positional_restraint.addPerParticleParameter("k")
+            positional_restraint.addPerParticleParameter("x0")
+            positional_restraint.addPerParticleParameter("y0")
+            positional_restraint.addPerParticleParameter("z0")
+            
+            position = positions[i]
+            positional_restraint.addParticle(
+                i,
+                [
+                    k,
+                    position[0].value_in_unit(unit.nanometers),
+                    position[1].value_in_unit(unit.nanometers),
+                    position[2].value_in_unit(unit.nanometers)
+                ]
+            )
+            system.addForce(positional_restraint)
 
-def evaluate_minimized_energies(context, trajectory):
+
+def evaluate_minimized_energies(context, trajectory, dihedrals):
     """
     Evaluate minimized energies for all the geometries in the trajectory in given openmm context
     Parameters
@@ -280,14 +337,56 @@ def evaluate_minimized_energies(context, trajectory):
     list of energies in kcal/mol
     """
     energies = []
+    min_pos = []
+    rmsd_pos = []
+    
     for frame_geo in trajectory:
-        context.setPositions(frame_geo * unit.angstrom)
-        openmm.LocalEnergyMinimizer_minimize(context, tolerance=5.0E-9, maxIterations=1500)
-        # get minimized energy
+        initial_positions = frame_geo * unit.angstrom
+        context.setPositions(initial_positions)
+        # apply restraint of 1 kcal/mol per ang^2 to non-torsion atoms
+#         add_restraints_to_system(context.getSystem(), frame_geo * unit.angstrom, dihedrals)
+        openmm.LocalEnergyMinimizer_minimize(context, tolerance=5.0E-09, maxIterations=15000)
         energy = context.getState(getEnergy=True).getPotentialEnergy()
         energy = energy.value_in_unit(unit.kilocalories_per_mole)
+        minimized_positions = context.getState(getPositions=True).getPositions(asNumpy=True).value_in_unit(unit.angstroms)
+        rmsd_pos.append(get_rmsd(initial_positions.value_in_unit(unit.angstroms), minimized_positions))
+        min_pos.append(minimized_positions)
         energies.append(energy)
-    return np.array(energies)
+    
+    return np.array(energies), min_pos, rmsd_pos
+
+def evaluate_restrained_energies(contexts, trajectory, dihedrals):
+    """
+    Evaluate minimized energies for all the geometries in the trajectory in given openmm context
+    Parameters
+    ----------
+    context: openmm context
+    trajectory: list of (list of xyz coordinates) for different points on the trajectory, usually for different points on the torsion profile
+
+    Returns
+    -------
+    list of energies in kcal/mol
+    """
+    energies = []
+    min_pos = []
+    rmsd_pos = []
+    
+    for context, frame_geo in zip(contexts, trajectory):
+        initial_positions = frame_geo * unit.angstrom
+        context.setPositions(initial_positions)
+        openmm.LocalEnergyMinimizer_minimize(context, tolerance=5.0E-09, maxIterations=1500)
+        # Remove the restraint energy from the total energy
+        groups = set(range(32))
+#         frc = context.getSystem().getForce(11)
+        groups.remove(11)
+        energy = context.getState(getEnergy=True, groups=groups).getPotentialEnergy()
+        energy = energy.value_in_unit(unit.kilocalories_per_mole)
+        minimized_positions = context.getState(getPositions=True).getPositions(asNumpy=True).value_in_unit(unit.angstroms)
+        rmsd_pos.append(get_rmsd(initial_positions.value_in_unit(unit.angstroms), minimized_positions))
+        min_pos.append(minimized_positions)
+        energies.append(energy)
+    
+    return np.array(energies), min_pos, rmsd_pos
 
 
 def plot_energies_data(energies_data_dict, title, ylab):
@@ -380,7 +479,7 @@ def get_assigned_torsion_param(molecule, ff, dihedrals):
 
 def create_energy_dataframe(subdirs, offxml_list, molfile_format, qdata_filename):
     cols = ['Torsion ID', 'assigned params', 'wbo', 'Max - min for (QM - [MM_SF3, MM_1.3.0]) kcal/mol',
-            'Chemical Structure', 'QM-MM_intrinsic relative energies', 'QM Vs MM_full']
+            'Chemical Structure', 'QM-MM_intrinsic relative energies', 'QM Vs MM_full', 'rmsd']
     df = pd.DataFrame(columns=cols)
     ff_names = [os.path.splitext(os.path.basename(f))[0] for f in offxml_list]
 
@@ -415,6 +514,7 @@ def create_energy_dataframe(subdirs, offxml_list, molfile_format, qdata_filename
         for i in range(len(offxml_list)):
             key = os.path.splitext(os.path.basename(offxml_list[i]))[0]
             contexts.append(build_context_residual(offxml_list[i], mol_file, dihedrals))
+            
         contexts_full = [build_context_full(offxml, mol_file, dihedrals) for offxml in offxml_list]
 
         wbo = get_wbo(mol, dihedrals)
@@ -440,22 +540,33 @@ def create_energy_dataframe(subdirs, offxml_list, molfile_format, qdata_filename
             energies_data_dict['QM'] = eqm
             energies_full_dict['QM'] = eqm
             tb_dict['QM'] = get_torsion_barrier(energies_data_dict['QM'], energies_data_dict['td_angles'])
+#             print("WBO of conformers")
+
+            for i in range(len(fb_mol.xyzs)):
+                g_frame = fb_mol.xyzs[i]
+                pos = np.array(g_frame)*unit.angstrom
+                mol.assign_fractional_bond_orders(bond_order_model='am1-wiberg-elf10') #, use_conformers=[pos])
+                bond = mol.get_bond_between(dihedrals[1], dihedrals[2])
+#                 print(metadata["torsion_grid_ids"][i], bond.fractional_bond_order)
 
             ### FULL
             # evalute full mm energies for each force field
+            rmsd_dict = {}
             energies_full_dict = energies_data_dict.copy()
-            for context, ffname in zip(contexts_full, ff_names):
-                mm_energies = evaluate_minimized_energies(context, fb_mol.xyzs)
+            for offxml, ffname in zip(offxml_list, ff_names):
+                contextf = build_restrained_context(offxml, mol_file, fb_mol.xyzs, dihedrals)
+                mm_energies, minimized_pos, rmsd = evaluate_restrained_energies(contextf, fb_mol.xyzs, dihedrals)
                 # mm_energies -= mm_energies[ground_idx]
                 mm_energies -= mm_energies.min()
                 key_name = ffname + '_full'
                 energies_full_dict[ffname] = mm_energies
+                rmsd_dict[ffname] = rmsd
                 tb_dict[key_name] = get_torsion_barrier(energies_full_dict[ffname], energies_full_dict['td_angles'])
 
             ### INTRINSIC
             # evalute intrinsic mm energies for each force field
             for context, ffname in zip(contexts, ff_names):
-                mm_energies = evaluate_minimized_energies(context, fb_mol.xyzs)
+                mm_energies, _, _ = evaluate_minimized_energies(context, fb_mol.xyzs, dihedrals)
                 # mm_energies -= mm_energies[ground_idx]
                 mm_energies -= mm_energies.min()
                 energies_data_dict[ffname] = mm_energies
@@ -483,6 +594,62 @@ def create_energy_dataframe(subdirs, offxml_list, molfile_format, qdata_filename
                             cols[3]: tb_dict,
                             cols[4]: struc_str,
                             cols[5]: plot_str,
-                            cols[6]: plot_str_full},
+                            cols[6]: plot_str_full,
+                            cols[7]: rmsd_dict},
                            ignore_index=True)
     return df
+
+            
+def fix_dihedral(molecule, system, dihedrals):
+    mdtraj_trajectory = mdtraj.Trajectory(
+        xyz=molecule.conformers[0],
+        topology=mdtraj.Topology.from_openmm(topology.to_openmm())
+    )
+    dihedral_angle = mdtraj.compute_dihedrals(
+        mdtraj_trajectory, numpy.array([dihedrals])
+    )[0][0].item()
+    dihedral_restraint = openmm.CustomTorsionForce(
+        f"k * min(min(abs(theta - theta_0), abs(theta - theta_0 + 2 * "
+        f"{numpy.pi})), abs(theta - theta_0 - 2 * {numpy.pi}))^2"
+    )
+    dihedral_restraint.addPerTorsionParameter("k")
+    dihedral_restraint.addPerTorsionParameter("theta_0")
+    theta_0 = dihedral_angle
+    k = 1.0 * unit.kilocalories_per_mole / unit.radian ** 2
+    dihedral_restraint.addTorsion(
+        dihedrals[0],
+        dihedrals[1],
+        dihedrals[2],
+        dihedrals[3],
+        [k, theta_0],
+    )
+    system.addForce(dihedral_restraint)
+
+def target_function(xyz, context):
+    context.setPositions(xyz.reshape(-1,3))
+    state = context.getState(getEnergy=True, getForces=True)
+    frc = state.getForces(asNumpy=True)
+    ene = state.getPotentialEnergy().value_in_unit(unit.kilocalorie_per_mole)
+    frc = frc.value_in_unit(unit.kilocalorie_per_mole/unit.nanometer)
+    return ene, -frc.flatten()
+
+def use_scipy_opt(pos, context):
+    pos = pos.value_in_unit(unit.nanometer)
+    results = optimize.minimize(target_function, pos, context, method='SLSQP')
+    #L-BFGS-B',                            jac=True, options=dict(maxiter=20000, disp=True))
+    if(results.success):
+        print(results.nit,",   ", results.fun)
+    else:
+        print("didn't converge for mol")
+    return results.fun * unit.kilocalorie_per_mole
+
+def get_rmsd(initial, final):
+    """
+    Evaluate the RMSD between two arrays
+    """
+    assert len(initial) == len(final)
+    n = len(initial)
+    if n == 0: return 0.0
+    diff = np.subtract(initial, final)
+    rmsd = np.sqrt(np.sum(diff**2) / n)
+    return rmsd
