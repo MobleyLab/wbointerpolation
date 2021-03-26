@@ -1,6 +1,7 @@
 import base64
 import json
 import os
+import copy
 from io import BytesIO
 from typing import Tuple
 
@@ -254,6 +255,42 @@ def build_restrained_context(offxml, molfile, traj, dihedrals):
 
     return contexts
 
+def build_restrained_context_for_residual(offxml, molfile, traj, dihedrals):
+    """
+    Builds openmm context for a full MM calculation keeping the dihedral frozen
+    and applying a restraint of 1 kcal/mol on atoms not involved in torsion
+    Parameters
+    ----------
+    offxml: forcefield file
+    molfile: molecule file in sdf format
+    positions: list of positions of all conformers
+    dihedrals: list of atom indices in the dihedral
+
+    Returns
+    -------
+    list of openmm contexts
+    """
+    contexts = []
+    forcefield = ForceField(offxml, allow_cosmetic_attributes=True)
+    molecule = Molecule.from_file(molfile, allow_undefined_stereo=True)
+
+    for pos in traj:
+        system = forcefield.create_openmm_system(molecule.to_topology())
+        add_restraints_to_system(system, pos * unit.angstrom, dihedrals)
+        for force in system.getForces():
+            if force.__class__.__name__ == "CustomExternalForce":
+                force.setForceGroup(11)
+        zero_dihedral_contribution(system, (dihedrals[1], dihedrals[2]))
+        for i in dihedrals:
+            system.setParticleMass(i, 0.0)
+        integrator = openmm.LangevinIntegrator(
+            300.0 * unit.kelvin, 1.0 / unit.picosecond, 2.0 * unit.femtosecond
+        )
+        platform = openmm.Platform.getPlatformByName("Reference")
+        contexts.append(openmm.Context(system, integrator, platform))
+
+    return contexts
+
 
 def build_context_residual(offxml, molfile, dihedrals):
     """Builds context for the openmm calculation keeping the dihedral frozen and the
@@ -351,7 +388,7 @@ def evaluate_minimized_energies(context, trajectory, dihedrals):
     return np.array(energies), min_pos, rmsd_pos
 
 
-def evaluate_restrained_energies(contexts, trajectory, dihedrals):
+def evaluate_restrained_energies(contexts, fbmol, dihedrals):
     """
     Evaluate minimized energies for all the geometries in the trajectory in given openmm context
     Parameters
@@ -366,7 +403,8 @@ def evaluate_restrained_energies(contexts, trajectory, dihedrals):
     energies = []
     min_pos = []
     rmsd_pos = []
-
+    trajectory = fbmol.xyzs
+    fmol = copy.deepcopy(fbmol)
     for context, frame_geo in zip(contexts, trajectory):
         initial_positions = frame_geo * unit.angstrom
         context.setPositions(initial_positions)
@@ -382,14 +420,16 @@ def evaluate_restrained_energies(contexts, trajectory, dihedrals):
         minimized_positions = (
             context.getState(getPositions=True)
             .getPositions(asNumpy=True)
-            .value_in_unit(unit.angstroms)
+            .value_in_unit(unit.angstroms)[:]
         )
+        fmol.xyzs = [frame_geo, minimized_positions]
+        fmol.align(center=False)
         rmsd_pos.append(
             get_rmsd(
-                initial_positions.value_in_unit(unit.angstroms), minimized_positions
+                fmol.xyzs[0]*unit.angstroms, fmol.xyzs[1]*unit.angstroms
             )
         )
-        min_pos.append(minimized_positions)
+        min_pos.append(fmol.xyzs[1]*unit.angstroms)
         energies.append(energy)
 
     return np.array(energies), min_pos, rmsd_pos
@@ -408,8 +448,9 @@ def plot_energies_data(energies_data_dict, title, ylab):
     -------
     plot in iobytes/string format
     """
-    CB_color_cycle = ["#0072B2", "#009E73", "#D55E00", "#F0E442", "#CC79A7", "#56B4E9"]
-    marks = ["P", "o", "^", "X"]
+    CB_color_cycle = ["#0072B2", "#009E73", "#D55E00", "#F0E442", "#CC79A7", "#56B4E9", "#0072B2", "#009E73", "#D55E00",
+                      "#F0E442", "#CC79A7", "#56B4E9"]
+    marks = ["P", "o", "^", "X", "p", 4, 5, 6, 7]
     plt.Figure(figsize=(3, 3))
     x_axis = energies_data_dict.pop("td_angles")
     count = 0
@@ -434,7 +475,7 @@ def plot_energies_data(energies_data_dict, title, ylab):
                 linestyle="dashed",
                 marker=marks[count - 1],
                 label=dataname,
-                markersize=(14 - 3 * count),
+                markersize=8,
             )
         count = count + 1
     plt.legend()
@@ -447,10 +488,46 @@ def plot_energies_data(energies_data_dict, title, ylab):
         plt.ylabel("Relative energies (QM Vs MM_full) [ kcal/mol ]")
         plt.xlabel("Torsion Angle [ degree ]")
     plot_iobytes = BytesIO()
-    plt.savefig(plot_iobytes, format="png", dpi=75)
+    plt.savefig(plot_iobytes, format="png", dpi=150)
     plt.close()
     return plot_iobytes
 
+def plot_rmsd_data(rmsd_dict, title):
+    """
+    Build the rmsd profile plots from the rmsd dict for all the forcefields or energy data tagged per key in the dict
+    Parameters
+    ----------
+    rmsd_dict: dict, energy key and the associated list of energies, eg., 'QM': [e1, e2, e3,...]
+    title: string, plot title
+
+    Returns
+    -------
+    plot in iobytes/string format
+    """
+    CB_color_cycle = ["#0072B2", "#009E73", "#D55E00", "#F0E442", "#CC79A7", "#56B4E9", "#0072B2", "#009E73", "#D55E00", "#F0E442", "#CC79A7", "#56B4E9"]
+    marks = ["P", "o", "^", "X", "p", 4, 5, 6, 7]
+    plt.Figure(figsize=(3, 3))
+    x_axis = rmsd_dict.pop("td_angles")
+    count = 0
+    for dataname, datavalues in rmsd_dict.items():
+        plt.plot(
+            x_axis,
+            datavalues,
+            color=CB_color_cycle[count+1],
+            linestyle="dashed",
+            marker=marks[count],
+            label=dataname,
+            markersize= 8,
+        )
+        count = count + 1
+    plt.legend()
+    plt.title(title + "  RMSD wrt initial pos")
+    plt.ylabel("RMSD in Angstroms")
+    plt.xlabel("Torsion Angle [ degree ]")
+    plot_iobytes = BytesIO()
+    plt.savefig(plot_iobytes, format="png", dpi=150)
+    plt.close()
+    return plot_iobytes
 
 def fig2inlinehtml(fig):
     """
@@ -470,7 +547,7 @@ def fig2inlinehtml(fig):
     return imgstr
 
 
-def get_assigned_torsion_param(molecule, ff, dihedrals):
+def get_assigned_torsion_param(molecule, forcefield, dihedrals):
     """
     for a molecule and specific dihedral check the assigned torsion parameter
     Parameters
@@ -485,7 +562,6 @@ def get_assigned_torsion_param(molecule, ff, dihedrals):
     """
     topology = Topology.from_molecules([molecule])
     # Run the molecule labeling
-    forcefield = ForceField(ff, allow_cosmetic_attributes=True)
     molecule_force_list = forcefield.label_molecules(topology)
 
     # Print out a formatted description of the parameters applied to this molecule
@@ -516,7 +592,9 @@ def create_energy_dataframe(subdirs, offxml_list, molfile_format, qdata_filename
     ]
     df = pd.DataFrame(columns=cols)
     ff_names = [os.path.splitext(os.path.basename(f))[0] for f in offxml_list]
-
+    ff_dict = {}
+    for key, ff_loc in zip(ff_names, offxml_list):
+        ff_dict[key] = ForceField(ff_loc, allow_cosmetic_attributes=True)
     count = 0
     for mol_folder in subdirs:
         count += 1
@@ -544,20 +622,16 @@ def create_energy_dataframe(subdirs, offxml_list, molfile_format, qdata_filename
         assigned_torsion_params = dict(
             (
                 os.path.splitext(os.path.basename(key))[0],
-                get_assigned_torsion_param(mol, key, dihedrals),
+                get_assigned_torsion_param(mol, ff_dict[key], dihedrals),
             )
-            for key in offxml_list
+            for key in ff_dict.keys()
         )
         #     {key: value for (key, value) in iterable}[ for x in offxml_list]
 
         #   zero out the assigned torsion parameter for this particular dihedral to get the intrinsic torsion potential
         #   "(full QM energy) - (full MM energy, locally optimized, with that specific torsion zeroed out)"
-        context_res = []
         for i in range(len(offxml_list)):
             key = os.path.splitext(os.path.basename(offxml_list[i]))[0]
-            context_res.append(
-                build_context_residual(offxml_list[i], mol_file, dihedrals)
-            )
 
         #         contexts_full = [build_context_full(offxml, mol_file, dihedrals) for offxml in offxml_list]
 
@@ -568,12 +642,14 @@ def create_energy_dataframe(subdirs, offxml_list, molfile_format, qdata_filename
             energies_data_dict = {}
             energies_full_dict = {}
             tb_dict = {}
+            rmsd_dict = {}
             # use ForceBalance.molecule to read the xyz file
             fb_mol = fb_molecule(os.path.join(mol_folder, f))
             # read torsion angles
             with open(mol_folder + "/metadata.json") as json_data:
                 metadata = json.load(json_data)
             energies_data_dict["td_angles"] = metadata["torsion_grid_ids"]
+            rmsd_dict["td_angles"] = metadata["torsion_grid_ids"]
             # read QM energies
             qdata = np.genfromtxt(
                 str(mol_folder) + "/" + str(qdata_filename),
@@ -603,14 +679,13 @@ def create_energy_dataframe(subdirs, offxml_list, molfile_format, qdata_filename
 
             ### FULL
             # evalute full mm energies for each force field
-            rmsd_dict = {}
             energies_full_dict = energies_data_dict.copy()
             for offxml, ffname in zip(offxml_list, ff_names):
-                contextf = build_restrained_context(
+                contexts_full = build_restrained_context(
                     offxml, mol_file, fb_mol.xyzs, dihedrals
                 )
                 mm_energies, minimized_pos, rmsd = evaluate_restrained_energies(
-                    contextf, fb_mol.xyzs, dihedrals
+                    contexts_full, fb_mol, dihedrals
                 )
                 # mm_energies -= mm_energies[ground_idx]
                 mm_energies -= mm_energies.min()
@@ -623,9 +698,12 @@ def create_energy_dataframe(subdirs, offxml_list, molfile_format, qdata_filename
 
             ### INTRINSIC
             # evalute intrinsic mm energies for each force field
-            for context, ffname in zip(context_res, ff_names):
-                mm_energies, _, _ = evaluate_minimized_energies(
-                    context, fb_mol.xyzs, dihedrals
+            for offxml, ffname in zip(offxml_list, ff_names):
+                contexts_res = build_restrained_context_for_residual(
+                    offxml, mol_file, fb_mol.xyzs, dihedrals
+                )
+                mm_energies, _, _ = evaluate_restrained_energies(
+                    contexts_res, fb_mol, dihedrals
                 )
                 # mm_energies -= mm_energies[ground_idx]
                 mm_energies -= mm_energies.min()
@@ -647,6 +725,11 @@ def create_energy_dataframe(subdirs, offxml_list, molfile_format, qdata_filename
             plot_iobytes = plot_energies_data(energies_data_dict, mol_name, "res")
             figdata_png = base64.b64encode(plot_iobytes.getvalue()).decode()
             plot_str = '<img src="data:image/png;base64,{}" />'.format(figdata_png)
+
+            rmsd_iobytes = plot_rmsd_data(rmsd_dict, mol_name)
+            rmsddata_png = base64.b64encode(rmsd_iobytes.getvalue()).decode()
+            plot_rmsd = '<img src="data:image/png;base64,{}" />'.format(rmsddata_png)
+
             oemol = mol.to_openeye()
             dihedral_indices = metadata["dihedrals"][0]
             struc_str = fig2inlinehtml(
@@ -659,13 +742,13 @@ def create_energy_dataframe(subdirs, offxml_list, molfile_format, qdata_filename
             df = df.append(
                 {
                     cols[0]: tid,
-                    cols[1]: info_dict["assigned_params"],
+                    cols[1]: info_dict["assigned_params"].values(),
                     cols[2]: wbo,
                     cols[3]: tb_dict,
                     cols[4]: struc_str,
                     cols[5]: plot_str,
                     cols[6]: plot_str_full,
-                    cols[7]: rmsd_dict,
+                    cols[7]: plot_rmsd,
                 },
                 ignore_index=True,
             )
