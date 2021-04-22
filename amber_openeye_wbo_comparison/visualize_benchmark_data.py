@@ -135,22 +135,23 @@ def plot_all_interactive():
         mols = {}
         amber_wbos = []
         openeye_wbos = []
-        for smiles, data in benchmark_data.items():
-            mols[smiles] = data[1] #Torsion indices
-            amber_wbos.append(data[0][0]) #Amber wbo
-            openeye_wbos.append(data[0][1]) #Openeye wbo
-        
-        plotmol.scatter(figure,
-                x = amber_wbos,
-                y = openeye_wbos,
-                smiles = mols,
-                marker = "o",
-                marker_size = 10,
-                marker_color = "black",
-                fill_color = colors[color_index],
-                legend_label = f"{benchmark_name} Benchmark ({len(benchmark_data)} mols)"
-                )
-        color_index += 1
+        if len(benchmark_data) > 0:
+            for smiles, data in benchmark_data.items():
+                mols[smiles] = data[1] #Torsion indices
+                amber_wbos.append(data[0][0]) #Amber wbo
+                openeye_wbos.append(data[0][1]) #Openeye wbo
+            
+            plotmol.scatter(figure,
+                    x = amber_wbos,
+                    y = openeye_wbos,
+                    smiles = mols,
+                    marker = "o",
+                    marker_size = 10,
+                    marker_color = "black",
+                    fill_color = colors[color_index],
+                    legend_label = f"{benchmark_name} Benchmark ({len(benchmark_data)} mols)"
+                    )
+            color_index += 1
                 
     figure.legend.location = "top_left"
     figure.legend.click_policy = "hide"
@@ -161,27 +162,27 @@ def plot_all_interactive():
     save(figure)
 
 def main():
-    for file in os.listdir("benchmark_results"):
-        if ".pkl" in file:
-            dataset_file_name = file[:-4]
-            dataset_name, benchmark_data = read_data(dataset_file_name)
-            try:
-                plot_interactive(benchmark_data, dataset_name)
-            except Exception as e:
-                print(f"{dataset_name} failed with error:")
-                print(f"{e}")
-                print()
+#    for file in os.listdir("benchmark_results"):
+#        if ".pkl" in file:
+#            dataset_file_name = file[:-4]
+#            dataset_name, benchmark_data = read_data(dataset_file_name)
+#            try:
+#                plot_interactive(benchmark_data, dataset_name)
+#            except Exception as e:
+#                print(f"{dataset_name} failed with error:")
+#                print(f"{e}")
+#                print()
+#
+#            #Creates a file that includes the top 25% of differences between Ambertools and OpenEye wbos
+#            find_notable_differences(benchmark_data, dataset_file_name)
+#
+#            #Create bargraphs in groups of 25 comparing the Ambertools and OpenEye wbos
+#            #visualize_bargraphs(benchmark_data, dataset_name)
+#
+#            #Create a scatterplot comparing the Ambertools and OpenEye wbos
+#            #visualize_scatterplot(benchmark_data, dataset_name)
 
-            #Creates a file that includes the top 25% of differences between Ambertools and OpenEye wbos
-            find_notable_differences(benchmark_data, dataset_file_name)
-
-            #Create bargraphs in groups of 25 comparing the Ambertools and OpenEye wbos
-            #visualize_bargraphs(benchmark_data, dataset_name)
-
-            #Create a scatterplot comparing the Ambertools and OpenEye wbos
-            #visualize_scatterplot(benchmark_data, dataset_name)
-
-#    plot_all_interactive()
+    plot_all_interactive()
 
 if __name__ == "__main__":
     main()
