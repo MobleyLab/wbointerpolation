@@ -148,10 +148,6 @@ def conform_molecules(data, dataset_file_name):
     molecules = {"openeye": [], "ambertools": []}
 
     with open(f"conformer_results/{dataset_file_name}-errors.log", "w") as file:
-
-        #Using central torsion indices to calculate WBO through OpenEye
-        #for charged_molecules, torsion_indices, error in processed_molecules:
-        
         #Using WBO as provided by the fractional bond order between central torsion indices
         for charged_molecules, torsion_indices, error in processed_molecules:
 

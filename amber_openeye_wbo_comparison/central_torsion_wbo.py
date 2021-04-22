@@ -46,8 +46,6 @@ def get_data(dataset_name):
     data_dict={}
     count = 0
     
-    dataset_file_name = dataset_name.replace(" ", "")
-    #with open(f"logs/failed_datasets/{dataset_file_name}_log.txt", "w") as log:
     try:
         ds = client.get_collection("TorsionDriveDataset", dataset_name)
         ds.status("default", status="COMPLETE")
@@ -57,7 +55,7 @@ def get_data(dataset_name):
             # get the dihedral indices
             dihedral_indices = ds.df.loc[index].default.keywords.dihedrals[0]
             cmiles=ds.get_entry(index).attributes['canonical_isomeric_explicit_hydrogen_mapped_smiles']
-            data_dict[smiles2oemol(cmiles)] = dihedral_indices[1:3]
+            data_dict[smiles2oemol(cmiles)] = dihedral_indices
 
         counter = collections.Counter(params)
         print(dataset_name, counter)
@@ -66,7 +64,6 @@ def get_data(dataset_name):
     except:
         time.sleep(20)
         print(f"failed to get dataset {dataset_name}")
-        #log.write("Failed to get dataset {dataset_name}\n")
         return data_dict
     
     return data_dict
@@ -91,16 +88,6 @@ def smiles2oemol(smiles):
     
     return mol
 
-def wiberg_bond_order(mol, bond_idxs):
-    """Calculates the Wiberg Bond Order for a specified bond"""
-    #Construction for WBO calculation
-    AM1_CALCULATOR = oequacpac.OEAM1()
-    results = oequacpac.OEAM1Results()
-    
-    AM1_CALCULATOR.CalcAM1(results, mol)
-    
-    return results.GetBondOrder(bond_idxs[0], bond_idxs[1])
-
 def main():
     """
     Creates the conformers for the molecules of a given dataset and the dataset
@@ -109,10 +96,10 @@ def main():
     for dataset_name in datasets:
         data = get_data(dataset_name)
         dataset_file_name = dataset_name.replace(" ", "")
-
+        
         conformed = False
-        for file_name in os.listdir("conformer_results"):
-            if dataset_file_name in file_name:
+        for file_name in os.listdir("benchmark_results"):
+            if dataset_file_name == file_name[:-4]:
                 conformed = True
                 break
         if not conformed:
@@ -130,18 +117,21 @@ def main():
             #Iterate through the amber and openeye version of each molecule
             for amber, openeye in zip(amber_data, openeye_data):
                 try:
+                    torsions = amber[1] #Stores the entire torsion list
+
                     amber_mol = amber[0]
                     #amber_smiles = amber[0].to_smiles()
-                    amber_torsions = amber[1]
+                    amber_torsions = amber[1][1:3] # Uses only the central torsion indices for WBO calculation
 
                     openeye_mol = openeye[0]
                     #openeye_smiles = openeye[0].to_smiles()
-                    openeye_torsions = openeye[1]
+                    openeye_torsions = openeye[1][1:3] # Uses only the central torsion indices for WBO calculation
 
                     smiles = amber[0].to_smiles()
 
-                    #Using WBO as provided by the fractional bond order between central torsion indices
-                    wbo_values[smiles] = ( amber_mol.get_bond_between(amber_torsions[0], amber_torsions[1]).fractional_bond_order, openeye_mol.get_bond_between(openeye_torsions[0], openeye_torsions[1]).fractional_bond_order )
+                    # Using WBO as provided by the fractional bond order between central torsion indices
+                    # Central torsion indices amber_torsions and openeye_torsions are the exact same
+                    wbo_values[smiles] = ( (amber_mol.get_bond_between(amber_torsions[0], amber_torsions[1]).fractional_bond_order, openeye_mol.get_bond_between(openeye_torsions[0], openeye_torsions[1]).fractional_bond_order), torsions )
                 except Exception as e:
                     log.write(f"Molecule failed: {smiles}\n")
                     log.write(f"{str(e)}\n")

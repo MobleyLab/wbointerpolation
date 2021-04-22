@@ -9,9 +9,9 @@ OpenEye wbo: 1.0911234631235465
 Difference: 0.032236246876453434
 
 Smiles: [H]c1c(c(c(c(c1[H])[H])N2c3c(c(c(c(c3C(=C2[H])[H])[H])[H])[H])[H])[H])[H]
-Amber wbo: 1.09162288
+Amber wbo: 1.09162514
 OpenEye wbo: 1.1241272513864784
-Difference: 0.032504371386478326
+Difference: 0.032502111386478294
 
 Smiles: [H]c1c(c(c(c(c1[H])[H])C2=NOC(=C2[H])[H])[H])[H]
 Amber wbo: 1.1341908
@@ -39,9 +39,9 @@ OpenEye wbo: 1.2066281315951843
 Difference: 0.04466827159518427
 
 Smiles: [H]C1=C(C(=O)N(C(=C1[H])C2=C(C(=C(O2)[H])[H])[H])[H])[H]
-Amber wbo: 1.59228605
+Amber wbo: 1.59228505
 OpenEye wbo: 1.6381607632591506
-Difference: 0.0458747132591506
+Difference: 0.04587571325915052
 
 Smiles: [H]c1c(c(c(c(c1[H])[H])C2=C(C(=NO2)[H])[H])[H])[H]
 Amber wbo: 1.62228195
@@ -49,12 +49,12 @@ OpenEye wbo: 1.5709851457144277
 Difference: 0.05129680428557237
 
 Smiles: [H]C1=C(C(=O)N(C(=C1[H])C2=C(SC(=C2[H])[H])[H])[H])[H]
-Amber wbo: 1.58800096
+Amber wbo: 1.58800506
 OpenEye wbo: 1.6424024518458589
-Difference: 0.05440149184585885
+Difference: 0.0543973918458589
 
 Smiles: [H]C1=C(C(=O)N(C(=C1[H])C2=C(C(=C(N2C([H])([H])[H])[H])[H])[H])[H])[H]
-Amber wbo: 1.59181015
+Amber wbo: 1.59180226
 OpenEye wbo: 1.6623109109812801
-Difference: 0.07050076098128022
+Difference: 0.07050865098128023
 
