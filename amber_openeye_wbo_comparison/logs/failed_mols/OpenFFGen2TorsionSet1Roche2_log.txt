@@ -1,0 +1,3 @@
+Molecule failed: [H]C1=C(N(C(=O)C(=C1[H])C2(C(=C(C(C(=C2[H])[H])([H])[H])[H])[H])[H])[H])[H]
+No bond between atom 3 and 10
+

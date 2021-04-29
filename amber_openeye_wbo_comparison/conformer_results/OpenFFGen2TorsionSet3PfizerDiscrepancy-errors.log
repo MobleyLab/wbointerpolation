@@ -1,0 +1,18 @@
+===============================================================================
+Failed to process [H:12][c:1]1[c:2]([n:9][c:3]([n:10][c:4]1[N:11]([C:7]([H:21])([H:22])[H:23])[C:8]([H:24])([C:5]([H:15])([H:16])[H:17])[C:6]([H:18])([H:19])[H:20])[H:14])[H:13]: Unable to make OFFMol from OEMol: OEMol has unspecified stereochemistry. oemol.GetTitle(): 
+Problematic atoms are:
+Atom atomic num: 7, name: , idx: 10, aromatic: False, chiral: True with bonds:
+bond order: 1, chiral: False to atom atomic num: 6, name: , idx: 3, aromatic: True, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: , idx: 6, aromatic: False, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: , idx: 7, aromatic: False, chiral: False
+
+===============================================================================
+===============================================================================
+Failed to process [H:14][c:1]1[c:2]([n:11][n:12][c:4]([c:3]1[C:9]([H:23])([H:24])[H:25])[N:13]2[C@:8]([C:6]([C:5]([C:7]2([H:20])[H:21])([H:16])[H:17])([H:18])[H:19])([H:22])[C:10]([H:26])([H:27])[H:28])[H:15]: Unable to make OFFMol from OEMol: OEMol has unspecified stereochemistry. oemol.GetTitle(): 
+Problematic atoms are:
+Atom atomic num: 7, name: , idx: 12, aromatic: False, chiral: True with bonds:
+bond order: 1, chiral: False to atom atomic num: 6, name: , idx: 3, aromatic: True, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: , idx: 6, aromatic: False, chiral: False
+bond order: 1, chiral: False to atom atomic num: 6, name: , idx: 7, aromatic: False, chiral: True
+
+===============================================================================

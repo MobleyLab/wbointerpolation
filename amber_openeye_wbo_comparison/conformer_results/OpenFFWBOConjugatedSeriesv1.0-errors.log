@@ -1,0 +1,90 @@
+===============================================================================
+Failed to process [H:7][N:2]([H:8])[O:6][N:3]([H:9])[C:1](=[O:5])[N+:4]([H:10])([H:11])[H:12]: Unable to assign charges: Warning: BCIChargeCorrector: BCI charge corrections for mol 
+Warning:                     missing bcc parameter for the C1-N4 bond (BCIType 140121)
+Warning: Unable to assign all BCCs in 
+
+===============================================================================
+===============================================================================
+Failed to process [H:7][N:2]([H:8])[O:6][N:3]([H:9])[C:1](=[O:5])[N+:4]([H:10])([H:11])[H:12]: Unable to assign charges: Warning: BCIChargeCorrector: BCI charge corrections for mol 
+Warning:                     missing bcc parameter for the C1-N4 bond (BCIType 140121)
+Warning: Unable to assign all BCCs in 
+
+===============================================================================
+===============================================================================
+Failed to process [H:10][C:2]([H:11])([H:12])[N:7]([C:1](=[O:9])[N+:8]([C:4]([H:16])([H:17])[H:18])([C:5]([H:19])([H:20])[H:21])[C:6]([H:22])([H:23])[H:24])[C:3]([H:13])([H:14])[H:15]: Unable to assign charges: Warning: BCIChargeCorrector: BCI charge corrections for mol 
+Warning:                     missing bcc parameter for the C1-N8 bond (BCIType 140121)
+Warning: Unable to assign all BCCs in 
+
+===============================================================================
+===============================================================================
+Failed to process [H:10][C:2]([H:11])([H:12])[N:7]([C:1](=[O:9])[N+:8]([C:4]([H:16])([H:17])[H:18])([C:5]([H:19])([H:20])[H:21])[C:6]([H:22])([H:23])[H:24])[C:3]([H:13])([H:14])[H:15]: Unable to assign charges: Warning: BCIChargeCorrector: BCI charge corrections for mol 
+Warning:                     missing bcc parameter for the C1-N8 bond (BCIType 140121)
+Warning: Unable to assign all BCCs in 
+
+===============================================================================
+===============================================================================
+Failed to process [H:9][C:1](=[C:2]([H:11])[C:3](=[O:8])[N+:7]([C:4]([H:12])([H:13])[H:14])([C:5]([H:15])([H:16])[H:17])[C:6]([H:18])([H:19])[H:20])[H:10]: Unable to assign charges: Warning: BCIChargeCorrector: BCI charge corrections for mol 
+Warning:                     missing bcc parameter for the C3-N7 bond (BCIType 140121)
+Warning: Unable to assign all BCCs in 
+
+===============================================================================
+===============================================================================
+Failed to process [H:8][C:2]([H:9])([H:10])[N+:4](=[C:1]([O-:5])[O:7][O-:6])[C:3]([H:11])([H:12])[H:13]: Unable to assign charges: Warning: BCIChargeCorrector: BCI charge corrections for mol 
+Warning:                     missing bcc parameter for the O6-O7 bond (BCIType 310931)
+Warning: Unable to assign all BCCs in 
+
+===============================================================================
+===============================================================================
+Failed to process [H:10][C:3]([H:11])([H:12])[N+:5](=[C:1]([O-:6])[O:9][C:2](=[O:8])[O-:7])[C:4]([H:13])([H:14])[H:15]: Unable to assign charges: Warning: BCIChargeCorrector: BCI charge corrections for mol 
+Warning:                     missing bcc parameter for the C2-O8 bond (BCIType 140932)
+Warning: Unable to assign all BCCs in 
+
+===============================================================================
+===============================================================================
+Failed to process [H:8][C:2]([H:9])([H:10])[N:5](/[C:1](=[N:4]/[S-:7])/[O:6][H:14])[C:3]([H:11])([H:12])[H:13]: Unable to assign charges: Warning: BCIChargeCorrector: BCI charge corrections for mol 
+Warning:                     missing bcc parameter for the N4-S7 bond (BCIType 240651)
+Warning: Unable to assign all BCCs in 
+
+===============================================================================
+===============================================================================
+Failed to process [H:8][C:2]([H:9])([H:10])[N:5](/[C:1](=[N:4]\[S-:7])/[O:6][H:14])[C:3]([H:11])([H:12])[H:13]: Unable to assign charges: Warning: BCIChargeCorrector: BCI charge corrections for mol 
+Warning:                     missing bcc parameter for the N4-S7 bond (BCIType 240651)
+Warning: Unable to assign all BCCs in 
+
+===============================================================================
+===============================================================================
+Failed to process [H:8][C:2]([H:9])([H:10])[N:4](/[C:1](=[N+:5](/[H:14])\[S-:7])/[O-:6])[C:3]([H:11])([H:12])[H:13]: Unable to assign charges: Warning: BCIChargeCorrector: BCI charge corrections for mol 
+Warning:                     missing bcc parameter for the N5-S7 bond (BCIType 230651)
+Warning: Unable to assign all BCCs in 
+
+===============================================================================
+===============================================================================
+Failed to process [H:8][C:2]([H:9])([H:10])[N:4](/[C:1](=[N+:5](\[H:14])/[S-:7])/[O-:6])[C:3]([H:11])([H:12])[H:13]: Unable to assign charges: Warning: BCIChargeCorrector: BCI charge corrections for mol 
+Warning:                     missing bcc parameter for the N5-S7 bond (BCIType 230651)
+Warning: Unable to assign all BCCs in 
+
+===============================================================================
+===============================================================================
+Failed to process [H:8][C:2]([H:9])([H:10])[N:5]([C:1](=[O:6])[N:4]([H:14])[S-:7])[C:3]([H:11])([H:12])[H:13]: Unable to assign charges: Warning: BCIChargeCorrector: BCI charge corrections for mol 
+Warning:                     missing bcc parameter for the N4-S7 bond (BCIType 220651)
+Warning: Unable to assign all BCCs in 
+
+===============================================================================
+===============================================================================
+Failed to process [H:8][C:2]([H:9])([H:10])[N+:5](=[C:1]([N:4]([H:14])[S-:7])[O-:6])[C:3]([H:11])([H:12])[H:13]: Unable to assign charges: Warning: BCIChargeCorrector: BCI charge corrections for mol 
+Warning:                     missing bcc parameter for the N4-S7 bond (BCIType 230651)
+Warning: Unable to assign all BCCs in 
+
+===============================================================================
+===============================================================================
+Failed to process [H:9][C:3]([H:10])([H:11])[N:7]([C:2](=[O:8])[N:6]=[C:1]=[N-:5])[C:4]([H:12])([H:13])[H:14]: Unable to assign charges: Warning: BCIChargeCorrector: BCI charge corrections for mol 
+Warning:                     missing bcc parameter for the C1-N5 bond (BCIType 150225)
+Warning: Unable to assign all BCCs in 
+
+===============================================================================
+===============================================================================
+Failed to process [H:9][C:3]([H:10])([H:11])[N:7]([C:2](=[O:8])[N:6]=[C:1]=[N-:5])[C:4]([H:12])([H:13])[H:14]: Unable to assign charges: Warning: BCIChargeCorrector: BCI charge corrections for mol 
+Warning:                     missing bcc parameter for the C1-N5 bond (BCIType 150225)
+Warning: Unable to assign all BCCs in 
+
+===============================================================================

@@ -1,0 +1,87 @@
+Molecule failed: [H]c1c(c(c(c(c1[H])[H])N2C(=C(C(=C2[H])[H])[H])[H])[H])[H]
+No bond between atom 5 and 10
+
+Molecule failed: [H]c1c(c(c(c(c1[H])[H])N2C(=C(C(=N2)[H])[H])[H])[H])[H]
+No bond between atom 5 and 10
+
+Molecule failed: [H]c1c(nc(nc1[H])C2=C(OC(=C2[H])[H])[H])[H]
+No bond between atom 3 and 7
+
+Molecule failed: [H]c1c(nc(nc1[H])C2=C(C(=C(S2)[H])[H])[H])[H]
+No bond between atom 3 and 7
+
+Molecule failed: [H]c1c(nc(nc1[H])C2=C(C(=C(N2[H])[H])[H])[H])[H]
+No bond between atom 3 and 7
+
+Molecule failed: [H]c1c(nc(nc1[H])C2=C(C(=C(O2)[H])[H])[H])[H]
+No bond between atom 3 and 7
+
+Molecule failed: [H]c1c(nc(nc1[H])C2=C(SC(=C2[H])[H])[H])[H]
+No bond between atom 3 and 7
+
+Molecule failed: [H]c1c(c(c(c(c1[H])[H])C2=C(N(c3c2c(c(c(c3[H])[H])[H])[H])[H])[H])[H])[H]
+No bond between atom 9 and 13
+
+Molecule failed: [H]c1c(c(c(c(c1[H])[H])C2=C(C(=C(N2C([H])([H])[H])[H])[H])[H])[H])[H]
+No bond between atom 5 and 9
+
+Molecule failed: [H]c1c(c2c(c(c1C3=C(C(=C(O3)[H])[H])[H])[H])c(nc(n2)[H])[H])[H]
+No bond between atom 6 and 11
+
+Molecule failed: [H]c1c(c(c(c(c1[H])[H])C2=NC(=C(N2[H])[H])[H])[H])[H]
+No bond between atom 5 and 8
+
+Molecule failed: [H]c1c(c(c(c(c1[H])[H])C2=NN(C(=N2)[H])[H])[H])[H]
+No bond between atom 5 and 7
+
+Molecule failed: [H]c1c(c(c(c(c1[H])[H])C2=C([n+]3c(c(c(c(c3N2[H])[H])[H])[H])[H])[H])[H])[H]
+No bond between atom 9 and 12
+
+Molecule failed: [H]c1c(c(c(c(c1[H])[H])C2=NC(=NN2[H])[H])[H])[H]
+No bond between atom 5 and 7
+
+Molecule failed: [H]c1c(c(c(c(c1[H])[H])c2c(c(nc3[n+]2N(C(=C3[H])[H])[H])[H])[H])[H])[H]
+No bond between atom 7 and 8
+
+Molecule failed: [H]c1c(c(c(c(c1[H])[H])c2c(c3c(nc2[H])N(C(=C3[H])[H])[H])[H])[H])[H]
+No bond between atom 7 and 8
+
+Molecule failed: [H]c1nc(c2c(n1)N(C(=C2[H])[H])[H])C3=C(N(N=C3[H])[H])[H]
+No bond between atom 2 and 8
+
+Molecule failed: [H]c1c(nc(nc1[H])N2C(=C(C(=N2)[H])[H])[H])[H]
+No bond between atom 3 and 10
+
+Molecule failed: [H]c1c(c(c(c(c1[H])[H])N2C(=C(N=C2[H])[H])[H])[H])[H]
+No bond between atom 5 and 10
+
+Molecule failed: [H]c1c(c(c2c(c1[H])N=C(N2[H])c3c(c(c4c(c3[H])N(C(=N4)[H])[H])[H])[H])[H])[H]
+No bond between atom 7 and 13
+
+Molecule failed: [H]c1c(c(c(c(c1[H])[H])C2=NOC(=N2)[H])[H])[H]
+No bond between atom 5 and 7
+
+Molecule failed: [H]c1c(c(c(c(c1[H])[H])C2=C(C(=C(N2[H])[H])[H])[H])[H])[H]
+No bond between atom 5 and 9
+
+Molecule failed: [H]c1c(c(c(c(c1[H])[H])C2=C(C(=C(S2)[H])[H])[H])[H])[H]
+No bond between atom 5 and 9
+
+Molecule failed: [H]c1c(c(c(c(c1[H])[H])C2=NC(=C(S2)[H])[H])[H])[H]
+No bond between atom 5 and 8
+
+Molecule failed: [H]c1c(c(c(c(c1[H])[H])N2C(=NC(=N2)[H])[H])[H])[H]
+No bond between atom 5 and 10
+
+Molecule failed: [H]c1c(c(c(c(c1[H])[H])C2=C(C(=C(O2)[H])[H])[H])[H])[H]
+No bond between atom 5 and 9
+
+Molecule failed: [H]c1c(nc(nc1[H])C2=NC(=C(N2[H])[H])[H])[H]
+No bond between atom 3 and 6
+
+Molecule failed: [H]c1c(nc(nc1[H])C2=C(C(=C(N2C([H])([H])[H])[H])[H])[H])[H]
+No bond between atom 3 and 7
+
+Molecule failed: [H]c1c(nc(nc1[H])N2C(=C(C(=C2[H])[H])[H])[H])[H]
+No bond between atom 3 and 10
+

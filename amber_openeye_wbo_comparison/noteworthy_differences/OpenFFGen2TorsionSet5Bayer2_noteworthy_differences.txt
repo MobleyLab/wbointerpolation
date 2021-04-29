@@ -1,0 +1,230 @@
+Smiles: [H]c1c(c2c(c(c1[H])OC(=O)N(C(=O)OC([H])([H])C([H])([H])N3C(C(C(C(C3([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])C([H])([H])[H])OC(C2([H])[H])(C([H])([H])[H])C([H])([H])[H])[H]
+Amber wbo: 0.95376149
+OpenEye wbo: 0.9277845695652094
+Difference: 0.025976920434790607
+
+Smiles: [H]c1c(c(c2c(c1[H])c(c(c(n2)C([H])([H])Oc3c(c(c(c(c3F)[H])C([H])([H])C(=O)N([H])S(=O)(=O)C([H])([H])[H])[H])[H])[H])[H])[H])[H]
+Amber wbo: 0.57413397
+OpenEye wbo: 0.6003142756590327
+Difference: 0.026180305659032732
+
+Smiles: [H]C([H])([H])C1=NN(C(=O)N1N([H])C([H])([H])[H])C(=O)N([H])C(C([H])([H])[H])(C([H])([H])[H])C([H])([H])C([H])([H])[H]
+Amber wbo: 0.9663156
+OpenEye wbo: 0.939891594721932
+Difference: 0.026424005278068097
+
+Smiles: [H]c1c(c(c(c(c1[H])[H])[C@@]([H])([C@@]([H])(C([H])([H])[H])N([H])S(=O)(=O)C2(C(C2([H])[H])([H])[H])[H])Oc3c(c(c4c(c3[H])C(=NN4C([H])(C([H])([H])[H])C([H])([H])[H])[H])[H])[H])[H])[H]
+Amber wbo: 0.64886045
+OpenEye wbo: 0.6762925281532043
+Difference: 0.027432078153204253
+
+Smiles: [H]C1=C(N(C(=N1)[H])C2=C(C(C(C2([H])[H])([H])[H])([H])[H])N3C(=C(N=C3[H])[H])[H])[H]
+Amber wbo: 1.10648751
+OpenEye wbo: 1.1341879314737406
+Difference: 0.027700421473740633
+
+Smiles: [H]c1c(c(c(c(c1[H])C([H])([H])S(=O)(=O)C([H])([H])[H])S(=O)(=O)N([H])[H])[H])[H]
+Amber wbo: 0.66435984
+OpenEye wbo: 0.6939312466781267
+Difference: 0.029571406678126633
+
+Smiles: [H]C1(C(N(C(C(C1(C(=O)OC([H])([H])C([H])([H])[H])O[H])([H])[H])([H])[H])OC([H])([H])C([H])([H])[H])([H])[H])[H]
+Amber wbo: 0.97578788
+OpenEye wbo: 0.9451158487288138
+Difference: 0.03067203127118623
+
+Smiles: [H]c1c(c(c(c(c1C(=O)C2=C(N(N=C2C3(C(C3([H])[H])([H])[H])[H])C([H])([H])[H])O[H])C([H])([H])[H])N([H])C([H])([H])C([H])([H])OC([H])([H])C([H])([H])[H])S(=O)(=O)C([H])([H])[H])[H]
+Amber wbo: 0.99047624
+OpenEye wbo: 0.9596266723483221
+Difference: 0.0308495676516779
+
+Smiles: [H]C1(C(C(C(C(C1([H])[H])([H])[H])([H])N([H])C(=O)N2C(=O)N(C(=N2)C([H])([H])[H])N([H])C([H])(C([H])([H])[H])C([H])([H])[H])([H])[H])([H])[H])[H]
+Amber wbo: 0.97326132
+OpenEye wbo: 0.9422961635595777
+Difference: 0.030965156440422303
+
+Smiles: [H]c1c(c(c(c(c1[H])[H])N2C(=O)C(C(=O)N2c3c(c(c(c(c3[H])[H])[H])[H])[H])(C([H])([H])C([H])([H])C([H])([H])C([H])([H])[H])O[H])[H])[H]
+Amber wbo: 0.94010979
+OpenEye wbo: 0.9085517238093823
+Difference: 0.03155806619061763
+
+Smiles: [H]c1c(c(c(c(c1C([H])([H])[H])[H])[H])S(=O)(=O)N([H])c2c(c(c3c(c2[H])C4(C(C(=O)N3C([H])([H])C5(C(C5([H])[H])([H])[H])[H])([H])[H])C(C(C4([H])[H])([H])[H])([H])[H])[H])[H])[H]
+Amber wbo: 0.61875516
+OpenEye wbo: 0.6510996090493723
+Difference: 0.03234444904937228
+
+Smiles: [H]c1c(c(c(c2c1N(N=C2[H])[H])[H])N([H])c3c4c(c(c(c(c4nc(n3)N([H])C5(C(C5([H])[H])([H])[H])[H])[H])OC([H])([H])[H])OC([H])([H])[H])[H])[H]
+Amber wbo: 0.97318142
+OpenEye wbo: 0.9389396109994939
+Difference: 0.03424180900050611
+
+Smiles: [H]C1(C(C1(C(=O)O[H])N2C(C(N(C(C2([H])[H])([H])[H])C([H])([H])[H])([H])[H])([H])[H])([H])[H])[H]
+Amber wbo: 0.99208109
+OpenEye wbo: 0.9572625055261413
+Difference: 0.03481858447385866
+
+Smiles: [H]C1(C(C1([H])N2C(C(N(C(C2([H])[H])([H])[H])C3(C(C3([H])[H])([H])[H])C(=O)O[H])([H])[H])([H])[H])([H])[H])[H]
+Amber wbo: 0.99217877
+OpenEye wbo: 0.9572272979056554
+Difference: 0.03495147209434457
+
+Smiles: [H]c1c(c(c2c(c1[H])c(c(c(n2)C([H])([H])Oc3c(c(c(c(c3N([H])S(=O)(=O)c4c(c(c(c(c4[H])[H])Cl)[H])[H])[H])[H])[H])[H])[H])[H])[H])[H]
+Amber wbo: 0.63320406
+OpenEye wbo: 0.6682954845556756
+Difference: 0.0350914245556756
+
+Smiles: [H]c1c(c(c(c(c1[H])[H])C([H])([H])C([H])([H])S(=O)(=O)C([H])([H])C([H])([H])O[H])[H])[H]
+Amber wbo: 0.62803473
+OpenEye wbo: 0.6632569577977289
+Difference: 0.03522222779772888
+
+Smiles: [H]C1(C(C(C(C(C1([H])[H])([H])[H])([H])N2C(=O)N(N(C2=O)[H])[H])([H])[H])([H])[H])[H]
+Amber wbo: 0.98635882
+OpenEye wbo: 0.9500248795135552
+Difference: 0.03633394048644478
+
+Smiles: [H]c1c(c(c(c(c1[H])[H])S(=O)(=O)C([H])([H])C([H])([H])C(=O)N([H])C([H])([H])[H])[H])[H]
+Amber wbo: 0.61496211
+OpenEye wbo: 0.6525830633437298
+Difference: 0.037620953343729835
+
+Smiles: [H]c1c(c2c3c(c1[H])N(C(=C3C([C@@]4([C@@]2(C([C@@](C(N4C#N)([H])[H])([H])C(=O)OC([H])([H])[H])([H])[H])[H])[H])([H])[H])[H])[H])[H]
+Amber wbo: 1.04023454
+OpenEye wbo: 1.0781990250387685
+Difference: 0.03796448503876859
+
+Smiles: [H]c1c2=C(N(N=c2c(c(c1N([H])C(=O)C3=C(OC(=N3)C4(C(C4([H])[H])([H])[H])[H])[H])OC([H])([H])C([H])([H])[H])[H])C([H])([H])C([H])([H])C(C([H])([H])[H])(C([H])([H])[H])O[H])[H]
+Amber wbo: 0.97649487
+OpenEye wbo: 0.9385111953532397
+Difference: 0.037983674646760335
+
+Smiles: [H]c1c(c(c(c(c1[H])[H])S(=O)(=O)C([H])([H])C([H])([H])C([H])([H])C2(C(C(C2([H])[H])([H])[H])([H])[H])C([H])([H])C([H])([H])[H])[H])[H]
+Amber wbo: 0.60364286
+OpenEye wbo: 0.6423093367535601
+Difference: 0.03866647675356005
+
+Smiles: [H]c1c(c(c2c(c1[H])C(=NS(=O)(=O)O2)N([H])[H])[H])[H]
+Amber wbo: 1.27269699
+OpenEye wbo: 1.2336152640668006
+Difference: 0.039081725933199474
+
+Smiles: [H]c1c(c2c(c(c1C([H])([H])N3C(=C(N=C3[H])[H])[H])[H])N(N=N2)C([H])([H])[H])[H]
+Amber wbo: 0.92954292
+OpenEye wbo: 0.8901541307789482
+Difference: 0.03938878922105182
+
+Smiles: [H]c1c(c(c(c(c1OC([H])([H])[H])[H])S(=O)(=O)N2C(C(C(C(C2([H])[H])([H])[H])([H])C([H])([H])C([H])([H])C([H])([H])C3(C(C(N(C(C3([H])[H])([H])[H])[H])([H])[H])([H])[H])[H])([H])[H])([H])[H])OC([H])([H])[H])[H]
+Amber wbo: 0.64475626
+OpenEye wbo: 0.6851518317447617
+Difference: 0.040395571744761716
+
+Smiles: [H]C1=C(N=C(S1)C(F)(F)F)C([H])([H])N2C(=O)N3C(=N2)C(C(C([C@@]3([H])C(=O)N4C(C(C(C4([H])[H])(F)F)([H])[H])([H])[H])([H])[H])([H])[H])([H])[H]
+Amber wbo: 1.25671744
+OpenEye wbo: 1.2158800106038696
+Difference: 0.04083742939613044
+
+Smiles: [H]c1c(c(c(c(c1N([H])S(=O)(=O)C([H])([H])[H])[H])[H])S(=O)(=O)C2=C(N(N=C2C([H])([H])[H])C([H])([H])C([H])([H])N(C([H])([H])[H])C([H])([H])[H])C([H])([H])[H])[H]
+Amber wbo: 0.6013443
+OpenEye wbo: 0.6424335843818645
+Difference: 0.04108928438186443
+
+Smiles: [H]c1c(c(c(c(c1S(=O)(=O)c2c(c(c(c(c2[H])C([H])([H])[H])O[H])C([H])([H])[H])[H])[H])C([H])([H])[H])O[H])C([H])([H])[H]
+Amber wbo: 0.60487469
+OpenEye wbo: 0.6479830916084995
+Difference: 0.04310840160849949
+
+Smiles: [H]C1(C(N(C(C(N1C(=O)N([H])[H])([H])[H])([H])[H])S(=O)(=O)C([H])([H])[H])([H])[H])[H]
+Amber wbo: 0.62500046
+OpenEye wbo: 0.6687754631749132
+Difference: 0.04377500317491323
+
+Smiles: [H]C1(C(C(C(C(C1([H])[H])([H])[H])([H])N([H])S(=O)(=O)N(C([H])([H])[H])C([H])([H])[H])([H])[H])([H])[H])[H]
+Amber wbo: 0.61429608
+OpenEye wbo: 0.6589059255523398
+Difference: 0.04460984555233982
+
+Smiles: [H]c1c(c(c(c2c1C(=NO2)C([H])([H])[H])C([H])([H])[H])OC([H])([H])C([H])([H])C([H])([H])Oc3c(c(c4c(c3[H])C(C([C@@]4([H])C([H])([H])C(=O)O[H])([H])[H])([H])[H])[H])[H])[H]
+Amber wbo: 1.07346698
+OpenEye wbo: 1.0260860065685236
+Difference: 0.047380973431476514
+
+Smiles: [H][C@@]1(C(C(C(N1[H])([H])[H])([H])[H])([H])[H])C([H])([H])C([H])([H])C([H])([H])S(=O)(=O)C([H])([H])C([H])([H])C(F)(F)F
+Amber wbo: 0.63806652
+OpenEye wbo: 0.6861839155925589
+Difference: 0.0481173955925589
+
+Smiles: [H]c1c(c(c(c(c1F)[H])[H])S(=O)(=O)N2C([C@](N([C@](C2([H])[H])([H])C([H])([H])[H])C(=O)C3=C(N(N=N3)[H])[H])([H])C([H])([H])[H])([H])[H])[H]
+Amber wbo: 0.62544613
+OpenEye wbo: 0.6748643691494015
+Difference: 0.049418239149401466
+
+Smiles: [H]c1c(c(c(c(c1[H])[H])C([H])([H])S(=O)(=O)N([H])O[H])[H])[H]
+Amber wbo: 0.59358094
+OpenEye wbo: 0.6441881701779565
+Difference: 0.05060723017795654
+
+Smiles: [H]c1c(c(c2c(c1[H])C(=O)C(C(O2)(C([H])([H])C([H])([H])[H])C([H])([H])C([H])([H])[H])(C([H])([H])C([H])([H])S(=O)(=O)C([H])([H])[H])C([H])([H])C([H])([H])S(=O)(=O)C([H])([H])[H])[H])[H]
+Amber wbo: 0.637721
+OpenEye wbo: 0.6897255646759186
+Difference: 0.05200456467591863
+
+Smiles: [H]c1c(c(c(c(c1N([H])c2nc(c(c(n2)N([H])[C@@]([H])(C([H])([H])O[H])C([H])(C([H])([H])[H])C([H])([H])[H])Br)[H])[H])[H])S(=O)(=O)N([H])O[H])[H]
+Amber wbo: 0.59906194
+OpenEye wbo: 0.6559292054786297
+Difference: 0.056867265478629636
+
+Smiles: [H]c1c(c(c2c(c1[H])c(c(c(n2)C([H])([H])Oc3c(c(c(c(c3[H])[H])C4(C(C(C(C(C4([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])C(=O)O[H])[H])[H])[H])[H])[H])[H]
+Amber wbo: 1.22756941
+OpenEye wbo: 1.2853533697447606
+Difference: 0.05778395974476047
+
+Smiles: [H][C@@]1([C@@](C(OC1([H])[H])([H])[H])(C(=O)OC(C([H])([H])[H])(C([H])([H])[H])C([H])([H])[H])N(C(=O)OC(C([H])([H])[H])(C([H])([H])[H])C([H])([H])[H])S(=O)(=O)O[H])F
+Amber wbo: 0.54563054
+OpenEye wbo: 0.603885142909249
+Difference: 0.058254602909249
+
+Smiles: [H]c1c(c(c2c(c1[H])N(/C(=N\C(=O)N(C([H])([H])[H])C([H])([H])[H])/S2)C(=O)OC([H])([H])C([H])(C([H])([H])[H])C([H])([H])[H])[H])[H]
+Amber wbo: 1.79395628
+OpenEye wbo: 1.7338102146320329
+Difference: 0.06014606536796707
+
+Smiles: [H]C([H])([H])C([H])([H])C1=NN(C(=O)N1OC([H])([H])C([H])([H])[H])C([H])([H])C([H])([H])[H]
+Amber wbo: 1.00789816
+OpenEye wbo: 0.9421895237299176
+Difference: 0.0657086362700825
+
+Smiles: [H]c1c(c(c2c(c1[H])c(nc(n2)N3C(C(C(C(C3([H])[H])([H])[H])([H])C([H])([H])N([H])[H])([H])[H])([H])[H])N(C([H])([H])C([H])([H])[H])C([H])([H])C([H])([H])[H])[H])[H]
+Amber wbo: 1.1523708
+OpenEye wbo: 1.2288595317283533
+Difference: 0.07648873172835335
+
+Smiles: [H]c1c(c(c(c(c1[H])N([H])C2=NC(C(N2[H])([H])[H])([H])[H])[H])C#N)[H]
+Amber wbo: 0.97859326
+OpenEye wbo: 1.056041342811274
+Difference: 0.07744808281127402
+
+Smiles: [H]c1c2c(c(c(c1OC([H])([H])[H])OS(=O)(=O)N([H])[H])[H])C(C([C@@]3([C@@]2(C(C([C@@]4([C@@]3(C(C(C(C4([H])[H])([H])[H])([H])[H])([H])[H])[H])C([H])([H])[H])([H])[H])([H])[H])[H])[H])([H])[H])([H])[H]
+Amber wbo: 0.52540738
+OpenEye wbo: 0.6041146754099782
+Difference: 0.07870729540997823
+
+Smiles: [H]c1c2c(c(c(c1OC([H])([H])[H])OS(=O)(=O)N([H])[H])[H])C(C([C@@]3([C@@]2(C(C([C@@]4([C@@]3(C(C(C(C4=O)([H])[H])([H])[H])([H])[H])[H])C([H])([H])[H])([H])[H])([H])[H])[H])[H])([H])[H])([H])[H]
+Amber wbo: 0.52315648
+OpenEye wbo: 0.6029413739942575
+Difference: 0.07978489399425748
+
+Smiles: [H]c1c(c(c(c2c1N3C(=NC(=C3C(N(C2=O)C([H])([H])[H])([H])[H])C4=NC(=NO4)C([H])([H])C([H])([H])[H])[H])[H])Cl)[H]
+Amber wbo: 1.10715532
+OpenEye wbo: 1.0247474738578415
+Difference: 0.08240784614215846
+
+Smiles: [H]c1c(c(c2c(c1[H])C(=NS(=O)(=O)O2)N([H])C([H])([H])[H])[H])[H]
+Amber wbo: 1.12696317
+OpenEye wbo: 1.0149821177890959
+Difference: 0.11198105221090415
+
+Smiles: [H]c1c(c(c(c(c1C2=NN(N=N2)[H])[H])[H])C([H])([H])C(=O)O[H])[H]
+Amber wbo: 1.6577948
+OpenEye wbo: 1.5252758689778656
+Difference: 0.1325189310221344
+
