@@ -1,0 +1,359 @@
+Note: Failed to import the optional openff.evaluator package. 
+Note: Failed to import the optional openff.recharge package.
+#======================================================================#
+#| [1m            Welcome to ForceBalance version 1.7.5! =D             [0m |#
+#| [1m                 Force Field Optimization System                  [0m |#
+#| [1m                                                                  [0m |#
+#| [1m                             Authors:                             [0m |#
+#| [1m                          Lee-Ping Wang                           [0m |#
+#| [1m                  Yudong Qiu, Keri A. McKiernan                   [0m |#
+#| [1m          Jeffrey R. Wagner, Hyesu Jang, Simon Boothroyd          [0m |#
+#| [1m           Arthur Vigil, Erik G. Brandt, Johnny Israeli           [0m |#
+#======================================================================#
+
+                          [44m     [0m                                        
+                       [44m        [0m      [43m     [0m                              
+                    [44m        [0m   [44m  [0m    [43m         [0m                          
+                 [44m       [0m    [44m      [0m      [43m         [0m                       
+             [44m        [0m    [44m        [0m          [43m         [0m                    
+          [44m        [0m    [44m        [0m                 [43m        [0m                 
+       [44m        [0m    [44m       [0m                        [43m        [0m              
+    [44m        [0m   [44m        [0m                              [43m         [0m          
+   [44m      [0m   [44m        [0m               `.:+@@###@'          [43m         [0m       
+    [44m [0m    [44m        [0m          ,;'+###############.             [43m     [0m       
+      [44m        [0m         +################':`                    [43m [0m        
+      [44m     [0m              `.,,...####+.                                  
+                                ,#####      +##.               [44m   [0m   [44m   [0m
+ [43m    [0m                            #####      ######             [44m   [0m   [44m   [0m
+ [43m    [0m                ###'        ####'     :#####'             [44m   [0m   [44m   [0m
+ [43m    [0m                :####@      ####.    ,####'               [44m   [0m   [44m   [0m
+ [43m    [0m                 ######     ####    +###+                 [44m   [0m   [44m   [0m
+ [43m    [0m                  #####     ####   ###;                   [44m   [0m   [44m   [0m
+ [43m    [0m                   :##      ####  ++`                     [44m   [0m   [44m   [0m
+ [43m    [0m                            ####``..:;+##############+`   [44m   [0m   [44m   [0m
+ [43m    [0m             .,:;;'++##################################`  [44m   [0m   [44m   [0m
+ [43m    [0m    `############################++++''';;;;;;;;;;;'';    [44m   [0m   [44m   [0m
+ [43m    [0m      ,########':,.``       ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+      [44m    [0m                       ####                                   
+     [44m        [0m                    ####                                   
+    [44m [0m    [44m       [0m                 ####                       [43m     [0m       
+   [44m     [0m    [44m        [0m             ####                    [43m        [0m       
+   [44m        [0m    [44m        [0m          ###                  [43m         [0m         
+      [44m        [0m    [44m        [0m        +`               [43m        [0m             
+          [44m        [0m   [44m        [0m                   [43m        [0m                
+             [44m        [0m   [44m         [0m           [43m         [0m                   
+                [44m        [0m    [44m       [0m      [43m         [0m                      
+                   [44m        [0m    [44m   [0m    [43m        [0m                          
+                      [44m        [0m       [43m      [0m                             
+                          [44m      [0m      [43m  [0m                                
+                             [44m  [0m                                         
+
+Reading options from file: debug.in
+#========================================================#
+#| [95m  Options at their default values are not printed   [0m |#
+#| [95m        Use 'verbose_options True' to Enable        [0m |#
+#========================================================#
+Reading force field from file: test.offxml
+#=========================================================#
+#| [92m Starting parameter indices, physical values and IDs [0m |#
+#=========================================================#
+   0 [  3.7901e+00 ] : ProperTorsions/Proper/k1/[*:1]~[#6X3:2]~!@[#6X3:3]~[*:4]
+-----------------------------------------------------------
+#=========================================================#
+#| [91m Rescaling Factors by Type (Lower Takes Precedence): [0m |#
+#=========================================================#
+   ProperTorsions/Proper/k1             : 3.79011e+00
+   Bonds/Bond/k                         : 1.00000e+01
+   Bonds/Bond/length                    : 1.00000e-02
+   Angles/Angle/k                       : 5.00000e+00
+   Angles/Angle/angle                   : 1.00000e+00
+   ProperTorsions/Proper/k              : 2.00000e+00
+-----------------------------------------------------------
+#========================================================#
+#| [91m   Rescaling Types / Factors by Parameter Number:   [0m |#
+#========================================================#
+   0 [    ProperTorsions/Proper/k       : 2.00000e+00 ] : ProperTorsions/Proper/k1/[*:1]~[#6X3:2]~!@[#6X3:3]~[*:4]
+----------------------------------------------------------
+#========================================================#
+#| [92m               Setup for force field                [0m |#
+#========================================================#
+fnms                      ['test.offxml'] 
+priors                    OrderedDict([('Bonds/Bond/k', 10.0), ('Bonds/Bond/length', 0.01), ('Angles/Angle/k', 5.0), ('Angles/Angle/angle', 1.0), ('ProperTorsions/Proper/k', 2.0)]) 
+----------------------------------------------------------
+Referencing all energies to the snapshot 23 (minimum energy structure in QM)
+#=============================================================================#
+#| [92m Setup for target td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_076_C23H24N2O3 : [0m |#
+#=============================================================================#
+mol2                      ['input.mol2'] 
+precision                 double 
+platname                  Reference 
+name                      td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_076_C23H24N2O3 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+tgtdir                    targets/td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_076_C23H24N2O3 
+writelevel                2 
+attenuate                 True 
+energy_upper              5.0 
+-------------------------------------------------------------------------------
+#========================================================#
+#| [92m        SMIRNOFF Parameter Coverage Analysis        [0m |#
+#========================================================#
+Force field assignment data written to /Users/jessica/Documents/Grad_research/WBO_Torsions_ChayaPaper/release_1.3.0_2/fb-fit/fb-fit0/smirnoff_parameter_assignments.json
+ idx Parameter                                                                                                   Count
+----------------------------------------------------------------------------------------------------------------------
+   0 ProperTorsions/Proper/k1/[*:1]~[#6X3:2]~!@[#6X3:3]~[*:4]                                             :          8
+SNIRNOFF Parameter Coverage Analysis result: 1/1 parameters are covered.
+----------------------------------------------------------------------------------------------------------------------
+Using parabolic regularization (Gaussian prior) with strength 1.0e+00 (+), 0.0e+00 (x)
+#========================================================#
+#| [92m           Setup for objective function :           [0m |#
+#========================================================#
+penalty_additive          1.0 
+normalize_weights         False 
+----------------------------------------------------------
+#========================================================#
+#| [92m                Setup for optimizer                 [0m |#
+#========================================================#
+jobtype                   OPTIMIZE 
+trust0                    -1.0 
+eps                       0.01 
+h                         0.01 
+h0                        0.01 
+convergence_objective     0.1 
+convergence_step          0.01 
+convergence_gradient      0.1 
+input_file                debug.in 
+criteria                  2 
+----------------------------------------------------------
+Calculation started at 2020-11-18 03:38 PM
+#========================================================#
+#| [1m                  Main Optimizer                    [0m |#
+#| [1m  Newton-Raphson Method (Hessian Diagonal Search)   [0m |#
+#| [1m                                                    [0m |#
+#| [1m       [0mConvergence criteria (2 of 3 needed):        [0m |#
+#| [1m          [0mObjective Function  : 1.000e-01           [0m |#
+#| [1m          [0mNorm of Gradient    : 1.000e-01           [0m |#
+#| [1m          [0mParameter step size : 1.000e-02           [0m |#
+#========================================================#
+#========================================================#
+#|       Color Key for Objective Function -=X2=-        |#
+#|  [1mBold[0m = Initial step                                 |#
+#|  [92mGreen = Current lowest value of objective function[0m  |#
+#|  [91mRed = Objective function rises, step rejected[0m       |#
+#|  [0mNo color = Not at the lowest value                  |#
+#========================================================#
+#========================================================#
+#| [94m     Iteration 0: Evaluating objective function     [0m |#
+#| [94m        and derivatives through second order        [0m |#
+#========================================================#
+
+#==================================================================================================================================================#
+#| [92m         Torsion Profile: td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_076_C23H24N2O3, Objective =  1.86119e+01, Units = kcal/mol, Angstrom          [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_076_C23H24N2O3        180        180     0.000 - 8.229     0.000 - 34.016     0.283     4.3142    18.6119 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+#====================================================================#
+#| [94m                  Objective Function Breakdown                  [0m |#
+#| [94m  Target Name              Residual  x  Weight  =  Contribution [0m |#
+#====================================================================#
+td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_076_C23H24N2O3     18.61194      1.000 [94m     1.86119e+01[0m 
+Regularization                 0.00000      1.000 [94m     0.00000e+00[0m 
+Total                                             [94m     1.86119e+01[0m 
+----------------------------------------------------------------------
+
+  Step       |k|        |dk|       |grad|       -=X2=-     Delta(X2)    StepQual
+     0   0.000e+00   0.000e+00   1.478e+01[1m   1.86119e+01[0m   0.000e+00      0.000
+
+#========================================================#
+#| [94m                   Total Gradient                   [0m |#
+#========================================================#
+   0 [  1.47834537e+01 ] : ProperTorsions/Proper/k1/[*:1]~[#6X3:2]~!@[#6X3:3]~[*:4]
+----------------------------------------------------------
+Calculating nonlinear optimization step
+Finding trust radius: H+0.0000*I, length 1.6797e+00 (target 1.0000e+00)
+Finding trust radius: H+9.0000*I, length 8.3048e-01 (target 1.0000e+00)
+Finding trust radius: H+61.6869*I, length 2.0973e-01 (target 1.0000e+00)
+Finding trust radius: H+9.0000*I, length 8.3048e-01 (target 1.0000e+00)
+Finding trust radius: H+23.5623*I, length 4.5679e-01 (target 1.0000e+00)
+Finding trust radius: H+3.4377*I, length 1.2079e+00 (target 1.0000e+00)
+Finding trust radius: H+6.4944*I, length 9.6652e-01 (target 1.0000e+00)
+Finding trust radius: H+6.1828*I, length 9.8662e-01 (target 1.0000e+00)
+Finding trust radius: H+5.9166*I, length 1.0045e+00 (target 1.0000e+00)
+Finding trust radius: H+5.9808*I, length 1.0001e+00 (target 1.0000e+00)
+Finding trust radius: H+5.9827*I, length 9.9998e-01 (target 1.0000e+00)
+Finding trust radius: H+5.9843*I, length 9.9986e-01 (target 1.0000e+00)
+Starting Hessian diagonal search with step size 9.9998e-01
+Hessian diagonal search: H+5.9827*I, length 9.9998e-01, result -1.1198e+01
+Hessian diagonal search: H+163.4252*I, length 8.5837e-02, result -1.2446e+00
+Hessian diagonal search: H+203.9478*I, length 6.9488e-02, result -1.0113e+00
+Hessian diagonal search: H+5.9827*I, length 9.9998e-01, result -1.1198e+01
+Hessian diagonal search: H+15.5487*I, length 6.0713e-01, result -7.7081e+00
+Hessian diagonal search: H+40.8915*I, length 2.9750e-01, result -4.1015e+00
+Hessian diagonal search: H+0.2082*I, length 1.6409e+00, result -1.3572e+01
+Hessian diagonal search: H+0.0033*I, length 1.6791e+00, result -1.3567e+01
+Hessian diagonal search: H+0.0434*I, length 1.6715e+00, result -1.3576e+01
+Hessian diagonal search: H+0.0601*I, length 1.6683e+00, result -1.3549e+01
+Hessian diagonal search: H+0.0114*I, length 1.6775e+00, result -1.3569e+01
+Hessian diagonal search: H+0.0288*I, length 1.6742e+00, result -1.3573e+01
+Hessian diagonal search: H+0.0375*I, length 1.6726e+00, result -1.3575e+01
+Hessian diagonal search: H+0.0495*I, length 1.6703e+00, result -1.3577e+01
+Hessian diagonal search: H+0.0534*I, length 1.6696e+00, result -1.3548e+01
+Hessian diagonal search: H+0.0471*I, length 1.6708e+00, result -1.3577e+01
+Hessian diagonal search: H+0.0510*I, length 1.6700e+00, result -1.3547e+01
+Hessian diagonal search: H+0.0486*I, length 1.6705e+00, result -1.3577e+01
+Hessian diagonal search: H+0.0501*I, length 1.6702e+00, result -1.3577e+01
+Hessian diagonal search: H+0.0504*I, length 1.6702e+00, result -1.3577e+01
+Hessian diagonal search: H+0.0506*I, length 1.6701e+00, result -1.3510e+01
+Hessian diagonal search: H+0.0503*I, length 1.6702e+00, result -1.3577e+01
+Hessian diagonal search: H+0.0505*I, length 1.6701e+00, result -1.3578e+01
+Hessian diagonal search: H+0.0506*I, length 1.6701e+00, result -1.3510e+01
+Optimization step found (length 1.6701e+00)
+#========================================================#
+#| [95m  Mathematical Parameters (Current + Step = Next)   [0m |#
+#========================================================#
+   0 [  0.0000e+00 - 1.6701e+00 = -1.6701e+00 ] : ProperTorsions/Proper/k1/[*:1]~[#6X3:2]~!@[#6X3:3]~[*:4]
+----------------------------------------------------------
+#========================================================#
+#| [95m    Physical Parameters (Current + Step = Next)     [0m |#
+#========================================================#
+   0 [  3.7901e+00 - 3.3403e+00 =  4.4984e-01 ] : ProperTorsions/Proper/k1/[*:1]~[#6X3:2]~!@[#6X3:3]~[*:4]
+----------------------------------------------------------
+Backing up debug.sav -> debug.bak/debug_20.sav
+Input file with saved parameters: debug.sav
+#========================================================#
+#| [94m     Iteration 1: Evaluating objective function     [0m |#
+#| [94m        and derivatives through second order        [0m |#
+#========================================================#
+
+#==================================================================================================================================================#
+#| [92m         Torsion Profile: td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_076_C23H24N2O3, Objective =  2.24507e+00, Units = kcal/mol, Angstrom          [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_076_C23H24N2O3        180        180     0.000 - 8.229     0.000 - 8.564      0.150     1.4984    2.2451 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+#===================================================================================#
+#| [94m                         Objective Function Breakdown                          [0m |#
+#| [94m  Target Name              Residual  x  Weight  =  Contribution (Current-Prev) [0m |#
+#===================================================================================#
+td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_076_C23H24N2O3      2.24507      1.000 [92m     2.24507e+00[0m ( -1.637e+01 ) 
+Regularization                 2.78936      1.000 [91m     2.78936e+00[0m ( +2.789e+00 ) 
+Total                                             [92m     5.03443e+00[0m ( -1.358e+01 ) 
+-------------------------------------------------------------------------------------
+Backing up result/debug/test.offxml -> result/debug/test_45.offxml
+#=====================================================================#
+#|  The force field has been written to the result/debug directory.  |#
+#|    Input file with optimization parameters saved to debug.sav.    |#
+#=====================================================================#
+
+  Step       |k|        |dk|       |grad|       -=X2=-     Delta(X2)    StepQual
+     1   1.670e+00   1.670e+00   4.005e-01[92m   5.03443e+00[0m  -1.358e+01      1.000
+
+#========================================================#
+#| [94m                   Total Gradient                   [0m |#
+#========================================================#
+   0 [  4.00464078e-01 ] : ProperTorsions/Proper/k1/[*:1]~[#6X3:2]~!@[#6X3:3]~[*:4]
+----------------------------------------------------------
+Calculating nonlinear optimization step
+Starting Hessian diagonal search with step size 1.5462e-02
+Hessian diagonal search: H+0.0000*I, length 1.5462e-02, result  1.8254e-02
+Hessian diagonal search: H+9.0000*I, length 1.1475e-02, result  1.3145e-02
+Hessian diagonal search: H+61.6869*I, length 4.5722e-03, result  4.9594e-03
+Hessian diagonal search: H+168911.2006*I, length 2.3705e-06, result  1.0279e-06
+Hessian diagonal search: H+1130548.5341*I, length 3.5421e-07, result -5.4023e-06
+Hessian diagonal search: H+543985.3346*I, length 7.3613e-07, result  1.4363e-06
+Hessian diagonal search: H+168911.2006*I, length 2.3705e-06, result  1.0279e-06
+Hessian diagonal search: H+66051.3675*I, length 6.0605e-06, result  7.4802e-06
+Hessian diagonal search: H+287001.2864*I, length 1.3952e-06, result  4.6985e-06
+Hessian diagonal search: H+172943.1659*I, length 2.3152e-06, result  3.6530e-06
+Hessian diagonal search: H+124024.8551*I, length 3.2282e-06, result  3.9802e-06
+Hessian diagonal search: H+147683.3877*I, length 2.7112e-06, result  2.7759e-06
+Hessian diagonal search: H+159483.5313*I, length 2.5106e-06, result  5.5430e-06
+Hessian diagonal search: H+168877.3378*I, length 2.3710e-06, result  1.6759e-06
+Hessian diagonal search: H+170445.6610*I, length 2.3492e-06, result -2.8986e-07
+Hessian diagonal search: H+169714.5009*I, length 2.3593e-06, result  1.3543e-06
+Hessian diagonal search: H+171397.4789*I, length 2.3361e-06, result  1.2078e-06
+Hessian diagonal search: H+170115.1298*I, length 2.3537e-06, result  7.0968e-06
+Hessian diagonal search: H+170479.8344*I, length 2.3487e-06, result  1.8159e-06
+Hessian diagonal search: H+170319.3714*I, length 2.3509e-06, result  5.1356e-06
+Hessian diagonal search: H+170397.4171*I, length 2.3498e-06, result  1.3181e-06
+Optimization step found (length 2.3492e-06)
+Convergence criterion reached in step size (1.00e-02)
+#========================================================#
+#| [95m  Mathematical Parameters (Current + Step = Next)   [0m |#
+#========================================================#
+   0 [ -1.6701e+00 - 2.3492e-06 = -1.6701e+00 ] : ProperTorsions/Proper/k1/[*:1]~[#6X3:2]~!@[#6X3:3]~[*:4]
+----------------------------------------------------------
+#========================================================#
+#| [95m    Physical Parameters (Current + Step = Next)     [0m |#
+#========================================================#
+   0 [  4.4984e-01 - 4.6983e-06 =  4.4983e-01 ] : ProperTorsions/Proper/k1/[*:1]~[#6X3:2]~!@[#6X3:3]~[*:4]
+----------------------------------------------------------
+Input file with saved parameters: debug.sav
+Setting finite difference step to 2.3492e-07
+#========================================================#
+#| [94m     Iteration 2: Evaluating objective function     [0m |#
+#| [94m        and derivatives through second order        [0m |#
+#========================================================#
+
+#==================================================================================================================================================#
+#| [92m         Torsion Profile: td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_076_C23H24N2O3, Objective =  2.24506e+00, Units = kcal/mol, Angstrom          [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_076_C23H24N2O3        180        180     0.000 - 8.229     0.000 - 8.564      0.150     1.4984    2.2451 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+#===================================================================================#
+#| [94m                         Objective Function Breakdown                          [0m |#
+#| [94m  Target Name              Residual  x  Weight  =  Contribution (Current-Prev) [0m |#
+#===================================================================================#
+td_OpenFF_Gen_2_Torsion_Set_5_Bayer_2_076_C23H24N2O3      2.24506      1.000 [92m     2.24506e+00[0m ( -8.137e-06 ) 
+Regularization                 2.78937      1.000 [91m     2.78937e+00[0m ( +7.847e-06 ) 
+Total                                             [92m     5.03443e+00[0m ( -2.899e-07 ) 
+-------------------------------------------------------------------------------------
+Backing up result/debug/test.offxml -> result/debug/test_46.offxml
+#=====================================================================#
+#|  The force field has been written to the result/debug directory.  |#
+#|    Input file with optimization parameters saved to debug.sav.    |#
+#=====================================================================#
+
+  Step       |k|        |dk|       |grad|       -=X2=-     Delta(X2)    StepQual
+     2   1.670e+00   2.349e-06   1.764e-01[92m   5.03443e+00[0m  -2.899e-07      1.000
+
+#========================================================#
+#| [94m                   Total Gradient                   [0m |#
+#========================================================#
+   0 [  1.76448045e-01 ] : ProperTorsions/Proper/k1/[*:1]~[#6X3:2]~!@[#6X3:3]~[*:4]
+----------------------------------------------------------
+Convergence criterion reached in step size (1.00e-02)
+Convergence criterion reached for objective function (1.00e-01)
+#========================================================#
+#| [92m               [0m[1mOptimization Converged[0m               [0m |#
+#| [92m           Final objective function value           [0m |#
+#| [92m  Full:  5.034427e+00  Un-penalized:  2.245062e+00  [0m |#
+#========================================================#
+#========================================================#
+#| [94m           Final optimization parameters:           [0m |#
+#========================================================#
+   0 [ -1.6701e+00 ] : ProperTorsions/Proper/k1/[*:1]~[#6X3:2]~!@[#6X3:3]~[*:4]
+#========================================================#
+#| [94m             Final physical parameters:             [0m |#
+#========================================================#
+   0 [  4.4983e-01 ] : ProperTorsions/Proper/k1/[*:1]~[#6X3:2]~!@[#6X3:3]~[*:4]
+----------------------------------------------------------
+Backing up result/debug/test.offxml -> result/debug/test_47.offxml
+#=====================================================================#
+#|  The force field has been written to the result/debug directory.  |#
+#|    Input file with optimization parameters saved to debug.sav.    |#
+#=====================================================================#
+Wall time since calculation start: 198.9 seconds
+#========================================================#
+#| [1;44;93m               Calculation Finished.                [0m |#
+#| [1;44;93m     ---==(  May the Force be with you!  )==---     [0m |#
+#========================================================#

@@ -1,0 +1,38 @@
+[91minput.mol2 doesn't exist and it's not in the force field directory either[0m
+Traceback (most recent call last):
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/bin/ForceBalance.py", line 41, in Run_ForceBalance
+    objective   = Objective(options, tgt_opts, forcefield)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/objective.py", line 181, in __init__
+    else: Tgt = Implemented_Targets[opts['type']](options,opts,forcefield)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/smirnoffio.py", line 661, in __init__
+    super(TorsionProfileTarget_SMIRNOFF,self).__init__(options,tgt_opts,forcefield)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/torsion_profile.py", line 24, in __init__
+    super(TorsionProfileTarget, self).__init__(options, tgt_opts, forcefield)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/target.py", line 189, in __init__
+    self.refresh_temp_directory()
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/target.py", line 376, in refresh_temp_directory
+    raise RuntimeError
+RuntimeError
+ File "/Users/jessica/Documents/Grad_research/WBO_Torsions_ChayaPaper/openforcefield/openforcefield/typing/engines/smirnoff/forcefield.py", line 897, in _load_smirnoff_data
+    allow_cosmetic_attributes=allow_cosmetic_attributes)
+  File "/Users/jessica/Documents/Grad_research/WBO_Torsions_ChayaPaper/openforcefield/openforcefield/typing/engines/smirnoff/parameters.py", line 1616, in _add_parameters
+    allow_cosmetic_attributes=allow_cosmetic_attributes)
+  File "/Users/jessica/Documents/Grad_research/WBO_Torsions_ChayaPaper/openforcefield/openforcefield/typing/engines/smirnoff/parameters.py", line 1466, in __init__
+    super().__init__(allow_cosmetic_attributes=allow_cosmetic_attributes, **kwargs)
+  File "/Users/jessica/Documents/Grad_research/WBO_Torsions_ChayaPaper/openforcefield/openforcefield/typing/engines/smirnoff/parameters.py", line 665, in __init__
+    setattr(self, key, val)
+  File "/Users/jessica/Documents/Grad_research/WBO_Torsions_ChayaPaper/openforcefield/openforcefield/typing/engines/smirnoff/parameters.py", line 922, in __setattr__
+    super().__setattr__(key, value)
+  File "/Users/jessica/Documents/Grad_research/WBO_Torsions_ChayaPaper/openforcefield/openforcefield/typing/engines/smirnoff/parameters.py", line 280, in __set__
+    value = self._convert_and_validate(instance, value)
+  File "/Users/jessica/Documents/Grad_research/WBO_Torsions_ChayaPaper/openforcefield/openforcefield/typing/engines/smirnoff/parameters.py", line 298, in _convert_and_validate
+    value = self._call_converter(value, instance)
+  File "/Users/jessica/Documents/Grad_research/WBO_Torsions_ChayaPaper/openforcefield/openforcefield/typing/engines/smirnoff/parameters.py", line 328, in _call_converter
+    return self._converter(instance, self, value)
+  File "/Users/jessica/Documents/Grad_research/WBO_Torsions_ChayaPaper/openforcefield/openforcefield/typing/engines/smirnoff/parameters.py", line 1447, in smirks
+    smirks, validate_valence_type=True)
+  File "/Users/jessica/Documents/Grad_research/WBO_Torsions_ChayaPaper/openforcefield/openforcefield/typing/chemistry/environment.py", line 159, in validate_smirks
+    toolkit_registry=toolkit_registry)
+  File "/Users/jessica/Documents/Grad_research/WBO_Torsions_ChayaPaper/openforcefield/openforcefield/typing/chemistry/environment.py", line 100, in __init__
+    self.validate(validate_valence_type=validate_valence_type, toolkit_registry=toolkit_registry)
+TypeError: cached_validate() got an unexpected keyword argument 'validate_valence_type'

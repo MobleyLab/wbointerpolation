@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/bin/ForceBalance.py", line 11, in <module>
+    from forcebalance.parser import parse_inputs
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/__init__.py", line 135, in <module>
+    from . import parser, forcefield, optimizer, objective, output
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/forcefield.py", line 103, in <module>
+    import networkx as nx
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/networkx/__init__.py", line 61, in <module>
+    import networkx.generators
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/networkx/generators/__init__.py", line 16, in <module>
+    from networkx.generators.intersection import *
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/networkx/generators/intersection.py", line 5, in <module>
+    from networkx.algorithms import bipartite
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/networkx/algorithms/__init__.py", line 46, in <module>
+    from networkx.algorithms.simple_paths import *
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 818, in get_code
+  File "<frozen importlib._bootstrap_external>", line 917, in get_data
+KeyboardInterrupt

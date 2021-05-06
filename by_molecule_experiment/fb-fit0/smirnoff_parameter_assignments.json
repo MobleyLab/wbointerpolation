@@ -1,0 +1,1444 @@
+{
+  "targets/td_OpenFF_Substituted_Phenyl_Set_1_034_C9H12N2O2/input.mol2": [
+    {
+      "id": "b5",
+      "smirks": "[#6X3:1]:[#6X3:2]",
+      "type": "Bonds",
+      "atoms": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "b5",
+      "smirks": "[#6X3:1]:[#6X3:2]",
+      "type": "Bonds",
+      "atoms": [
+        0,
+        3
+      ]
+    },
+    {
+      "id": "b84",
+      "smirks": "[#6X3:1]-[#1:2]",
+      "type": "Bonds",
+      "atoms": [
+        0,
+        13
+      ]
+    },
+    {
+      "id": "b5",
+      "smirks": "[#6X3:1]:[#6X3:2]",
+      "type": "Bonds",
+      "atoms": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "b5",
+      "smirks": "[#6X3:1]:[#6X3:2]",
+      "type": "Bonds",
+      "atoms": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "b84",
+      "smirks": "[#6X3:1]-[#1:2]",
+      "type": "Bonds",
+      "atoms": [
+        1,
+        14
+      ]
+    },
+    {
+      "id": "b12",
+      "smirks": "[#6X3:1]:[#7X2,#7X3+1:2]",
+      "type": "Bonds",
+      "atoms": [
+        2,
+        9
+      ]
+    },
+    {
+      "id": "b84",
+      "smirks": "[#6X3:1]-[#1:2]",
+      "type": "Bonds",
+      "atoms": [
+        2,
+        15
+      ]
+    },
+    {
+      "id": "b4",
+      "smirks": "[#6X3:1]-[#6X3:2]",
+      "type": "Bonds",
+      "atoms": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": "b12",
+      "smirks": "[#6X3:1]:[#7X2,#7X3+1:2]",
+      "type": "Bonds",
+      "atoms": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "b8",
+      "smirks": "[#6X3:1]-[#7X3:2]",
+      "type": "Bonds",
+      "atoms": [
+        4,
+        10
+      ]
+    },
+    {
+      "id": "b20",
+      "smirks": "[#6:1]=[#8X1+0,#8X2+1:2]",
+      "type": "Bonds",
+      "atoms": [
+        5,
+        11
+      ]
+    },
+    {
+      "id": "b19",
+      "smirks": "[#6X3:1](=[#8X1])-[#8X2H0:2]",
+      "type": "Bonds",
+      "atoms": [
+        5,
+        12
+      ]
+    },
+    {
+      "id": "b1",
+      "smirks": "[#6X4:1]-[#6X4:2]",
+      "type": "Bonds",
+      "atoms": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "b83",
+      "smirks": "[#6X4:1]-[#1:2]",
+      "type": "Bonds",
+      "atoms": [
+        6,
+        16
+      ]
+    },
+    {
+      "id": "b83",
+      "smirks": "[#6X4:1]-[#1:2]",
+      "type": "Bonds",
+      "atoms": [
+        6,
+        17
+      ]
+    },
+    {
+      "id": "b83",
+      "smirks": "[#6X4:1]-[#1:2]",
+      "type": "Bonds",
+      "atoms": [
+        6,
+        18
+      ]
+    },
+    {
+      "id": "b7",
+      "smirks": "[#6:1]-[#7:2]",
+      "type": "Bonds",
+      "atoms": [
+        7,
+        10
+      ]
+    },
+    {
+      "id": "b83",
+      "smirks": "[#6X4:1]-[#1:2]",
+      "type": "Bonds",
+      "atoms": [
+        7,
+        19
+      ]
+    },
+    {
+      "id": "b83",
+      "smirks": "[#6X4:1]-[#1:2]",
+      "type": "Bonds",
+      "atoms": [
+        7,
+        20
+      ]
+    },
+    {
+      "id": "b83",
+      "smirks": "[#6X4:1]-[#1:2]",
+      "type": "Bonds",
+      "atoms": [
+        7,
+        21
+      ]
+    },
+    {
+      "id": "b15",
+      "smirks": "[#6X4:1]-[#8X2H0:2]",
+      "type": "Bonds",
+      "atoms": [
+        8,
+        12
+      ]
+    },
+    {
+      "id": "b83",
+      "smirks": "[#6X4:1]-[#1:2]",
+      "type": "Bonds",
+      "atoms": [
+        8,
+        22
+      ]
+    },
+    {
+      "id": "b83",
+      "smirks": "[#6X4:1]-[#1:2]",
+      "type": "Bonds",
+      "atoms": [
+        8,
+        23
+      ]
+    },
+    {
+      "id": "b86",
+      "smirks": "[#7:1]-[#1:2]",
+      "type": "Bonds",
+      "atoms": [
+        10,
+        24
+      ]
+    },
+    {
+      "id": "a10",
+      "smirks": "[*:1]~[#6X3:2]~[*:3]",
+      "type": "Angles",
+      "atoms": [
+        0,
+        2,
+        9
+      ]
+    },
+    {
+      "id": "a11",
+      "smirks": "[#1:1]-[#6X3:2]~[*:3]",
+      "type": "Angles",
+      "atoms": [
+        0,
+        2,
+        15
+      ]
+    },
+    {
+      "id": "a10",
+      "smirks": "[*:1]~[#6X3:2]~[*:3]",
+      "type": "Angles",
+      "atoms": [
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "a10",
+      "smirks": "[*:1]~[#6X3:2]~[*:3]",
+      "type": "Angles",
+      "atoms": [
+        0,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "a10",
+      "smirks": "[*:1]~[#6X3:2]~[*:3]",
+      "type": "Angles",
+      "atoms": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "a10",
+      "smirks": "[*:1]~[#6X3:2]~[*:3]",
+      "type": "Angles",
+      "atoms": [
+        1,
+        4,
+        9
+      ]
+    },
+    {
+      "id": "a10",
+      "smirks": "[*:1]~[#6X3:2]~[*:3]",
+      "type": "Angles",
+      "atoms": [
+        1,
+        4,
+        10
+      ]
+    },
+    {
+      "id": "a10",
+      "smirks": "[*:1]~[#6X3:2]~[*:3]",
+      "type": "Angles",
+      "atoms": [
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "id": "a11",
+      "smirks": "[#1:1]-[#6X3:2]~[*:3]",
+      "type": "Angles",
+      "atoms": [
+        2,
+        0,
+        13
+      ]
+    },
+    {
+      "id": "a22",
+      "smirks": "[*:1]~[#7X2+0:2]~[*:3]",
+      "type": "Angles",
+      "atoms": [
+        2,
+        9,
+        4
+      ]
+    },
+    {
+      "id": "a11",
+      "smirks": "[#1:1]-[#6X3:2]~[*:3]",
+      "type": "Angles",
+      "atoms": [
+        3,
+        0,
+        13
+      ]
+    },
+    {
+      "id": "a10",
+      "smirks": "[*:1]~[#6X3:2]~[*:3]",
+      "type": "Angles",
+      "atoms": [
+        3,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "a11",
+      "smirks": "[#1:1]-[#6X3:2]~[*:3]",
+      "type": "Angles",
+      "atoms": [
+        3,
+        1,
+        14
+      ]
+    },
+    {
+      "id": "a10",
+      "smirks": "[*:1]~[#6X3:2]~[*:3]",
+      "type": "Angles",
+      "atoms": [
+        3,
+        5,
+        11
+      ]
+    },
+    {
+      "id": "a10",
+      "smirks": "[*:1]~[#6X3:2]~[*:3]",
+      "type": "Angles",
+      "atoms": [
+        3,
+        5,
+        12
+      ]
+    },
+    {
+      "id": "a11",
+      "smirks": "[#1:1]-[#6X3:2]~[*:3]",
+      "type": "Angles",
+      "atoms": [
+        4,
+        1,
+        14
+      ]
+    },
+    {
+      "id": "a19",
+      "smirks": "[*:1]~[#7X3$(*~[#6X3,#6X2,#7X2+0]):2]~[*:3]",
+      "type": "Angles",
+      "atoms": [
+        4,
+        10,
+        7
+      ]
+    },
+    {
+      "id": "a20",
+      "smirks": "[#1:1]-[#7X3$(*~[#6X3,#6X2,#7X2+0]):2]-[*:3]",
+      "type": "Angles",
+      "atoms": [
+        4,
+        10,
+        24
+      ]
+    },
+    {
+      "id": "a27",
+      "smirks": "[*:1]-[#8:2]-[*:3]",
+      "type": "Angles",
+      "atoms": [
+        5,
+        12,
+        8
+      ]
+    },
+    {
+      "id": "a1",
+      "smirks": "[*:1]~[#6X4:2]-[*:3]",
+      "type": "Angles",
+      "atoms": [
+        6,
+        8,
+        12
+      ]
+    },
+    {
+      "id": "a1",
+      "smirks": "[*:1]~[#6X4:2]-[*:3]",
+      "type": "Angles",
+      "atoms": [
+        6,
+        8,
+        22
+      ]
+    },
+    {
+      "id": "a1",
+      "smirks": "[*:1]~[#6X4:2]-[*:3]",
+      "type": "Angles",
+      "atoms": [
+        6,
+        8,
+        23
+      ]
+    },
+    {
+      "id": "a20",
+      "smirks": "[#1:1]-[#7X3$(*~[#6X3,#6X2,#7X2+0]):2]-[*:3]",
+      "type": "Angles",
+      "atoms": [
+        7,
+        10,
+        24
+      ]
+    },
+    {
+      "id": "a1",
+      "smirks": "[*:1]~[#6X4:2]-[*:3]",
+      "type": "Angles",
+      "atoms": [
+        8,
+        6,
+        16
+      ]
+    },
+    {
+      "id": "a1",
+      "smirks": "[*:1]~[#6X4:2]-[*:3]",
+      "type": "Angles",
+      "atoms": [
+        8,
+        6,
+        17
+      ]
+    },
+    {
+      "id": "a1",
+      "smirks": "[*:1]~[#6X4:2]-[*:3]",
+      "type": "Angles",
+      "atoms": [
+        8,
+        6,
+        18
+      ]
+    },
+    {
+      "id": "a11",
+      "smirks": "[#1:1]-[#6X3:2]~[*:3]",
+      "type": "Angles",
+      "atoms": [
+        9,
+        2,
+        15
+      ]
+    },
+    {
+      "id": "a10",
+      "smirks": "[*:1]~[#6X3:2]~[*:3]",
+      "type": "Angles",
+      "atoms": [
+        9,
+        4,
+        10
+      ]
+    },
+    {
+      "id": "a1",
+      "smirks": "[*:1]~[#6X4:2]-[*:3]",
+      "type": "Angles",
+      "atoms": [
+        10,
+        7,
+        19
+      ]
+    },
+    {
+      "id": "a1",
+      "smirks": "[*:1]~[#6X4:2]-[*:3]",
+      "type": "Angles",
+      "atoms": [
+        10,
+        7,
+        20
+      ]
+    },
+    {
+      "id": "a1",
+      "smirks": "[*:1]~[#6X4:2]-[*:3]",
+      "type": "Angles",
+      "atoms": [
+        10,
+        7,
+        21
+      ]
+    },
+    {
+      "id": "a15",
+      "smirks": "[#8X1:1]~[#6X3:2]~[#8:3]",
+      "type": "Angles",
+      "atoms": [
+        11,
+        5,
+        12
+      ]
+    },
+    {
+      "id": "a1",
+      "smirks": "[*:1]~[#6X4:2]-[*:3]",
+      "type": "Angles",
+      "atoms": [
+        12,
+        8,
+        22
+      ]
+    },
+    {
+      "id": "a1",
+      "smirks": "[*:1]~[#6X4:2]-[*:3]",
+      "type": "Angles",
+      "atoms": [
+        12,
+        8,
+        23
+      ]
+    },
+    {
+      "id": "a2",
+      "smirks": "[#1:1]-[#6X4:2]-[#1:3]",
+      "type": "Angles",
+      "atoms": [
+        16,
+        6,
+        17
+      ]
+    },
+    {
+      "id": "a2",
+      "smirks": "[#1:1]-[#6X4:2]-[#1:3]",
+      "type": "Angles",
+      "atoms": [
+        16,
+        6,
+        18
+      ]
+    },
+    {
+      "id": "a2",
+      "smirks": "[#1:1]-[#6X4:2]-[#1:3]",
+      "type": "Angles",
+      "atoms": [
+        17,
+        6,
+        18
+      ]
+    },
+    {
+      "id": "a2",
+      "smirks": "[#1:1]-[#6X4:2]-[#1:3]",
+      "type": "Angles",
+      "atoms": [
+        19,
+        7,
+        20
+      ]
+    },
+    {
+      "id": "a2",
+      "smirks": "[#1:1]-[#6X4:2]-[#1:3]",
+      "type": "Angles",
+      "atoms": [
+        19,
+        7,
+        21
+      ]
+    },
+    {
+      "id": "a2",
+      "smirks": "[#1:1]-[#6X4:2]-[#1:3]",
+      "type": "Angles",
+      "atoms": [
+        20,
+        7,
+        21
+      ]
+    },
+    {
+      "id": "a2",
+      "smirks": "[#1:1]-[#6X4:2]-[#1:3]",
+      "type": "Angles",
+      "atoms": [
+        22,
+        8,
+        23
+      ]
+    },
+    {
+      "id": "t76",
+      "smirks": "[#6X3:1]:[#7X2:2]:[#6X3:3]:[#6X3:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        0,
+        2,
+        9,
+        4
+      ]
+    },
+    {
+      "id": "t44",
+      "smirks": "[*:1]~[#6X3:2]:[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        0,
+        3,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "t44",
+      "smirks": "[*:1]~[#6X3:2]:[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        0,
+        3,
+        1,
+        14
+      ]
+    },
+    {
+      "id": "TIG-fit0",
+      "smirks": "[*:1]~[#6X3:2]~!@[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        0,
+        3,
+        5,
+        11
+      ]
+    },
+    {
+      "id": "TIG-fit0",
+      "smirks": "[*:1]~[#6X3:2]~!@[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        0,
+        3,
+        5,
+        12
+      ]
+    },
+    {
+      "id": "t44",
+      "smirks": "[*:1]~[#6X3:2]:[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        1,
+        3,
+        0,
+        2
+      ]
+    },
+    {
+      "id": "t44",
+      "smirks": "[*:1]~[#6X3:2]:[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        1,
+        3,
+        0,
+        13
+      ]
+    },
+    {
+      "id": "TIG-fit0",
+      "smirks": "[*:1]~[#6X3:2]~!@[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        1,
+        3,
+        5,
+        11
+      ]
+    },
+    {
+      "id": "TIG-fit0",
+      "smirks": "[*:1]~[#6X3:2]~!@[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        1,
+        3,
+        5,
+        12
+      ]
+    },
+    {
+      "id": "t76",
+      "smirks": "[#6X3:1]:[#7X2:2]:[#6X3:3]:[#6X3:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        1,
+        4,
+        9,
+        2
+      ]
+    },
+    {
+      "id": "t69",
+      "smirks": "[*:1]~[#7X3,#7X2-1:2]-!@[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        1,
+        4,
+        10,
+        7
+      ]
+    },
+    {
+      "id": "t69",
+      "smirks": "[*:1]~[#7X3,#7X2-1:2]-!@[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        1,
+        4,
+        10,
+        24
+      ]
+    },
+    {
+      "id": "t44",
+      "smirks": "[*:1]~[#6X3:2]:[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        2,
+        0,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "t75",
+      "smirks": "[*:1]~[#7X2,#7X3$(*~[#8X1]):2]:[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        2,
+        9,
+        4,
+        10
+      ]
+    },
+    {
+      "id": "t44",
+      "smirks": "[*:1]~[#6X3:2]:[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        3,
+        0,
+        2,
+        9
+      ]
+    },
+    {
+      "id": "t44",
+      "smirks": "[*:1]~[#6X3:2]:[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        3,
+        0,
+        2,
+        15
+      ]
+    },
+    {
+      "id": "t44",
+      "smirks": "[*:1]~[#6X3:2]:[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        3,
+        1,
+        4,
+        9
+      ]
+    },
+    {
+      "id": "t44",
+      "smirks": "[*:1]~[#6X3:2]:[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        3,
+        1,
+        4,
+        10
+      ]
+    },
+    {
+      "id": "t98",
+      "smirks": "[*:1]~[#6X3:2](=[#8,#16,#7])-[#8X2H0:3]-[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        3,
+        5,
+        12,
+        8
+      ]
+    },
+    {
+      "id": "t44",
+      "smirks": "[*:1]~[#6X3:2]:[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        4,
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "t75",
+      "smirks": "[*:1]~[#7X2,#7X3$(*~[#8X1]):2]:[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        4,
+        9,
+        2,
+        15
+      ]
+    },
+    {
+      "id": "t59",
+      "smirks": "[*:1]-[#6X4:2]-[#7X3$(*~[#6X3,#6X2]):3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        4,
+        10,
+        7,
+        19
+      ]
+    },
+    {
+      "id": "t59",
+      "smirks": "[*:1]-[#6X4:2]-[#7X3$(*~[#6X3,#6X2]):3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        4,
+        10,
+        7,
+        20
+      ]
+    },
+    {
+      "id": "t59",
+      "smirks": "[*:1]-[#6X4:2]-[#7X3$(*~[#6X3,#6X2]):3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        4,
+        10,
+        7,
+        21
+      ]
+    },
+    {
+      "id": "t44",
+      "smirks": "[*:1]~[#6X3:2]:[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        5,
+        3,
+        0,
+        13
+      ]
+    },
+    {
+      "id": "t44",
+      "smirks": "[*:1]~[#6X3:2]:[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        5,
+        3,
+        1,
+        14
+      ]
+    },
+    {
+      "id": "t88",
+      "smirks": "[#6X4:1]-[#6X4:2]-[#8X2:3]-[#6X3:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        5,
+        12,
+        8,
+        6
+      ]
+    },
+    {
+      "id": "t86",
+      "smirks": "[*:1]-[#6X4:2]-[#8X2H0:3]-[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        5,
+        12,
+        8,
+        22
+      ]
+    },
+    {
+      "id": "t86",
+      "smirks": "[*:1]-[#6X4:2]-[#8X2H0:3]-[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        5,
+        12,
+        8,
+        23
+      ]
+    },
+    {
+      "id": "t69",
+      "smirks": "[*:1]~[#7X3,#7X2-1:2]-!@[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        7,
+        10,
+        4,
+        9
+      ]
+    },
+    {
+      "id": "t101",
+      "smirks": "[#8,#16,#7:1]=[#6X3:2]-[#8X2H0:3]-[#6X4:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        8,
+        12,
+        5,
+        11
+      ]
+    },
+    {
+      "id": "t44",
+      "smirks": "[*:1]~[#6X3:2]:[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        9,
+        2,
+        0,
+        13
+      ]
+    },
+    {
+      "id": "t44",
+      "smirks": "[*:1]~[#6X3:2]:[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        9,
+        4,
+        1,
+        14
+      ]
+    },
+    {
+      "id": "t69",
+      "smirks": "[*:1]~[#7X3,#7X2-1:2]-!@[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        9,
+        4,
+        10,
+        24
+      ]
+    },
+    {
+      "id": "t44",
+      "smirks": "[*:1]~[#6X3:2]:[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        10,
+        4,
+        1,
+        14
+      ]
+    },
+    {
+      "id": "t9",
+      "smirks": "[#1:1]-[#6X4:2]-[#6X4:3]-[#8X2:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        12,
+        8,
+        6,
+        16
+      ]
+    },
+    {
+      "id": "t9",
+      "smirks": "[#1:1]-[#6X4:2]-[#6X4:3]-[#8X2:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        12,
+        8,
+        6,
+        17
+      ]
+    },
+    {
+      "id": "t9",
+      "smirks": "[#1:1]-[#6X4:2]-[#6X4:3]-[#8X2:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        12,
+        8,
+        6,
+        18
+      ]
+    },
+    {
+      "id": "t44",
+      "smirks": "[*:1]~[#6X3:2]:[#6X3:3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        13,
+        0,
+        2,
+        15
+      ]
+    },
+    {
+      "id": "t3",
+      "smirks": "[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        16,
+        6,
+        8,
+        22
+      ]
+    },
+    {
+      "id": "t3",
+      "smirks": "[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        16,
+        6,
+        8,
+        23
+      ]
+    },
+    {
+      "id": "t3",
+      "smirks": "[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        17,
+        6,
+        8,
+        22
+      ]
+    },
+    {
+      "id": "t3",
+      "smirks": "[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        17,
+        6,
+        8,
+        23
+      ]
+    },
+    {
+      "id": "t3",
+      "smirks": "[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        18,
+        6,
+        8,
+        22
+      ]
+    },
+    {
+      "id": "t3",
+      "smirks": "[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        18,
+        6,
+        8,
+        23
+      ]
+    },
+    {
+      "id": "t59",
+      "smirks": "[*:1]-[#6X4:2]-[#7X3$(*~[#6X3,#6X2]):3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        19,
+        7,
+        10,
+        24
+      ]
+    },
+    {
+      "id": "t59",
+      "smirks": "[*:1]-[#6X4:2]-[#7X3$(*~[#6X3,#6X2]):3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        20,
+        7,
+        10,
+        24
+      ]
+    },
+    {
+      "id": "t59",
+      "smirks": "[*:1]-[#6X4:2]-[#7X3$(*~[#6X3,#6X2]):3]~[*:4]",
+      "type": "ProperTorsions",
+      "atoms": [
+        21,
+        7,
+        10,
+        24
+      ]
+    },
+    {
+      "id": "i1",
+      "smirks": "[*:1]~[#6X3:2](~[*:3])~[*:4]",
+      "type": "ImproperTorsions",
+      "atoms": [
+        0,
+        2,
+        9,
+        15
+      ]
+    },
+    {
+      "id": "i1",
+      "smirks": "[*:1]~[#6X3:2](~[*:3])~[*:4]",
+      "type": "ImproperTorsions",
+      "atoms": [
+        0,
+        3,
+        1,
+        5
+      ]
+    },
+    {
+      "id": "i1",
+      "smirks": "[*:1]~[#6X3:2](~[*:3])~[*:4]",
+      "type": "ImproperTorsions",
+      "atoms": [
+        1,
+        4,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "i1",
+      "smirks": "[*:1]~[#6X3:2](~[*:3])~[*:4]",
+      "type": "ImproperTorsions",
+      "atoms": [
+        2,
+        0,
+        3,
+        13
+      ]
+    },
+    {
+      "id": "i1",
+      "smirks": "[*:1]~[#6X3:2](~[*:3])~[*:4]",
+      "type": "ImproperTorsions",
+      "atoms": [
+        3,
+        1,
+        4,
+        14
+      ]
+    },
+    {
+      "id": "i2",
+      "smirks": "[*:1]~[#6X3:2](~[#8X1:3])~[#8:4]",
+      "type": "ImproperTorsions",
+      "atoms": [
+        3,
+        5,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "i3",
+      "smirks": "[*:1]~[#7X3$(*~[#6X3]):2](~[*:3])~[*:4]",
+      "type": "ImproperTorsions",
+      "atoms": [
+        4,
+        10,
+        7,
+        24
+      ]
+    },
+    {
+      "id": "n14",
+      "smirks": "[#6:1]",
+      "type": "vdW",
+      "atoms": [
+        0
+      ]
+    },
+    {
+      "id": "n14",
+      "smirks": "[#6:1]",
+      "type": "vdW",
+      "atoms": [
+        1
+      ]
+    },
+    {
+      "id": "n14",
+      "smirks": "[#6:1]",
+      "type": "vdW",
+      "atoms": [
+        2
+      ]
+    },
+    {
+      "id": "n14",
+      "smirks": "[#6:1]",
+      "type": "vdW",
+      "atoms": [
+        3
+      ]
+    },
+    {
+      "id": "n14",
+      "smirks": "[#6:1]",
+      "type": "vdW",
+      "atoms": [
+        4
+      ]
+    },
+    {
+      "id": "n14",
+      "smirks": "[#6:1]",
+      "type": "vdW",
+      "atoms": [
+        5
+      ]
+    },
+    {
+      "id": "n16",
+      "smirks": "[#6X4:1]",
+      "type": "vdW",
+      "atoms": [
+        6
+      ]
+    },
+    {
+      "id": "n16",
+      "smirks": "[#6X4:1]",
+      "type": "vdW",
+      "atoms": [
+        7
+      ]
+    },
+    {
+      "id": "n16",
+      "smirks": "[#6X4:1]",
+      "type": "vdW",
+      "atoms": [
+        8
+      ]
+    },
+    {
+      "id": "n20",
+      "smirks": "[#7:1]",
+      "type": "vdW",
+      "atoms": [
+        9
+      ]
+    },
+    {
+      "id": "n20",
+      "smirks": "[#7:1]",
+      "type": "vdW",
+      "atoms": [
+        10
+      ]
+    },
+    {
+      "id": "n17",
+      "smirks": "[#8:1]",
+      "type": "vdW",
+      "atoms": [
+        11
+      ]
+    },
+    {
+      "id": "n18",
+      "smirks": "[#8X2H0+0:1]",
+      "type": "vdW",
+      "atoms": [
+        12
+      ]
+    },
+    {
+      "id": "n7",
+      "smirks": "[#1:1]-[#6X3]",
+      "type": "vdW",
+      "atoms": [
+        13
+      ]
+    },
+    {
+      "id": "n7",
+      "smirks": "[#1:1]-[#6X3]",
+      "type": "vdW",
+      "atoms": [
+        14
+      ]
+    },
+    {
+      "id": "n8",
+      "smirks": "[#1:1]-[#6X3]~[#7,#8,#9,#16,#17,#35]",
+      "type": "vdW",
+      "atoms": [
+        15
+      ]
+    },
+    {
+      "id": "n2",
+      "smirks": "[#1:1]-[#6X4]",
+      "type": "vdW",
+      "atoms": [
+        16
+      ]
+    },
+    {
+      "id": "n2",
+      "smirks": "[#1:1]-[#6X4]",
+      "type": "vdW",
+      "atoms": [
+        17
+      ]
+    },
+    {
+      "id": "n2",
+      "smirks": "[#1:1]-[#6X4]",
+      "type": "vdW",
+      "atoms": [
+        18
+      ]
+    },
+    {
+      "id": "n3",
+      "smirks": "[#1:1]-[#6X4]-[#7,#8,#9,#16,#17,#35]",
+      "type": "vdW",
+      "atoms": [
+        19
+      ]
+    },
+    {
+      "id": "n3",
+      "smirks": "[#1:1]-[#6X4]-[#7,#8,#9,#16,#17,#35]",
+      "type": "vdW",
+      "atoms": [
+        20
+      ]
+    },
+    {
+      "id": "n3",
+      "smirks": "[#1:1]-[#6X4]-[#7,#8,#9,#16,#17,#35]",
+      "type": "vdW",
+      "atoms": [
+        21
+      ]
+    },
+    {
+      "id": "n3",
+      "smirks": "[#1:1]-[#6X4]-[#7,#8,#9,#16,#17,#35]",
+      "type": "vdW",
+      "atoms": [
+        22
+      ]
+    },
+    {
+      "id": "n3",
+      "smirks": "[#1:1]-[#6X4]-[#7,#8,#9,#16,#17,#35]",
+      "type": "vdW",
+      "atoms": [
+        23
+      ]
+    },
+    {
+      "id": "n11",
+      "smirks": "[#1:1]-[#7]",
+      "type": "vdW",
+      "atoms": [
+        24
+      ]
+    }
+  ]
+}

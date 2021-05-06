@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/bin/ForceBalance.py", line 45, in Run_ForceBalance
+    optimizer.Run()
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/optimizer.py", line 319, in Run
+    xk = self.OptTab[self.jobtype]()
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/optimizer.py", line 943, in NewtonRaphson
+    return self.MainOptimizer(b_BFGS=0)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/optimizer.py", line 673, in MainOptimizer
+    dx, dX_expect, bump = self.step(xk, data, trust)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/optimizer.py", line 921, in step
+    Result = optimize.brent(search_fun,brack=(LOpt,LOpt*4),tol=self.search_tol,full_output=1)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/scipy/optimize/optimize.py", line 2265, in brent
+    res = _minimize_scalar_brent(func, brack, args, **options)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/scipy/optimize/optimize.py", line 2297, in _minimize_scalar_brent
+    brent.optimize()
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/scipy/optimize/optimize.py", line 2148, in optimize
+    fu = func(*((u,) + self.args))      # calculate new output value
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/optimizer.py", line 884, in search_fun
+    Result = self.Objective.Full(xk_,0,verbose=False,customdir="micro_%02i" % search_fun.micro)['X'] - data['X']
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/objective.py", line 313, in Full
+    Objective = self.Target_Terms(vals, Order, verbose, customdir)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/objective.py", line 254, in Target_Terms
+    Ans = Funcs[Order](mvals, customdir=customdir)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/target.py", line 200, in get_X
+    Ans = self.meta_get(mvals,0,0,customdir=customdir)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/target.py", line 584, in meta_get
+    Answer = self.get(mvals, AGrad, AHess)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/torsion_profile.py", line 171, in get
+    V = compute(mvals, indicate=True)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/torsion_profile.py", line 125, in compute
+    energy, rmsd, M_opt = self.engine.optimize(shot=i, align=False)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/smirnoffio.py", line 388, in optimize
+    return super(SMIRNOFF,self).optimize(shot=shot, align=align, crit=crit, disable_vsite=True)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/forcebalance/openmmio.py", line 1200, in optimize
+    self.simulation.minimizeEnergy(tolerance=10**logc*kilojoule/mole, maxIterations=100000)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/simtk/openmm/app/simulation.py", line 128, in minimizeEnergy
+    mm.LocalEnergyMinimizer.minimize(self.context, tolerance, maxIterations)
+  File "/Users/jessica/miniconda3/envs/openforcefield-forcebalance/lib/python3.7/site-packages/simtk/openmm/openmm.py", line 15784, in minimize
+    return _openmm.LocalEnergyMinimizer_minimize(context, tolerance, maxIterations)
+KeyboardInterrupt
