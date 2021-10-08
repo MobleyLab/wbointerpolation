@@ -22,3 +22,5 @@ Analysis scripts for the development of wiberg bond order interpolated parameter
 
 
 `interactive_plotting.ipynb` is a jupyter notebook using plotly and dash to drag and select data, and view the chemical structures. Inspired from [Pal Walters' blogpost](http://practicalcheminformatics.blogspot.com/2019/11/interactive-plots-with-chemical.html)
+
+`doublering_filter.py` is a filter script to match molecules with the "[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]" smarts pattern. The filter currently treats the molecules as OpenEye molecules and creates .pkl files of the molecules that were found to match the smarts pattern.
