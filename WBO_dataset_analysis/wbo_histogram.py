@@ -1,0 +1,30 @@
+"""
+Script for creating a histogram based on the WBO values calculated in wbo_calcs.py. The script
+iterates through the openff_results folder, creating a large dataset of all the wbo values
+from every group and plotting them all on a histogram. The result is saved as
+emolecules_wbo_calcs.pdf.
+
+Usage:
+    wbo_histogram.py
+"""
+
+
+import matplotlib.pyplot as plt
+import os
+import pickle
+
+wbos = []
+
+for subdir, dirs, files in os.walk("openff_results"):
+    for file in files:
+        if ".pkl" in file:
+            with open("openff_wbo_calcs/wbo_calc_group0.pkl", "rb") as file:
+                data = pickle.load(file)
+                for values in data.values():
+                    wbos += values
+
+plt.hist(wbos, range=[.99,1.03])
+plt.xlabel("AM1-WIBERG-ELF10 with OpenFF")
+plt.ylabel("# of Molecules")
+plt.savefig("emolecules_wbo_calcs.pdf")
+

@@ -22,7 +22,6 @@ def calc():
                 failed_mols = {}
 
                 with open(f"openff_results/{file}", "rb") as file:
-                    print(file)
                     smiles_dict = pickle.load(file)
 
                 count = 0
