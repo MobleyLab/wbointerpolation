@@ -15,16 +15,16 @@ import pickle
 
 wbos = []
 
-for subdir, dirs, files in os.walk("openff_results"):
+for subdir, dirs, files in os.walk("oe_wbo_calcs"):
     for file in files:
         if ".pkl" in file:
-            with open("openff_wbo_calcs/wbo_calc_group0.pkl", "rb") as file:
+            with open(f"oe_wbo_calcs/{file}", "rb") as file:
                 data = pickle.load(file)
                 for values in data.values():
                     wbos += values
 
-plt.hist(wbos, range=[.99,1.03])
-plt.xlabel("AM1-WIBERG-ELF10 with OpenFF")
+plt.hist(wbos)
+plt.xlabel("AM1-WIBERG-ELF10 with Openeye")
 plt.ylabel("# of Molecules")
-plt.savefig("emolecules_wbo_calcs.pdf")
+plt.savefig("oe_emolecules_wbo_calcs.pdf")
 
