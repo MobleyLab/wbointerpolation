@@ -1,0 +1,80 @@
+Smiles: [H]c1c(c(c(c(c1N([H])/C(=N/C([H])([H])[H])/C#N)[H])[H])[O-])[H]
+Amber wbo: 1.27705591
+OpenEye wbo: 1.3150711342276267
+Difference: 0.0380152242276266
+
+Smiles: [H]C(=C([H])/C(=N\C([H])([H])[H])/N([H])[H])[H]
+Amber wbo: 1.0678906
+OpenEye wbo: 1.1066409420419683
+Difference: 0.038750342041968366
+
+Smiles: [H]N([H])C(=S)N([H])[H]
+Amber wbo: 1.43480417
+OpenEye wbo: 1.3932454550701396
+Difference: 0.04155871492986041
+
+Smiles: [H]c1c(c(c(c(c1N([H])C(=O)[H])[H])[H])[O-])[H]
+Amber wbo: 1.1837206
+OpenEye wbo: 1.142032523132285
+Difference: 0.04168807686771503
+
+Smiles: [H]c1c(c(c(c(c1N([H])/C(=N/C([H])([H])[H])/C([H])([H])C([H])([H])[H])[H])[H])[O-])[H]
+Amber wbo: 1.10217146
+OpenEye wbo: 1.1469017156406336
+Difference: 0.04473025564063349
+
+Smiles: [H]c1c(c(c(c(c1N([H])/C(=N/C([H])([H])[H])/C(=C([H])[H])[H])[H])[H])[O-])[H]
+Amber wbo: 1.10065388
+OpenEye wbo: 1.1463615780887098
+Difference: 0.04570769808870967
+
+Smiles: [H]C(=C([H])C(=S)N([H])[H])[H]
+Amber wbo: 1.56977038
+OpenEye wbo: 1.5233958648436359
+Difference: 0.04637451515636415
+
+Smiles: [H]c1c(c(c(c(c1N(/C(=N/C([H])([H])[H])/C(=C([H])[H])[H])C([H])([H])[H])[H])[H])[O-])[H]
+Amber wbo: 1.09883912
+OpenEye wbo: 1.145458226337376
+Difference: 0.04661910633737598
+
+Smiles: [H]C(=S)N([H])[H]
+Amber wbo: 1.64962751
+OpenEye wbo: 1.5970881507535333
+Difference: 0.05253935924646669
+
+Smiles: [H]c1c(c(c(c(c1N(/C(=N/C([H])([H])[H])/C([H])([H])C([H])([H])[H])C([H])([H])[H])[H])[H])[O-])[H]
+Amber wbo: 1.08997452
+OpenEye wbo: 1.1472690741592733
+Difference: 0.057294554159273314
+
+Smiles: [H]c1c(c(c(c(c1N([H])C(=O)N(=O)=O)[H])[H])[O-])[H]
+Amber wbo: 1.1398962
+OpenEye wbo: 1.1990817156994895
+Difference: 0.0591855156994896
+
+Smiles: [H]c1c(c(c(c(c1C(=O)N(C([H])([H])[H])C([H])([H])[H])[H])[H])[O-])[H]
+Amber wbo: 1.60470983
+OpenEye wbo: 1.5348320852526711
+Difference: 0.06987774474732888
+
+Smiles: [H]N([H])C(=O)N(=O)=O
+Amber wbo: 0.67373536
+OpenEye wbo: 0.7581341670470553
+Difference: 0.08439880704705527
+
+Smiles: [H]N([H])C(=O)N([H])S(=O)(=O)O[H]
+Amber wbo: 1.6488267
+OpenEye wbo: 1.734008637398235
+Difference: 0.08518193739823499
+
+Smiles: [H]c1c(c(c(c(c1C(=S)N(C([H])([H])[H])C([H])([H])[H])[H])[H])[O-])[H]
+Amber wbo: 1.64655086
+OpenEye wbo: 1.5395916086000074
+Difference: 0.10695925139999263
+
+Smiles: [H]N([H])C(=S)N(=O)=O
+Amber wbo: 0.70950398
+OpenEye wbo: 0.8197809344249244
+Difference: 0.11027695442492436
+
