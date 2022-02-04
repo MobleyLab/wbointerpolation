@@ -9,7 +9,6 @@ Usage:
 import argparse
 from openeye import oechem, oeomega
 from openff.toolkit.topology import Molecule
-import pickle
 import sys
 
 def smiles2oemol(smiles):
@@ -31,73 +30,57 @@ def smiles2oemol(smiles):
     status = omega(mol)
     
     return (mol, status)
-    
+
 def filter():
+    print("Made it to filter")
     parser = argparse.ArgumentParser()
     parser.add_argument("--smiles_database",
                         type=str,
                         required=True,
                         help=("Name of a SMILES file containing molecules "
                               "to search through."))
+    parser.add_argument("--group",
+                        type=str,
+                        required=True,
+                        help=("Group number of process"))
     args = parser.parse_args()
-    
     emol_count = 0
     match_count = 0
-    total_match = 0
     fail_count = 0
-    total_fail = 0
-    group_num = 0
-    failed_group_num = 0
-    molecules_match = {}
-    fails_openff_mol = []
+    group_num = args.group
     SUBS = oechem.OESubSearch("[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]")
+    ifs = oechem.oemolistream(args.smiles_database)
+    ifs.SetFormat(oechem.OEFormat_SMI)
+    ofs = oechem.oemolostream(f"oe_results/mols_group{group_num}.oeb")
+    ofs.SetFormat(oechem.OEFormat_OEB)
+    ofs_safety = oechem.oemolostream(f"results/mols_group{group_num}.smi")
+    ofs_safety.SetFormat(oechem.OEFormat_SMI)
+    ofs_fails = oechem.oemolostream(f"oe_fails/failed_group{group_num}.oeb")
+    ofs_fails.SetFormat(oechem.OEFormat_OEB)
+    print(f"starting group {group_num}")
     
-    with open(args.smiles_database, "r") as file:
-        for line in file:
-            emol_count += 1
-            print(emol_count)
-            
-            smiles = line.split()[0]
-            try:
-                molecule, status = smiles2oemol(smiles)
-                match = SUBS.Match(molecule, True)
-                if match.IsValid():
-                    molecules_match[smiles] = molecule
-                    match_count += 1
-                if match_count == 10000:
-                    with open(f"oe_results/mols_group{group_num}.pkl", "wb") as handle:
-                        pickle.dump(molecules_match, handle, protocol=pickle.HIGHEST_PROTOCOL)
-                    group_num += 1
-                    molecules_match = {}
-                    total_match += match_count
-                    match_count = 0
-            except KeyboardInterrupt:
-                break
-            except Exception as e:
-                fails_openff_mol.append( (smiles, str(e)) )
-                fail_count += 1
-                if fail_count == 10000:
-                    with open(f"oe_fails/failed_mols_group{failed_group_num}.pkl", 'wb') as handle:
-                        pickle.dump(fails_openff_mol, handle, protocol=pickle.HIGHEST_PROTOCOL)
-                    failed_group_num += 1
-                    fails_openff_mol = {}
-                    total_fail += fail_count
-                    fail_count = 0
-                continue
-                
-    with open(f"oe_results/mols_group{group_num}.pkl", "wb") as handle:
-        pickle.dump(molecules_match, handle, protocol=pickle.HIGHEST_PROTOCOL)
-     
-    
-    with open(f"oe_fails/failed_mols_group{failed_group_num}.pkl", "wb") as handle:
-        pickle.dump(fails_openff_mol, handle, protocol=pickle.HIGHEST_PROTOCOL)
-    
-    total_match += match_count
-    total_fail += fail_count
-    
+    for mol in ifs.GetOEGraphMols():
+        emol_count += 1
+        print(emol_count)
+        oechem.OEWriteMolecule(ofs_safety, mol)
+        smiles = oechem.OEMolToSmiles(mol)
+        try:
+            molecule, status = smiles2oemol(smiles)
+            match = SUBS.Match(molecule, True)
+            if match.IsValid():
+                oechem.OEWriteMolecule(ofs, molecule)
+                match_count += 1
+        except KeyboardInterrupt:
+            break
+        except Exception as e:
+            oechem_fails.OEWriteMolecule(ofs_fails, molecule)
+            fail_count += 1
+            continue
+
     print(f"Total emolecules: {emol_count}")
-    print(f"Molecules found: {total_match}")
-    print(f"Failed molecules: {total_fail}")
+    print(f"Molecules found: {match_count}")
+    print(f"Failed molecules: {fail_count}")
     
 if __name__ == "__main__":
+    print(f"Starting program")
     filter()
