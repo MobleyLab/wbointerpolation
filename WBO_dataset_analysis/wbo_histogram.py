@@ -13,18 +13,26 @@ import matplotlib.pyplot as plt
 import os
 import pickle
 
-wbos = []
+all_wbos = []
 
-for subdir, dirs, files in os.walk("oe_wbo_calcs"):
-    for file in files:
-        if ".pkl" in file:
-            with open(f"oe_wbo_calcs/{file}", "rb") as file:
-                data = pickle.load(file)
-                for values in data.values():
-                    wbos += values
+with open("wbo_results/doublering_wbos.pkl", "rb") as file:
+    data = pickle.load(file)
+    #print(data)
+    for smiles, wbos in data.items():
+        all_wbos += wbos
 
-plt.hist(wbos)
+all_wbos[:] = [wbo for wbo in all_wbos if wbo != 0.0]
+
+print(max(all_wbos))
+print(min(all_wbos))
+
+print(f"Total: {len(all_wbos)}")
+
+plt.hist(all_wbos, log=True)
 plt.xlabel("AM1-WIBERG-ELF10 with Openeye")
-plt.ylabel("# of Molecules")
-plt.savefig("oe_emolecules_wbo_calcs.pdf")
+plt.ylabel("log(# of molecules)")
+#plt.yticks([1, 10, 100, 1000, 10000, 100000])
+plt.title("[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]\nmol WBOs")
+#plt.show()
+plt.savefig("wbo_results/doublering_wbos_graph_log.pdf")
 
