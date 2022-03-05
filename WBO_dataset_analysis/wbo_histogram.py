@@ -17,7 +17,6 @@ all_wbos = []
 
 with open("wbo_results/doublering_wbos.pkl", "rb") as file:
     data = pickle.load(file)
-    #print(data)
     for smiles, wbos in data.items():
         all_wbos += wbos
 
@@ -31,8 +30,5 @@ print(f"Total: {len(all_wbos)}")
 plt.hist(all_wbos, log=True)
 plt.xlabel("AM1-WIBERG-ELF10 with Openeye")
 plt.ylabel("log(# of molecules)")
-#plt.yticks([1, 10, 100, 1000, 10000, 100000])
 plt.title("[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]\nmol WBOs")
-#plt.show()
-plt.savefig("wbo_results/doublering_wbos_graph_log.pdf")
-
+plt.savefig("wbo_visualizations/doublering_wbos_graph_log.pdf")
