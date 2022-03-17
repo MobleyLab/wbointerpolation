@@ -34,6 +34,8 @@ def main():
             wbos[smiles] = wbo_calc(mol)
             print(count)
             count += 1
+
+        wbos["mol_count"] = count
         pickle.dump(wbos, file)
 
 if __name__ == "__main__":

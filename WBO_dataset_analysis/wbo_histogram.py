@@ -5,30 +5,53 @@ from every group and plotting them all on a histogram. The result is saved as
 emolecules_wbo_calcs.pdf.
 
 Usage:
-    wbo_histogram.py
+    wbo_histogram.py --file filename
+    
+Saving:
+    Use the far right icon at the bottom of the pop up window to save the graph
 """
 
-
+import argparse
 import matplotlib.pyplot as plt
 import os
 import pickle
 
-all_wbos = []
+def create_histogram(filename):
+    all_wbos = []
+    
+    with open(filename, "rb") as file:
+        data = pickle.load(file)
+        for smiles, wbos in data.items():
+            if isinstance(wbos, list):
+                all_wbos += wbos
+    
+    all_wbos[:] = [wbo for wbo in all_wbos if wbo != 0.0]
+    
+    plt.hist(all_wbos, log=True)
+    plt.xlabel("AM1-WIBERG-ELF10 with Openeye")
+    plt.ylabel("log(# of molecules)")
+    
+    if "protomer" in filename:
+        plt.title("[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]\nmol protomer WBOs")
+    elif "tautomer" in filename:
+        plt.title("[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]\nmol tautomer WBOs")
+    else:
+        plt.title("[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]\nmol WBOs")
+    
+    if "conformer_count" in data:
+        plt.legend([f"{data['mol_count']} molecules\n{data['conformer_count']} conformers"])
+    else:
+        plt.legend([f"{data['mol_count']} molecules"])
+    
+    plt.show()
 
-with open("wbo_results/doublering_wbos.pkl", "rb") as file:
-    data = pickle.load(file)
-    for smiles, wbos in data.items():
-        all_wbos += wbos
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--file", type=str, required=True,
+	help="name of the .pkl file to read data from")
+    args = parser.parse_args()
 
-all_wbos[:] = [wbo for wbo in all_wbos if wbo != 0.0]
+    create_histogram(args.file)
 
-print(max(all_wbos))
-print(min(all_wbos))
-
-print(f"Total: {len(all_wbos)}")
-
-plt.hist(all_wbos, log=True)
-plt.xlabel("AM1-WIBERG-ELF10 with Openeye")
-plt.ylabel("log(# of molecules)")
-plt.title("[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]\nmol WBOs")
-plt.savefig("wbo_visualizations/doublering_wbos_graph_log.pdf")
+if __name__ == "__main__":
+    main()
