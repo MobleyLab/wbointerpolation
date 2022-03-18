@@ -1,4 +1,4 @@
-# Wiberg Bond Order Analysis on [#6X3H1:1]\~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])\~[#6X3H1:4] Molecules
+# Wiberg Bond Order Analysis on \[\#6X3H1:1]\~\[\#6X3:2\]\(\~\[\#6X3H1\]\)\-\[\#6X3:3\]\(\~\[\#6X3H1\]\)\~\[\#6X3H1:4\] Molecules
 
 ## Environment details
 
