@@ -1,4 +1,4 @@
-# Wiberg Bond Order Analysis on "[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]" Molecules
+# Wiberg Bond Order Analysis on [#6X3H1:1]\~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])\~[#6X3H1:4] Molecules
 
 ## Environment details
 
@@ -22,7 +22,7 @@ Contains visualizations of the wbo values in wbo_results
 
 ### doublering_filter.py
 
-Script to filter a smiles database for all molecules that contain the "[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]" smarts string. The script takes the file and a group number for the molecules as parameters so that large databases can be divided into multiple parts and multiple groups can be ran at once. For other scripts to work, all files should be compiled into one file called oe_results/doublering_mols.oeb.
+Script to filter a smiles database for all molecules that contain the [#6X3H1:1]\~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])\~[#6X3H1:4] smarts string. The script takes the file and a group number for the molecules as parameters so that large databases can be divided into multiple parts and multiple groups can be ran at once. For other scripts to work, all files should be compiled into one file called oe_results/doublering_mols.oeb.
 
 ### doublering_protomer_wbo_calcs.py
 
