@@ -4,7 +4,7 @@
 
 Exact details about the environment can be found in env_details.txt.
 
-This analysis was done using eMolecules, which can be found in the version.smi.gz file at (https://downloads.emolecules.com/free/2022-03-01/).
+This analysis was done using eMolecules, which can be found in the version.smi.gz file at https://downloads.emolecules.com/free/2022-03-01/.
 
 ## Data
 
