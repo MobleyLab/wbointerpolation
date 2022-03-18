@@ -1,3 +1,10 @@
+"""
+Script to calculate the Wiberg Bond Order values for all filtered molecules in oe_results/doublering_mols.oeb.
+
+Usage:
+    python doublering_wbo_calcs.py
+"""
+
 from openeye import oechem, oeomega, oequacpac
 import pickle
 
@@ -28,7 +35,7 @@ def main():
     wbos = {}
     count = 0
 
-    with open("doublering_wbos.pkl", "wb") as file:
+    with open("wbo_results/doublering_wbos.pkl", "wb") as file:
         for mol in ifs.GetOEGraphMols():
             smiles = oechem.OEMolToSmiles(mol)
             wbos[smiles] = wbo_calc(mol)

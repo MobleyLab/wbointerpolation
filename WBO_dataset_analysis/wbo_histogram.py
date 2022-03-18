@@ -1,8 +1,5 @@
 """
-Script for creating a histogram based on the WBO values calculated in wbo_calcs.py. The script
-iterates through the openff_results folder, creating a large dataset of all the wbo values
-from every group and plotting them all on a histogram. The result is saved as
-emolecules_wbo_calcs.pdf.
+Script for creating a histogram based on a .pkl from wbo_results. The script iterates through the file, creating a large dataset of all the wbo values from every different molecule and plots them on a graph.
 
 Usage:
     wbo_histogram.py --file filename

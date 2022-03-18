@@ -1,3 +1,10 @@
+"""
+Script to calculate the Wiberg Bond Order values for all tautomers of the filtered molecules in oe_results/doublering_mols.oeb.
+
+Usage:
+    python doublering_tautomer_wbo_calcs.py
+"""
+
 from openeye import oechem, oeomega, oequacpac
 import pickle
 
@@ -35,7 +42,7 @@ def main():
     count = 0
     conformer_count = 0
 
-    with open("doublering_tautomer_wbos.pkl", "wb") as file:
+    with open("wbo_results/doublering_tautomer_wbos.pkl", "wb") as file:
         for mol in ifs.GetOEGraphMols():
             #print(count)
             print(conformer_count)
