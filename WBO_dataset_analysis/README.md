@@ -40,8 +40,7 @@ Script to calculate the Wiberg Bond Order values for all tautomers of the filter
 
 ### doublering_tautomer_wbo_calcs.slurm
 
-Slurm script to run the doublering_tautomer_wbo_calcs.py script on a green plane
-t machine
+Slurm script to run the doublering_tautomer_wbo_calcs.py script on a green planet machine
 
 ### doublering_wbo_calcs.py
 
@@ -49,8 +48,7 @@ Script to calculate the Wiberg Bond Order values for all filtered molecules in o
 
 ### doublering_wbo_calcs.slurm
 
-Slurm script to run the doublering_wbo_calcs.py script on a green plane
-t machine
+Slurm script to run the doublering_wbo_calcs.py script on a green planet machine
 
 ### wbo_histogram.py
 
