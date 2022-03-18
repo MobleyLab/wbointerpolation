@@ -38,8 +38,10 @@ def create_histogram(filename):
     else:
         plt.title("[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]\nmol WBOs")
     
-    if "conformer_count" in data:
-        plt.legend([f"{data['mol_count']} molecules\n{data['conformer_count']} conformers"])
+    if "conformer_count" in data and "protomer" in filename:
+        plt.legend([f"{data['mol_count']} molecules\n{data['conformer_count']} protomers"])
+    elif "conformer_count" in data and "tautomer" in filename:
+        plt.legend([f"{data['mol_count']} molecules\n{data['conformer_count']} tautomers"])
     else:
         plt.legend([f"{data['mol_count']} molecules"])
     
