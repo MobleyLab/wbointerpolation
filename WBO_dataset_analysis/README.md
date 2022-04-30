@@ -1,12 +1,20 @@
 # Wiberg Bond Order Analysis on \[\#6X3H1:1]\~\[\#6X3:2\]\(\~\[\#6X3H1\]\)\-\[\#6X3:3\]\(\~\[\#6X3H1\]\)\~\[\#6X3H1:4\] Molecules
 
-## eMolecules experiment
+## Generic info
+
+### Scripts
+
+#### wbo_histogram.py
+
+Script for creating a histogram based on a .pkl from wbo_results directory. The script iterates through the file, creating a large dataset of all the wbo values from every different molecule and plots them on a graph.
 
 ### Environment details
 
 Exact details about the environment can be found in env_details.txt.
 
 This analysis was done using eMolecules, which can be found in the version.smi.gz file at https://downloads.emolecules.com/free/2022-03-01/.
+
+## eMolecules experiment
 
 ### Data
 
@@ -52,7 +60,6 @@ Script to calculate the Wiberg Bond Order values for all filtered molecules in o
 
 Slurm script to run the emolecules_wbo_calcs.py script on a green planet machine
 
-#### wbo_histogram.py
+## PubChem experiment
 
-Script for creating a histogram based on a .pkl from wbo_results. The script iterates through the file, creating a large dataset of all the wbo values from every different molecule and plots them on a graph.
 
