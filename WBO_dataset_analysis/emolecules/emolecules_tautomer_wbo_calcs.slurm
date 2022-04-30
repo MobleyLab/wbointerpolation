@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name="doublering_protomers_wbo_calcs"
+#SBATCH --job-name="emolecules_tautomers_wbo_calcs"
 #SBATCH --partition=ilg2.3
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=1
@@ -38,7 +38,7 @@ date
 
 . ~/.bashrc
 conda activate danielenv
-python doublering_protomer_wbo_calcs.py
+python emolecules_tautomer_wbo_calcs.py
 
 date
 

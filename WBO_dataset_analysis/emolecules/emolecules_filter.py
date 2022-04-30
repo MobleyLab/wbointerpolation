@@ -3,7 +3,7 @@ Script to iterate through the emolcules database looking for molecules that matc
 "[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]" smarts pattern.
 
 Usage:
-    python doublering_filter.py --smiles_database database.smi --group number
+    python emolecules_filter.py --smiles_database database.smi --group number
 """
 
 import argparse

@@ -1,3 +1,11 @@
+"""
+Script to calculate the Wiberg Bond Order values for all protomers of the filtered molecules in oe_results/emolecules_mols.oeb.
+
+Usage:
+    python emolecules_wbo_calcs.py
+"""
+
+
 from openeye import oechem, oeomega, oequacpac
 import pickle
 
@@ -22,13 +30,13 @@ def wbo_calc(mol):
     return wbos
 
 def main():
-    ifs = oechem.oemolistream(f"oe_results/doublering_mols.oeb")
+    ifs = oechem.oemolistream(f"oe_results/emolecules_mols.oeb")
     ifs.SetFormat(oechem.OEFormat_OEB)
 
     wbos = {}
     count = 0
 
-    with open("doublering_wbos.pkl", "wb") as file:
+    with open("emolecules_wbos.pkl", "wb") as file:
         for mol in ifs.GetOEGraphMols():
             smiles = oechem.OEMolToSmiles(mol)
             wbos[smiles] = wbo_calc(mol)
