@@ -2,7 +2,7 @@
 Script for creating a histogram based on a .pkl from wbo_results. The script iterates through the file, creating a large dataset of all the wbo values from every different molecule and plots them on a graph.
 
 Usage:
-    wbo_histogram.py --file filename
+    wbo_histogram.py --file filename --title title
     
 Saving:
     Use the far right icon at the bottom of the pop up window to save the graph
@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import os
 import pickle
 
-def create_histogram(filename):
+def create_histogram(filename, title):
     all_wbos = []
     
     with open(filename, "rb") as file:
@@ -29,12 +29,12 @@ def create_histogram(filename):
     plt.xlabel("AM1-WIBERG-ELF10 with Openeye")
     plt.ylabel("log(# of molecules)")
     
-    if "protomer" in filename:
-        plt.title("[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]\nmol protomer WBOs")
-    elif "tautomer" in filename:
-        plt.title("[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]\nmol tautomer WBOs")
-    else:
-        plt.title("[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]\nmol WBOs")
+    #if "protomer" in filename:
+    #    plt.title("[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]\nmol protomer WBOs")
+    #elif "tautomer" in filename:
+    #    plt.title("[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]\nmol tautomer WBOs")
+    #else:
+    #    plt.title("[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]\nmol WBOs")
     
     if "conformer_count" in data and "protomer" in filename:
         plt.legend([f"{data['mol_count']} molecules\n{data['conformer_count']} protomers"])
@@ -42,16 +42,19 @@ def create_histogram(filename):
         plt.legend([f"{data['mol_count']} molecules\n{data['conformer_count']} tautomers"])
     else:
         plt.legend([f"{len(all_wbos)} molecules"])
-    
+
+    plt.title(title)    
     plt.show()
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--file", type=str, required=True,
 	help="name of the .pkl file to read data from")
+    parser.add_argument("--title", type=str, required=False, default="",
+        help="title of the plot")
     args = parser.parse_args()
 
-    create_histogram(args.file)
+    create_histogram(args.file, args.title)
 
 if __name__ == "__main__":
     main()
