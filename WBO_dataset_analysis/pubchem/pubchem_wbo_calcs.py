@@ -1,29 +1,14 @@
 """
-Script to calculate the Wiberg Bond Order values for all filtered molecules in oe_results/doublering_mols.oeb.
+Script to calculate the Wiberg Bond Order values for all filtered molecules in pubchem_results
 
 Usage:
-    python pubchem_wbo_calcs.py --json_file filename
+    python pubchem_wbo_calcs.py --oeb_file filename
 """
 
 from openeye import oechem, oeomega, oequacpac
 import argparse
 import json
 import pickle
-
-def json2smiles(args):
-    mols = []
-
-    with open(f"{args.json_file}") as file:
-        data = json.load(file)
-        compounds = data["PC_Compounds"]
-        for compound in compounds:
-            props = compound["props"]
-            for prop in props:
-                if prop["urn"]["label"] == "SMILES":
-                    mols.append(prop["value"]["sval"])
-                    break
-
-    return mols
 
 def smiles2oemol(smiles):
     """
@@ -75,27 +60,29 @@ def wbo_calc(mol):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--json_file",
+    parser.add_argument("--oeb_file",
                         type=str,
                         required=True,
-                        help=("Name of a json file containing molecules "
+                        help=("Name of an OEB file containing molecules "
                               "to search through."))
     args = parser.parse_args()
-
-    mols = json2smiles(args)
 
     wbos = {}
     count = 0
 
-    outfile = args.json_file.split("/")[-1][:-5]
+    ifs = oechem.oemolistream(args.oeb_file)
+    ifs.SetFormat(oechem.OEFormat_OEB)
+
+    outfile = args.oeb_file.split("/")[-1][:-4]
     with open(f"wbo_results/{outfile}_wbos.pkl", "wb") as file:
-        for smiles in mols:
+        for mol in ifs.GetOEGraphMols():
+            smiles = oechem.OEMolToSmiles(mol)
             mol, _ = smiles2oemol(smiles)
             wbo_values = wbo_calc(mol)
             if wbo_values != []:
                 wbos[smiles] = wbo_values
-                print(count)
                 count += 1
+                print(count)
 
         wbos["mol_count"] = count
         pickle.dump(wbos, file)
