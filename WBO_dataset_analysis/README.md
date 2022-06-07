@@ -16,9 +16,17 @@ This analysis was done using eMolecules, which can be found in the version.smi.g
 
 Contains a .zip file of the combined results of every group from emolecules_filter.py in a .oeb file
 
+#### oe_fails
+
+Stores molecules that failed when checking for a match against the \[\#6X3H1:1]\~\[\#6X3:2\]\(\~\[\#6X3H1\]\)\-\[\#6X3:3\]\(\~\[\#6X3H1\]\)\~\[\#6X3H1:4\] smarts string in emolecules_filter.py
+
+#### results
+
+Backup storage that was used for ensuring slurms scripts were being executed properly. Not necessarily needed and can be deleted.
+
 #### wbo_results
 
-Contains the results of emolecules scripts in .pkl that calculate the wbos for protomers, tautomers, and regular versions of all emolecules from in oe_results/emolecules_mols.oeb
+Contains the results of emolecules scripts in .pkl that calculate the wbos for protomers, tautomers, and regular versions of all emolecules from in oe_results/emolecules_filtered.oeb
 
 #### wbo_visualizatons 
 
@@ -28,19 +36,19 @@ Contains visualizations of the wbo values in wbo_results
 
 #### emolecules_filter.py
 
-Script to filter a smiles database for all molecules that contain the \[\#6X3H1:1]\~\[\#6X3:2\]\(\~\[\#6X3H1\]\)\-\[\#6X3:3\]\(\~\[\#6X3H1\]\)\~\[\#6X3H1:4\] smarts string. The script takes the file and a group number for the molecules as parameters so that large databases can be divided into multiple parts and multiple groups can be ran at once. For other scripts to work, all files should be compiled into one file called oe_results/emolecules_mols.oeb, or the provided file can be used.
+Script to filter a smiles database for all molecules that contain the \[\#6X3H1:1]\~\[\#6X3:2\]\(\~\[\#6X3H1\]\)\-\[\#6X3:3\]\(\~\[\#6X3H1\]\)\~\[\#6X3H1:4\] smarts string. The script takes the file and a group number for the molecules as parameters so that large databases can be divided into multiple parts and multiple groups can be ran at once. For other scripts to work, all files should be compiled into one file called oe_results/emolecules_filtered.oeb, or the provided file can be used.
 
 #### emolecules_protomer_wbo_calcs.py
 
-Script to calculate the Wiberg Bond Order values for all protomers of the filtered molecules in oe_results/emolecules_mols.oeb. Results are stored in wbo_results/emolecules_protomer_wbos.pkl.
+Script to calculate the Wiberg Bond Order values for all protomers of the filtered molecules in oe_results/emolecules_filtered.oeb. Results are stored in wbo_results/emolecules_protomer_wbos.pkl.
 
 #### emolecules_tautomer_wbo_calcs.py
 
-Script to calculate the Wiberg Bond Order values for all tautomers of the filtered molecules in oe_results/emolecules_mols.oeb. Results are stored in wbo_results/emolecules_tautomer_wbos.pkl.
+Script to calculate the Wiberg Bond Order values for all tautomers of the filtered molecules in oe_results/emolecules_filtered.oeb. Results are stored in wbo_results/emolecules_tautomer_wbos.pkl.
 
 #### emolecules_wbo_calcs.py
 
-Script to calculate the Wiberg Bond Order values for all filtered molecules in oe_results/emolecules_mols.oeb. Results are stored in wbo_results/emolecules_wbos.pkl.
+Script to calculate the Wiberg Bond Order values for all filtered molecules in oe_results/emolecules_filtered.oeb. Results are stored in wbo_results/emolecules_wbos.pkl.
 
 #### eMolecules Visualization Script
 
@@ -124,7 +132,17 @@ The option is selected using the following command line parameters. The --one_pl
 users can toggle one_plot to True which does option 2 for the script. The --log parameter uses the log of the results when creating the histogram, 
 this parameter is also default value False.
 
-## Greenplanet details
+## Green planet details
+
+### General info
+
+My green planet is set up to match the git repository as closley as possible. The main differences is that the data sections will actually be populated in my green planet account. Any files that have the exact same name as files listed above are the exact same, in the following sections I will describe files that were not described above, mostly slurm files.
+
+### eMolecules
+
+#### datasets
+
+Contains the verision.smi file that can be found at https://downloads.emolecules.com/free/2022-03-01/. This directory also contains the split versions of this file which were split up into groups of 10,000 each, resulting in 364 different split files.
 
 #### emolecules_protomer_wbo_calcs.slurm
 
@@ -137,3 +155,65 @@ Slurm script to run the emolecules_tautomer_wbo_calcs.py script on a green plane
 #### emolecules_wbo_calcs.slurm
 
 Slurm script to run the emolecules_wbo_calcs.py script on a green planet machine
+
+#### emolcules_filter_slurm
+
+This directory contains the results from running the slurm scripts to generate data for the eMolecules experiment. The files were not created in these directories, but placed into them for organization and to have documentation of how the experiment was run.
+
+##### emolcules_filter_slurm/create
+
+The create file creates a slurm script for each split file in the datasets directory so that the eMolecules experiment could use the split datasets to concurrently filter the entire eMolecules database.
+
+Usage:
+    bash create
+
+##### emolcules_filter_slurm/epilogs
+
+Stores the .epilog files created by the slurm jobs
+
+##### emolcules_filter_slurm/jobs
+
+Stores the slurm scripts created by the create file
+
+##### emolcules_filter_slurm/outfiles
+
+Stores the .out files created by the slurm jobs
+
+##### emolcules_filter_slurm/run_slurms
+
+The run_slurms file starts every slurm job that was created by the create script by calling sbatch on every single .slurm file created by the create script
+
+Usage:
+    bash run_slurms
+
+### PubChem
+
+#### pubchem_filter_slurm
+
+This directory contains the results from running the slurm scripts to generate data for the PubChem experiment. The files were not created in these directories, but placed into them for organization and to have documentation of how the experiment was run.
+
+##### pubchem_filter_slurm/create
+
+The create file creates a slurm script for each file in the pubchem_filtered directory so that the PubChem experiment could use the various files the dataset is already split into to concurrently filter the entire PubChem database.
+
+Usage:
+    bash create
+
+##### pubchem_filter_slurm/epilogs
+
+Stores the .epilog files created by the slurm jobs
+
+##### pubchem_filter_slurm/jobs
+
+Stores the slurm scripts created by the create file
+
+##### pubchem_filter_slurm/outfiles
+
+Stores the .out files created by the slurm jobs
+
+##### pubchem_filter_slurm/run_slurms
+
+The run_slurms file starts every slurm job that was created by the create script by calling sbatch on every single .slurm file create by the create script
+
+Usage:
+    bash run_slurms
