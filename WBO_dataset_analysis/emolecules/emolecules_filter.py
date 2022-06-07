@@ -3,7 +3,7 @@ Script to iterate through the emolcules database looking for molecules that matc
 "[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]" smarts pattern.
 
 Usage:
-    python emolecules_filter.py --smiles_database database.smi --group number
+    python emolecules_filter.py --smiles_database database.smi --group number num
 """
 
 import argparse
@@ -32,7 +32,6 @@ def smiles2oemol(smiles):
     return (mol, status)
 
 def filter():
-    print("Made it to filter")
     parser = argparse.ArgumentParser()
     parser.add_argument("--smiles_database",
                         type=str,
@@ -49,6 +48,8 @@ def filter():
     fail_count = 0
     group_num = args.group
     SUBS = oechem.OESubSearch("[#6X3H1:1]~[#6X3:2](~[#6X3H1])-[#6X3:3](~[#6X3H1])~[#6X3H1:4]")
+    
+    # Set up input and output streams
     ifs = oechem.oemolistream(args.smiles_database)
     ifs.SetFormat(oechem.OEFormat_SMI)
     ofs = oechem.oemolostream(f"oe_results/mols_group{group_num}.oeb")
@@ -59,6 +60,7 @@ def filter():
     ofs_fails.SetFormat(oechem.OEFormat_OEB)
     print(f"starting group {group_num}")
     
+    # Iterate through every molecule, writing it to the output stream if it matches the substructure pattern
     for mol in ifs.GetOEGraphMols():
         emol_count += 1
         print(emol_count)
@@ -73,7 +75,7 @@ def filter():
         except KeyboardInterrupt:
             break
         except Exception as e:
-            oechem_fails.OEWriteMolecule(ofs_fails, molecule)
+            oechem.OEWriteMolecule(ofs_fails, molecule)
             fail_count += 1
             continue
 
