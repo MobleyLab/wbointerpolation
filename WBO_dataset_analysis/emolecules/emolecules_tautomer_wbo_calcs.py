@@ -1,5 +1,5 @@
 """
-Script to calculate the Wiberg Bond Order values for all tautomers of the filtered molecules in oe_results/emolecules_mols.oeb.
+Script to calculate the Wiberg Bond Order values for all tautomers of the filtered molecules in oe_results/emolecules_filtered.oeb.
 
 Usage:
     python emolecules_tautomer_wbo_calcs.py
@@ -49,7 +49,7 @@ def tautomer_wbo_calc(mol):
 
 def main():
     # Set up the input stream
-    ifs = oechem.oemolistream(f"oe_results/emolecules_mols.oeb")
+    ifs = oechem.oemolistream(f"oe_results/emolecules_filtered.oeb")
     ifs.SetFormat(oechem.OEFormat_OEB)
 
     # Initialize variables to store wbos, a molecule count, and count for all the conformers
