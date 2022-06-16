@@ -6,6 +6,32 @@
 
 Exact details about the environment can be found in env_details.txt.
 
+### Future plans
+
+#### Failed PubChem files
+Within the PubChem experiment, 5 files from https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF/ were unable to filtered. These files are:
+
+- Compound_059500001_060000000.sdf.gz
+- Compound_073500001_074000000.sdf.gz
+- Compound_101000001_101500000.sdf.gz
+- Compound_140500001_141000000.sdf.gz
+- Compound_152500001_153000000.sdf.gz
+
+The slurm processes running the filter on these files failed with one of two errors:
+
+- slurmstepd: error: Detected 1 oom-kill event(s) in step 6209151.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+- slurmstepd: error: JOB 6209149 ON c-16-38 CANCELLED AT 2022-06-14T23:59:21 DUE TO TIME LIMIT
+
+With slurm jobs being run at a week long, further inspecting these files and potentiall adding a time limit to a molecules match check against the \[\#6X3H1:1]\~\[\#6X3:2\]\(\~\[\#6X3H1\]\)\-\[\#6X3:3\]\(\~\[\#6X3H1\]\)\~\[\#6X3H1:4\] smarts string could potentially fix these time out errors. 
+
+If these files are able to be filtered, they could then have individual plots created and their data could be added to the plot of all the PubChem WBOs for the \[\#6X3H1:1]\~\[\#6X3:2\]\(\~\[\#6X3H1\]\)\-\[\#6X3:3\]\(\~\[\#6X3H1\]\)\~\[\#6X3H1:4\] smarts string. 
+
+As of right now, no WBO data exists for the files listed above.
+
+#### PubChem WBO data examination
+
+The non-log graph of all the filtered PubChem molecules shows a heavy concentration around the value one. Further inspection of the values around one could lead to interesting information about the WBOs of the filtered PubChem molecules.
+
 ## eMolecules experiment
 
 This analysis was done using eMolecules, which can be found in the version.smi.gz file at https://downloads.emolecules.com/free/2022-03-01/.
@@ -136,7 +162,7 @@ this parameter is also default value False.
 
 ### General info
 
-My green planet is set up to match the git repository as closley as possible. The main differences is that the data sections will actually be populated in my green planet account. Any files that have the exact same name as files listed above are the exact same, in the following sections I will describe files that were not described above, mostly slurm files.
+My green planet is set up to match the git repository as closley as possible. The main differences is that the data sections will actually be populated in my green planet account. Any files that have the exact same name as files listed above are the exact same, in the following sections I will describe files that were not described above, mostly slurm files. All files are in the WBO_dataset_analysis directory which can be found in the base directory after logging in at /export/nfs0home/djcabrer/.
 
 ### eMolecules
 
